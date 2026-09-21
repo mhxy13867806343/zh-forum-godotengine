@@ -67,46 +67,107 @@
               <span>{{ cat.zhName }}</span>
             </div>
           </div>
+
+          <!-- Dynamic Loading Progress Bar (0% ... 100%) -->
+          <transition name="fade">
+            <div v-if="loading" class="category-loading-progress mt-1">
+              <div class="flex items-center justify-between text-xs text-blue-400 mb-1 px-1">
+                <span class="flex items-center gap-1.5 font-medium">
+                  <span class="spin-icon is-spinning text-xs">🔄</span>
+                  <span>正在同步论坛数据...</span>
+                </span>
+                <span class="font-mono font-bold text-blue-400">{{ loadingProgress }}%</span>
+              </div>
+              <div class="progress-track">
+                <div
+                  class="progress-fill"
+                  :style="{ width: `${loadingProgress}%` }"
+                ></div>
+              </div>
+            </div>
+          </transition>
         </div>
 
         <!-- Feed Content Area with Spin -->
-        <n-spin :show="loading" size="large" description="正在同步论坛话题...">
-          <!-- Topics List -->
-          <div v-if="displayedTopics.length > 0" class="min-h-300px">
-            <TopicCard
-              v-for="topic in displayedTopics"
-              :key="topic.id"
-              :topic="topic"
-            />
+        <n-spin :show="loading && displayedTopics.length > 0" size="large" description="正在同步论坛话题...">
+          <div class="feed-content-area min-h-420px flex flex-col justify-start">
+            <!-- Initial / Empty Loading State (Centered with 0% ... 100% Progress) -->
+            <div v-if="loading && displayedTopics.length === 0" class="flex flex-col items-center justify-center py-24 text-center gap-3">
+              <span class="text-4xl">💬</span>
+              <p class="text-gray-300 text-sm font-medium m-0">正在同步论坛话题数据，请稍候...</p>
+              <div class="w-280px max-w-full my-2">
+                <div class="flex items-center justify-between text-xs text-blue-400 mb-1 px-0.5">
+                  <span>同步进度</span>
+                  <span class="font-mono font-bold">{{ loadingProgress }}%</span>
+                </div>
+                <div class="progress-track-large">
+                  <div
+                    class="progress-fill"
+                    :style="{ width: `${loadingProgress}%` }"
+                  ></div>
+                </div>
+              </div>
+              <span class="text-xs text-gray-500">已载入 {{ loadingProgress }}%</span>
+            </div>
 
-            <!-- Mobile Infinite Scroll Status (Pull-Up to Load More) -->
-            <div v-if="isMobile" class="mobile-scroll-status">
-              <div v-if="isLoadingMore" class="flex items-center justify-center gap-2 py-4 text-sm text-gray-400">
-                <n-spin size="small" />
-                <span>正在载入更多讨论...</span>
-              </div>
-              <div
-                v-else-if="hasMoreTopics"
-                class="mobile-load-trigger"
-                @click="loadMore"
-              >
-                <span>上拉或点击载入更多 ▾</span>
-              </div>
-              <div v-else class="py-6 text-center text-xs text-gray-500">
-                <span>—— 已加载全部 {{ displayedTopics.length }} 条讨论 ——</span>
+            <!-- Topics List -->
+            <div v-else-if="displayedTopics.length > 0" class="min-h-300px">
+              <TopicCard
+                v-for="topic in displayedTopics"
+                :key="topic.id"
+                :topic="topic"
+              />
+
+              <!-- Mobile Infinite Scroll Status (Pull-Up to Load More) -->
+              <div v-if="isMobile" class="mobile-scroll-status">
+                <div v-if="isLoadingMore" class="flex items-center justify-center gap-2 py-4 text-sm text-gray-400">
+                  <n-spin size="small" />
+                  <span>正在载入更多讨论...</span>
+                </div>
+                <div
+                  v-else-if="hasMoreTopics"
+                  class="mobile-load-trigger"
+                  @click="loadMore"
+                >
+                  <span>上拉或点击载入更多 ▾</span>
+                </div>
+                <div v-else class="py-6 text-center text-xs text-gray-500">
+                  <span>—— 已加载全部 {{ displayedTopics.length }} 条讨论 ——</span>
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- Empty State (Only show when NOT loading and zero topics) -->
-          <div v-else-if="!loading" class="empty-state">
-            <p class="text-lg">暂无匹配的话题数据</p>
-            <p v-if="page > 1" class="text-sm text-gray-400">
-              当前第 {{ page }} 页暂无内容（已超出数据范围，共 {{ maxPage }} 页）。
-            </p>
-            <div class="flex gap-2 justify-center mt-2">
-              <n-button v-if="page > 1" type="primary" size="small" @click="handlePageChange(1)">返回第 1 页</n-button>
-              <n-button size="small" @click="resetFilters">重置筛选条件</n-button>
+            <!-- Error State (502 or Network Error) -->
+            <div v-else-if="hasError && !loading" class="empty-state">
+              <span class="text-5xl inline-block mb-3">⚠️</span>
+              <p class="text-lg font-bold text-red-400 m-0">话题数据加载失败</p>
+              <p class="text-sm text-gray-400 max-w-md mx-auto mt-2 mb-0">
+                {{ errorMessage || '无法连接到官方论坛接口或遭遇 502 网关超时，请点击下方按钮重新加载。' }}
+              </p>
+              <div class="flex gap-3 justify-center mt-5">
+                <n-button type="primary" size="medium" :loading="loading" @click="refresh">
+                  <template #icon>🔄</template>
+                  立即刷新重试
+                </n-button>
+                <n-button v-if="page > 1" size="medium" @click="handlePageChange(1)">返回第 1 页</n-button>
+                <n-button size="medium" @click="resetFilters">重置所有筛选</n-button>
+              </div>
+            </div>
+
+            <!-- Empty State (Only show when NOT loading and zero topics) -->
+            <div v-else-if="!loading && displayedTopics.length === 0" class="empty-state">
+              <p class="text-lg">暂无匹配的话题数据</p>
+              <p v-if="page > 1" class="text-sm text-gray-400">
+                当前第 {{ page }} 页暂无内容（已超出数据范围，共 {{ maxPage }} 页）。
+              </p>
+              <div class="flex gap-2 justify-center mt-3">
+                <n-button type="primary" size="small" :loading="loading" @click="refresh">
+                  <template #icon>🔄</template>
+                  刷新数据
+                </n-button>
+                <n-button v-if="page > 1" size="small" @click="handlePageChange(1)">返回第 1 页</n-button>
+                <n-button size="small" @click="resetFilters">重置筛选条件</n-button>
+              </div>
             </div>
           </div>
         </n-spin>
@@ -146,6 +207,9 @@ const { isMobile } = useMobile()
 
 const {
   loading,
+  loadingProgress,
+  hasError,
+  errorMessage,
   paginatedTopics,
   accumulatedTopics,
   isLoadingMore,

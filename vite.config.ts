@@ -39,13 +39,29 @@ function discourseProxyPlugin() {
         try {
           const targetPath = req.url.replace(/^\/api\/discourse/, '')
           const targetUrl = `https://forum.godotengine.org${targetPath}`
-          const response = await undiciFetch(targetUrl, {
-            dispatcher,
-            headers: {
-              'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-              'Accept': 'application/json'
+          let response: any
+          let lastErr: any
+          for (let attempt = 0; attempt < 3; attempt++) {
+            try {
+              response = await undiciFetch(targetUrl, {
+                dispatcher,
+                headers: {
+                  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                  'Accept': 'application/json'
+                }
+              })
+              if (response && response.status < 500) {
+                break
+              }
+            } catch (e: any) {
+              lastErr = e
+              await new Promise(r => setTimeout(r, 300))
             }
-          })
+          }
+
+          if (!response && lastErr) {
+            throw lastErr
+          }
 
           res.statusCode = response.status
           response.headers.forEach((val: string, key: string) => {
@@ -60,7 +76,8 @@ function discourseProxyPlugin() {
         } catch (err: any) {
           console.error('[Discourse Proxy Plugin Error]', err.message)
           res.statusCode = 502
-          res.end(JSON.stringify({ error: err.message }))
+          res.setHeader('Content-Type', 'application/json; charset=utf-8')
+          res.end(JSON.stringify({ error: '502 Bad Gateway: ' + err.message }))
         }
       })
     }

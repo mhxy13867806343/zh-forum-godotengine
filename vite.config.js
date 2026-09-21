@@ -67,7 +67,7 @@ function discourseProxyPlugin() {
         configureServer: function (server) {
             var _this = this;
             server.middlewares.use(function (req, res, next) { return __awaiter(_this, void 0, void 0, function () {
-                var targetPath, targetUrl, response, arrayBuffer, err_1;
+                var targetPath, targetUrl, response, lastErr, attempt, e_1, arrayBuffer, err_1;
                 var _a;
                 return __generator(this, function (_b) {
                     switch (_b.label) {
@@ -77,9 +77,18 @@ function discourseProxyPlugin() {
                             }
                             _b.label = 1;
                         case 1:
-                            _b.trys.push([1, 4, , 5]);
+                            _b.trys.push([1, 10, , 11]);
                             targetPath = req.url.replace(/^\/api\/discourse/, '');
                             targetUrl = "https://forum.godotengine.org".concat(targetPath);
+                            response = void 0;
+                            lastErr = void 0;
+                            attempt = 0;
+                            _b.label = 2;
+                        case 2:
+                            if (!(attempt < 3)) return [3 /*break*/, 8];
+                            _b.label = 3;
+                        case 3:
+                            _b.trys.push([3, 5, , 7]);
                             return [4 /*yield*/, undiciFetch(targetUrl, {
                                     dispatcher: dispatcher,
                                     headers: {
@@ -87,8 +96,26 @@ function discourseProxyPlugin() {
                                         'Accept': 'application/json'
                                     }
                                 })];
-                        case 2:
+                        case 4:
                             response = _b.sent();
+                            if (response && response.status < 500) {
+                                return [3 /*break*/, 8];
+                            }
+                            return [3 /*break*/, 7];
+                        case 5:
+                            e_1 = _b.sent();
+                            lastErr = e_1;
+                            return [4 /*yield*/, new Promise(function (r) { return setTimeout(r, 300); })];
+                        case 6:
+                            _b.sent();
+                            return [3 /*break*/, 7];
+                        case 7:
+                            attempt++;
+                            return [3 /*break*/, 2];
+                        case 8:
+                            if (!response && lastErr) {
+                                throw lastErr;
+                            }
                             res.statusCode = response.status;
                             response.headers.forEach(function (val, key) {
                                 var lower = key.toLowerCase();
@@ -98,17 +125,18 @@ function discourseProxyPlugin() {
                             });
                             res.setHeader('Content-Type', 'application/json; charset=utf-8');
                             return [4 /*yield*/, response.arrayBuffer()];
-                        case 3:
+                        case 9:
                             arrayBuffer = _b.sent();
                             res.end(Buffer.from(arrayBuffer));
-                            return [3 /*break*/, 5];
-                        case 4:
+                            return [3 /*break*/, 11];
+                        case 10:
                             err_1 = _b.sent();
                             console.error('[Discourse Proxy Plugin Error]', err_1.message);
                             res.statusCode = 502;
-                            res.end(JSON.stringify({ error: err_1.message }));
-                            return [3 /*break*/, 5];
-                        case 5: return [2 /*return*/];
+                            res.setHeader('Content-Type', 'application/json; charset=utf-8');
+                            res.end(JSON.stringify({ error: '502 Bad Gateway: ' + err_1.message }));
+                            return [3 /*break*/, 11];
+                        case 11: return [2 /*return*/];
                     }
                 });
             }); });

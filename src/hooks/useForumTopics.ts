@@ -67,6 +67,44 @@ export function useForumTopics() {
   // Reactive trigger for cache updates
   const cacheVersion = ref(0)
 
+  // Network & Server Error State (e.g. 502 Bad Gateway)
+  const hasError = ref(false)
+  const errorMessage = ref('')
+
+  // Dynamic Loading Progress (0% ... 100%)
+  const loadingProgress = ref(0)
+  let progressTimer: any = null
+
+  const startProgress = () => {
+    loadingProgress.value = 15
+    if (progressTimer) clearInterval(progressTimer)
+    progressTimer = setInterval(() => {
+      if (loadingProgress.value < 65) {
+        loadingProgress.value += Math.floor(Math.random() * 8) + 6
+      } else if (loadingProgress.value < 88) {
+        loadingProgress.value += Math.floor(Math.random() * 4) + 2
+      } else if (loadingProgress.value < 96) {
+        loadingProgress.value += 1
+      }
+    }, 110)
+  }
+
+  const finishProgress = () => {
+    if (progressTimer) {
+      clearInterval(progressTimer)
+      progressTimer = null
+    }
+    loadingProgress.value = 100
+  }
+
+  const resetProgress = () => {
+    if (progressTimer) {
+      clearInterval(progressTimer)
+      progressTimer = null
+    }
+    loadingProgress.value = 0
+  }
+
   const getCacheKey = (p: number) => {
     const scope = selectedCategoryId.value !== null ? `cat_${selectedCategoryId.value}` : `tab_${currentTab.value}`
     return `${scope}_p_${p}`
@@ -108,15 +146,23 @@ export function useForumTopics() {
       if (resTotal !== undefined && resTotal > 0) {
         totalCount.value = resTotal
       }
-    } catch {
-      pageTopics = []
-      hasMore = false
-    }
 
-    pageCache.set(key, pageTopics)
-    hasMoreMap.set(key, hasMore)
-    cacheVersion.value++
-    return pageTopics
+      hasError.value = false
+      errorMessage.value = ''
+      pageCache.set(key, pageTopics)
+      hasMoreMap.set(key, hasMore)
+      cacheVersion.value++
+      return pageTopics
+    } catch (err: any) {
+      hasError.value = true
+      const is502 = err?.response?.status === 502 || err?.status === 502 || String(err).includes('502')
+      errorMessage.value = is502
+        ? '502 网关超时错误 (Bad Gateway)：官方论坛服务器或网络代理响应中断，请点击下方刷新按钮重新加载。'
+        : (err?.message || '网络连接异常，无法获取官方论坛数据')
+      console.error(`Failed to fetch discourse page ${p}:`, err)
+      // DO NOT cache failed results so retry can re-fetch!
+      throw err
+    }
   }
 
   const ensurePageDataLoaded = async () => {
@@ -150,11 +196,13 @@ export function useForumTopics() {
 
     loading.value = true
     loadingBar?.start()
+    startProgress()
     try {
       for (let p = startDiscoursePage; p <= endDiscoursePage; p++) {
         await fetchDiscoursePage(p)
       }
       loadingBar?.finish()
+      finishProgress()
 
       // Check boundary: if page exceeds maxPage after data arrives, auto-clamp!
       if (totalCount.value > 0 && page.value > maxPage.value) {
@@ -165,9 +213,15 @@ export function useForumTopics() {
       }
     } catch (err) {
       loadingBar?.error()
+      resetProgress()
       console.error('Error loading forum topics:', err)
     } finally {
-      loading.value = false
+      setTimeout(() => {
+        loading.value = false
+        setTimeout(() => {
+          loadingProgress.value = 0
+        }, 200)
+      }, 250)
     }
   }
 
@@ -196,6 +250,8 @@ export function useForumTopics() {
   }
 
   const refresh = async () => {
+    hasError.value = false
+    errorMessage.value = ''
     // Clear cache only for current scope to force fresh fetch
     const scopePrefix = selectedCategoryId.value !== null ? `cat_${selectedCategoryId.value}` : `tab_${currentTab.value}`
     for (const key of Array.from(pageCache.keys())) {
@@ -437,6 +493,9 @@ export function useForumTopics() {
 
   return {
     loading,
+    loadingProgress,
+    hasError,
+    errorMessage,
     topics: paginatedTopics,
     filteredTopics,
     paginatedTopics,

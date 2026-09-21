@@ -121,3 +121,33 @@ html, body {
   border-radius: 8px;
   margin: 10px 0;
 }
+
+/* Dynamic Loading Progress Bar (0% ... 100%) */
+.category-loading-progress {
+  padding: 4px 0 8px 0;
+  width: 100%;
+}
+
+.progress-track {
+  width: 100%;
+  height: 4px;
+  background: rgba(71, 140, 191, 0.15);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-track-large {
+  width: 100%;
+  height: 8px;
+  background: rgba(71, 140, 191, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #478cbf 0%, #38bdf8 100%);
+  border-radius: 4px;
+  transition: width 0.12s ease-out;
+  box-shadow: 0 0 8px rgba(71, 140, 191, 0.5);
+}

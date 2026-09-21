@@ -23,13 +23,51 @@
             {{ f.name }}
           </n-button>
         </div>
+
+        <!-- Dynamic Loading Progress Bar (0% ... 100%) -->
+        <transition name="fade">
+          <div v-if="loading" class="category-loading-progress mt-1">
+            <div class="flex items-center justify-between text-xs text-blue-400 mb-1 px-1">
+              <span class="flex items-center gap-1.5 font-medium">
+                <span class="spin-icon is-spinning text-xs">🔄</span>
+                <span>正在同步作品数据...</span>
+              </span>
+              <span class="font-mono font-bold text-blue-400">{{ loadingProgress }}%</span>
+            </div>
+            <div class="progress-track">
+              <div
+                class="progress-fill"
+                :style="{ width: `${loadingProgress}%` }"
+              ></div>
+            </div>
+          </div>
+        </transition>
       </div>
 
       <!-- Showcase Content Area with Spin -->
-      <n-spin :show="loading" size="large" description="正在同步作品展厅...">
-        <div class="flex flex-col gap-6">
+      <n-spin :show="loading && displayedTopics.length > 0" size="large" description="正在同步作品展厅...">
+        <div class="showcase-content-area min-h-420px flex flex-col justify-start">
+          <!-- Initial / Empty Loading State (Centered with 0% ... 100% Progress) -->
+          <div v-if="loading && displayedTopics.length === 0" class="flex flex-col items-center justify-center py-24 text-center gap-3">
+            <span class="text-4xl">🕹️</span>
+            <p class="text-gray-300 text-sm font-medium m-0">正在同步官方作品展厅数据，请稍候...</p>
+            <div class="w-280px max-w-full my-2">
+              <div class="flex items-center justify-between text-xs text-blue-400 mb-1 px-0.5">
+                <span>同步进度</span>
+                <span class="font-mono font-bold">{{ loadingProgress }}%</span>
+              </div>
+              <div class="progress-track-large">
+                <div
+                  class="progress-fill"
+                  :style="{ width: `${loadingProgress}%` }"
+                ></div>
+              </div>
+            </div>
+            <span class="text-xs text-gray-500">已载入 {{ loadingProgress }}%</span>
+          </div>
+
           <!-- Showcase Cards Grid -->
-          <div v-if="displayedTopics.length > 0" class="showcase-grid min-h-300px">
+          <div v-else-if="displayedTopics.length > 0" class="showcase-grid min-h-300px">
             <div
               v-for="item in displayedTopics"
               :key="item.id"
@@ -70,6 +108,26 @@
             </div>
           </div>
 
+          <!-- Error State: 502 Bad Gateway / Network Error -->
+          <div v-else-if="hasError && !loading" class="showcase-empty-state">
+            <div class="flex flex-col items-center justify-center py-14 px-4 gap-3 text-center">
+              <span class="text-5xl">⚠️</span>
+              <h3 class="text-lg font-bold text-red-400 m-0">作品数据加载失败</h3>
+              <p class="text-sm text-gray-400 max-w-md m-0">
+                {{ errorMessage || '官方论坛接口响应中断或遭遇 502 网关超时。' }}
+              </p>
+              <div class="flex items-center gap-3 mt-4">
+                <n-button type="primary" size="medium" :loading="loading" @click="refresh">
+                  <template #icon>🔄</template>
+                  重新加载 (立即刷新)
+                </n-button>
+                <n-button v-if="page > 1" size="medium" @click="handlePageChange(1)">
+                  返回第 1 页
+                </n-button>
+              </div>
+            </div>
+          </div>
+
           <!-- Empty State when page or category is empty -->
           <div v-else-if="!loading" class="showcase-empty-state">
             <div class="flex flex-col items-center justify-center py-10 px-4 gap-3 text-center">
@@ -80,7 +138,11 @@
                 <template v-if="totalCount > 0">（已超出有效页码范围，共 {{ maxPage }} 页，{{ totalCount }} 个作品）</template>。
               </p>
               <div class="flex items-center gap-3 mt-3">
-                <n-button type="primary" size="small" @click="handlePageChange(1)">
+                <n-button type="primary" size="small" :loading="loading" @click="refresh">
+                  <template #icon>🔄</template>
+                  刷新当前数据
+                </n-button>
+                <n-button size="small" @click="handlePageChange(1)">
                   返回第 1 页
                 </n-button>
                 <n-button v-if="page > 1 && maxPage > 1" size="small" @click="handlePageChange(Math.min(page - 1, maxPage))">
@@ -142,6 +204,9 @@ const { isMobile } = useMobile()
 
 const {
   loading,
+  loadingProgress,
+  hasError,
+  errorMessage,
   paginatedTopics,
   accumulatedTopics,
   isLoadingMore,
