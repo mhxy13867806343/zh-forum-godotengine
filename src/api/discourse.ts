@@ -3,90 +3,204 @@ import type { DiscourseTopic, DiscourseTopicDetail, DiscourseCategory } from './
 import { MOCK_TOPICS, MOCK_TOPIC_DETAILS } from './mockData'
 import { getCategoryApiPath } from '../utils/categoryDict'
 
-export async function fetchCategories(): Promise<DiscourseCategory[]> {
-  try {
-    const res: any = await request.get('/discourse/categories.json')
-    if (res?.category_list?.categories) {
-      return res.category_list.categories
+/**
+ * Safely compute static asset URL regardless of root domain or GitHub Pages subpath.
+ */
+export function getStaticDataUrl(filename: string): string {
+  const cleanPath = filename.startsWith('/') ? filename.slice(1) : filename
+  if (typeof window !== 'undefined') {
+    let dir = window.location.pathname
+    if (dir.endsWith('.html') || dir.endsWith('.htm')) {
+      dir = dir.substring(0, dir.lastIndexOf('/') + 1)
+    } else if (!dir.endsWith('/')) {
+      dir = dir + '/'
     }
-  } catch (err) {
-    console.info('[Categories] Using local category cache.')
+    return `${window.location.origin}${dir}${cleanPath}`
   }
+  return `/${cleanPath}`
+}
+
+let cachedLatest: any = null
+let cachedTop: any = null
+let cachedCategories: any = null
+
+async function loadStaticJson(filename: string): Promise<any> {
+  try {
+    const url = getStaticDataUrl(filename)
+    const res = await fetch(url)
+    if (res.ok) {
+      return await res.json()
+    }
+  } catch (e) {
+    console.warn(`[StaticData] Failed to load ${filename}:`, e)
+  }
+  return null
+}
+
+export async function fetchCategories(): Promise<DiscourseCategory[]> {
+  // In dev environment, Vite proxy is available
+  if (import.meta.env.DEV) {
+    try {
+      const res: any = await request.get('/discourse/categories.json')
+      if (res?.category_list?.categories) {
+        return res.category_list.categories
+      }
+    } catch {
+      // Fallback to static data
+    }
+  }
+
+  if (!cachedCategories) {
+    cachedCategories = await loadStaticJson('data/categories.json')
+  }
+
+  if (cachedCategories?.category_list?.categories) {
+    return cachedCategories.category_list.categories
+  }
+
   return []
 }
 
 export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
-  try {
-    const res: any = await request.get(`/discourse/latest.json?page=${page}`)
-    if (res?.topic_list?.topics) {
-      return {
-        topics: res.topic_list.topics,
-        more_topics_url: res.topic_list.more_topics_url
-      }
-    }
-  } catch (err) {
-    console.info('[LatestTopics] Attempting to load static synced data from /data/latest.json...')
+  // In dev environment, Vite proxy is available
+  if (import.meta.env.DEV) {
     try {
-      const staticRes = await fetch('/data/latest.json')
-      if (staticRes.ok) {
-        const data = await staticRes.json()
-        if (data?.topic_list?.topics) {
-          return {
-            topics: data.topic_list.topics,
-            more_topics_url: data.topic_list.more_topics_url
-          }
+      const res: any = await request.get(`/discourse/latest.json?page=${page}`)
+      if (res?.topic_list?.topics) {
+        return {
+          topics: res.topic_list.topics,
+          more_topics_url: res.topic_list.more_topics_url
         }
       }
     } catch {
-      // ignore
+      // Fallback to static synced data
     }
   }
-  return { topics: MOCK_TOPICS }
+
+  if (!cachedLatest) {
+    cachedLatest = await loadStaticJson('data/latest.json')
+  }
+
+  const allTopics: DiscourseTopic[] = cachedLatest?.topic_list?.topics || MOCK_TOPICS
+
+  // Page size of 20 for simulated pagination on static snapshots
+  const pageSize = 20
+  const start = page * pageSize
+  const pagedTopics = allTopics.slice(start, start + pageSize)
+  const hasMore = start + pageSize < allTopics.length
+
+  return {
+    topics: pagedTopics.length > 0 ? pagedTopics : (page === 0 ? allTopics : []),
+    more_topics_url: hasMore ? `/latest?page=${page + 1}` : undefined
+  }
 }
 
 export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: DiscourseTopic[] }> {
-  try {
-    const res: any = await request.get(`/discourse/top.json?period=${period}`)
-    if (res?.topic_list?.topics) {
-      return { topics: res.topic_list.topics }
+  if (import.meta.env.DEV) {
+    try {
+      const res: any = await request.get(`/discourse/top.json?period=${period}`)
+      if (res?.topic_list?.topics) {
+        return { topics: res.topic_list.topics }
+      }
+    } catch {
+      // Fallback to static synced data
     }
-  } catch (err) {
-    console.info('[TopTopics] Falling back to local data.')
   }
+
+  if (!cachedTop) {
+    cachedTop = await loadStaticJson('data/top.json')
+  }
+
+  if (cachedTop?.topic_list?.topics) {
+    return { topics: cachedTop.topic_list.topics }
+  }
+
   return { topics: [...MOCK_TOPICS].sort((a, b) => b.like_count - a.like_count) }
 }
 
-export async function fetchCategoryTopics(categoryId: number, _slug?: string, page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
-  try {
-    const canonicalPath = getCategoryApiPath(categoryId)
-    const res: any = await request.get(`/discourse${canonicalPath}?page=${page}`)
-    if (res?.topic_list?.topics) {
-      return {
-        topics: res.topic_list.topics,
-        more_topics_url: res.topic_list.more_topics_url
+export async function fetchCategoryTopics(
+  categoryId: number,
+  _slug?: string,
+  page = 0
+): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
+  if (import.meta.env.DEV) {
+    try {
+      const canonicalPath = getCategoryApiPath(categoryId)
+      const res: any = await request.get(`/discourse${canonicalPath}?page=${page}`)
+      if (res?.topic_list?.topics) {
+        return {
+          topics: res.topic_list.topics,
+          more_topics_url: res.topic_list.more_topics_url
+        }
       }
+    } catch {
+      // Fallback
     }
-  } catch (err) {
-    console.info(`[CategoryTopics] Filtered from local cache for category ${categoryId}`)
   }
-  const filtered = MOCK_TOPICS.filter((t) => t.category_id === categoryId)
-  return { topics: filtered.length > 0 ? filtered : MOCK_TOPICS.slice(0, 4) }
+
+  if (!cachedLatest) {
+    cachedLatest = await loadStaticJson('data/latest.json')
+  }
+  if (!cachedTop) {
+    cachedTop = await loadStaticJson('data/top.json')
+  }
+
+  const pool: DiscourseTopic[] = [
+    ...(cachedLatest?.topic_list?.topics || []),
+    ...(cachedTop?.topic_list?.topics || []),
+    ...MOCK_TOPICS
+  ]
+
+  const seen = new Set<number>()
+  const uniqueTopics: DiscourseTopic[] = []
+  for (const t of pool) {
+    if (!seen.has(t.id)) {
+      seen.add(t.id)
+      uniqueTopics.push(t)
+    }
+  }
+
+  const filtered = uniqueTopics.filter((t) => t.category_id === categoryId)
+  const pageSize = 20
+  const start = page * pageSize
+  const paged = filtered.slice(start, start + pageSize)
+  const hasMore = start + pageSize < filtered.length
+
+  return {
+    topics: paged.length > 0 ? paged : (filtered.length > 0 ? filtered : MOCK_TOPICS.filter((t) => t.category_id === categoryId)),
+    more_topics_url: hasMore ? `?page=${page + 1}` : undefined
+  }
 }
 
 export async function fetchTopicDetail(topicId: number): Promise<DiscourseTopicDetail | null> {
-  try {
-    const res: any = await request.get(`/discourse/t/${topicId}.json`)
-    if (res?.id) {
-      return res
+  if (import.meta.env.DEV) {
+    try {
+      const res: any = await request.get(`/discourse/t/${topicId}.json`)
+      if (res?.id) {
+        return res
+      }
+    } catch {
+      // Fallback
     }
-  } catch (err) {
-    console.info(`[TopicDetail] Loading pre-rendered detail for topic ${topicId}`)
   }
+
   if (MOCK_TOPIC_DETAILS[topicId]) {
     return MOCK_TOPIC_DETAILS[topicId]
   }
-  // Generate dynamic fallback for other mock topics
-  const summary = MOCK_TOPICS.find((t) => t.id === topicId)
+
+  if (!cachedLatest) {
+    cachedLatest = await loadStaticJson('data/latest.json')
+  }
+  if (!cachedTop) {
+    cachedTop = await loadStaticJson('data/top.json')
+  }
+
+  const pool: DiscourseTopic[] = [
+    ...(cachedLatest?.topic_list?.topics || []),
+    ...(cachedTop?.topic_list?.topics || []),
+    ...MOCK_TOPICS
+  ]
+  const summary = pool.find((t) => t.id === topicId)
   if (summary) {
     return {
       id: summary.id,

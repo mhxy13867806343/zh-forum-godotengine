@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const request = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.DEV ? '/api' : '',
   timeout: 10000,
   headers: {
     'Accept': 'application/json'
