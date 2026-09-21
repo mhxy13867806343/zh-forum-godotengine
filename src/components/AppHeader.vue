@@ -173,6 +173,7 @@
       </n-drawer-content>
     </n-drawer>
   </header>
+  <div class="header-placeholder" aria-hidden="true" />
 </template>
 
 <script setup lang="ts">

@@ -10,6 +10,7 @@ export function useForumTopics() {
   const route = useRoute()
   const router = useRouter()
   const { isMobile } = useMobile()
+  const loadingBar = useLoadingBar()
 
   const loading = ref(false)
 
@@ -148,10 +149,12 @@ export function useForumTopics() {
     }
 
     loading.value = true
+    loadingBar?.start()
     try {
       for (let p = startDiscoursePage; p <= endDiscoursePage; p++) {
         await fetchDiscoursePage(p)
       }
+      loadingBar?.finish()
 
       // Check boundary: if page exceeds maxPage after data arrives, auto-clamp!
       if (totalCount.value > 0 && page.value > maxPage.value) {
@@ -161,6 +164,7 @@ export function useForumTopics() {
         }
       }
     } catch (err) {
+      loadingBar?.error()
       console.error('Error loading forum topics:', err)
     } finally {
       loading.value = false

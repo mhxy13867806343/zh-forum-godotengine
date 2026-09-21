@@ -29,52 +29,50 @@
           </div>
         </div>
 
-        <!-- Feed Filter Tabs -->
-        <div class="feed-header-bar">
-          <n-tabs :value="currentTab" type="segment" size="small" @update:value="handleTabChange">
-            <n-tab name="latest">🔥 最新讨论</n-tab>
-            <n-tab name="top">🏆 热门榜单</n-tab>
-            <n-tab name="hot">⭐ 精选问答</n-tab>
-          </n-tabs>
+        <!-- Sticky Feed Header & Categories (Fixed on both PC and Mobile) -->
+        <div class="feed-sticky-header">
+          <!-- Feed Filter Tabs -->
+          <div class="feed-header-bar">
+            <n-tabs :value="currentTab" type="segment" size="small" @update:value="handleTabChange">
+              <n-tab name="latest">🔥 最新讨论</n-tab>
+              <n-tab name="top">🏆 热门榜单</n-tab>
+              <n-tab name="hot">⭐ 精选问答</n-tab>
+            </n-tabs>
 
-          <div v-if="selectedTag" class="flex items-center gap-2 text-sm">
-            <span>当前标签：</span>
-            <n-tag closable size="small" type="info" @close="clearTag">
-              #{{ selectedTag }}
-            </n-tag>
+            <div v-if="selectedTag" class="flex items-center gap-2 text-sm">
+              <span>当前标签：</span>
+              <n-tag closable size="small" type="info" @close="clearTag">
+                #{{ selectedTag }}
+              </n-tag>
+            </div>
+          </div>
+
+          <!-- Quick Category Horizontal Pills Bar (Fixed on both PC and Mobile) -->
+          <div class="category-pills-bar">
+            <div
+              class="cat-pill"
+              :class="{ active: selectedCategoryId === null }"
+              @click="selectMobileCategory(null)"
+            >
+              全部板块
+            </div>
+            <div
+              v-for="cat in mobileCategories"
+              :key="cat.id"
+              class="cat-pill"
+              :class="{ active: selectedCategoryId === cat.id }"
+              @click="selectMobileCategory(cat.id, cat.slug)"
+            >
+              <span class="cat-dot" :style="{ backgroundColor: cat.color }"></span>
+              <span>{{ cat.zhName }}</span>
+            </div>
           </div>
         </div>
 
-        <!-- Mobile Quick Category Horizontal Pills Bar -->
-        <div v-if="isMobile" class="mobile-category-bar">
-          <div
-            class="mobile-cat-pill"
-            :class="{ active: selectedCategoryId === null }"
-            @click="selectMobileCategory(null)"
-          >
-            全部板块
-          </div>
-          <div
-            v-for="cat in mobileCategories"
-            :key="cat.id"
-            class="mobile-cat-pill"
-            :class="{ active: selectedCategoryId === cat.id }"
-            @click="selectMobileCategory(cat.id, cat.slug)"
-          >
-            <span class="cat-dot" :style="{ backgroundColor: cat.color }"></span>
-            <span>{{ cat.zhName }}</span>
-          </div>
-        </div>
-
-        <!-- Loading State -->
-        <div v-if="loading && displayedTopics.length === 0" class="py-12 flex justify-center">
-          <n-spin size="large" description="正在同步论坛话题..." />
-        </div>
-
-        <!-- Feed Content Area -->
-        <div v-else>
+        <!-- Feed Content Area with Spin -->
+        <n-spin :show="loading" size="large" description="正在同步论坛话题...">
           <!-- Topics List -->
-          <div v-if="displayedTopics.length > 0">
+          <div v-if="displayedTopics.length > 0" class="min-h-300px">
             <TopicCard
               v-for="topic in displayedTopics"
               :key="topic.id"
@@ -100,8 +98,8 @@
             </div>
           </div>
 
-          <!-- Empty State -->
-          <div v-else class="empty-state">
+          <!-- Empty State (Only show when NOT loading and zero topics) -->
+          <div v-else-if="!loading" class="empty-state">
             <p class="text-lg">暂无匹配的话题数据</p>
             <p v-if="page > 1" class="text-sm text-gray-400">
               当前第 {{ page }} 页暂无内容（已超出数据范围，共 {{ maxPage }} 页）。
@@ -111,20 +109,20 @@
               <n-button size="small" @click="resetFilters">重置筛选条件</n-button>
             </div>
           </div>
+        </n-spin>
 
-          <!-- Desktop Pagination (Strictly hidden on Mobile H5 to eliminate horizontal overflow) -->
-          <div v-if="!isMobile && totalCount > 0" class="flex justify-center items-center my-6 py-2">
-            <n-pagination
-              v-model:page="page"
-              v-model:page-size="pageSize"
-              :item-count="totalCount"
-              :page-sizes="[10, 20, 30]"
-              show-size-picker
-              show-quick-jumper
-              @update:page="handlePageChange"
-              @update:page-size="handlePageSizeChange"
-            />
-          </div>
+        <!-- Desktop Pagination (Strictly hidden on Mobile H5 to eliminate horizontal overflow) -->
+        <div v-if="!isMobile && totalCount > 0" class="flex justify-center items-center my-6 py-2">
+          <n-pagination
+            v-model:page="page"
+            v-model:page-size="pageSize"
+            :item-count="totalCount"
+            :page-sizes="[10, 20, 30]"
+            show-size-picker
+            show-quick-jumper
+            @update:page="handlePageChange"
+            @update:page-size="handlePageSizeChange"
+          />
         </div>
       </main>
     </PullToRefresh>

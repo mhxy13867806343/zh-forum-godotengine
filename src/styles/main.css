@@ -25,7 +25,7 @@ html, body {
   padding: 0;
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
   background-color: var(--bg-color);
   color: var(--text-main);
   transition: background-color 0.25s ease, color 0.25s ease;

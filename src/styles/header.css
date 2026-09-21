@@ -7,12 +7,23 @@
   border-bottom: 1px solid var(--card-border);
   background-color: var(--header-bg);
   color: var(--text-main);
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 100;
-  backdrop-filter: blur(8px);
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   transition: background-color 0.25s ease, border-color 0.25s ease;
   gap: 16px;
+}
+
+.header-placeholder {
+  height: 60px;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .logo-area {
@@ -124,6 +135,9 @@
 @media (max-width: 820px) {
   .header-container {
     padding: 0 14px;
+    height: 54px;
+  }
+  .header-placeholder {
     height: 54px;
   }
   .desktop-nav {
