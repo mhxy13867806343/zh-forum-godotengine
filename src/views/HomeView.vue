@@ -107,9 +107,12 @@ const clearTag = () => {
   setTag(null)
 }
 
-const resetFilters = () => {
-  setTag(null)
+const router = useRouter()
+
+const resetFilters = async () => {
+  await setTag(null)
   searchQuery.value = ''
+  await router.push({ path: '/' })
   loadTopics()
 }
 

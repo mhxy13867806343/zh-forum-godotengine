@@ -10,9 +10,14 @@ export function useForumTopics() {
   const router = useRouter()
 
   const loading = ref(false)
-  const currentTab = ref<'latest' | 'top' | 'hot'>('latest')
-  const searchQuery = ref('')
-  const selectedTag = ref<string | null>(null)
+
+  // Initialize tab from URL query (?tab=top / ?tab=hot / ?tab=latest)
+  const qTab = (route?.query?.tab as string) || 'latest'
+  const initialTab = (['latest', 'top', 'hot'].includes(qTab) ? qTab : 'latest') as 'latest' | 'top' | 'hot'
+  const currentTab = ref<'latest' | 'top' | 'hot'>(initialTab)
+
+  const searchQuery = ref((route?.query?.q as string) || '')
+  const selectedTag = ref<string | null>((route?.query?.tag as string) || null)
   const selectedCategoryId = ref<number | null>(null)
   const selectedCategorySlug = ref<string | undefined>(undefined)
 
@@ -23,7 +28,8 @@ export function useForumTopics() {
   // Real Pagination State
   const page = ref(initialPage)
   const pageSize = ref(initialPageSize)
-  const totalCount = ref(Math.max(45000, (initialPage + 50) * initialPageSize))
+  const initialBaseCount = initialTab === 'top' ? 1000 : (initialTab === 'hot' ? 25000 : 45000)
+  const totalCount = ref(Math.max(initialBaseCount, (initialPage + 50) * initialPageSize))
 
   // In-memory cache for Discourse pages (each Discourse page = 30 topics)
   // key: discoursePage (0-based) -> DiscourseTopic[]
@@ -49,6 +55,10 @@ export function useForumTopics() {
         const res = await fetchTopTopics()
         pageTopics = res.topics || []
         hasMore = false
+      } else if (currentTab.value === 'hot') {
+        const res = await fetchCategoryTopics(6, 'help', p)
+        pageTopics = res.topics || []
+        hasMore = !!res.more_topics_url
       } else {
         const res = await fetchLatestTopics(p)
         pageTopics = res.topics || []
@@ -84,7 +94,7 @@ export function useForumTopics() {
       } else {
         const baseEstimate = selectedCategoryId.value
           ? getCategoryTotalTopics(selectedCategoryId.value)
-          : (currentTab.value === 'top' ? 1000 : 45000)
+          : (currentTab.value === 'top' ? 1000 : (currentTab.value === 'hot' ? 25000 : 45000))
         // Keep total count ahead of current page by at least 50 pages so Goto never gets clamped
         totalCount.value = Math.max(baseEstimate, (page.value + 50) * pageSize.value)
       }
@@ -198,11 +208,16 @@ export function useForumTopics() {
       pageCache.clear()
       hasMoreMap.clear()
       page.value = 1
-      totalCount.value = tab === 'top' ? 1000 : 45000
+      totalCount.value = tab === 'top' ? 1000 : (tab === 'hot' ? 25000 : 45000)
 
       if (router && route) {
         const query = { ...route.query }
         delete query.page
+        if (tab !== 'latest') {
+          query.tab = tab
+        } else {
+          delete query.tab
+        }
         await router.push({ query })
       }
 
@@ -219,13 +234,39 @@ export function useForumTopics() {
     await loadTopics(catId || undefined, slug, 1)
   }
 
-  const setTag = (tag: string | null) => {
+  const setTag = async (tag: string | null) => {
     selectedTag.value = tag
     page.value = 1
+
+    if (router && route) {
+      const query = { ...route.query }
+      delete query.page
+      if (tag) {
+        query.tag = tag
+      } else {
+        delete query.tag
+      }
+      await router.push({ query })
+    }
   }
 
-  // React to browser Back/Forward buttons and external URL page changes
+  // React to browser Back/Forward buttons and external URL query changes
   if (route) {
+    watch(
+      () => route.query.tab,
+      async (newTab) => {
+        const validTab = (newTab as 'latest' | 'top' | 'hot') || 'latest'
+        if (['latest', 'top', 'hot'].includes(validTab) && validTab !== currentTab.value) {
+          currentTab.value = validTab
+          pageCache.clear()
+          hasMoreMap.clear()
+          page.value = 1
+          totalCount.value = validTab === 'top' ? 1000 : (validTab === 'hot' ? 25000 : 45000)
+          await ensurePageDataLoaded()
+        }
+      }
+    )
+
     watch(
       () => route.query.page,
       async (newVal) => {
@@ -233,6 +274,26 @@ export function useForumTopics() {
         if (targetPage !== page.value) {
           page.value = targetPage
           await ensurePageDataLoaded()
+        }
+      }
+    )
+
+    watch(
+      () => route.query.tag,
+      (newTag) => {
+        const t = (newTag as string) || null
+        if (t !== selectedTag.value) {
+          selectedTag.value = t
+        }
+      }
+    )
+
+    watch(
+      () => route.query.q,
+      (newQ) => {
+        const q = (newQ as string) || ''
+        if (q !== searchQuery.value) {
+          searchQuery.value = q
         }
       }
     )

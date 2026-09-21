@@ -90,6 +90,7 @@ import { formatRelativeTime } from '@/utils/date'
 import { translateTitle } from '@/utils/translator'
 import CategoryBadge from '@/components/CategoryBadge.vue'
 
+const route = useRoute()
 const router = useRouter()
 const {
   loading,
@@ -105,7 +106,6 @@ const {
 
 pageSize.value = 9
 
-const activeFilter = ref<number>(14)
 const filterTabs = [
   { id: 14, slug: 'showcase', name: '全部作品' },
   { id: 15, slug: 'games', name: '🎮 已发布游戏' },
@@ -113,9 +113,25 @@ const filterTabs = [
   { id: 16, slug: 'tools', name: '⚙️ 辅助工具与软件' }
 ]
 
+const getTabBySlug = (slug?: string) => {
+  return filterTabs.find((f) => f.slug === slug) || filterTabs[0]
+}
+
+const initialFilterTab = getTabBySlug(route.query.filter as string)
+const activeFilter = ref<number>(initialFilterTab.id)
+
 const switchFilter = (id: number, slug: string) => {
   activeFilter.value = id
   page.value = 1
+
+  const query = { ...route.query }
+  delete query.page
+  if (slug !== 'showcase') {
+    query.filter = slug
+  } else {
+    delete query.filter
+  }
+  router.push({ query })
   loadTopics(id, slug)
 }
 
@@ -123,8 +139,20 @@ const goToTopic = (id: number) => {
   router.push(`/t/${id}`)
 }
 
+watch(
+  () => route.query.filter,
+  (newFilterSlug) => {
+    const target = getTabBySlug(newFilterSlug as string)
+    if (target.id !== activeFilter.value) {
+      activeFilter.value = target.id
+      loadTopics(target.id, target.slug)
+    }
+  }
+)
+
 onMounted(() => {
-  loadTopics(14, 'showcase')
+  const initialPage = route.query.page ? Math.max(1, Number(route.query.page) || 1) : 1
+  loadTopics(initialFilterTab.id, initialFilterTab.slug, initialPage)
 })
 </script>
 
