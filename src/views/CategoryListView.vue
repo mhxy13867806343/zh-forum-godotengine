@@ -7,8 +7,23 @@
       </p>
     </div>
 
-    <div v-if="loading" class="flex justify-center py-12">
-      <n-spin size="large" description="正在加载官方版块架构..." />
+    <!-- Centered Loading Box with 0% ... 100% Progress -->
+    <div v-if="loading" class="category-loading-centered">
+      <span class="text-5xl">📂</span>
+      <p class="text-gray-300 text-sm font-medium m-0">正在加载官方板块架构...</p>
+      <div class="progress-box my-2">
+        <div class="flex items-center justify-between text-xs text-blue-400 mb-1 px-0.5">
+          <span>加载进度</span>
+          <span class="font-mono font-bold">{{ loadingProgress }}%</span>
+        </div>
+        <div class="progress-track-large">
+          <div
+            class="progress-fill"
+            :style="{ width: `${loadingProgress}%` }"
+          ></div>
+        </div>
+      </div>
+      <span class="text-xs text-gray-500">已载入 {{ loadingProgress }}%</span>
     </div>
 
     <div v-else class="flex flex-col gap-6">
@@ -67,7 +82,7 @@
 <script setup lang="ts">
 import { useCategories } from '@/hooks/useCategories'
 
-const { loading, categoryGroups } = useCategories()
+const { loading, loadingProgress, categoryGroups } = useCategories()
 </script>
 
 <style src="@/styles/category.css" scoped></style>

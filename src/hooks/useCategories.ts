@@ -9,10 +9,43 @@ export interface CategoryGroup {
 
 export function useCategories() {
   const loading = ref(false)
+  const loadingProgress = ref(0)
   const allCategories = ref<CategoryMeta[]>(Object.values(CATEGORY_MAP))
+  let progressTimer: any = null
+
+  const startProgress = () => {
+    loadingProgress.value = 15
+    if (progressTimer) clearInterval(progressTimer)
+    progressTimer = setInterval(() => {
+      if (loadingProgress.value < 65) {
+        loadingProgress.value += Math.floor(Math.random() * 8) + 6
+      } else if (loadingProgress.value < 88) {
+        loadingProgress.value += Math.floor(Math.random() * 4) + 2
+      } else if (loadingProgress.value < 96) {
+        loadingProgress.value += 1
+      }
+    }, 110)
+  }
+
+  const finishProgress = () => {
+    if (progressTimer) {
+      clearInterval(progressTimer)
+      progressTimer = null
+    }
+    loadingProgress.value = 100
+  }
+
+  const resetProgress = () => {
+    if (progressTimer) {
+      clearInterval(progressTimer)
+      progressTimer = null
+    }
+    loadingProgress.value = 0
+  }
 
   const loadCategories = async () => {
     loading.value = true
+    startProgress()
     try {
       const apiCategories = await fetchCategories()
       if (apiCategories && apiCategories.length > 0) {
@@ -23,10 +56,17 @@ export function useCategories() {
           }
         })
       }
+      finishProgress()
     } catch (e) {
+      resetProgress()
       console.warn('Failed to fetch categories from API, using default dictionary', e)
     } finally {
-      loading.value = false
+      setTimeout(() => {
+        loading.value = false
+        setTimeout(() => {
+          loadingProgress.value = 0
+        }, 200)
+      }, 250)
     }
   }
 
@@ -52,6 +92,7 @@ export function useCategories() {
 
   return {
     loading,
+    loadingProgress,
     allCategories,
     categoryGroups,
     flatSubCategories,

@@ -24,9 +24,9 @@
           </n-button>
         </div>
 
-        <!-- Dynamic Loading Progress Bar (0% ... 100%) -->
+        <!-- Dynamic Loading Progress Bar (0% ... 100%, only when topics exist on screen) -->
         <transition name="fade">
-          <div v-if="loading" class="category-loading-progress mt-1">
+          <div v-if="loading && displayedTopics.length > 0" class="category-loading-progress mt-1">
             <div class="flex items-center justify-between text-xs text-blue-400 mb-1 px-1">
               <span class="flex items-center gap-1.5 font-medium">
                 <span class="spin-icon is-spinning text-xs">🔄</span>
@@ -172,8 +172,8 @@
           </div>
         </div>
 
-        <!-- Desktop Pagination (Strictly hidden on Mobile H5 to eliminate horizontal drag) -->
-        <div v-if="!isMobile && totalCount > 0" class="flex justify-center items-center my-4 py-2">
+        <!-- Desktop Pagination (Hidden while loading / when progress is not 100%) -->
+        <div v-if="!isMobile && !loading && totalCount > 0" class="flex justify-center items-center my-4 py-2">
           <n-pagination
             v-model:page="page"
             v-model:page-size="pageSize"
