@@ -1,0 +1,45 @@
+name: Godot 官方论坛 24/7 云端定时同步
+
+on:
+  schedule:
+    # 国际标准时间每 2 小时自动运行一次（即使个人电脑关机，云端持续同步）
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # 支持在 GitHub 网页手动点击触发
+
+permissions:
+  contents: write
+
+jobs:
+  sync-forum-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: 安装项目依赖
+        run: pnpm install --no-frozen-lockfile
+
+      - name: 执行官方数据定时爬虫与抓取
+        run: node scripts/sync-discourse.js
+
+      - name: 提交并推送最新同步数据到仓库
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          if git status --porcelain | grep -q .; then
+            git commit -m "chore(sync): 自动同步官方论坛最新数据 [skip ci]"
+            git push
+          else
+            echo "没有新的数据变动，无需提交。"
+          fi

@@ -1,0 +1,31 @@
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-layout {
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 24px;
+  box-sizing: border-box;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 24px 0;
+  border-top: 1px solid var(--godot-border, #3d4450);
+  margin-top: auto;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.app-footer a {
+  color: var(--godot-blue, #478cbf);
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
