@@ -14,13 +14,16 @@
             type="primary"
             secondary
             :loading="isRefreshing"
+            :disabled="refreshCooldown > 0"
             class="refresh-btn"
             @click="handleRefreshTopics"
           >
             <template #icon>
               <span class="spin-icon" :class="{ 'is-spinning': isRefreshing }">🔄</span>
             </template>
-            <span>{{ isRefreshing ? '正在同步最新讨论...' : '刷新数据' }}</span>
+            <span v-if="isRefreshing">正在同步最新讨论...</span>
+            <span v-else-if="refreshCooldown > 0">⏳ {{ refreshCooldown }}s 后可刷新</span>
+            <span v-else>刷新数据</span>
           </n-button>
         </div>
       </div>
@@ -109,6 +112,22 @@ const {
 } = useForumTopics()
 
 const isRefreshing = ref(false)
+const refreshCooldown = ref(0)
+let cooldownTimer: any = null
+
+const startRefreshCooldown = (seconds = 10) => {
+  refreshCooldown.value = seconds
+  if (cooldownTimer) clearInterval(cooldownTimer)
+  cooldownTimer = setInterval(() => {
+    if (refreshCooldown.value > 1) {
+      refreshCooldown.value--
+    } else {
+      refreshCooldown.value = 0
+      clearInterval(cooldownTimer)
+      cooldownTimer = null
+    }
+  }, 1000)
+}
 
 const handleTabChange = (tabName: string) => {
   setTab(tabName as 'latest' | 'top' | 'hot')
@@ -130,8 +149,9 @@ const resetFilters = async () => {
 }
 
 const handleRefreshTopics = async () => {
-  if (isRefreshing.value) return
+  if (isRefreshing.value || refreshCooldown.value > 0) return
   isRefreshing.value = true
+  startRefreshCooldown(10)
   try {
     await refresh()
     message.success('已拉取并同步官方论坛最新数据 🔄')
@@ -143,6 +163,13 @@ const handleRefreshTopics = async () => {
     }, 450)
   }
 }
+
+onUnmounted(() => {
+  if (cooldownTimer) {
+    clearInterval(cooldownTimer)
+    cooldownTimer = null
+  }
+})
 
 watch(
   () => route.query.q,
