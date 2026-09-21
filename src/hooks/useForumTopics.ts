@@ -39,7 +39,7 @@ export function useForumTopics() {
   // Real Pagination State
   const page = ref(initialPage)
   const pageSize = ref(initialPageSize)
-  const initialBaseCount = initialTab === 'top' ? 1000 : (initialTab === 'hot' ? 25000 : 45000)
+  const initialBaseCount = initialTab === 'top' ? 50 : (initialTab === 'hot' ? 30 : 180)
   const totalCount = ref(initialBaseCount)
   const maxPage = computed(() => Math.max(1, Math.ceil(totalCount.value / pageSize.value)))
 
@@ -81,22 +81,31 @@ export function useForumTopics() {
     let hasMore = true
 
     try {
+      let resTotal: number | undefined
       if (selectedCategoryId.value !== null) {
         const res = await fetchCategoryTopics(selectedCategoryId.value, selectedCategorySlug.value, p)
         pageTopics = res.topics || []
         hasMore = !!res.more_topics_url
+        resTotal = res.total
       } else if (currentTab.value === 'top') {
         const res = await fetchTopTopics()
         pageTopics = res.topics || []
         hasMore = false
+        resTotal = res.total
       } else if (currentTab.value === 'hot') {
         const res = await fetchCategoryTopics(6, 'help', p)
         pageTopics = res.topics || []
         hasMore = !!res.more_topics_url
+        resTotal = res.total
       } else {
         const res = await fetchLatestTopics(p)
         pageTopics = res.topics || []
         hasMore = !!res.more_topics_url
+        resTotal = res.total
+      }
+
+      if (resTotal !== undefined && resTotal > 0) {
+        totalCount.value = resTotal
       }
     } catch {
       pageTopics = []
@@ -110,6 +119,14 @@ export function useForumTopics() {
   }
 
   const ensurePageDataLoaded = async () => {
+    // If initial requested page is clearly beyond maxPage, clamp early
+    if (totalCount.value > 0 && page.value > maxPage.value) {
+      page.value = maxPage.value
+      if (router && route) {
+        router.replace({ query: { ...route.query, page: String(maxPage.value) } })
+      }
+    }
+
     const startIndex = (page.value - 1) * pageSize.value
     const endIndex = startIndex + pageSize.value
     const startDiscoursePage = Math.floor(startIndex / 30)
@@ -136,24 +153,12 @@ export function useForumTopics() {
         await fetchDiscoursePage(p)
       }
 
-      // Dynamically compute totalCount:
-      const lastKey = getCacheKey(endDiscoursePage)
-      if (hasMoreMap.has(lastKey) && !hasMoreMap.get(lastKey)) {
-        const lastPageTopics = pageCache.get(lastKey)?.length || 0
-        if (lastPageTopics > 0) {
-          totalCount.value = (endDiscoursePage * 30) + lastPageTopics
-        } else {
-          // The requested page is beyond the actual topics list
-          const baseEstimate = selectedCategoryId.value
-            ? getCategoryTotalTopics(selectedCategoryId.value)
-            : (currentTab.value === 'top' ? 1000 : (currentTab.value === 'hot' ? 25000 : 45000))
-          totalCount.value = baseEstimate
+      // Check boundary: if page exceeds maxPage after data arrives, auto-clamp!
+      if (totalCount.value > 0 && page.value > maxPage.value) {
+        page.value = maxPage.value
+        if (router && route) {
+          router.replace({ query: { ...route.query, page: String(maxPage.value) } })
         }
-      } else {
-        const baseEstimate = selectedCategoryId.value
-          ? getCategoryTotalTopics(selectedCategoryId.value)
-          : (currentTab.value === 'top' ? 1000 : (currentTab.value === 'hot' ? 25000 : 45000))
-        totalCount.value = Math.max(baseEstimate, (endDiscoursePage + 1) * 30)
       }
     } catch (err) {
       console.error('Error loading forum topics:', err)
@@ -214,7 +219,15 @@ export function useForumTopics() {
     }
 
     const offset = startIndex - (startDiscoursePage * 30)
-    const sliced = combined.slice(offset, offset + pageSize.value)
+    let sliced = combined.slice(offset, offset + pageSize.value)
+
+    // Fallback: If page requested was out of range and yielded nothing, but cache has page 0, fallback gracefully
+    if (sliced.length === 0 && combined.length === 0 && page.value > 1) {
+      const p0List = pageCache.get(getCacheKey(0)) || []
+      if (p0List.length > 0) {
+        sliced = p0List.slice(0, pageSize.value)
+      }
+    }
 
     if (searchQuery.value.trim() || selectedTag.value) {
       return sliced.filter((topic) => {
@@ -328,7 +341,7 @@ export function useForumTopics() {
     if (currentTab.value !== tab) {
       currentTab.value = tab
       page.value = 1
-      totalCount.value = tab === 'top' ? 1000 : (tab === 'hot' ? 25000 : 45000)
+      totalCount.value = tab === 'top' ? 50 : (tab === 'hot' ? 30 : 180)
 
       if (router && route) {
         const query = { ...route.query }
@@ -380,7 +393,7 @@ export function useForumTopics() {
         if (['latest', 'top', 'hot'].includes(validTab) && validTab !== currentTab.value) {
           currentTab.value = validTab
           page.value = 1
-          totalCount.value = validTab === 'top' ? 1000 : (validTab === 'hot' ? 25000 : 45000)
+          totalCount.value = validTab === 'top' ? 50 : (validTab === 'hot' ? 30 : 180)
           await ensurePageDataLoaded()
         }
       }

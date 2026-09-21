@@ -61,7 +61,7 @@ export async function fetchCategories(): Promise<DiscourseCategory[]> {
   return []
 }
 
-export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
+export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string; total?: number }> {
   // In dev environment, Vite proxy is available
   if (import.meta.env.DEV) {
     try {
@@ -69,7 +69,8 @@ export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTo
       if (res?.topic_list?.topics) {
         return {
           topics: res.topic_list.topics,
-          more_topics_url: res.topic_list.more_topics_url
+          more_topics_url: res.topic_list.more_topics_url,
+          total: res.topic_list.topics.length
         }
       }
     } catch {
@@ -83,24 +84,25 @@ export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTo
 
   const allTopics: DiscourseTopic[] = cachedLatest?.topic_list?.topics || MOCK_TOPICS
 
-  // Page size of 20 for simulated pagination on static snapshots
-  const pageSize = 20
+  // Each Discourse page chunk has 30 topics
+  const pageSize = 30
   const start = page * pageSize
   const pagedTopics = allTopics.slice(start, start + pageSize)
   const hasMore = start + pageSize < allTopics.length
 
   return {
-    topics: pagedTopics.length > 0 ? pagedTopics : (page === 0 ? allTopics : []),
-    more_topics_url: hasMore ? `/latest?page=${page + 1}` : undefined
+    topics: pagedTopics,
+    more_topics_url: hasMore ? `/latest?page=${page + 1}` : undefined,
+    total: allTopics.length
   }
 }
 
-export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: DiscourseTopic[] }> {
+export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: DiscourseTopic[]; total?: number }> {
   if (import.meta.env.DEV) {
     try {
       const res: any = await request.get(`/discourse/top.json?period=${period}`)
       if (res?.topic_list?.topics) {
-        return { topics: res.topic_list.topics }
+        return { topics: res.topic_list.topics, total: res.topic_list.topics.length }
       }
     } catch {
       // Fallback to static synced data
@@ -112,17 +114,18 @@ export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: Disc
   }
 
   if (cachedTop?.topic_list?.topics) {
-    return { topics: cachedTop.topic_list.topics }
+    return { topics: cachedTop.topic_list.topics, total: cachedTop.topic_list.topics.length }
   }
 
-  return { topics: [...MOCK_TOPICS].sort((a, b) => b.like_count - a.like_count) }
+  const sorted = [...MOCK_TOPICS].sort((a, b) => b.like_count - a.like_count)
+  return { topics: sorted, total: sorted.length }
 }
 
 export async function fetchCategoryTopics(
   categoryId: number,
   _slug?: string,
   page = 0
-): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
+): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string; total?: number }> {
   if (import.meta.env.DEV) {
     try {
       const canonicalPath = getCategoryApiPath(categoryId)
@@ -130,7 +133,8 @@ export async function fetchCategoryTopics(
       if (res?.topic_list?.topics) {
         return {
           topics: res.topic_list.topics,
-          more_topics_url: res.topic_list.more_topics_url
+          more_topics_url: res.topic_list.more_topics_url,
+          total: res.topic_list.topics.length
         }
       }
     } catch {
@@ -161,14 +165,15 @@ export async function fetchCategoryTopics(
   }
 
   const filtered = uniqueTopics.filter((t) => t.category_id === categoryId)
-  const pageSize = 20
+  const pageSize = 30
   const start = page * pageSize
   const paged = filtered.slice(start, start + pageSize)
   const hasMore = start + pageSize < filtered.length
 
   return {
-    topics: paged.length > 0 ? paged : (filtered.length > 0 ? filtered : MOCK_TOPICS.filter((t) => t.category_id === categoryId)),
-    more_topics_url: hasMore ? `?page=${page + 1}` : undefined
+    topics: paged,
+    more_topics_url: hasMore ? `?page=${page + 1}` : undefined,
+    total: filtered.length
   }
 }
 

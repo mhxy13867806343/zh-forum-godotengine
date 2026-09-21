@@ -40,15 +40,38 @@ async function syncForumData() {
     )
     console.log('✓ 分类数据同步完成')
 
-    // 2. 同步最新话题
-    console.log('正在拉取 latest.json...')
-    const latestRes = await client.get('/latest.json')
-    fs.writeFileSync(
-      path.join(OUTPUT_DIR, 'latest.json'),
-      JSON.stringify(latestRes.data, null, 2),
-      'utf-8'
-    )
-    console.log('✓ 最新话题同步完成')
+    // 2. 同步最新话题（拉取前 6 页，约 180 条讨论，去重后聚合）
+    console.log('正在拉取 latest.json (多页话题聚合)...')
+    const allLatestTopics = []
+    const seenLatestIds = new Set()
+    let latestBaseData = null
+
+    for (let p = 0; p < 6; p++) {
+      try {
+        const res = await client.get(`/latest.json?page=${p}`)
+        if (!latestBaseData) latestBaseData = res.data
+        const topics = res.data?.topic_list?.topics || []
+        for (const t of topics) {
+          if (!seenLatestIds.has(t.id)) {
+            seenLatestIds.add(t.id)
+            allLatestTopics.push(t)
+          }
+        }
+      } catch (err) {
+        console.warn(`第 ${p} 页拉取跳过:`, err.message)
+        break
+      }
+    }
+
+    if (latestBaseData) {
+      latestBaseData.topic_list.topics = allLatestTopics
+      fs.writeFileSync(
+        path.join(OUTPUT_DIR, 'latest.json'),
+        JSON.stringify(latestBaseData, null, 2),
+        'utf-8'
+      )
+      console.log(`✓ 最新话题同步完成，聚合共 ${allLatestTopics.length} 条话题`)
+    }
 
     // 3. 同步热门话题
     console.log('正在拉取 top.json...')
@@ -63,7 +86,7 @@ async function syncForumData() {
     // 4. 更新同步元信息
     const syncMeta = {
       lastSyncedAt: new Date().toISOString(),
-      topicCount: latestRes.data?.topic_list?.topics?.length || 0,
+      topicCount: allLatestTopics.length,
       categoryCount: catRes.data?.category_list?.categories?.length || 0,
       status: 'success'
     }
