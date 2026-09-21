@@ -75,19 +75,3 @@
   color: #94a3b8;
   font-family: monospace;
 }
-
-.post-actions {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-top: 18px;
-  padding-top: 12px;
-  border-top: 1px solid rgba(148, 163, 184, 0.1);
-}
-
-.reply-box-card {
-  padding: 24px;
-  border-radius: 10px;
-  border: 1px solid var(--godot-border, #3d4450);
-  margin-top: 12px;
-}

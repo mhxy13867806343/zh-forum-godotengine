@@ -10,12 +10,6 @@ const request = axios.create({
 
 request.interceptors.request.use(
   (config) => {
-    if (typeof localStorage !== 'undefined') {
-      const token = localStorage.getItem('godot_zh_token')
-      if (token && config.headers) {
-        config.headers.Authorization = `Bearer ${token}`
-      }
-    }
     return config
   },
   (error) => {

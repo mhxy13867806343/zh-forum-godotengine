@@ -45,35 +45,6 @@
         </template>
       </n-button>
 
-      <!-- User Auth Section -->
-      <div v-if="!isLoggedIn" class="flex items-center gap-1.5">
-        <n-button size="small" secondary type="primary" @click="openAuthModal('login')">
-          登录
-        </n-button>
-        <n-button size="small" quaternary @click="openAuthModal('register')">
-          注册
-        </n-button>
-      </div>
-
-      <n-dropdown
-        v-else
-        :options="userMenuOptions"
-        trigger="hover"
-        @select="handleUserMenuSelect"
-      >
-        <div class="user-avatar-trigger">
-          <n-avatar
-            round
-            size="small"
-            :src="currentUser?.avatar"
-            fallback-src="/godot-logo.svg"
-          />
-          <span class="user-display-name text-xs text-gray-200">
-            {{ currentUser?.nickname || currentUser?.username }}
-          </span>
-        </div>
-      </n-dropdown>
-
       <a
         href="https://forum.godotengine.org/"
         target="_blank"
@@ -84,48 +55,15 @@
         <span>↗</span>
       </a>
     </div>
-
-    <AuthModal
-      v-model:show="isAuthModalOpen"
-      :default-tab="authMode"
-    />
   </header>
 </template>
 
 <script setup lang="ts">
 import { useTheme } from '@/hooks/useTheme'
-import { useUser } from '@/hooks/useUser'
-import AuthModal from './AuthModal.vue'
 
 const router = useRouter()
-const message = useMessage()
 const { isDark, toggleTheme } = useTheme()
-const {
-  currentUser,
-  isLoggedIn,
-  isAuthModalOpen,
-  authMode,
-  openAuthModal,
-  logout
-} = useUser()
-
 const keyword = ref('')
-
-const userMenuOptions = [
-  { label: '👤 个人中心', key: 'profile' },
-  { label: '⚙️ 账号偏好', key: 'settings' },
-  { type: 'divider', key: 'd1' },
-  { label: '🚪 退出登录', key: 'logout' }
-]
-
-const handleUserMenuSelect = (key: string) => {
-  if (key === 'logout') {
-    logout()
-    message.info('已退出当前账号')
-  } else if (key === 'profile') {
-    message.success(`当前登录：${currentUser.value?.nickname} (${currentUser.value?.roleName})`)
-  }
-}
 
 const handleSearch = () => {
   if (keyword.value.trim()) {
@@ -135,4 +73,3 @@ const handleSearch = () => {
 </script>
 
 <style src="@/styles/header.css" scoped></style>
-<style src="@/styles/auth.css" scoped></style>

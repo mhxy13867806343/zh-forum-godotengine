@@ -59,39 +59,7 @@
           v-for="post in replies"
           :key="post.id"
           :post="post"
-          @reply-to="handleReplyTo"
         />
-      </div>
-
-      <!-- Quick Reply Box -->
-      <div class="reply-box-card">
-        <div class="flex items-center justify-between mb-3">
-          <h3 class="text-base font-semibold m-0">发表快速回复 / 讨论</h3>
-          <div v-if="isLoggedIn && currentUser" class="flex items-center gap-2 text-xs text-blue-400">
-            <n-avatar round size="small" :src="currentUser.avatar" fallback-src="/godot-logo.svg" />
-            <span>正在以 <strong>{{ currentUser.nickname }}</strong> 身份发言</span>
-          </div>
-          <div v-else class="text-xs text-gray-400">
-            <span>未登录 · </span>
-            <n-button text type="primary" size="tiny" @click="openAuthModal('login')">
-              点击登录
-            </n-button>
-          </div>
-        </div>
-
-        <n-input
-          v-model:value="replyContent"
-          type="textarea"
-          placeholder="在此输入您对该技术问题的见解或补充（支持 Markdown）..."
-          :rows="4"
-          class="mb-3"
-        />
-        <div class="flex justify-between items-center">
-          <span class="text-xs text-gray-400">保持社区友善，共同打造高质量 Godot 中文技术生态</span>
-          <n-button type="primary" :disabled="!replyContent.trim()" @click="onSendReply">
-            发送回复
-          </n-button>
-        </div>
       </div>
     </div>
 
@@ -104,7 +72,6 @@
 
 <script setup lang="ts">
 import { useTopicDetail } from '@/hooks/useTopicDetail'
-import { useUser } from '@/hooks/useUser'
 import { formatDateTime } from '@/utils/date'
 import { translateTitle, translateTag, getTagName } from '@/utils/translator'
 import CategoryBadge from '@/components/CategoryBadge.vue'
@@ -112,13 +79,9 @@ import PostItem from '@/components/PostItem.vue'
 
 const route = useRoute()
 const router = useRouter()
-const message = useMessage()
-const { currentUser, isLoggedIn, openAuthModal } = useUser()
 
 const topicId = computed(() => Number(route.params.id))
-const { loading, topic, replies, isBilingual, loadTopic, toggleBilingual, submitReply } = useTopicDetail()
-
-const replyContent = ref('')
+const { loading, topic, replies, isBilingual, loadTopic, toggleBilingual } = useTopicDetail()
 
 const translatedTitle = computed(() => {
   return topic.value ? translateTitle(topic.value.title) : ''
@@ -130,20 +93,6 @@ const formatTime = (timeStr: string) => {
 
 const goBack = () => {
   router.back()
-}
-
-const handleReplyTo = (username: string) => {
-  replyContent.value = `@${username} `
-}
-
-const onSendReply = async () => {
-  const author = currentUser.value?.nickname || currentUser.value?.username || 'Godot 探索者'
-  const uname = currentUser.value?.username || 'community_member'
-  const ok = await submitReply(replyContent.value, author, uname)
-  if (ok) {
-    message.success('回复已成功发送到讨论流！')
-    replyContent.value = ''
-  }
 }
 
 watch(

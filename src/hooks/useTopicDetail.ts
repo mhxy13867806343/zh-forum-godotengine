@@ -1,7 +1,6 @@
 import { ref } from 'vue'
 import type { DiscourseTopicDetail, DiscoursePost } from '../api/types'
 import { fetchTopicDetail } from '../api/discourse'
-import { postReplyApi } from '../api/topics'
 
 export function useTopicDetail() {
   const loading = ref(false)
@@ -28,74 +27,12 @@ export function useTopicDetail() {
     isBilingual.value = !isBilingual.value
   }
 
-  const submitReply = async (content: string, authorName = 'Godot 探索者', username = 'community_member'): Promise<boolean> => {
-    if (!content.trim() || !topic.value) return false
-    try {
-      const res = await postReplyApi({
-        topicId: topic.value.id,
-        content,
-        authorName,
-        username
-      })
-      if (res?.data) {
-        replies.value.push(res.data)
-        topic.value.posts_count += 1
-        topic.value.reply_count += 1
-        return true
-      }
-    } catch (err) {
-      console.warn('postReplyApi fallback to local:', err)
-    }
-
-    const newPost: DiscoursePost = {
-      id: Date.now(),
-      name: authorName,
-      username,
-      avatar_template: 'https://avatars.githubusercontent.com/u/1024004?v=4',
-      created_at: new Date().toISOString(),
-      cooked: `<p>${content.replace(/\n/g, '<br/>')}</p>`,
-      post_number: (replies.value.length || 0) + 1,
-      post_type: 1,
-      updated_at: new Date().toISOString(),
-      reply_count: 0,
-      quote_count: 0,
-      incoming_link_count: 0,
-      reads: 1,
-      readers_count: 1,
-      score: 0,
-      yours: true,
-      topic_id: topic.value.id,
-      topic_slug: topic.value.slug,
-      display_username: authorName,
-      version: 1,
-      can_edit: true,
-      can_delete: true,
-      can_recover: false,
-      can_see_hidden_post: false,
-      can_wiki: false,
-      moderator: false,
-      admin: false,
-      staff: false,
-      user_id: 99999,
-      hidden: false,
-      trust_level: 1,
-      user_deleted: false,
-      can_view_edit_history: false,
-      wiki: false
-    }
-    replies.value.push(newPost)
-    topic.value.posts_count += 1
-    topic.value.reply_count += 1
-    return true
-  }
-
   return {
     loading,
     topic,
     replies,
     isBilingual,
     loadTopic,
-    toggleBilingual,
-    submitReply
+    toggleBilingual
   }
 }

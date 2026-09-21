@@ -20,27 +20,6 @@
 
     <!-- Render Discourse cooked HTML -->
     <div class="cooked" v-html="sanitizedCooked"></div>
-
-    <div class="post-actions">
-      <n-button
-        quaternary
-        size="small"
-        :type="liked ? 'error' : 'default'"
-        @click="toggleLike"
-      >
-        <template #icon>
-          <span>{{ liked ? '❤️' : '🤍' }}</span>
-        </template>
-        <span>{{ likeCount }}</span>
-      </n-button>
-
-      <n-button quaternary size="small" @click="handleReply">
-        <template #icon>
-          <span>💬</span>
-        </template>
-        <span>回复</span>
-      </n-button>
-    </div>
   </div>
 </template>
 
@@ -51,32 +30,6 @@ import { formatRelativeTime } from '@/utils/date'
 const props = defineProps<{
   post: DiscoursePost
 }>()
-
-const emit = defineEmits<{
-  (e: 'reply-to', username: string): void
-}>()
-
-import { toggleLikeApi } from '@/api/topics'
-
-const liked = ref(false)
-const likeCount = ref(props.post.score || 0)
-
-const toggleLike = async () => {
-  liked.value = !liked.value
-  likeCount.value += liked.value ? 1 : -1
-  try {
-    await toggleLikeApi({
-      postId: props.post.id,
-      liked: liked.value
-    })
-  } catch {
-    // ignore
-  }
-}
-
-const handleReply = () => {
-  emit('reply-to', props.post.username)
-}
 
 const formattedTime = computed(() => {
   return formatRelativeTime(props.post.created_at)
