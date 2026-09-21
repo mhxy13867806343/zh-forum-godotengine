@@ -10,8 +10,17 @@
           </p>
         </div>
         <div class="hidden sm:block text-right">
-          <n-button type="primary" secondary @click="refreshTopics">
-            🔄 刷新数据
+          <n-button
+            type="primary"
+            secondary
+            :loading="isRefreshing"
+            class="refresh-btn"
+            @click="handleRefreshTopics"
+          >
+            <template #icon>
+              <span class="spin-icon" :class="{ 'is-spinning': isRefreshing }">🔄</span>
+            </template>
+            <span>{{ isRefreshing ? '正在同步最新讨论...' : '刷新数据' }}</span>
           </n-button>
         </div>
       </div>
@@ -78,6 +87,9 @@ import TopicCard from '@/components/TopicCard.vue'
 import AppSidebar from '@/components/AppSidebar.vue'
 
 const route = useRoute()
+const router = useRouter()
+const message = useMessage()
+
 const {
   loading,
   filteredTopics,
@@ -91,9 +103,12 @@ const {
   searchQuery,
   selectedTag,
   loadTopics,
+  refresh,
   setTab,
   setTag
 } = useForumTopics()
+
+const isRefreshing = ref(false)
 
 const handleTabChange = (tabName: string) => {
   setTab(tabName as 'latest' | 'top' | 'hot')
@@ -107,8 +122,6 @@ const clearTag = () => {
   setTag(null)
 }
 
-const router = useRouter()
-
 const resetFilters = async () => {
   await setTag(null)
   searchQuery.value = ''
@@ -116,8 +129,19 @@ const resetFilters = async () => {
   loadTopics()
 }
 
-const refreshTopics = () => {
-  loadTopics()
+const handleRefreshTopics = async () => {
+  if (isRefreshing.value) return
+  isRefreshing.value = true
+  try {
+    await refresh()
+    message.success('已拉取并同步官方论坛最新数据 🔄')
+  } catch {
+    message.error('刷新失败，请检查网络连接')
+  } finally {
+    setTimeout(() => {
+      isRefreshing.value = false
+    }, 450)
+  }
 }
 
 watch(

@@ -127,6 +127,12 @@ export function useForumTopics() {
     await ensurePageDataLoaded()
   }
 
+  const refresh = async () => {
+    pageCache.clear()
+    hasMoreMap.clear()
+    await ensurePageDataLoaded()
+  }
+
   const paginatedTopics = computed(() => {
     // Read cacheVersion so computed property reacts to cache fills
     void cacheVersion.value
@@ -314,6 +320,7 @@ export function useForumTopics() {
     selectedTag,
     selectedCategoryId,
     loadTopics,
+    refresh,
     setTab,
     setCategory,
     setTag

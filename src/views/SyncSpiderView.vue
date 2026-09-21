@@ -11,9 +11,16 @@
         <n-button
           type="primary"
           :loading="stats.isSyncing"
-          @click="triggerSync"
+          :disabled="cooldownSeconds > 0"
+          @click="handleManualSync"
         >
-          {{ stats.isSyncing ? '正在同步中...' : '立即手动触发同步' }}
+          <template v-if="stats.isSyncing">正在同步中...</template>
+          <template v-else-if="cooldownSeconds > 0">
+            ⏳ {{ cooldownSeconds }}s 后可再次同步
+          </template>
+          <template v-else>
+            ⚡ 立即手动触发同步
+          </template>
         </n-button>
       </div>
 
@@ -63,7 +70,7 @@
 <script setup lang="ts">
 import { useSyncSpider } from '@/hooks/useSyncSpider'
 
-const { stats, syncLogs, triggerSync } = useSyncSpider()
+const { stats, syncLogs, cooldownSeconds, handleManualSync } = useSyncSpider()
 
 const alertType = computed(() => {
   if (stats.value.status === 'running') return 'info'

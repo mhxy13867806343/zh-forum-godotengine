@@ -55,3 +55,31 @@
     flex-direction: column;
   }
 }
+
+.refresh-btn {
+  transition: all 0.25s ease;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.refresh-btn:hover {
+  transform: translateY(-1px);
+}
+
+.spin-icon {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.spin-icon.is-spinning {
+  animation: spin-rotate 0.8s linear infinite;
+}
+
+@keyframes spin-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

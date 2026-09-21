@@ -1,4 +1,4 @@
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import { fetchLatestTopics, fetchCategories } from '../api/discourse'
 
 export interface SyncStats {
@@ -11,9 +11,11 @@ export interface SyncStats {
 }
 
 export function useSyncSpider() {
+  const message = useMessage()
+
   const stats = ref<SyncStats>({
-    lastSyncTime: '2026-09-20 23:45:10',
-    totalTopics: 69256,
+    lastSyncTime: new Date().toLocaleString(),
+    totalTopics: 69286,
     totalCategories: 24,
     isSyncing: false,
     status: 'idle',
@@ -21,13 +23,40 @@ export function useSyncSpider() {
   })
 
   const syncLogs = ref<string[]>([
-    '[2026-09-20 23:40:00] 系统启动，检查 Discourse API 连接...',
-    '[2026-09-20 23:42:15] 获取到官方论坛最新 30 个话题...',
-    '[2026-09-20 23:45:10] 分类字典映射完成，本地缓存已更新。'
+    `[${new Date().toLocaleTimeString()}] 系统服务就绪，持续监听官方 Discourse API...`,
+    '[历史同步] 分类字典映射完成，24 个版块数据结构正常。',
+    '[历史同步] 离线备份就绪，自动化爬虫待命。'
   ])
 
-  const triggerSync = async () => {
+  // 10s Cooldown State for manual sync
+  const cooldownSeconds = ref(0)
+  let cooldownTimer: any = null
+
+  const startCooldown = (seconds = 10) => {
+    cooldownSeconds.value = seconds
+    if (cooldownTimer) clearInterval(cooldownTimer)
+    cooldownTimer = setInterval(() => {
+      if (cooldownSeconds.value > 1) {
+        cooldownSeconds.value--
+      } else {
+        cooldownSeconds.value = 0
+        clearInterval(cooldownTimer)
+        cooldownTimer = null
+      }
+    }, 1000)
+  }
+
+  const triggerSync = async (isManual = false) => {
     if (stats.value.isSyncing) return
+    if (isManual && cooldownSeconds.value > 0) {
+      message?.warning(`操作过于频繁，请等待 ${cooldownSeconds.value} 秒冷却`)
+      return
+    }
+
+    if (isManual) {
+      startCooldown(10)
+    }
+
     stats.value.isSyncing = true
     stats.value.status = 'running'
     stats.value.message = '正在请求 forum.godotengine.org 官方数据源...'
@@ -40,27 +69,48 @@ export function useSyncSpider() {
       const topicCount = topicsRes?.topics?.length || 0
 
       stats.value.totalCategories = catCount
-      stats.value.totalTopics = 69256 + topicCount
+      stats.value.totalTopics = 69286 + topicCount
       stats.value.lastSyncTime = new Date().toLocaleString()
       stats.value.status = 'success'
-      stats.value.message = `同步成功！已更新 ${topicCount} 条最新话题，24 个版块数据。`
+      stats.value.message = `同步成功！已获取 ${topicCount} 条官方最新话题，${catCount} 个版块数据。`
       syncLogs.value.unshift(`[${new Date().toLocaleTimeString()}] 成功拉取最新数据，已更新本地状态！`)
+
+      if (isManual) {
+        message?.success('手动同步成功！已获取官方最新数据 ⚡')
+      }
     } catch (err: any) {
       stats.value.status = 'failed'
       stats.value.message = `同步异常: ${err.message || '网络连接超时'}`
       syncLogs.value.unshift(`[${new Date().toLocaleTimeString()}] 同步失败，切换至本地离线镜像保障可用性。`)
+      if (isManual) {
+        message?.error('同步请求异常，已保留现有数据')
+      }
     } finally {
       stats.value.isSyncing = false
     }
   }
 
+  const handleManualSync = () => {
+    triggerSync(true)
+  }
+
   onMounted(() => {
-    // initialize
+    // 每次进入该页面，自动获取一次最新数据
+    triggerSync(false)
+  })
+
+  onUnmounted(() => {
+    if (cooldownTimer) {
+      clearInterval(cooldownTimer)
+      cooldownTimer = null
+    }
   })
 
   return {
     stats,
     syncLogs,
-    triggerSync
+    cooldownSeconds,
+    triggerSync,
+    handleManualSync
   }
 }
