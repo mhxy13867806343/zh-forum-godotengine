@@ -31,18 +31,25 @@ export function useForumTopics() {
   const initialBaseCount = initialTab === 'top' ? 1000 : (initialTab === 'hot' ? 25000 : 45000)
   const totalCount = ref(Math.max(initialBaseCount, (initialPage + 50) * initialPageSize))
 
-  // In-memory cache for Discourse pages (each Discourse page = 30 topics)
-  // key: discoursePage (0-based) -> DiscourseTopic[]
-  const pageCache = new Map<number, DiscourseTopic[]>()
-  const hasMoreMap = new Map<number, boolean>()
+  // In-memory cache keyed by scope + page:
+  // e.g. "tab_latest_p_0", "tab_top_p_0", "cat_9_p_0"
+  const pageCache = new Map<string, DiscourseTopic[]>()
+  const hasMoreMap = new Map<string, boolean>()
 
   // Reactive trigger for cache updates
   const cacheVersion = ref(0)
 
+  const getCacheKey = (p: number) => {
+    const scope = selectedCategoryId.value !== null ? `cat_${selectedCategoryId.value}` : `tab_${currentTab.value}`
+    return `${scope}_p_${p}`
+  }
+
   const fetchDiscoursePage = async (p: number): Promise<DiscourseTopic[]> => {
-    if (pageCache.has(p)) {
-      return pageCache.get(p)!
+    const key = getCacheKey(p)
+    if (pageCache.has(key)) {
+      return pageCache.get(key)!
     }
+
     let pageTopics: DiscourseTopic[] = []
     let hasMore = true
 
@@ -69,33 +76,48 @@ export function useForumTopics() {
       hasMore = false
     }
 
-    pageCache.set(p, pageTopics)
-    hasMoreMap.set(p, hasMore)
+    pageCache.set(key, pageTopics)
+    hasMoreMap.set(key, hasMore)
     cacheVersion.value++
     return pageTopics
   }
 
   const ensurePageDataLoaded = async () => {
+    const startIndex = (page.value - 1) * pageSize.value
+    const endIndex = startIndex + pageSize.value
+    const startDiscoursePage = Math.floor(startIndex / 30)
+    const endDiscoursePage = Math.floor((endIndex - 1) / 30)
+
+    // Check if all needed pages are already in cache
+    let needsFetch = false
+    for (let p = startDiscoursePage; p <= endDiscoursePage; p++) {
+      if (!pageCache.has(getCacheKey(p))) {
+        needsFetch = true
+        break
+      }
+    }
+
+    // If all cached, immediately return with 0 network request
+    if (!needsFetch) {
+      loading.value = false
+      return
+    }
+
     loading.value = true
     try {
-      const startIndex = (page.value - 1) * pageSize.value
-      const endIndex = startIndex + pageSize.value
-      const startDiscoursePage = Math.floor(startIndex / 30)
-      const endDiscoursePage = Math.floor((endIndex - 1) / 30)
-
       for (let p = startDiscoursePage; p <= endDiscoursePage; p++) {
         await fetchDiscoursePage(p)
       }
 
       // Dynamically compute totalCount:
-      if (hasMoreMap.has(endDiscoursePage) && !hasMoreMap.get(endDiscoursePage)) {
-        const lastPageTopics = pageCache.get(endDiscoursePage)?.length || 0
+      const lastKey = getCacheKey(endDiscoursePage)
+      if (hasMoreMap.has(lastKey) && !hasMoreMap.get(lastKey)) {
+        const lastPageTopics = pageCache.get(lastKey)?.length || 0
         totalCount.value = Math.max((endDiscoursePage * 30) + lastPageTopics, 30)
       } else {
         const baseEstimate = selectedCategoryId.value
           ? getCategoryTotalTopics(selectedCategoryId.value)
           : (currentTab.value === 'top' ? 1000 : (currentTab.value === 'hot' ? 25000 : 45000))
-        // Keep total count ahead of current page by at least 50 pages so Goto never gets clamped
         totalCount.value = Math.max(baseEstimate, (page.value + 50) * pageSize.value)
       }
     } catch (err) {
@@ -111,8 +133,6 @@ export function useForumTopics() {
       selectedCategorySlug.value !== categorySlug
 
     if (isCatChanged) {
-      pageCache.clear()
-      hasMoreMap.clear()
       selectedCategoryId.value = categoryId ?? null
       selectedCategorySlug.value = categorySlug
       totalCount.value = getCategoryTotalTopics(categoryId ?? null)
@@ -128,8 +148,14 @@ export function useForumTopics() {
   }
 
   const refresh = async () => {
-    pageCache.clear()
-    hasMoreMap.clear()
+    // Clear cache only for current scope to force fresh fetch
+    const scopePrefix = selectedCategoryId.value !== null ? `cat_${selectedCategoryId.value}` : `tab_${currentTab.value}`
+    for (const key of Array.from(pageCache.keys())) {
+      if (key.startsWith(scopePrefix)) {
+        pageCache.delete(key)
+        hasMoreMap.delete(key)
+      }
+    }
     await ensurePageDataLoaded()
   }
 
@@ -144,7 +170,7 @@ export function useForumTopics() {
 
     let combined: DiscourseTopic[] = []
     for (let p = startDiscoursePage; p <= endDiscoursePage; p++) {
-      const list = pageCache.get(p)
+      const list = pageCache.get(getCacheKey(p))
       if (list) combined.push(...list)
     }
 
@@ -211,8 +237,6 @@ export function useForumTopics() {
   const setTab = async (tab: 'latest' | 'top' | 'hot') => {
     if (currentTab.value !== tab) {
       currentTab.value = tab
-      pageCache.clear()
-      hasMoreMap.clear()
       page.value = 1
       totalCount.value = tab === 'top' ? 1000 : (tab === 'hot' ? 25000 : 45000)
 
@@ -227,6 +251,7 @@ export function useForumTopics() {
         await router.push({ query })
       }
 
+      // If tab data is already cached, renders instantly without network request!
       await ensurePageDataLoaded()
     }
   }
@@ -264,8 +289,6 @@ export function useForumTopics() {
         const validTab = (newTab as 'latest' | 'top' | 'hot') || 'latest'
         if (['latest', 'top', 'hot'].includes(validTab) && validTab !== currentTab.value) {
           currentTab.value = validTab
-          pageCache.clear()
-          hasMoreMap.clear()
           page.value = 1
           totalCount.value = validTab === 'top' ? 1000 : (validTab === 'hot' ? 25000 : 45000)
           await ensurePageDataLoaded()

@@ -21,9 +21,9 @@
             <template #icon>
               <span class="spin-icon" :class="{ 'is-spinning': isRefreshing }">🔄</span>
             </template>
-            <span v-if="isRefreshing">正在同步最新讨论...</span>
+            <span v-if="isRefreshing">正在同步{{ currentTabLabel }}...</span>
             <span v-else-if="refreshCooldown > 0">⏳ {{ refreshCooldown }}s 后可刷新</span>
-            <span v-else>刷新数据</span>
+            <span v-else>刷新{{ currentTabLabel }}</span>
           </n-button>
         </div>
       </div>
@@ -111,6 +111,14 @@ const {
   setTag
 } = useForumTopics()
 
+const tabNameMap: Record<string, string> = {
+  latest: '最新讨论',
+  top: '热门榜单',
+  hot: '精选问答'
+}
+
+const currentTabLabel = computed(() => tabNameMap[currentTab.value] || '话题数据')
+
 const isRefreshing = ref(false)
 const refreshCooldown = ref(0)
 let cooldownTimer: any = null
@@ -154,7 +162,7 @@ const handleRefreshTopics = async () => {
   startRefreshCooldown(10)
   try {
     await refresh()
-    message.success('已拉取并同步官方论坛最新数据 🔄')
+    message.success(`已拉取并同步官方【${currentTabLabel.value}】最新数据 🔄`)
   } catch {
     message.error('刷新失败，请检查网络连接')
   } finally {
