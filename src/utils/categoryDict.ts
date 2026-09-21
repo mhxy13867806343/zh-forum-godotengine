@@ -306,3 +306,34 @@ export function getCategoryApiPath(categoryId: number): string {
   return `/c/${cat.slug}/${cat.id}.json`
 }
 
+export const CATEGORY_TOPIC_COUNTS: Record<number, number> = {
+  23: 170, // 官方公告
+  6: 19200, // 求助问答总区
+  7: 4200, // 编程开发
+  9: 1100, // 物理系统
+  8: 1200, // 界面 UI
+  10: 950, // 着色器与特效
+  11: 750, // 动画系统
+  12: 480, // 音频系统
+  20: 3200, // 2D 游戏开发
+  21: 2800, // 3D 渲染与场景
+  25: 350, // XR/VR
+  4: 1134, // 综合交流 (General)
+  13: 420, // 网络与联机
+  22: 450, // 插件与扩展
+  14: 650, // 作品展厅 (Showcase)
+  15: 300, // 已发布游戏
+  24: 450, // 在研项目 (DevLog)
+  16: 220, // 辅助工具
+  2: 164, // 论坛反馈
+  19: 500, // 社区资源
+  17: 350, // 教程资产
+  18: 200, // 实用插件
+  26: 150 // 代码样例
+}
+
+export function getCategoryTotalTopics(id?: number | null): number {
+  if (!id) return 2000
+  return CATEGORY_TOPIC_COUNTS[id] || 600
+}
+

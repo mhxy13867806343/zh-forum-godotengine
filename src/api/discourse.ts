@@ -56,12 +56,15 @@ export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: Disc
   return { topics: [...MOCK_TOPICS].sort((a, b) => b.like_count - a.like_count) }
 }
 
-export async function fetchCategoryTopics(categoryId: number, _slug?: string, page = 0): Promise<{ topics: DiscourseTopic[] }> {
+export async function fetchCategoryTopics(categoryId: number, _slug?: string, page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
   try {
     const canonicalPath = getCategoryApiPath(categoryId)
     const res: any = await request.get(`/discourse${canonicalPath}?page=${page}`)
     if (res?.topic_list?.topics) {
-      return { topics: res.topic_list.topics }
+      return {
+        topics: res.topic_list.topics,
+        more_topics_url: res.topic_list.more_topics_url
+      }
     }
   } catch (err) {
     console.info(`[CategoryTopics] Filtered from local cache for category ${categoryId}`)

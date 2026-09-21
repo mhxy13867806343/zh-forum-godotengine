@@ -51,7 +51,7 @@
             v-model:page="page"
             v-model:page-size="pageSize"
             :item-count="totalCount"
-            :page-sizes="[10, 15, 20]"
+            :page-sizes="[10, 20, 30]"
             show-size-picker
             show-quick-jumper
             @update:page="handlePageChange"
