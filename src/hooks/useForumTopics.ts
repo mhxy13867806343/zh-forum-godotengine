@@ -4,10 +4,12 @@ import type { DiscourseTopic } from '../api/types'
 import { fetchLatestTopics, fetchTopTopics, fetchCategoryTopics } from '../api/discourse'
 import { getCategoryTotalTopics } from '../utils/categoryDict'
 import { getTagName } from '../utils/translator'
+import { useMobile } from './useMobile'
 
 export function useForumTopics() {
   const route = useRoute()
   const router = useRouter()
+  const { isMobile } = useMobile()
 
   const loading = ref(false)
 
@@ -22,8 +24,17 @@ export function useForumTopics() {
   const selectedCategorySlug = ref<string | undefined>(undefined)
 
   // Initialize page and pageSize from URL query string if present
-  const initialPage = route?.query?.page ? Math.max(1, Number(route.query.page) || 1) : 1
+  // On Mobile: NEVER use ?page=... from URL, always start at page 1!
+  const rawPage = route?.query?.page ? Math.max(1, Number(route.query.page) || 1) : 1
+  const initialPage = isMobile.value ? 1 : rawPage
   const initialPageSize = route?.query?.pageSize ? Number(route.query.pageSize) || 20 : 20
+
+  // If currently on mobile and URL has ?page=..., clean it up immediately!
+  if (isMobile.value && route?.query?.page && router) {
+    const query = { ...route.query }
+    delete query.page
+    router.replace({ query })
+  }
 
   // Real Pagination State
   const page = ref(initialPage)
@@ -31,6 +42,21 @@ export function useForumTopics() {
   const initialBaseCount = initialTab === 'top' ? 1000 : (initialTab === 'hot' ? 25000 : 45000)
   const totalCount = ref(initialBaseCount)
   const maxPage = computed(() => Math.max(1, Math.ceil(totalCount.value / pageSize.value)))
+
+  // When switching between Mobile and PC, reset everything to page 1!
+  watch(isMobile, (newIsMobile, oldIsMobile) => {
+    if (newIsMobile !== oldIsMobile) {
+      page.value = 1
+      if (router && route) {
+        const query = { ...route.query }
+        if (query.page) {
+          delete query.page
+          router.replace({ query })
+        }
+      }
+      ensurePageDataLoaded()
+    }
+  })
 
   // In-memory cache keyed by scope + page:
   // e.g. "tab_latest_p_0", "tab_top_p_0", "cat_9_p_0"
@@ -147,10 +173,14 @@ export function useForumTopics() {
       totalCount.value = getCategoryTotalTopics(categoryId ?? null)
     }
 
-    if (pageNumber && pageNumber > 0) {
+    if (isMobile.value) {
+      page.value = 1
+    } else if (pageNumber && pageNumber > 0) {
       page.value = pageNumber
     } else if (route?.query?.page) {
       page.value = Math.max(1, Number(route.query.page) || 1)
+    } else {
+      page.value = 1
     }
 
     await ensurePageDataLoaded()
@@ -266,8 +296,8 @@ export function useForumTopics() {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }
 
-    // Sync page to browser address bar query
-    if (updateUrl && router && route) {
+    // Sync page to browser address bar query ONLY ON PC/Desktop!
+    if (!isMobile.value && updateUrl && router && route) {
       const query = { ...route.query }
       if (newPage > 1) {
         query.page = String(newPage)
