@@ -41,7 +41,7 @@
         @click="toggleTheme"
       >
         <template #icon>
-          <span>{{ isDark ? '🌙' : '☀️' }}</span>
+          <span>{{ isDark ? '☀️' : '🌙' }}</span>
         </template>
       </n-button>
 

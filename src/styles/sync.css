@@ -7,9 +7,12 @@
 }
 
 .sync-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text-main);
   padding: 24px;
   border-radius: 10px;
-  border: 1px solid var(--godot-border, #3d4450);
+  transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .sync-stats-grid {
@@ -37,7 +40,7 @@
 
 .stat-label {
   font-size: 13px;
-  color: #94a3b8;
+  color: var(--text-muted);
 }
 
 .log-box {

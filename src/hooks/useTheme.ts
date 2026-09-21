@@ -1,21 +1,42 @@
 import { ref, computed } from 'vue'
-import { darkTheme, lightTheme, type GlobalThemeOverrides } from 'naive-ui'
+import { darkTheme, type GlobalThemeOverrides } from 'naive-ui'
+
+const THEME_KEY = 'godot_zh_theme'
 
 const isDark = ref(true)
+
+if (typeof localStorage !== 'undefined') {
+  const saved = localStorage.getItem(THEME_KEY)
+  if (saved !== null) {
+    isDark.value = saved === 'dark'
+  }
+}
+
+function syncHtmlClass() {
+  if (typeof document !== 'undefined') {
+    if (isDark.value) {
+      document.documentElement.classList.add('dark')
+      document.documentElement.setAttribute('data-theme', 'dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+      document.documentElement.setAttribute('data-theme', 'light')
+    }
+  }
+}
+
+// Ensure initial html class is set immediately
+syncHtmlClass()
 
 export function useTheme() {
   const toggleTheme = () => {
     isDark.value = !isDark.value
-    if (typeof document !== 'undefined') {
-      if (isDark.value) {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(THEME_KEY, isDark.value ? 'dark' : 'light')
     }
+    syncHtmlClass()
   }
 
-  const currentTheme = computed(() => (isDark.value ? darkTheme : lightTheme))
+  const currentTheme = computed(() => (isDark.value ? darkTheme : null))
 
   const themeOverrides = computed<GlobalThemeOverrides>(() => {
     const common = {
@@ -30,12 +51,12 @@ export function useTheme() {
       return {
         common: {
           ...common,
-          bodyColor: '#1c2026',
+          bodyColor: '#181b20',
           cardColor: '#242932',
           modalColor: '#282e38',
           headerColor: '#20252C',
           borderColor: '#353c48',
-          textColorBase: '#f1f1f1',
+          textColorBase: '#f1f5f9',
           textColor1: '#e2e8f0',
           textColor2: '#94a3b8'
         },
@@ -44,7 +65,7 @@ export function useTheme() {
           borderColor: '#353c48'
         },
         Layout: {
-          color: '#1c2026',
+          color: '#181b20',
           headerColor: '#20252C',
           siderColor: '#20252C',
           footerColor: '#20252C'

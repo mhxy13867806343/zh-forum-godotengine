@@ -5,10 +5,11 @@
 }
 
 .showcase-banner {
-  background: linear-gradient(135deg, rgba(71, 140, 191, 0.2) 0%, rgba(32, 37, 44, 0.9) 100%);
-  border: 1px solid var(--godot-border, #3d4450);
+  background: var(--hero-bg);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
   padding: 24px 30px;
+  transition: background 0.25s ease, border-color 0.25s ease;
 }
 
 .showcase-grid {
@@ -18,8 +19,10 @@
 }
 
 .showcase-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text-main);
   border-radius: 10px;
-  border: 1px solid var(--godot-border, #3d4450);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -30,12 +33,12 @@
 .showcase-card:hover {
   transform: translateY(-4px);
   border-color: #478cbf;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
 }
 
 .showcase-cover {
   height: 180px;
-  background: #181b20;
+  background: #14171c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,11 +64,12 @@
   font-weight: 600;
   margin: 0;
   line-height: 1.4;
+  color: var(--text-main);
 }
 
 .showcase-desc {
   font-size: 13.5px;
-  color: #94a3b8;
+  color: var(--text-muted);
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 3;

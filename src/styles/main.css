@@ -1,14 +1,31 @@
 :root {
   --godot-blue: #478cbf;
-  --godot-dark: #20252c;
-  --godot-surface: #2c313a;
-  --godot-border: #3d4450;
-  --godot-text: #f1f1f1;
+  --bg-color: #f8fafc;
+  --header-bg: #ffffff;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --hero-bg: linear-gradient(135deg, rgba(71, 140, 191, 0.12) 0%, rgba(241, 245, 249, 0.95) 100%);
+}
+
+html.dark {
+  --godot-blue: #478cbf;
+  --bg-color: #181b20;
+  --header-bg: #20252c;
+  --card-bg: #242932;
+  --card-border: #353c48;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --hero-bg: linear-gradient(135deg, rgba(71, 140, 191, 0.25) 0%, rgba(32, 37, 44, 0.95) 100%);
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  transition: background-color 0.25s ease, color 0.25s ease;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,6 +55,22 @@ body {
   line-height: 1.75;
   font-size: 15px;
   word-break: break-word;
+  color: var(--text-main);
+}
+
+.cooked a {
+  color: var(--godot-blue);
+  text-decoration: underline;
+}
+
+.cooked blockquote,
+.cooked aside.quote {
+  border-left: 3px solid var(--godot-blue);
+  background: rgba(71, 140, 191, 0.08);
+  padding: 8px 14px;
+  margin: 12px 0;
+  border-radius: 4px;
+  color: var(--text-muted);
 }
 
 .cooked p {

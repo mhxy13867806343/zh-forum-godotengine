@@ -25,44 +25,60 @@
       <n-spin size="large" description="载入作品展厅中..." />
     </div>
 
-    <div v-else class="showcase-grid">
-      <div
-        v-for="item in filteredTopics"
-        :key="item.id"
-        class="showcase-card"
-        @click="goToTopic(item.id)"
-      >
-        <div class="showcase-cover">
-          <img
-            v-if="item.image_url"
-            :src="item.image_url"
-            alt="Cover"
-          />
-          <div v-else class="flex flex-col items-center justify-center text-gray-500 gap-2">
-            <span class="text-4xl">🕹️</span>
-            <span class="text-xs">Godot 引擎开发项目</span>
+    <div v-else class="flex flex-col gap-6">
+      <div class="showcase-grid">
+        <div
+          v-for="item in paginatedTopics"
+          :key="item.id"
+          class="showcase-card"
+          @click="goToTopic(item.id)"
+        >
+          <div class="showcase-cover">
+            <img
+              v-if="item.image_url"
+              :src="item.image_url"
+              alt="Cover"
+            />
+            <div v-else class="flex flex-col items-center justify-center text-gray-500 gap-2">
+              <span class="text-4xl">🕹️</span>
+              <span class="text-xs">Godot 引擎开发项目</span>
+            </div>
+          </div>
+
+          <div class="showcase-body">
+            <div class="flex items-center justify-between">
+              <CategoryBadge :category-id="item.category_id" />
+              <span class="text-xs text-gray-400">❤️ {{ item.like_count }}</span>
+            </div>
+
+            <h3 class="showcase-title">
+              {{ translateTitle(item.title) }}
+            </h3>
+
+            <p class="showcase-desc">
+              {{ item.excerpt || '点击查看该游戏的开发心得与试玩链接。' }}
+            </p>
+
+            <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-700/30 text-xs text-gray-400">
+              <span>💬 {{ item.posts_count }} 讨论</span>
+              <span>{{ formatRelativeTime(item.bumped_at || item.created_at) }}</span>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="showcase-body">
-          <div class="flex items-center justify-between">
-            <CategoryBadge :category-id="item.category_id" />
-            <span class="text-xs text-gray-400">❤️ {{ item.like_count }}</span>
-          </div>
-
-          <h3 class="showcase-title">
-            {{ translateTitle(item.title) }}
-          </h3>
-
-          <p class="showcase-desc">
-            {{ item.excerpt || '点击查看该游戏的开发心得与试玩链接。' }}
-          </p>
-
-          <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-700/30 text-xs text-gray-400">
-            <span>💬 {{ item.posts_count }} 讨论</span>
-            <span>{{ formatRelativeTime(item.bumped_at || item.created_at) }}</span>
-          </div>
-        </div>
+      <!-- Pagination -->
+      <div v-if="filteredTopics.length > 0" class="flex justify-center items-center my-4 py-2">
+        <n-pagination
+          v-model:page="page"
+          v-model:page-size="pageSize"
+          :item-count="totalCount"
+          :page-sizes="[9, 12, 18]"
+          show-size-picker
+          show-quick-jumper
+          @update:page="handlePageChange"
+          @update:page-size="handlePageSizeChange"
+        />
       </div>
     </div>
   </div>
@@ -75,7 +91,19 @@ import { translateTitle } from '@/utils/translator'
 import CategoryBadge from '@/components/CategoryBadge.vue'
 
 const router = useRouter()
-const { loading, filteredTopics, loadTopics } = useForumTopics()
+const {
+  loading,
+  filteredTopics,
+  paginatedTopics,
+  page,
+  pageSize,
+  totalCount,
+  handlePageChange,
+  handlePageSizeChange,
+  loadTopics
+} = useForumTopics()
+
+pageSize.value = 9
 
 const activeFilter = ref<number>(14)
 const filterTabs = [
@@ -87,6 +115,7 @@ const filterTabs = [
 
 const switchFilter = (id: number, slug: string) => {
   activeFilter.value = id
+  page.value = 1
   loadTopics(id, slug)
 }
 

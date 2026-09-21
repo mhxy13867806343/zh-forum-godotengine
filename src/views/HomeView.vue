@@ -40,10 +40,24 @@
       <!-- Topics List -->
       <div v-else-if="filteredTopics.length > 0">
         <TopicCard
-          v-for="topic in filteredTopics"
+          v-for="topic in paginatedTopics"
           :key="topic.id"
           :topic="topic"
         />
+
+        <!-- Pagination -->
+        <div class="flex justify-center items-center my-6 py-2">
+          <n-pagination
+            v-model:page="page"
+            v-model:page-size="pageSize"
+            :item-count="totalCount"
+            :page-sizes="[10, 15, 20]"
+            show-size-picker
+            show-quick-jumper
+            @update:page="handlePageChange"
+            @update:page-size="handlePageSizeChange"
+          />
+        </div>
       </div>
 
       <!-- Empty State -->
@@ -67,6 +81,12 @@ const route = useRoute()
 const {
   loading,
   filteredTopics,
+  paginatedTopics,
+  page,
+  pageSize,
+  totalCount,
+  handlePageChange,
+  handlePageSizeChange,
   currentTab,
   searchQuery,
   selectedTag,

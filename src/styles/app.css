@@ -2,6 +2,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .main-content-layout {
@@ -15,14 +18,15 @@
 .app-footer {
   text-align: center;
   padding: 24px 0;
-  border-top: 1px solid var(--godot-border, #3d4450);
+  border-top: 1px solid var(--card-border);
   margin-top: auto;
   font-size: 13px;
-  color: #94a3b8;
+  color: var(--text-muted);
+  transition: border-color 0.25s ease;
 }
 
 .app-footer a {
-  color: var(--godot-blue, #478cbf);
+  color: #478cbf;
   text-decoration: none;
 }
 

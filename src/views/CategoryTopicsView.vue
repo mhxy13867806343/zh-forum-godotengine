@@ -29,10 +29,24 @@
       <!-- Topics List -->
       <div v-else-if="filteredTopics.length > 0">
         <TopicCard
-          v-for="topic in filteredTopics"
+          v-for="topic in paginatedTopics"
           :key="topic.id"
           :topic="topic"
         />
+
+        <!-- Pagination -->
+        <div class="flex justify-center items-center my-6 py-2">
+          <n-pagination
+            v-model:page="page"
+            v-model:page-size="pageSize"
+            :item-count="totalCount"
+            :page-sizes="[10, 15, 20]"
+            show-size-picker
+            show-quick-jumper
+            @update:page="handlePageChange"
+            @update:page-size="handlePageSizeChange"
+          />
+        </div>
       </div>
 
       <div v-else class="empty-state">
@@ -58,7 +72,17 @@ const categoryId = computed(() => Number(route.params.id))
 const categorySlug = computed(() => route.params.slug as string)
 const catInfo = computed(() => getCategoryInfo(categoryId.value))
 
-const { loading, filteredTopics, loadTopics } = useForumTopics()
+const {
+  loading,
+  filteredTopics,
+  paginatedTopics,
+  page,
+  pageSize,
+  totalCount,
+  handlePageChange,
+  handlePageSizeChange,
+  loadTopics
+} = useForumTopics()
 
 watch(
   () => route.params.id,
