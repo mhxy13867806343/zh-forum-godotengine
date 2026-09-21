@@ -1,7 +1,6 @@
 import request from './request'
 import type { DiscourseTopic, DiscourseTopicDetail, DiscourseCategory } from './types'
-import { MOCK_TOPICS, MOCK_TOPIC_DETAILS } from './mockData'
-import { getCategoryApiPath } from '../utils/categoryDict'
+import { getCategoryApiPath, getCategoryTotalTopics } from '../utils/categoryDict'
 
 /**
  * Safely compute static asset URL regardless of root domain or GitHub Pages subpath.
@@ -20,10 +19,6 @@ export function getStaticDataUrl(filename: string): string {
   return `/${cleanPath}`
 }
 
-let cachedLatest: any = null
-let cachedTop: any = null
-let cachedCategories: any = null
-
 async function loadStaticJson(filename: string): Promise<any> {
   try {
     const url = getStaticDataUrl(filename)
@@ -31,94 +26,71 @@ async function loadStaticJson(filename: string): Promise<any> {
     if (res.ok) {
       return await res.json()
     }
-  } catch (e) {
-    console.warn(`[StaticData] Failed to load ${filename}:`, e)
+  } catch (e: any) {
+    console.warn(`[StaticData] Failed to load ${filename}:`, e.message)
   }
   return null
 }
 
 export async function fetchCategories(): Promise<DiscourseCategory[]> {
-  // In dev environment, Vite proxy is available
-  if (import.meta.env.DEV) {
-    try {
-      const res: any = await request.get('/discourse/categories.json')
-      if (res?.category_list?.categories) {
-        return res.category_list.categories
-      }
-    } catch {
-      // Fallback to static data
+  try {
+    const res: any = await request.get('/discourse/categories.json')
+    if (res?.category_list?.categories) {
+      return res.category_list.categories
+    }
+  } catch {
+    // In static production hosting, fallback to synced live snapshot
+    const data = await loadStaticJson('data/categories.json')
+    if (data?.category_list?.categories) {
+      return data.category_list.categories
     }
   }
-
-  if (!cachedCategories) {
-    cachedCategories = await loadStaticJson('data/categories.json')
-  }
-
-  if (cachedCategories?.category_list?.categories) {
-    return cachedCategories.category_list.categories
-  }
-
   return []
 }
 
 export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string; total?: number }> {
-  // In dev environment, Vite proxy is available
-  if (import.meta.env.DEV) {
-    try {
-      const res: any = await request.get(`/discourse/latest.json?page=${page}`)
-      if (res?.topic_list?.topics) {
-        return {
-          topics: res.topic_list.topics,
-          more_topics_url: res.topic_list.more_topics_url,
-          total: res.topic_list.topics.length
-        }
+  try {
+    const res: any = await request.get(`/discourse/latest.json?page=${page}`)
+    if (res?.topic_list?.topics) {
+      return {
+        topics: res.topic_list.topics,
+        more_topics_url: res.topic_list.more_topics_url,
+        total: 45000
       }
-    } catch {
-      // Fallback to static synced data
+    }
+  } catch {
+    // In static production hosting, fallback to synced live snapshot
+    const data = await loadStaticJson(`data/latest.json?page=${page}`)
+    if (data?.topic_list?.topics) {
+      const all: DiscourseTopic[] = data.topic_list.topics
+      const pageSize = 30
+      const start = page * pageSize
+      const slice = all.slice(start, start + pageSize)
+      return {
+        topics: slice.length > 0 ? slice : all.slice(0, pageSize),
+        more_topics_url: `/latest?page=${page + 1}`,
+        total: Math.max(all.length, 45000)
+      }
     }
   }
 
-  if (!cachedLatest) {
-    cachedLatest = await loadStaticJson('data/latest.json')
-  }
-
-  const allTopics: DiscourseTopic[] = cachedLatest?.topic_list?.topics || MOCK_TOPICS
-
-  // Each Discourse page chunk has 30 topics
-  const pageSize = 30
-  const start = page * pageSize
-  const pagedTopics = allTopics.slice(start, start + pageSize)
-  const hasMore = start + pageSize < allTopics.length
-
-  return {
-    topics: pagedTopics,
-    more_topics_url: hasMore ? `/latest?page=${page + 1}` : undefined,
-    total: allTopics.length
-  }
+  return { topics: [], total: 0 }
 }
 
 export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: DiscourseTopic[]; total?: number }> {
-  if (import.meta.env.DEV) {
-    try {
-      const res: any = await request.get(`/discourse/top.json?period=${period}`)
-      if (res?.topic_list?.topics) {
-        return { topics: res.topic_list.topics, total: res.topic_list.topics.length }
-      }
-    } catch {
-      // Fallback to static synced data
+  try {
+    const res: any = await request.get(`/discourse/top.json?period=${period}`)
+    if (res?.topic_list?.topics) {
+      return { topics: res.topic_list.topics, total: 1000 }
+    }
+  } catch {
+    const data = await loadStaticJson(`data/top.json?period=${period}`)
+    if (data?.topic_list?.topics) {
+      return { topics: data.topic_list.topics, total: 1000 }
     }
   }
 
-  if (!cachedTop) {
-    cachedTop = await loadStaticJson('data/top.json')
-  }
-
-  if (cachedTop?.topic_list?.topics) {
-    return { topics: cachedTop.topic_list.topics, total: cachedTop.topic_list.topics.length }
-  }
-
-  const sorted = [...MOCK_TOPICS].sort((a, b) => b.like_count - a.like_count)
-  return { topics: sorted, total: sorted.length }
+  return { topics: [], total: 0 }
 }
 
 export async function fetchCategoryTopics(
@@ -126,148 +98,47 @@ export async function fetchCategoryTopics(
   _slug?: string,
   page = 0
 ): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string; total?: number }> {
-  if (import.meta.env.DEV) {
-    try {
-      const canonicalPath = getCategoryApiPath(categoryId)
-      const res: any = await request.get(`/discourse${canonicalPath}?page=${page}`)
-      if (res?.topic_list?.topics) {
-        return {
-          topics: res.topic_list.topics,
-          more_topics_url: res.topic_list.more_topics_url,
-          total: res.topic_list.topics.length
-        }
+  const canonicalPath = getCategoryApiPath(categoryId)
+  const totalExpected = getCategoryTotalTopics(categoryId) || 1200
+
+  try {
+    const res: any = await request.get(`/discourse${canonicalPath}?page=${page}`)
+    if (res?.topic_list?.topics) {
+      return {
+        topics: res.topic_list.topics,
+        more_topics_url: res.topic_list.more_topics_url,
+        total: totalExpected
       }
-    } catch {
-      // Fallback
+    }
+  } catch {
+    // In static production hosting, filter from synced live snapshot
+    const data = await loadStaticJson(`data/latest.json?cat=${categoryId}&page=${page}`)
+    if (data?.topic_list?.topics) {
+      const all: DiscourseTopic[] = data.topic_list.topics
+      const filtered = all.filter((t) => t.category_id === categoryId)
+      const pageSize = 30
+      const start = page * pageSize
+      const slice = filtered.slice(start, start + pageSize)
+      return {
+        topics: slice.length > 0 ? slice : filtered,
+        more_topics_url: `?page=${page + 1}`,
+        total: totalExpected
+      }
     }
   }
 
-  if (!cachedLatest) {
-    cachedLatest = await loadStaticJson('data/latest.json')
-  }
-  if (!cachedTop) {
-    cachedTop = await loadStaticJson('data/top.json')
-  }
-
-  const pool: DiscourseTopic[] = [
-    ...(cachedLatest?.topic_list?.topics || []),
-    ...(cachedTop?.topic_list?.topics || []),
-    ...MOCK_TOPICS
-  ]
-
-  const seen = new Set<number>()
-  const uniqueTopics: DiscourseTopic[] = []
-  for (const t of pool) {
-    if (!seen.has(t.id)) {
-      seen.add(t.id)
-      uniqueTopics.push(t)
-    }
-  }
-
-  const filtered = uniqueTopics.filter((t) => t.category_id === categoryId)
-  const pageSize = 30
-  const start = page * pageSize
-  const paged = filtered.slice(start, start + pageSize)
-  const hasMore = start + pageSize < filtered.length
-
-  return {
-    topics: paged,
-    more_topics_url: hasMore ? `?page=${page + 1}` : undefined,
-    total: filtered.length
-  }
+  return { topics: [], total: totalExpected }
 }
 
 export async function fetchTopicDetail(topicId: number): Promise<DiscourseTopicDetail | null> {
-  if (import.meta.env.DEV) {
-    try {
-      const res: any = await request.get(`/discourse/t/${topicId}.json`)
-      if (res?.id) {
-        return res
-      }
-    } catch {
-      // Fallback
+  try {
+    const res: any = await request.get(`/discourse/t/${topicId}.json`)
+    if (res?.id) {
+      return res
     }
+  } catch (err: any) {
+    console.warn(`[TopicDetail] Failed to fetch live topic ${topicId}:`, err.message)
   }
 
-  if (MOCK_TOPIC_DETAILS[topicId]) {
-    return MOCK_TOPIC_DETAILS[topicId]
-  }
-
-  if (!cachedLatest) {
-    cachedLatest = await loadStaticJson('data/latest.json')
-  }
-  if (!cachedTop) {
-    cachedTop = await loadStaticJson('data/top.json')
-  }
-
-  const pool: DiscourseTopic[] = [
-    ...(cachedLatest?.topic_list?.topics || []),
-    ...(cachedTop?.topic_list?.topics || []),
-    ...MOCK_TOPICS
-  ]
-  const summary = pool.find((t) => t.id === topicId)
-  if (summary) {
-    return {
-      id: summary.id,
-      title: summary.title,
-      posts_count: summary.posts_count,
-      created_at: summary.created_at,
-      views: summary.views,
-      reply_count: summary.reply_count,
-      like_count: summary.like_count,
-      last_posted_at: summary.last_posted_at,
-      visible: true,
-      closed: false,
-      archived: false,
-      has_summary: true,
-      archetype: 'regular',
-      slug: summary.slug,
-      category_id: summary.category_id,
-      word_count: 240,
-      user_id: 10001,
-      tags: summary.tags,
-      post_stream: {
-        stream: [1],
-        posts: [
-          {
-            id: summary.id * 10,
-            name: 'Godot Developer',
-            username: 'godot_dev',
-            avatar_template: 'https://avatars.githubusercontent.com/u/1024003?v=4',
-            created_at: summary.created_at,
-            cooked: `<p>${summary.excerpt || summary.title}</p><p>欢迎针对此主题在下方留言交流解决方案或提出疑问。</p>`,
-            post_number: 1,
-            post_type: 1,
-            updated_at: summary.created_at,
-            reply_count: summary.reply_count,
-            quote_count: 0,
-            incoming_link_count: 0,
-            reads: summary.views,
-            readers_count: summary.views,
-            score: summary.like_count,
-            yours: false,
-            topic_id: summary.id,
-            topic_slug: summary.slug,
-            display_username: 'Godot Developer',
-            version: 1,
-            can_edit: false,
-            can_delete: false,
-            can_recover: false,
-            can_see_hidden_post: false,
-            can_wiki: false,
-            moderator: false,
-            admin: false,
-            staff: false,
-            user_id: 10001,
-            hidden: false,
-            trust_level: 2,
-            user_deleted: false,
-            can_view_edit_history: false,
-            wiki: false
-          }
-        ]
-      }
-    }
-  }
   return null
 }

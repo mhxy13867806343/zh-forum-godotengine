@@ -6,6 +6,28 @@ import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import UnoCSS from 'unocss/vite'
 import path from 'path'
 
+import { fetch as undiciFetch, ProxyAgent } from 'undici'
+import { execSync } from 'child_process'
+
+function getSystemProxy(): string | null {
+  if (process.env.https_proxy || process.env.http_proxy) {
+    return process.env.https_proxy || process.env.http_proxy
+  }
+  try {
+    const out = execSync('scutil --proxy', { encoding: 'utf-8' })
+    const portMatch = out.match(/HTTPPort\s*:\s*(\d+)/)
+    const proxyMatch = out.match(/HTTPProxy\s*:\s*([^\s]+)/)
+    const enabled = out.match(/HTTPEnable\s*:\s*1/)
+    if (enabled && portMatch && proxyMatch) {
+      return `http://${proxyMatch[1]}:${portMatch[1]}`
+    }
+  } catch {}
+  return 'http://127.0.0.1:17891'
+}
+
+const proxyUrl = getSystemProxy()
+const dispatcher = proxyUrl ? new ProxyAgent(proxyUrl) : undefined
+
 function discourseProxyPlugin() {
   return {
     name: 'discourse-proxy-plugin',
@@ -17,7 +39,8 @@ function discourseProxyPlugin() {
         try {
           const targetPath = req.url.replace(/^\/api\/discourse/, '')
           const targetUrl = `https://forum.godotengine.org${targetPath}`
-          const response = await fetch(targetUrl, {
+          const response = await undiciFetch(targetUrl, {
+            dispatcher,
             headers: {
               'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
               'Accept': 'application/json'
@@ -25,7 +48,7 @@ function discourseProxyPlugin() {
           })
 
           res.statusCode = response.status
-          response.headers.forEach((val, key) => {
+          response.headers.forEach((val: string, key: string) => {
             const lower = key.toLowerCase()
             if (!['content-encoding', 'content-length', 'transfer-encoding', 'connection'].includes(lower)) {
               res.setHeader(key, val)

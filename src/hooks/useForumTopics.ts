@@ -39,7 +39,7 @@ export function useForumTopics() {
   // Real Pagination State
   const page = ref(initialPage)
   const pageSize = ref(initialPageSize)
-  const initialBaseCount = initialTab === 'top' ? 50 : (initialTab === 'hot' ? 30 : 180)
+  const initialBaseCount = initialTab === 'top' ? 1000 : (initialTab === 'hot' ? 25000 : 45000)
   const totalCount = ref(initialBaseCount)
   const maxPage = computed(() => Math.max(1, Math.ceil(totalCount.value / pageSize.value)))
 
@@ -341,7 +341,7 @@ export function useForumTopics() {
     if (currentTab.value !== tab) {
       currentTab.value = tab
       page.value = 1
-      totalCount.value = tab === 'top' ? 50 : (tab === 'hot' ? 30 : 180)
+      totalCount.value = tab === 'top' ? 1000 : (tab === 'hot' ? 25000 : 45000)
 
       if (router && route) {
         const query = { ...route.query }
@@ -393,7 +393,7 @@ export function useForumTopics() {
         if (['latest', 'top', 'hot'].includes(validTab) && validTab !== currentTab.value) {
           currentTab.value = validTab
           page.value = 1
-          totalCount.value = validTab === 'top' ? 50 : (validTab === 'hot' ? 30 : 180)
+          totalCount.value = validTab === 'top' ? 1000 : (validTab === 'hot' ? 25000 : 45000)
           await ensurePageDataLoaded()
         }
       }
