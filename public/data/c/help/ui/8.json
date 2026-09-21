@@ -48,6 +48,61 @@
       ]
     },
     {
+      "fancy_title": "Grab focus on buttons created during game",
+      "id": 144465,
+      "title": "Grab focus on buttons created during game",
+      "slug": "grab-focus-on-buttons-created-during-game",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/7/a7e9900b8fa4e9c26c69a9d96f4a50c7a5d2362e.png",
+      "created_at": "2026-09-20T13:16:10.630Z",
+      "last_posted_at": "2026-09-21T15:29:51.785Z",
+      "bumped": true,
+      "bumped_at": "2026-09-21T15:29:51.785Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 29,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "vati",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 17987,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Inspector not showing certain new classes with &ldquo;fast load&rdquo; function",
       "id": 144474,
       "title": "Inspector not showing certain new classes with \"fast load\" function",
@@ -82,7 +137,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 26,
+      "views": 27,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Lolmaniaco",
@@ -97,61 +152,6 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 2281,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Grab focus on buttons created during game",
-      "id": 144465,
-      "title": "Grab focus on buttons created during game",
-      "slug": "grab-focus-on-buttons-created-during-game",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/7/a7e9900b8fa4e9c26c69a9d96f4a50c7a5d2362e.png",
-      "created_at": "2026-09-20T13:16:10.630Z",
-      "last_posted_at": "2026-09-20T13:16:10.764Z",
-      "bumped": true,
-      "bumped_at": "2026-09-20T13:16:10.764Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 23,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "vati",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 17987,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -202,7 +202,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 43,
+      "views": 45,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "rainerdeyke",
@@ -269,7 +269,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 79,
+      "views": 81,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -338,7 +338,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 38,
+      "views": 40,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "rpahut",
@@ -486,7 +486,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 122,
+      "views": 125,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -946,7 +946,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 52,
+      "views": 53,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kraasch",
@@ -1075,7 +1075,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 176,
+      "views": 179,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "substain",
@@ -1336,7 +1336,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 226,
+      "views": 227,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "back2lobby",
@@ -1745,7 +1745,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 97,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "jiminycricket",
@@ -1900,7 +1900,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 177,
+      "views": 178,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "realicecone",
@@ -1969,7 +1969,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 216,
+      "views": 217,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Hexadotz",
@@ -2324,7 +2324,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 101,
+      "views": 102,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2388,7 +2388,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 195,
+      "views": 196,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2685,7 +2685,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 119,
+      "views": 121,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3115,7 +3115,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 121,
+      "views": 122,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Barometz1o",
@@ -3386,7 +3386,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 59,
+      "views": 60,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -3943,7 +3943,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 172,
+      "views": 173,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "elali",
@@ -4452,7 +4452,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "zidritz",
@@ -4658,7 +4658,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Pettanko_Neko",
@@ -4846,7 +4846,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 305,
+      "views": 308,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5006,7 +5006,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 163,
+      "views": 164,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "illiatop",
@@ -5458,7 +5458,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 139,
+      "views": 140,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6834,7 +6834,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 321,
+      "views": 322,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "veselanadja",
@@ -6972,7 +6972,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 206,
+      "views": 207,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -7029,7 +7029,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 188,
+      "views": 190,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "acolyte",
@@ -7236,7 +7236,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 70,
+      "views": 71,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "herrspaten",
@@ -7303,7 +7303,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 97,
+      "views": 98,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -7379,7 +7379,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 119,
+      "views": 120,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -7826,7 +7826,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 115,
+      "views": 116,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7961,7 +7961,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 133,
+      "views": 135,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "walterpalladino",
@@ -8206,5 +8206,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-21T09:21:37.057Z"
+  "updated_at": "2026-09-21T16:03:29.573Z"
 }
