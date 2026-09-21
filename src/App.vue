@@ -21,6 +21,9 @@
                 本站致力于促进开源游戏引擎技术交流与本地化学习。
               </p>
             </footer>
+
+            <!-- Naive UI 回到顶部组件 -->
+            <n-back-top :right="40" :bottom="60" :visibility-height="180" />
           </div>
         </n-message-provider>
       </n-dialog-provider>
