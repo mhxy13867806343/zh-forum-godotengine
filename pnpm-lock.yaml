@@ -48,6 +48,9 @@ importers:
       typescript:
         specifier: ~5.7.3
         version: 5.7.3
+      undici:
+        specifier: ^8.10.2
+        version: 8.10.2
       unocss:
         specifier: ^66.0.0
         version: 66.10.5(cac@7.0.0)(rollup@4.63.4)(srvx@1.0.5)(vite@6.4.3(@types/node@22.20.4)(jiti@2.7.0))
@@ -1193,6 +1196,10 @@ packages:
 
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+
+  undici@8.10.2:
+    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
+    engines: {node: '>=22.19.0'}
 
   unimport@4.2.0:
     resolution: {integrity: sha512-mYVtA0nmzrysnYnyb3ALMbByJ+Maosee2+WyE0puXl+Xm2bUwPorPaaeZt0ETfuroPOtG8jj1g/qeFZ6buFnag==}
@@ -2391,6 +2398,8 @@ snapshots:
       unconfig-core: 7.5.0
 
   undici-types@6.21.0: {}
+
+  undici@8.10.2: {}
 
   unimport@4.2.0:
     dependencies:

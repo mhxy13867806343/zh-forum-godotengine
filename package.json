@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vicons/ionicons5": "^0.13.0",
     "axios": "^1.7.9",
     "dayjs": "^1.11.13",
     "naive-ui": "^2.41.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0",
-    "@vicons/ionicons5": "^0.13.0"
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.9",
@@ -24,6 +24,7 @@
     "@unocss/vite": "^66.0.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "typescript": "~5.7.3",
+    "undici": "^8.10.2",
     "unocss": "^66.0.0",
     "unplugin-auto-import": "^19.1.1",
     "unplugin-vue-components": "^28.4.1",

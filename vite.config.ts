@@ -14,16 +14,19 @@ function getSystemProxy(): string | null {
   if (process.env.https_proxy || process.env.http_proxy) {
     return process.env.https_proxy || process.env.http_proxy
   }
-  try {
-    const out = execSync('scutil --proxy', { encoding: 'utf-8' })
-    const portMatch = out.match(/HTTPPort\s*:\s*(\d+)/)
-    const proxyMatch = out.match(/HTTPProxy\s*:\s*([^\s]+)/)
-    const enabled = out.match(/HTTPEnable\s*:\s*1/)
-    if (enabled && portMatch && proxyMatch) {
-      return `http://${proxyMatch[1]}:${portMatch[1]}`
-    }
-  } catch {}
-  return 'http://127.0.0.1:17891'
+  if (process.platform === 'darwin') {
+    try {
+      const out = execSync('scutil --proxy', { encoding: 'utf-8' })
+      const portMatch = out.match(/HTTPPort\s*:\s*(\d+)/)
+      const proxyMatch = out.match(/HTTPProxy\s*:\s*([^\s]+)/)
+      const enabled = out.match(/HTTPEnable\s*:\s*1/)
+      if (enabled && portMatch && proxyMatch) {
+        return `http://${proxyMatch[1]}:${portMatch[1]}`
+      }
+    } catch {}
+    return 'http://127.0.0.1:17891'
+  }
+  return null
 }
 
 const proxyUrl = getSystemProxy()
