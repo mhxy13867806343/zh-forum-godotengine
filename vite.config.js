@@ -41,6 +41,7 @@ import Components from 'unplugin-vue-components/vite';
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers';
 import UnoCSS from 'unocss/vite';
 import path from 'path';
+import fs from 'fs';
 import { fetch as undiciFetch, ProxyAgent } from 'undici';
 import { execSync } from 'child_process';
 function getSystemProxy() {
@@ -67,11 +68,44 @@ function discourseProxyPlugin() {
         configureServer: function (server) {
             var _this = this;
             server.middlewares.use(function (req, res, next) { return __awaiter(_this, void 0, void 0, function () {
-                var targetPath, targetUrl, response, lastErr, attempt, e_1, arrayBuffer, err_1;
+                var body_1, targetPath, targetUrl, response, lastErr, attempt, e_1, arrayBuffer, err_1;
                 var _a;
                 return __generator(this, function (_b) {
                     switch (_b.label) {
                         case 0:
+                            // Local persistence endpoint: writes synced data directly to public/data disk
+                            if (req.url === '/api/save-local-sync' && req.method === 'POST') {
+                                body_1 = '';
+                                req.on('data', function (chunk) { body_1 += chunk; });
+                                req.on('end', function () {
+                                    try {
+                                        var data = JSON.parse(body_1);
+                                        var outputDir = path.resolve(__dirname, 'public/data');
+                                        if (!fs.existsSync(outputDir))
+                                            fs.mkdirSync(outputDir, { recursive: true });
+                                        if (data.latest) {
+                                            fs.writeFileSync(path.join(outputDir, 'latest.json'), JSON.stringify(data.latest, null, 2), 'utf-8');
+                                        }
+                                        if (data.categories) {
+                                            fs.writeFileSync(path.join(outputDir, 'categories.json'), JSON.stringify(data.categories, null, 2), 'utf-8');
+                                        }
+                                        var meta = {
+                                            lastSyncedAt: new Date().toISOString(),
+                                            topicCount: data.topicCount || 0,
+                                            categoryCount: data.categoryCount || 0,
+                                            status: 'success'
+                                        };
+                                        fs.writeFileSync(path.join(outputDir, 'sync-meta.json'), JSON.stringify(meta, null, 2), 'utf-8');
+                                        res.setHeader('Content-Type', 'application/json');
+                                        res.end(JSON.stringify({ success: true, meta: meta }));
+                                    }
+                                    catch (err) {
+                                        res.statusCode = 500;
+                                        res.end(JSON.stringify({ error: err.message }));
+                                    }
+                                });
+                                return [2 /*return*/];
+                            }
                             if (!((_a = req.url) === null || _a === void 0 ? void 0 : _a.startsWith('/api/discourse'))) {
                                 return [2 /*return*/, next()];
                             }

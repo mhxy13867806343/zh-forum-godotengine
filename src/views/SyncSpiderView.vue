@@ -11,12 +11,12 @@
         <n-button
           type="primary"
           :loading="stats.isSyncing"
-          :disabled="cooldownSeconds > 0"
+          :disabled="stats.isSyncing || cooldownSeconds > 0"
           @click="handleManualSync"
         >
-          <template v-if="stats.isSyncing">正在同步中...</template>
+          <template v-if="stats.isSyncing">正在自动同步官方数据...</template>
           <template v-else-if="cooldownSeconds > 0">
-            ⏳ {{ cooldownSeconds }}s 后可再次同步
+            ⏳ {{ cooldownSeconds }}s 后自动刷新 (按钮已锁定)
           </template>
           <template v-else>
             ⚡ 立即手动触发同步
@@ -46,8 +46,8 @@
           <span class="stat-label">上次同步完成时间</span>
         </div>
         <div class="stat-box">
-          <span class="stat-num text-lg text-emerald-400">自动化服务激活</span>
-          <span class="stat-label">同步策略：智能增量缓存</span>
+          <span class="stat-num text-lg text-emerald-400">60 秒自动调度</span>
+          <span class="stat-label">{{ cooldownSeconds > 0 ? `${cooldownSeconds} 秒后触发下一次抓取` : '正在执行抓取...' }}</span>
         </div>
       </div>
 

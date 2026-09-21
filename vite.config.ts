@@ -5,6 +5,7 @@ import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import UnoCSS from 'unocss/vite'
 import path from 'path'
+import fs from 'fs'
 
 import { fetch as undiciFetch, ProxyAgent } from 'undici'
 import { execSync } from 'child_process'
@@ -33,6 +34,38 @@ function discourseProxyPlugin() {
     name: 'discourse-proxy-plugin',
     configureServer(server: any) {
       server.middlewares.use(async (req: any, res: any, next: any) => {
+        // Local persistence endpoint: writes synced data directly to public/data disk
+        if (req.url === '/api/save-local-sync' && req.method === 'POST') {
+          let body = ''
+          req.on('data', (chunk: any) => { body += chunk })
+          req.on('end', () => {
+            try {
+              const data = JSON.parse(body)
+              const outputDir = path.resolve(__dirname, 'public/data')
+              if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true })
+              if (data.latest) {
+                fs.writeFileSync(path.join(outputDir, 'latest.json'), JSON.stringify(data.latest, null, 2), 'utf-8')
+              }
+              if (data.categories) {
+                fs.writeFileSync(path.join(outputDir, 'categories.json'), JSON.stringify(data.categories, null, 2), 'utf-8')
+              }
+              const meta = {
+                lastSyncedAt: new Date().toISOString(),
+                topicCount: data.topicCount || 0,
+                categoryCount: data.categoryCount || 0,
+                status: 'success'
+              }
+              fs.writeFileSync(path.join(outputDir, 'sync-meta.json'), JSON.stringify(meta, null, 2), 'utf-8')
+              res.setHeader('Content-Type', 'application/json')
+              res.end(JSON.stringify({ success: true, meta }))
+            } catch (err: any) {
+              res.statusCode = 500
+              res.end(JSON.stringify({ error: err.message }))
+            }
+          })
+          return
+        }
+
         if (!req.url?.startsWith('/api/discourse')) {
           return next()
         }
