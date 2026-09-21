@@ -75,3 +75,38 @@
   align-items: center;
   gap: 4px;
 }
+
+/* H5 / Mobile Responsive Design */
+@media (max-width: 640px) {
+  .topic-card {
+    padding: 12px 14px;
+    gap: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .topic-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .topic-title {
+    font-size: 15px;
+    line-height: 1.45;
+    margin-bottom: 4px;
+  }
+
+  .topic-meta-row {
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .topic-stats {
+    width: 100%;
+    justify-content: flex-end;
+    padding-top: 6px;
+    border-top: 1px dashed var(--card-border);
+    font-size: 12px;
+    gap: 14px;
+  }
+}

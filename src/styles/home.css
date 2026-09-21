@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   flex-wrap: wrap;
   gap: 12px;
 }
@@ -27,6 +27,11 @@
   justify-content: space-between;
   align-items: center;
   transition: background 0.25s ease, border-color 0.25s ease;
+  gap: 16px;
+}
+
+.hero-text-wrap {
+  flex: 1;
 }
 
 .hero-title {
@@ -48,12 +53,6 @@
   text-align: center;
   padding: 60px 0;
   color: var(--text-muted);
-}
-
-@media (max-width: 900px) {
-  .home-container {
-    flex-direction: column;
-  }
 }
 
 .refresh-btn {
@@ -81,5 +80,96 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Mobile Quick Category Bar */
+.mobile-category-bar {
+  display: none;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 4px 0 14px 0;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-category-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-cat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  font-size: 12.5px;
+  color: var(--text-main);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.mobile-cat-pill.active {
+  background: rgba(71, 140, 191, 0.15);
+  border-color: #478cbf;
+  color: #478cbf;
+  font-weight: 600;
+}
+
+.mobile-cat-pill .cat-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .home-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .mobile-category-bar {
+    display: flex;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-banner {
+    padding: 16px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .hero-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .hero-desc {
+    font-size: 12.5px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .hero-action-wrap {
+    display: flex;
+  }
+
+  .refresh-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .feed-header-bar {
+    margin-bottom: 10px;
   }
 }

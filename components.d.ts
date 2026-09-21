@@ -8,15 +8,17 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AppBackTop: typeof import('./src/components/AppBackTop.vue')['default']
     AppHeader: typeof import('./src/components/AppHeader.vue')['default']
     AppSidebar: typeof import('./src/components/AppSidebar.vue')['default']
     CategoryBadge: typeof import('./src/components/CategoryBadge.vue')['default']
     NAlert: typeof import('naive-ui')['NAlert']
     NAvatar: typeof import('naive-ui')['NAvatar']
-    NBackTop: typeof import('naive-ui')['NBackTop']
     NButton: typeof import('naive-ui')['NButton']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
     NDialogProvider: typeof import('naive-ui')['NDialogProvider']
+    NDrawer: typeof import('naive-ui')['NDrawer']
+    NDrawerContent: typeof import('naive-ui')['NDrawerContent']
     NGlobalStyle: typeof import('naive-ui')['NGlobalStyle']
     NInput: typeof import('naive-ui')['NInput']
     NLoadingBarProvider: typeof import('naive-ui')['NLoadingBarProvider']
@@ -27,6 +29,7 @@ declare module 'vue' {
     NTabs: typeof import('naive-ui')['NTabs']
     NTag: typeof import('naive-ui')['NTag']
     PostItem: typeof import('./src/components/PostItem.vue')['default']
+    PullToRefresh: typeof import('./src/components/PullToRefresh.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TopicCard: typeof import('./src/components/TopicCard.vue')['default']

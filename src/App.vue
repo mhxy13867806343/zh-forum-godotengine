@@ -23,8 +23,8 @@
               </p>
             </footer>
 
-            <!-- Naive UI 回到顶部组件 -->
-            <n-back-top :right="40" :bottom="60" :visibility-height="180" />
+            <!-- 自研移动端/桌面端高保真回到顶部组件 -->
+            <AppBackTop />
           </div>
         </n-message-provider>
       </n-dialog-provider>
@@ -35,6 +35,7 @@
 <script setup lang="ts">
 import { useTheme } from '@/hooks/useTheme'
 import AppHeader from '@/components/AppHeader.vue'
+import AppBackTop from '@/components/AppBackTop.vue'
 
 const { currentTheme, themeOverrides } = useTheme()
 </script>

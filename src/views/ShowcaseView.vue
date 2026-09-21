@@ -8,27 +8,29 @@
     </div>
 
     <!-- Category quick filters -->
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-2 overflow-x-auto pb-1">
       <n-button
         v-for="f in filterTabs"
         :key="f.id"
         size="small"
         :type="activeFilter === f.id ? 'primary' : 'default'"
         secondary
+        class="flex-shrink-0"
         @click="switchFilter(f.id, f.slug)"
       >
         {{ f.name }}
       </n-button>
     </div>
 
-    <div v-if="loading" class="py-16 flex justify-center">
+    <div v-if="loading && displayedTopics.length === 0" class="py-16 flex justify-center">
       <n-spin size="large" description="载入作品展厅中..." />
     </div>
 
     <div v-else class="flex flex-col gap-6">
-      <div class="showcase-grid">
+      <!-- Showcase Cards Grid -->
+      <div v-if="displayedTopics.length > 0" class="showcase-grid">
         <div
-          v-for="item in paginatedTopics"
+          v-for="item in displayedTopics"
           :key="item.id"
           class="showcase-card"
           @click="goToTopic(item.id)"
@@ -67,8 +69,46 @@
         </div>
       </div>
 
-      <!-- Pagination -->
-      <div v-if="filteredTopics.length > 0" class="flex justify-center items-center my-4 py-2">
+      <!-- Empty State when page or category is empty -->
+      <div v-else class="showcase-empty-state">
+        <div class="flex flex-col items-center justify-center py-10 px-4 gap-3 text-center">
+          <span class="text-5xl">🕹️</span>
+          <h3 class="text-lg font-bold text-gray-200 m-0">该分类暂无更多作品数据</h3>
+          <p class="text-sm text-gray-400 max-w-md m-0">
+            当前第 <span class="text-blue-400 font-semibold">{{ page }}</span> 页暂无作品内容
+            <template v-if="totalCount > 0">（已超出有效页码范围，共 {{ maxPage }} 页，{{ totalCount }} 个作品）</template>。
+          </p>
+          <div class="flex items-center gap-3 mt-3">
+            <n-button type="primary" size="small" @click="handlePageChange(1)">
+              返回第 1 页
+            </n-button>
+            <n-button v-if="page > 1 && maxPage > 1" size="small" @click="handlePageChange(Math.min(page - 1, maxPage))">
+              前往尾页 (第 {{ maxPage }} 页)
+            </n-button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Infinite Scroll Status -->
+      <div v-if="isMobile && displayedTopics.length > 0" class="mobile-scroll-status">
+        <div v-if="isLoadingMore" class="flex items-center justify-center gap-2 py-4 text-sm text-gray-400">
+          <n-spin size="small" />
+          <span>正在加载更多作品...</span>
+        </div>
+        <div
+          v-else-if="hasMoreTopics"
+          class="mobile-load-trigger"
+          @click="loadMore"
+        >
+          <span>上拉或点击加载更多作品 ▾</span>
+        </div>
+        <div v-else class="py-6 text-center text-xs text-gray-500">
+          <span>—— 已载入全部 {{ displayedTopics.length }} 款社区作品 ——</span>
+        </div>
+      </div>
+
+      <!-- Desktop Pagination (Strictly hidden on Mobile H5 to eliminate horizontal drag) -->
+      <div v-if="!isMobile && totalCount > 0" class="flex justify-center items-center my-4 py-2">
         <n-pagination
           v-model:page="page"
           v-model:page-size="pageSize"
@@ -86,25 +126,36 @@
 
 <script setup lang="ts">
 import { useForumTopics } from '@/hooks/useForumTopics'
+import { useMobile } from '@/hooks/useMobile'
 import { formatRelativeTime } from '@/utils/date'
 import { translateTitle } from '@/utils/translator'
 import CategoryBadge from '@/components/CategoryBadge.vue'
 
 const route = useRoute()
 const router = useRouter()
+const { isMobile } = useMobile()
+
 const {
   loading,
-  filteredTopics,
   paginatedTopics,
+  accumulatedTopics,
+  isLoadingMore,
+  hasMoreTopics,
+  loadMore,
   page,
   pageSize,
   totalCount,
+  maxPage,
   handlePageChange,
   handlePageSizeChange,
   loadTopics
 } = useForumTopics()
 
 pageSize.value = 9
+
+const displayedTopics = computed(() => {
+  return isMobile.value ? accumulatedTopics.value : paginatedTopics.value
+})
 
 const filterTabs = [
   { id: 14, slug: 'showcase', name: '全部作品' },
@@ -139,6 +190,17 @@ const goToTopic = (id: number) => {
   router.push(`/t/${id}`)
 }
 
+const handleMobileScroll = () => {
+  if (!isMobile.value) return
+  const scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight
+  const scrollTop = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop
+  const clientHeight = window.innerHeight || document.documentElement.clientHeight
+
+  if (scrollTop + clientHeight >= scrollHeight - 200) {
+    loadMore()
+  }
+}
+
 watch(
   () => route.query.filter,
   (newFilterSlug) => {
@@ -153,6 +215,11 @@ watch(
 onMounted(() => {
   const initialPage = route.query.page ? Math.max(1, Number(route.query.page) || 1) : 1
   loadTopics(initialFilterTab.id, initialFilterTab.slug, initialPage)
+  window.addEventListener('scroll', handleMobileScroll, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleMobileScroll)
 })
 </script>
 

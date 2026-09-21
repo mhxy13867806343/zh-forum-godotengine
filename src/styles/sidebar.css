@@ -72,3 +72,24 @@
 .tag-item:hover {
   transform: translateY(-2px);
 }
+
+/* Mobile H5 Responsive layout */
+@media (max-width: 900px) {
+  .sidebar-container {
+    width: 100%;
+    margin-top: 8px;
+    gap: 14px;
+  }
+
+  .category-menu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-menu-list {
+    grid-template-columns: 1fr;
+  }
+}

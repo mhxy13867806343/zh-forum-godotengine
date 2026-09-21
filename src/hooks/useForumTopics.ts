@@ -29,7 +29,8 @@ export function useForumTopics() {
   const page = ref(initialPage)
   const pageSize = ref(initialPageSize)
   const initialBaseCount = initialTab === 'top' ? 1000 : (initialTab === 'hot' ? 25000 : 45000)
-  const totalCount = ref(Math.max(initialBaseCount, (initialPage + 50) * initialPageSize))
+  const totalCount = ref(initialBaseCount)
+  const maxPage = computed(() => Math.max(1, Math.ceil(totalCount.value / pageSize.value)))
 
   // In-memory cache keyed by scope + page:
   // e.g. "tab_latest_p_0", "tab_top_p_0", "cat_9_p_0"
@@ -113,12 +114,20 @@ export function useForumTopics() {
       const lastKey = getCacheKey(endDiscoursePage)
       if (hasMoreMap.has(lastKey) && !hasMoreMap.get(lastKey)) {
         const lastPageTopics = pageCache.get(lastKey)?.length || 0
-        totalCount.value = Math.max((endDiscoursePage * 30) + lastPageTopics, 30)
+        if (lastPageTopics > 0) {
+          totalCount.value = (endDiscoursePage * 30) + lastPageTopics
+        } else {
+          // The requested page is beyond the actual topics list
+          const baseEstimate = selectedCategoryId.value
+            ? getCategoryTotalTopics(selectedCategoryId.value)
+            : (currentTab.value === 'top' ? 1000 : (currentTab.value === 'hot' ? 25000 : 45000))
+          totalCount.value = baseEstimate
+        }
       } else {
         const baseEstimate = selectedCategoryId.value
           ? getCategoryTotalTopics(selectedCategoryId.value)
           : (currentTab.value === 'top' ? 1000 : (currentTab.value === 'hot' ? 25000 : 45000))
-        totalCount.value = Math.max(baseEstimate, (page.value + 50) * pageSize.value)
+        totalCount.value = Math.max(baseEstimate, (endDiscoursePage + 1) * 30)
       }
     } catch (err) {
       console.error('Error loading forum topics:', err)
@@ -196,6 +205,57 @@ export function useForumTopics() {
 
     return sliced
   })
+
+  // For mobile infinite scroll stream (page 1 up to current page.value)
+  const accumulatedTopics = computed(() => {
+    void cacheVersion.value
+    const endIndex = page.value * pageSize.value
+    const endDiscoursePage = Math.floor((endIndex - 1) / 30)
+
+    let combined: DiscourseTopic[] = []
+    for (let p = 0; p <= endDiscoursePage; p++) {
+      const list = pageCache.get(getCacheKey(p))
+      if (list) combined.push(...list)
+    }
+
+    const sliced = combined.slice(0, endIndex)
+
+    if (searchQuery.value.trim() || selectedTag.value) {
+      return sliced.filter((topic) => {
+        if (searchQuery.value.trim()) {
+          const q = searchQuery.value.toLowerCase()
+          const matchesTitle = topic.title.toLowerCase().includes(q)
+          const matchesExcerpt = topic.excerpt?.toLowerCase().includes(q)
+          if (!matchesTitle && !matchesExcerpt) return false
+        }
+        if (selectedTag.value !== null) {
+          if (!topic.tags || !topic.tags.some((t) => getTagName(t).toLowerCase() === selectedTag.value?.toLowerCase())) {
+            return false
+          }
+        }
+        return true
+      })
+    }
+
+    return sliced
+  })
+
+  const isLoadingMore = ref(false)
+
+  const hasMoreTopics = computed(() => {
+    return page.value * pageSize.value < totalCount.value
+  })
+
+  const loadMore = async () => {
+    if (isLoadingMore.value || loading.value || !hasMoreTopics.value) return
+    isLoadingMore.value = true
+    try {
+      page.value++
+      await ensurePageDataLoaded()
+    } finally {
+      isLoadingMore.value = false
+    }
+  }
 
   // Aliased for backward compatibility with view templates
   const filteredTopics = computed(() => paginatedTopics.value)
@@ -333,7 +393,12 @@ export function useForumTopics() {
     topics: paginatedTopics,
     filteredTopics,
     paginatedTopics,
+    accumulatedTopics,
+    isLoadingMore,
+    hasMoreTopics,
+    loadMore,
     totalCount,
+    maxPage,
     page,
     pageSize,
     handlePageChange,
