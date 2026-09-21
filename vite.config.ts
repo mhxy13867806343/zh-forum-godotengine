@@ -5,6 +5,7 @@ import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import UnoCSS from 'unocss/vite'
 import path from 'path'
+import { mockApiPlugin } from './mockApiPlugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,6 +17,7 @@ export default defineConfig({
   plugins: [
     vue(),
     UnoCSS(),
+    mockApiPlugin(),
     AutoImport({
       imports: [
         'vue',

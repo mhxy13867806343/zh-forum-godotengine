@@ -136,10 +136,12 @@ const handleReplyTo = (username: string) => {
   replyContent.value = `@${username} `
 }
 
-const onSendReply = () => {
+const onSendReply = async () => {
   const author = currentUser.value?.nickname || currentUser.value?.username || 'Godot 探索者'
-  if (submitReply(replyContent.value, author)) {
-    message.success('回复已成功发送到本地讨论流！')
+  const uname = currentUser.value?.username || 'community_member'
+  const ok = await submitReply(replyContent.value, author, uname)
+  if (ok) {
+    message.success('回复已成功发送到讨论流！')
     replyContent.value = ''
   }
 }

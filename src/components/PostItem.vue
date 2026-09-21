@@ -56,12 +56,22 @@ const emit = defineEmits<{
   (e: 'reply-to', username: string): void
 }>()
 
+import { toggleLikeApi } from '@/api/topics'
+
 const liked = ref(false)
 const likeCount = ref(props.post.score || 0)
 
-const toggleLike = () => {
+const toggleLike = async () => {
   liked.value = !liked.value
   likeCount.value += liked.value ? 1 : -1
+  try {
+    await toggleLikeApi({
+      postId: props.post.id,
+      liked: liked.value
+    })
+  } catch {
+    // ignore
+  }
 }
 
 const handleReply = () => {

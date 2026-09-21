@@ -5,7 +5,7 @@ import { getCategoryApiPath } from '../utils/categoryDict'
 
 export async function fetchCategories(): Promise<DiscourseCategory[]> {
   try {
-    const res: any = await request.get('/categories.json')
+    const res: any = await request.get('/discourse/categories.json')
     if (res?.category_list?.categories) {
       return res.category_list.categories
     }
@@ -17,7 +17,7 @@ export async function fetchCategories(): Promise<DiscourseCategory[]> {
 
 export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTopic[]; more_topics_url?: string }> {
   try {
-    const res: any = await request.get(`/latest.json?page=${page}`)
+    const res: any = await request.get(`/discourse/latest.json?page=${page}`)
     if (res?.topic_list?.topics) {
       return {
         topics: res.topic_list.topics,
@@ -46,7 +46,7 @@ export async function fetchLatestTopics(page = 0): Promise<{ topics: DiscourseTo
 
 export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: DiscourseTopic[] }> {
   try {
-    const res: any = await request.get(`/top.json?period=${period}`)
+    const res: any = await request.get(`/discourse/top.json?period=${period}`)
     if (res?.topic_list?.topics) {
       return { topics: res.topic_list.topics }
     }
@@ -59,7 +59,7 @@ export async function fetchTopTopics(period = 'monthly'): Promise<{ topics: Disc
 export async function fetchCategoryTopics(categoryId: number, _slug?: string, page = 0): Promise<{ topics: DiscourseTopic[] }> {
   try {
     const canonicalPath = getCategoryApiPath(categoryId)
-    const res: any = await request.get(`${canonicalPath}?page=${page}`)
+    const res: any = await request.get(`/discourse${canonicalPath}?page=${page}`)
     if (res?.topic_list?.topics) {
       return { topics: res.topic_list.topics }
     }
@@ -72,7 +72,7 @@ export async function fetchCategoryTopics(categoryId: number, _slug?: string, pa
 
 export async function fetchTopicDetail(topicId: number): Promise<DiscourseTopicDetail | null> {
   try {
-    const res: any = await request.get(`/t/${topicId}.json`)
+    const res: any = await request.get(`/discourse/t/${topicId}.json`)
     if (res?.id) {
       return res
     }

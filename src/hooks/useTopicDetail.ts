@@ -1,6 +1,7 @@
 import { ref } from 'vue'
 import type { DiscourseTopicDetail, DiscoursePost } from '../api/types'
 import { fetchTopicDetail } from '../api/discourse'
+import { postReplyApi } from '../api/topics'
 
 export function useTopicDetail() {
   const loading = ref(false)
@@ -27,12 +28,29 @@ export function useTopicDetail() {
     isBilingual.value = !isBilingual.value
   }
 
-  const submitReply = (content: string, authorName = 'Godot 探索者') => {
+  const submitReply = async (content: string, authorName = 'Godot 探索者', username = 'community_member'): Promise<boolean> => {
     if (!content.trim() || !topic.value) return false
+    try {
+      const res = await postReplyApi({
+        topicId: topic.value.id,
+        content,
+        authorName,
+        username
+      })
+      if (res?.data) {
+        replies.value.push(res.data)
+        topic.value.posts_count += 1
+        topic.value.reply_count += 1
+        return true
+      }
+    } catch (err) {
+      console.warn('postReplyApi fallback to local:', err)
+    }
+
     const newPost: DiscoursePost = {
       id: Date.now(),
       name: authorName,
-      username: 'community_member',
+      username,
       avatar_template: 'https://avatars.githubusercontent.com/u/1024004?v=4',
       created_at: new Date().toISOString(),
       cooked: `<p>${content.replace(/\n/g, '<br/>')}</p>`,

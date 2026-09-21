@@ -1,4 +1,5 @@
 import { ref, computed } from 'vue'
+import { loginApi, registerApi, logoutApi, getCurrentUserApi } from '@/api/auth'
 
 export interface UserProfile {
   id: number
@@ -13,10 +14,11 @@ export interface UserProfile {
 }
 
 const STORAGE_KEY = 'godot_zh_user'
+const TOKEN_KEY = 'godot_zh_token'
 
 const currentUser = ref<UserProfile | null>(null)
 
-// Initialize from localStorage
+// Initialize from localStorage and verify with backend
 if (typeof localStorage !== 'undefined') {
   try {
     const saved = localStorage.getItem(STORAGE_KEY)
@@ -43,53 +45,62 @@ export function useUser() {
     isAuthModalOpen.value = false
   }
 
-  const login = async (username: string, _password: string): Promise<boolean> => {
-    // Simulated authentication with persistent storage
-    const user: UserProfile = {
-      id: Math.floor(Math.random() * 90000) + 10000,
-      username: username.trim(),
-      nickname: username.trim() === 'godot_dev' ? 'Godot 独立开发者' : username.trim(),
-      avatar: `https://avatars.githubusercontent.com/u/${(username.length * 12345) % 100000}?v=4`,
-      bio: '热爱 Godot 游戏引擎与开源技术！',
-      role: username === 'admin' ? 'admin' : 'developer',
-      roleName: username === 'admin' ? '论坛管理员' : '认证开发者',
-      token: `token_${Date.now()}`,
-      joinedAt: '2026-09-21'
+  const login = async (username: string, password = ''): Promise<boolean> => {
+    // Send real HTTP request via Axios
+    const res = await loginApi({ username, password })
+    if (res?.data?.user) {
+      currentUser.value = res.data.user
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(res.data.user))
+        localStorage.setItem(TOKEN_KEY, res.data.token)
+      }
+      isAuthModalOpen.value = false
+      return true
     }
-
-    currentUser.value = user
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
-    }
-    isAuthModalOpen.value = false
-    return true
+    return false
   }
 
-  const register = async (username: string, nickname: string, _password: string): Promise<boolean> => {
-    const user: UserProfile = {
-      id: Math.floor(Math.random() * 90000) + 10000,
-      username: username.trim(),
-      nickname: nickname.trim() || username.trim(),
-      avatar: `https://avatars.githubusercontent.com/u/${(username.length * 54321) % 100000}?v=4`,
-      bio: 'Godot 中文论坛新成员。',
-      role: 'member',
-      roleName: '社区成员',
-      token: `token_${Date.now()}`,
-      joinedAt: '2026-09-21'
+  const register = async (username: string, nickname: string, password = ''): Promise<boolean> => {
+    // Send real HTTP request via Axios
+    const res = await registerApi({ username, nickname, password })
+    if (res?.data?.user) {
+      currentUser.value = res.data.user
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(res.data.user))
+        localStorage.setItem(TOKEN_KEY, res.data.token)
+      }
+      isAuthModalOpen.value = false
+      return true
     }
-
-    currentUser.value = user
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
-    }
-    isAuthModalOpen.value = false
-    return true
+    return false
   }
 
-  const logout = () => {
+  const logout = async () => {
+    try {
+      await logoutApi()
+    } catch {
+      // ignore
+    }
     currentUser.value = null
     if (typeof localStorage !== 'undefined') {
       localStorage.removeItem(STORAGE_KEY)
+      localStorage.removeItem(TOKEN_KEY)
+    }
+  }
+
+  const checkCurrentUser = async () => {
+    if (typeof localStorage === 'undefined') return
+    const token = localStorage.getItem(TOKEN_KEY)
+    if (token) {
+      try {
+        const res = await getCurrentUserApi()
+        if (res?.data?.user) {
+          currentUser.value = res.data.user
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(res.data.user))
+        }
+      } catch (err) {
+        console.warn('Session expired or offline:', err)
+      }
     }
   }
 
@@ -102,6 +113,7 @@ export function useUser() {
     closeAuthModal,
     login,
     register,
-    logout
+    logout,
+    checkCurrentUser
   }
 }
