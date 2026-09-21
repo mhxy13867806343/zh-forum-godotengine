@@ -12,27 +12,32 @@
   z-index: 100;
   backdrop-filter: blur(8px);
   transition: background-color 0.25s ease, border-color 0.25s ease;
+  gap: 16px;
 }
 
 .logo-area {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   cursor: pointer;
   text-decoration: none;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .logo-img {
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .logo-title {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: -0.5px;
   color: #478cbf;
+  white-space: nowrap;
 }
 
 .logo-badge {
@@ -42,12 +47,15 @@
   padding: 2px 6px;
   border-radius: 4px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-item {
@@ -58,6 +66,8 @@
   padding: 6px 10px;
   border-radius: 6px;
   transition: all 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-item:hover, .nav-item.router-link-active {
@@ -68,18 +78,43 @@
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .search-input {
-  width: 240px;
+  width: 200px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
+  .logo-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
   .search-input {
     display: none;
   }
   .nav-links {
-    gap: 8px;
+    gap: 6px;
+  }
+  .nav-item {
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-container {
+    padding: 0 12px;
+    overflow-x: auto;
+  }
+  .header-container::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-links {
+    gap: 4px;
   }
 }

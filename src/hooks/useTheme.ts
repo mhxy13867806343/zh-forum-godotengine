@@ -3,12 +3,26 @@ import { darkTheme, type GlobalThemeOverrides } from 'naive-ui'
 
 const THEME_KEY = 'godot_zh_theme'
 
-const isDark = ref(true)
+function getSystemIsDark(): boolean {
+  if (typeof window !== 'undefined' && window.matchMedia) {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+  }
+  return true
+}
+
+export type ThemeMode = 'system' | 'dark' | 'light'
+
+const themeMode = ref<ThemeMode>('system')
+const isDark = ref(getSystemIsDark())
 
 if (typeof localStorage !== 'undefined') {
   const saved = localStorage.getItem(THEME_KEY)
-  if (saved !== null) {
+  if (saved === 'dark' || saved === 'light') {
+    themeMode.value = saved
     isDark.value = saved === 'dark'
+  } else {
+    themeMode.value = 'system'
+    isDark.value = getSystemIsDark()
   }
 }
 
@@ -24,14 +38,47 @@ function syncHtmlClass() {
   }
 }
 
+// Listen to system dark/light theme changes
+if (typeof window !== 'undefined' && window.matchMedia) {
+  const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  const handleSystemChange = (e: MediaQueryListEvent) => {
+    if (themeMode.value === 'system') {
+      isDark.value = e.matches
+      syncHtmlClass()
+    }
+  }
+  if (mediaQuery.addEventListener) {
+    mediaQuery.addEventListener('change', handleSystemChange)
+  }
+}
+
 // Ensure initial html class is set immediately
 syncHtmlClass()
 
 export function useTheme() {
-  const toggleTheme = () => {
-    isDark.value = !isDark.value
+  const toggleTheme = (): boolean => {
+    const nextIsDark = !isDark.value
+    isDark.value = nextIsDark
+    themeMode.value = nextIsDark ? 'dark' : 'light'
     if (typeof localStorage !== 'undefined') {
-      localStorage.setItem(THEME_KEY, isDark.value ? 'dark' : 'light')
+      localStorage.setItem(THEME_KEY, themeMode.value)
+    }
+    syncHtmlClass()
+    return nextIsDark
+  }
+
+  const setThemeMode = (mode: ThemeMode) => {
+    themeMode.value = mode
+    if (mode === 'system') {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.removeItem(THEME_KEY)
+      }
+      isDark.value = getSystemIsDark()
+    } else {
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(THEME_KEY, mode)
+      }
+      isDark.value = mode === 'dark'
     }
     syncHtmlClass()
   }
@@ -100,7 +147,9 @@ export function useTheme() {
 
   return {
     isDark,
+    themeMode,
     toggleTheme,
+    setThemeMode,
     currentTheme,
     themeOverrides
   }

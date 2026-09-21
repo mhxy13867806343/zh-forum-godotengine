@@ -33,17 +33,19 @@
         <template #prefix>🔍</template>
       </n-input>
 
-      <n-button
-        circle
-        secondary
-        size="small"
-        :title="isDark ? '切换至浅色模式' : '切换至深色模式'"
-        @click="toggleTheme"
-      >
-        <template #icon>
-          <span>{{ isDark ? '☀️' : '🌙' }}</span>
-        </template>
-      </n-button>
+      <n-dropdown trigger="hover" :options="themeOptions" @select="handleSelectTheme">
+        <n-button
+          circle
+          secondary
+          size="small"
+          :title="buttonTooltip"
+          @click="handleToggleTheme"
+        >
+          <template #icon>
+            <span>{{ isDark ? '☀️' : '🌙' }}</span>
+          </template>
+        </n-button>
+      </n-dropdown>
 
       <a
         href="https://forum.godotengine.org/"
@@ -62,8 +64,44 @@
 import { useTheme } from '@/hooks/useTheme'
 
 const router = useRouter()
-const { isDark, toggleTheme } = useTheme()
+const message = useMessage()
+const { isDark, themeMode, toggleTheme, setThemeMode } = useTheme()
 const keyword = ref('')
+
+const themeOptions = [
+  { label: '☀️ 浅色模式', key: 'light' },
+  { label: '🌙 深色模式', key: 'dark' },
+  { label: '💻 跟随系统外观', key: 'system' }
+]
+
+const buttonTooltip = computed(() => {
+  if (themeMode.value === 'system') {
+    return `当前跟随系统外观（${isDark.value ? '深色' : '浅色'}，点击切换）`
+  }
+  return isDark.value ? '切换至浅色模式（悬停更多）' : '切换至深色模式（悬停更多）'
+})
+
+const handleToggleTheme = () => {
+  const nextIsDark = toggleTheme()
+  if (nextIsDark) {
+    message.success('已切换至深色模式 🌙')
+  } else {
+    message.info('已切换至浅色模式 ☀️')
+  }
+}
+
+const handleSelectTheme = (key: string) => {
+  if (key === 'system') {
+    setThemeMode('system')
+    message.info(`已恢复跟随系统外观 (${isDark.value ? '深色' : '浅色'}) 💻`)
+  } else if (key === 'dark') {
+    setThemeMode('dark')
+    message.success('已切换至深色模式 🌙')
+  } else if (key === 'light') {
+    setThemeMode('light')
+    message.info('已切换至浅色模式 ☀️')
+  }
+}
 
 const handleSearch = () => {
   if (keyword.value.trim()) {
