@@ -15,7 +15,7 @@ export function useForumTopics() {
   // Real Pagination State
   const page = ref(1)
   const pageSize = ref(20)
-  const totalCount = ref(1000)
+  const totalCount = ref(45000)
 
   // In-memory cache for Discourse pages (each Discourse page = 30 topics)
   // key: discoursePage (0-based) -> DiscourseTopic[]
@@ -72,9 +72,9 @@ export function useForumTopics() {
       } else {
         const baseEstimate = selectedCategoryId.value
           ? getCategoryTotalTopics(selectedCategoryId.value)
-          : (currentTab.value === 'top' ? 300 : 2500)
-        // Keep total count at least ahead of current page
-        totalCount.value = Math.max(baseEstimate, (page.value + 5) * pageSize.value)
+          : (currentTab.value === 'top' ? 1000 : 45000)
+        // Keep total count ahead of current page by at least 50 pages
+        totalCount.value = Math.max(baseEstimate, (page.value + 50) * pageSize.value)
       }
     } catch (err) {
       console.error('Error loading forum topics:', err)
@@ -161,7 +161,7 @@ export function useForumTopics() {
       pageCache.clear()
       hasMoreMap.clear()
       page.value = 1
-      totalCount.value = tab === 'top' ? 300 : 2500
+      totalCount.value = tab === 'top' ? 1000 : 45000
       await ensurePageDataLoaded()
     }
   }
