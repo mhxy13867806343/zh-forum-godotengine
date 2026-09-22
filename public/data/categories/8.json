@@ -52,14 +52,14 @@
       "id": 144519,
       "title": "Fake Focusing two buttons at the same time",
       "slug": "fake-focusing-two-buttons-at-the-same-time",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
       "image_url": null,
       "created_at": "2026-09-21T22:37:20.232Z",
-      "last_posted_at": "2026-09-22T01:55:48.201Z",
+      "last_posted_at": "2026-09-22T11:42:24.648Z",
       "bumped": true,
-      "bumped_at": "2026-09-22T01:55:48.201Z",
+      "bumped_at": "2026-09-22T11:42:24.648Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -77,10 +77,72 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 38,
+      "views": 50,
       "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "baba",
+      "last_poster_username": "vintz",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 54077,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 17842,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Inspector not showing certain new classes with &ldquo;fast load&rdquo; function",
+      "id": 144474,
+      "title": "Inspector not showing certain new classes with \"fast load\" function",
+      "slug": "inspector-not-showing-certain-new-classes-with-fast-load-function",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/5/1/5131dd6a8a42f210f9973d25a31d6b11af90774a_2_1023x172.png",
+      "created_at": "2026-09-20T18:24:45.535Z",
+      "last_posted_at": "2026-09-22T10:24:00.987Z",
+      "bumped": true,
+      "bumped_at": "2026-09-22T10:24:00.987Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 43,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "kraasch",
       "category_id": 8,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -91,14 +153,14 @@
         {
           "extras": null,
           "description": "Original Poster",
-          "user_id": 54077,
+          "user_id": 2281,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
           "extras": "latest",
           "description": "Most Recent Poster",
-          "user_id": 17842,
+          "user_id": 42440,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -134,7 +196,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 59,
+      "views": 60,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -196,7 +258,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 42,
+      "views": 43,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "vati",
@@ -211,61 +273,6 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster, Accepted Answer",
           "user_id": 17987,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Inspector not showing certain new classes with &ldquo;fast load&rdquo; function",
-      "id": 144474,
-      "title": "Inspector not showing certain new classes with \"fast load\" function",
-      "slug": "inspector-not-showing-certain-new-classes-with-fast-load-function",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
-      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/5/1/5131dd6a8a42f210f9973d25a31d6b11af90774a_2_1023x172.png",
-      "created_at": "2026-09-20T18:24:45.535Z",
-      "last_posted_at": "2026-09-20T18:24:45.725Z",
-      "bumped": true,
-      "bumped_at": "2026-09-20T18:24:45.725Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 30,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "Lolmaniaco",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 2281,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -316,7 +323,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 47,
+      "views": 48,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "rainerdeyke",
@@ -383,7 +390,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 85,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -1189,7 +1196,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 179,
+      "views": 180,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "substain",
@@ -1595,7 +1602,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3706,
+      "views": 3708,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "glitchedlime",
@@ -1859,7 +1866,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 100,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "jiminycricket",
@@ -3141,7 +3148,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6420,
+      "views": 6422,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -3691,7 +3698,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 227,
+      "views": 228,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5422,7 +5429,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 123,
+      "views": 124,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5572,7 +5579,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 141,
+      "views": 142,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5843,7 +5850,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 165,
+      "views": 166,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -5931,7 +5938,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 86,
+      "views": 87,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Dragon145",
@@ -6134,7 +6141,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 65,
+      "views": 66,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6948,7 +6955,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 322,
+      "views": 323,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "veselanadja",
@@ -7086,7 +7093,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 209,
+      "views": 212,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -8196,5 +8203,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-22T06:56:36.352Z"
+  "updated_at": "2026-09-22T12:53:37.213Z"
 }
