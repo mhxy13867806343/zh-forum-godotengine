@@ -76,6 +76,70 @@
       ]
     },
     {
+      "fancy_title": "Could someone help me with a source code implementation?",
+      "id": 144315,
+      "title": "Could someone help me with a source code implementation?",
+      "slug": "could-someone-help-me-with-a-source-code-implementation",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-09-16T06:50:11.250Z",
+      "last_posted_at": "2026-09-22T18:43:32.982Z",
+      "bumped": true,
+      "bumped_at": "2026-09-22T18:43:32.982Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 123,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "hardboileduser",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 53850,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 42440,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 39321,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Need help with _forward_canvas_gui_input not detecting mouse clicks in EditorPlugin (Godot 4)",
       "id": 144539,
       "title": "Need help with _forward_canvas_gui_input not detecting mouse clicks in EditorPlugin (Godot 4)",
@@ -93,7 +157,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -105,7 +169,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5,
+      "views": 14,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Eros",
@@ -120,63 +184,6 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 54098,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Could someone help me with a source code implementation?",
-      "id": 144315,
-      "title": "Could someone help me with a source code implementation?",
-      "slug": "could-someone-help-me-with-a-source-code-implementation",
-      "posts_count": 5,
-      "reply_count": 2,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-09-16T06:50:11.250Z",
-      "last_posted_at": "2026-09-22T13:46:27.516Z",
-      "bumped": true,
-      "bumped_at": "2026-09-22T13:46:27.516Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 105,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "pierrechi",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 53850,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 42440,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -212,7 +219,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 73,
+      "views": 75,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "rainerdeyke",
@@ -300,7 +307,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 54,
+      "views": 56,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Wolf-64",
@@ -332,7 +339,7 @@
       "id": 144501,
       "title": "Help with codage movement",
       "slug": "help-with-codage-movement",
-      "posts_count": 16,
+      "posts_count": 15,
       "reply_count": 12,
       "highest_post_number": 16,
       "image_url": null,
@@ -579,7 +586,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 82,
+      "views": 83,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "horsedev",
@@ -1067,7 +1074,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 127,
+      "views": 128,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mocharaid",
@@ -1153,7 +1160,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 186,
+      "views": 188,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "gercode",
@@ -1239,7 +1246,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Starfly0518",
@@ -1432,7 +1439,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 73,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -2083,7 +2090,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 48,
+      "views": 49,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "baba",
@@ -2283,7 +2290,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 94,
+      "views": 95,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "hyvernox",
@@ -2577,7 +2584,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 117,
+      "views": 118,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Mark_Caliwa_Velasco",
@@ -2710,7 +2717,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 55,
+      "views": 56,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -3294,7 +3301,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 89,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Bobcatfriend",
@@ -4779,7 +4786,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 93,
+      "views": 94,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -5243,7 +5250,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1993,
+      "views": 1994,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "amit_akr",
@@ -5447,7 +5454,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 113,
+      "views": 114,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Delveiy",
@@ -5915,7 +5922,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "hermes",
@@ -6548,7 +6555,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 93,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Baz",
@@ -7226,7 +7233,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 145,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "keithjones",
@@ -7650,7 +7657,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 57,
+      "views": 58,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "iceven",
@@ -8230,5 +8237,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-22T17:47:58.803Z"
+  "updated_at": "2026-09-22T20:33:57.038Z"
 }
