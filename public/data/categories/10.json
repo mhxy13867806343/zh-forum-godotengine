@@ -55,6 +55,63 @@
       ]
     },
     {
+      "fancy_title": "Shadow blur causes shadow leak",
+      "id": 144092,
+      "title": "Shadow blur causes shadow leak",
+      "slug": "shadow-blur-causes-shadow-leak",
+      "posts_count": 6,
+      "reply_count": 4,
+      "highest_post_number": 6,
+      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/4/9/495b2988f97ed885915c50b915049161115b2d8d_2_1024x639.jpeg",
+      "created_at": "2026-09-12T16:16:33.224Z",
+      "last_posted_at": "2026-09-23T22:10:10.846Z",
+      "bumped": true,
+      "bumped_at": "2026-09-23T22:10:10.846Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 129,
+      "like_count": 2,
+      "has_summary": false,
+      "last_poster_username": "normalized",
+      "category_id": 10,
+      "op_like_count": 1,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 3797,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Constant texture pixel size in world space",
       "id": 140366,
       "title": "Constant texture pixel size in world space",
@@ -99,7 +156,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 94,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Lillmyren",
@@ -251,63 +308,6 @@
       ]
     },
     {
-      "fancy_title": "Shadow blur causes shadow leak",
-      "id": 144092,
-      "title": "Shadow blur causes shadow leak",
-      "slug": "shadow-blur-causes-shadow-leak",
-      "posts_count": 4,
-      "reply_count": 2,
-      "highest_post_number": 4,
-      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/4/9/495b2988f97ed885915c50b915049161115b2d8d_2_1024x639.jpeg",
-      "created_at": "2026-09-12T16:16:33.224Z",
-      "last_posted_at": "2026-09-18T06:28:28.126Z",
-      "bumped": true,
-      "bumped_at": "2026-09-18T06:28:28.126Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 120,
-      "like_count": 2,
-      "has_summary": false,
-      "last_poster_username": "normalized",
-      "category_id": 10,
-      "op_like_count": 1,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 3797,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "How can I apply a dithering effect to a GradientTexture?",
       "id": 143687,
       "title": "How can I apply a dithering effect to a GradientTexture?",
@@ -347,7 +347,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 413,
+      "views": 415,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -409,7 +409,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 103,
+      "views": 104,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -548,7 +548,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 73,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "DecDDM",
@@ -625,7 +625,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 169,
+      "views": 170,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "vissca",
@@ -2559,7 +2559,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 732,
+      "views": 733,
       "like_count": 6,
       "has_summary": true,
       "last_poster_username": "normalized",
@@ -6550,7 +6550,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 236,
+      "views": 237,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7801,7 +7801,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 440,
+      "views": 441,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8376,5 +8376,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-23T19:16:55.612Z"
+  "updated_at": "2026-09-23T22:31:31.277Z"
 }
