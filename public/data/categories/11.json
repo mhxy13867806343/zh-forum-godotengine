@@ -316,7 +316,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 41,
+      "views": 42,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -808,7 +808,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 172,
+      "views": 173,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Dad3353",
@@ -1345,9 +1345,9 @@
       "id": 143357,
       "title": "Weird colors on tileset while camera is moving towards a tile",
       "slug": "weird-colors-on-tileset-while-camera-is-moving-towards-a-tile",
-      "posts_count": 2,
+      "posts_count": 3,
       "reply_count": 0,
-      "highest_post_number": 2,
+      "highest_post_number": 3,
       "image_url": null,
       "created_at": "2026-08-23T19:22:45.153Z",
       "last_posted_at": "2026-08-23T23:54:49.643Z",
@@ -1358,7 +1358,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -1387,9 +1387,16 @@
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest single",
+          "extras": "latest",
           "description": "Original Poster, Most Recent Poster, Accepted Answer",
           "user_id": 53121,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1846,7 +1853,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 74,
+      "views": 75,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -3609,7 +3616,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 169,
+      "views": 170,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "local_dingus",
@@ -4690,7 +4697,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -5369,7 +5376,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1008,
+      "views": 1009,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "simonleetheprogramme",
@@ -8531,5 +8538,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-22T23:53:40.973Z"
+  "updated_at": "2026-09-23T02:02:45.349Z"
 }
