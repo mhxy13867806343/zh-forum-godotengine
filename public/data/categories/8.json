@@ -48,6 +48,78 @@
       ]
     },
     {
+      "fancy_title": "Unable to change cursor type",
+      "id": 144365,
+      "title": "Unable to change cursor type",
+      "slug": "unable-to-change-cursor-type",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-09-17T12:58:14.815Z",
+      "last_posted_at": "2026-09-23T10:09:04.086Z",
+      "bumped": true,
+      "bumped_at": "2026-09-23T10:09:04.086Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 21,
+          "name": "game",
+          "slug": "game"
+        },
+        {
+          "id": 14,
+          "name": "csharp",
+          "slug": "csharp"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 63,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "corporal15",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 35531,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 10907,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Focus Neighbor on identical nodes in specific group?",
       "id": 144503,
       "title": "Focus Neighbor on identical nodes in specific group?",
@@ -77,8 +149,8 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 82,
-      "like_count": 2,
+      "views": 83,
+      "like_count": 3,
       "has_summary": false,
       "last_poster_username": "kraasch",
       "category_id": 8,
@@ -265,7 +337,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 44,
+      "views": 45,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "vati",
@@ -280,78 +352,6 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster, Accepted Answer",
           "user_id": 17987,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Unable to change cursor type",
-      "id": 144365,
-      "title": "Unable to change cursor type",
-      "slug": "unable-to-change-cursor-type",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": null,
-      "created_at": "2026-09-17T12:58:14.815Z",
-      "last_posted_at": "2026-09-19T11:21:18.451Z",
-      "bumped": true,
-      "bumped_at": "2026-09-19T11:21:18.451Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        },
-        {
-          "id": 21,
-          "name": "game",
-          "slug": "game"
-        },
-        {
-          "id": 14,
-          "name": "csharp",
-          "slug": "csharp"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 52,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "rainerdeyke",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 35531,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 10907,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -397,7 +397,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 90,
+      "views": 93,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -466,7 +466,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 42,
+      "views": 44,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "rpahut",
@@ -614,7 +614,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 127,
+      "views": 128,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -755,7 +755,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1227,
+      "views": 1228,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "flunch",
@@ -1074,7 +1074,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 53,
+      "views": 54,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kraasch",
@@ -1203,7 +1203,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 181,
+      "views": 182,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "substain",
@@ -1609,7 +1609,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3708,
+      "views": 3709,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "glitchedlime",
@@ -1809,7 +1809,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 137,
+      "views": 138,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2176,7 +2176,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 151,
+      "views": 152,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "japonbaligi",
@@ -3034,7 +3034,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -3155,7 +3155,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6433,
+      "views": 6434,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -3705,7 +3705,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 229,
+      "views": 230,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4152,7 +4152,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 180,
+      "views": 181,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5358,7 +5358,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 127,
+      "views": 128,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -6619,7 +6619,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 82,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -8089,7 +8089,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 135,
+      "views": 136,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "walterpalladino",
@@ -8210,5 +8210,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-23T08:53:02.397Z"
+  "updated_at": "2026-09-23T14:29:31.002Z"
 }
