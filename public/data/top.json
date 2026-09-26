@@ -253,10 +253,10 @@
       "trust_level": 1
     },
     {
-      "id": 33705,
-      "username": "EriTheSwitch",
-      "name": "Erista",
-      "avatar_template": "/user_avatar/forum.godotengine.org/eritheswitch/{size}/49803_2.png",
+      "id": 36376,
+      "username": "pizza_delivery_man",
+      "name": "",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/p/b5a626/{size}.png",
       "trust_level": 1
     },
     {
@@ -517,6 +517,15 @@
       "name": "",
       "avatar_template": "/user_avatar/forum.godotengine.org/smellyrat324/{size}/82471_2.png",
       "trust_level": 1
+    },
+    {
+      "id": -1,
+      "username": "system",
+      "name": "system",
+      "avatar_template": "/uploads/default/original/2X/4/4b0a7fa8a6334634b94a13d421f0d99e6f04e21f.svg",
+      "admin": true,
+      "moderator": true,
+      "trust_level": 4
     },
     {
       "id": 36268,
@@ -892,7 +901,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 694,
+        "views": 695,
         "like_count": 58,
         "has_summary": false,
         "last_poster_username": "Fheuef",
@@ -970,7 +979,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 574,
+        "views": 576,
         "like_count": 41,
         "has_summary": false,
         "last_poster_username": "dklassic",
@@ -1141,7 +1150,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 280,
+        "views": 281,
         "like_count": 14,
         "has_summary": false,
         "last_poster_username": "tomcat",
@@ -1306,7 +1315,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 834,
+        "views": 835,
         "like_count": 94,
         "has_summary": true,
         "last_poster_username": "artemisia",
@@ -1461,7 +1470,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 461,
+        "views": 462,
         "like_count": 23,
         "has_summary": false,
         "last_poster_username": "OldYoung",
@@ -1532,7 +1541,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 1080,
+        "views": 1083,
         "like_count": 72,
         "has_summary": true,
         "last_poster_username": "borisgamer_1362",
@@ -1666,14 +1675,14 @@
         "id": 144439,
         "title": "Was games better before?",
         "slug": "was-games-better-before",
-        "posts_count": 42,
-        "reply_count": 18,
-        "highest_post_number": 42,
+        "posts_count": 44,
+        "reply_count": 19,
+        "highest_post_number": 44,
         "image_url": null,
         "created_at": "2026-09-19T19:16:36.142Z",
-        "last_posted_at": "2026-09-25T11:45:42.605Z",
+        "last_posted_at": "2026-09-26T22:27:29.865Z",
         "bumped": true,
-        "bumped_at": "2026-09-25T11:45:42.605Z",
+        "bumped_at": "2026-09-26T22:27:29.865Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -1685,10 +1694,10 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 680,
-        "like_count": 55,
+        "views": 699,
+        "like_count": 56,
         "has_summary": false,
-        "last_poster_username": "artemisia",
+        "last_poster_username": "pizza_delivery_man",
         "category_id": 4,
         "op_like_count": 0,
         "pinned_globally": false,
@@ -1697,8 +1706,8 @@
         "can_vote": false,
         "posters": [
           {
-            "extras": "latest",
-            "description": "Original Poster, Most Recent Poster",
+            "extras": null,
+            "description": "Original Poster",
             "user_id": 49186,
             "primary_group_id": null,
             "flair_group_id": null
@@ -1725,9 +1734,9 @@
             "flair_group_id": null
           },
           {
-            "extras": null,
-            "description": "Frequent Poster",
-            "user_id": 33705,
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 36376,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -1757,7 +1766,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 323,
+        "views": 324,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "jen_s",
@@ -2350,7 +2359,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 463,
+        "views": 465,
         "like_count": 24,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2417,7 +2426,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 137,
+        "views": 138,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2496,7 +2505,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 362,
+        "views": 365,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "kkbb",
@@ -2572,7 +2581,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 193,
+        "views": 194,
         "like_count": 8,
         "has_summary": false,
         "last_poster_username": "renevanderark",
@@ -2643,7 +2652,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 277,
+        "views": 283,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -2928,7 +2937,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 191,
+        "views": 201,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "vati",
@@ -3080,7 +3089,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 243,
+        "views": 245,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "sancho2",
@@ -3168,7 +3177,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 238,
+        "views": 239,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "BalaDeSilver",
@@ -3219,7 +3228,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 304,
+        "views": 305,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -3297,7 +3306,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 192,
+        "views": 193,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "contemparyanz",
@@ -3517,9 +3526,9 @@
         "id": 143478,
         "title": "Angle Decreasing due to Clamp",
         "slug": "angle-decreasing-due-to-clamp",
-        "posts_count": 19,
+        "posts_count": 20,
         "reply_count": 17,
-        "highest_post_number": 19,
+        "highest_post_number": 20,
         "image_url": null,
         "created_at": "2026-08-26T21:26:29.359Z",
         "last_posted_at": "2026-08-27T20:18:50.308Z",
@@ -3530,7 +3539,7 @@
         "pinned": false,
         "unpinned": null,
         "visible": true,
-        "closed": false,
+        "closed": true,
         "archived": false,
         "bookmarked": null,
         "liked": null,
@@ -3581,6 +3590,13 @@
             "extras": null,
             "description": "Frequent Poster",
             "user_id": 38557,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": -1,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -3998,7 +4014,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 215,
+        "views": 216,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "ikar",
@@ -4060,7 +4076,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 226,
+        "views": 227,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "swordstudios",
@@ -4309,7 +4325,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 185,
+        "views": 186,
         "like_count": 8,
         "has_summary": false,
         "last_poster_username": "vissca",
@@ -4538,7 +4554,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 275,
+        "views": 276,
         "like_count": 18,
         "has_summary": false,
         "last_poster_username": "holo",
@@ -4664,7 +4680,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 149,
+        "views": 150,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "Dad3353",
