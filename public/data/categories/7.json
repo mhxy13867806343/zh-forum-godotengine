@@ -76,82 +76,18 @@
       ]
     },
     {
-      "fancy_title": "Could someone help me with a source code implementation?",
-      "id": 144315,
-      "title": "Could someone help me with a source code implementation?",
-      "slug": "could-someone-help-me-with-a-source-code-implementation",
-      "posts_count": 7,
-      "reply_count": 3,
-      "highest_post_number": 7,
-      "image_url": null,
-      "created_at": "2026-09-16T06:50:11.250Z",
-      "last_posted_at": "2026-09-27T13:15:30.314Z",
-      "bumped": true,
-      "bumped_at": "2026-09-27T13:15:30.314Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 172,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "pierrechi",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 53850,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user_id": 39321,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 42440,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Need help understanding and implementing determinism for my fighting game",
       "id": 144694,
       "title": "Need help understanding and implementing determinism for my fighting game",
       "slug": "need-help-understanding-and-implementing-determinism-for-my-fighting-game",
-      "posts_count": 6,
-      "reply_count": 1,
-      "highest_post_number": 6,
+      "posts_count": 8,
+      "reply_count": 3,
+      "highest_post_number": 8,
       "image_url": null,
       "created_at": "2026-09-26T20:18:31.546Z",
-      "last_posted_at": "2026-09-27T08:34:33.097Z",
+      "last_posted_at": "2026-09-27T17:45:19.392Z",
       "bumped": true,
-      "bumped_at": "2026-09-27T08:34:33.097Z",
+      "bumped_at": "2026-09-27T17:45:19.392Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -179,7 +115,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 62,
+      "views": 77,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Davyd_Shapovalov",
@@ -214,7 +150,7 @@
         {
           "extras": null,
           "description": "Frequent Poster",
-          "user_id": 11904,
+          "user_id": 51139,
           "primary_group_id": null,
           "flair_group_id": null
         },
@@ -222,6 +158,70 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 42588,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Could someone help me with a source code implementation?",
+      "id": 144315,
+      "title": "Could someone help me with a source code implementation?",
+      "slug": "could-someone-help-me-with-a-source-code-implementation",
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2026-09-16T06:50:11.250Z",
+      "last_posted_at": "2026-09-27T13:15:30.314Z",
+      "bumped": true,
+      "bumped_at": "2026-09-27T13:15:30.314Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 181,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "pierrechi",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 53850,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 39321,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 42440,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -267,8 +267,8 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 53,
-      "like_count": 0,
+      "views": 59,
+      "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
       "category_id": 7,
@@ -341,7 +341,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 34,
+      "views": 35,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "crytra",
@@ -408,7 +408,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 80,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "neraxa",
@@ -487,7 +487,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 32,
+      "views": 34,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -559,7 +559,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 164,
+      "views": 165,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -638,7 +638,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 40,
+      "views": 41,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -836,7 +836,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 94,
+      "views": 95,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Vachivenza",
@@ -910,7 +910,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 64,
+      "views": 65,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -1177,7 +1177,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 166,
+      "views": 167,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Starfly0518",
@@ -1258,7 +1258,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 61,
+      "views": 62,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Dad3353",
@@ -1468,7 +1468,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 47,
+      "views": 48,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1607,7 +1607,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 58,
+      "views": 59,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1674,7 +1674,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 143,
+      "views": 144,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "krieg",
@@ -1884,7 +1884,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 227,
+      "views": 230,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "gercode",
@@ -2032,7 +2032,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 163,
+      "views": 164,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "nojaf",
@@ -2871,7 +2871,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 74,
+      "views": 76,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "jacob_the_dev",
@@ -3873,7 +3873,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 164,
+      "views": 165,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "hatmix",
@@ -4435,7 +4435,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 93,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "zzzayan",
@@ -4571,7 +4571,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 105,
+      "views": 106,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "krieg",
@@ -4761,7 +4761,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 62,
+      "views": 63,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "pauldrewett",
@@ -5650,7 +5650,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 131,
+      "views": 134,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "maciaku",
@@ -7228,7 +7228,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1296,
+      "views": 1297,
       "like_count": 45,
       "has_summary": false,
       "last_poster_username": "Mike_Schulze",
@@ -8336,5 +8336,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-27T14:52:33.982Z"
+  "updated_at": "2026-09-27T19:22:37.704Z"
 }

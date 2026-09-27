@@ -91,7 +91,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 37,
+      "views": 38,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Jake_the_Wolfie",
@@ -235,9 +235,9 @@
       "id": 143541,
       "title": "Networking issues",
       "slug": "networking-issues",
-      "posts_count": 13,
+      "posts_count": 14,
       "reply_count": 10,
-      "highest_post_number": 13,
+      "highest_post_number": 14,
       "image_url": null,
       "created_at": "2026-08-28T14:20:05.708Z",
       "last_posted_at": "2026-08-28T19:02:17.056Z",
@@ -248,7 +248,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -275,7 +275,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 137,
+      "views": 138,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NerdCat",
@@ -297,6 +297,13 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -415,7 +422,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3164,
+      "views": 3165,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "KyotoCrank",
@@ -2019,7 +2026,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 259,
+      "views": 260,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -2460,7 +2467,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 925,
+      "views": 926,
       "like_count": 16,
       "has_summary": false,
       "last_poster_username": "Calcifer",
@@ -2558,7 +2565,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 360,
+      "views": 362,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "xytras",
@@ -2622,7 +2629,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 173,
+      "views": 174,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "jacketwithagun1",
@@ -3001,7 +3008,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 177,
+      "views": 178,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3087,7 +3094,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 230,
+      "views": 231,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4068,7 +4075,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1205,
+      "views": 1206,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "soapspangledgames",
@@ -4154,7 +4161,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 569,
+      "views": 570,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5362,7 +5369,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 613,
+      "views": 614,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Demetrius_Dixon",
@@ -5869,7 +5876,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 93,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "shalafafablob",
@@ -7130,7 +7137,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 78,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "cant.do.nothing",
@@ -7747,7 +7754,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 150,
+      "views": 151,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "pennyloafers",
@@ -7828,7 +7835,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 330,
+      "views": 331,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "patheros",
@@ -7890,7 +7897,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 490,
+      "views": 491,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -8047,5 +8054,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-27T14:52:43.691Z"
+  "updated_at": "2026-09-27T19:22:48.697Z"
 }
