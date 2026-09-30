@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 661,
+      "views": 663,
       "like_count": 28,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -114,18 +114,261 @@
       ]
     },
     {
-      "fancy_title": "UN-Centering nodes",
-      "id": 144794,
-      "title": "UN-Centering nodes",
-      "slug": "un-centering-nodes",
-      "posts_count": 3,
-      "reply_count": 1,
-      "highest_post_number": 3,
+      "fancy_title": "Boundary Box - Whats a good way to implement a HUD element which is essentially an invisible box that I will code to fill with sprites scaled to fit inside?",
+      "id": 144801,
+      "title": "Boundary Box - Whats a good way to implement a HUD element which is essentially an invisible box that I will code to fill with sprites scaled to fit inside?",
+      "slug": "boundary-box-whats-a-good-way-to-implement-a-hud-element-which-is-essentially-an-invisible-box-that-i-will-code-to-fill-with-sprites-scaled-to-fit-inside",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
       "image_url": null,
-      "created_at": "2026-09-29T19:36:34.645Z",
-      "last_posted_at": "2026-09-29T20:10:58.037Z",
+      "created_at": "2026-09-30T00:17:35.351Z",
+      "last_posted_at": "2026-09-30T00:17:35.489Z",
       "bumped": true,
-      "bumped_at": "2026-09-29T20:10:58.037Z",
+      "bumped_at": "2026-09-30T00:17:35.489Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 5,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "finitebanjo",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 53553,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "I have a working auto clicker script for my cookie clicker game, but it only updates when I click",
+      "id": 144799,
+      "title": "I have a working auto clicker script for my cookie clicker game, but it only updates when I click",
+      "slug": "i-have-a-working-auto-clicker-script-for-my-cookie-clicker-game-but-it-only-updates-when-i-click",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-09-29T22:40:45.684Z",
+      "last_posted_at": "2026-09-29T23:57:49.503Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T23:57:49.503Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 16,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 54221,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "RigidBody3D behave unexpected",
+      "id": 144798,
+      "title": "RigidBody3D behave unexpected",
+      "slug": "rigidbody3d-behave-unexpected",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-09-29T21:15:45.614Z",
+      "last_posted_at": "2026-09-29T23:53:24.407Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T23:53:24.407Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 19,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 49186,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How would I make something go to a random position whenever I click it?",
+      "id": 144728,
+      "title": "How would I make something go to a random position whenever I click it?",
+      "slug": "how-would-i-make-something-go-to-a-random-position-whenever-i-click-it",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-09-28T01:21:57.216Z",
+      "last_posted_at": "2026-09-29T23:51:44.967Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T23:51:44.967Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 86,
+      "like_count": 4,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 54221,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 42440,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "My second function doesn&rsquo;t run?",
+      "id": 144797,
+      "title": "My second function doesn't run?",
+      "slug": "my-second-function-doesnt-run",
+      "posts_count": 6,
+      "reply_count": 3,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-09-29T21:14:42.970Z",
+      "last_posted_at": "2026-09-29T22:13:37.201Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T22:13:37.201Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -153,28 +396,35 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 12,
-      "like_count": 1,
+      "views": 30,
+      "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "xbeefbabe",
+      "last_poster_username": "ezoarks",
       "category_id": 6,
       "op_like_count": 0,
       "pinned_globally": false,
       "featured_link": null,
-      "has_accepted_answer": false,
+      "has_accepted_answer": true,
       "can_vote": false,
       "posters": [
         {
           "extras": "latest",
           "description": "Original Poster, Most Recent Poster",
-          "user_id": 49556,
+          "user_id": 54221,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 17842,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
           "extras": null,
           "description": "Frequent Poster",
-          "user_id": 4936,
+          "user_id": 3907,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -185,14 +435,14 @@
       "id": 144790,
       "title": "How do you run individual scenes when using a scene manager?",
       "slug": "how-do-you-run-individual-scenes-when-using-a-scene-manager",
-      "posts_count": 5,
-      "reply_count": 2,
-      "highest_post_number": 5,
+      "posts_count": 6,
+      "reply_count": 3,
+      "highest_post_number": 6,
       "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/5/7563a511af0ec38686d5e371de1f85e991465b7f_2_1024x576.png",
       "created_at": "2026-09-29T15:12:25.139Z",
-      "last_posted_at": "2026-09-29T19:47:26.959Z",
+      "last_posted_at": "2026-09-29T21:48:54.098Z",
       "bumped": true,
-      "bumped_at": "2026-09-29T19:47:26.959Z",
+      "bumped_at": "2026-09-29T21:48:54.098Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -220,10 +470,10 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 34,
-      "like_count": 1,
+      "views": 52,
+      "like_count": 2,
       "has_summary": false,
-      "last_poster_username": "normalized",
+      "last_poster_username": "Dad3353",
       "category_id": 6,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -246,9 +496,314 @@
           "flair_group_id": null
         },
         {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
           "extras": "latest",
           "description": "Most Recent Poster",
-          "user_id": 39322,
+          "user_id": 1357,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Need help understanding and implementing determinism for my fighting game",
+      "id": 144694,
+      "title": "Need help understanding and implementing determinism for my fighting game",
+      "slug": "need-help-understanding-and-implementing-determinism-for-my-fighting-game",
+      "posts_count": 26,
+      "reply_count": 20,
+      "highest_post_number": 26,
+      "image_url": null,
+      "created_at": "2026-09-26T20:18:31.546Z",
+      "last_posted_at": "2026-09-29T21:23:38.351Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T21:23:38.351Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        },
+        {
+          "id": 14,
+          "name": "csharp",
+          "slug": "csharp"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 139,
+      "like_count": 4,
+      "has_summary": false,
+      "last_poster_username": "Mr_Quivy",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 8438,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 51139,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 42588,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 4936,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "I can&rsquo;t figure out how to save my cookies it just repeats, how should I fix this?",
+      "id": 144731,
+      "title": "I can't figure out how to save my cookies it just repeats, how should I fix this?",
+      "slug": "i-cant-figure-out-how-to-save-my-cookies-it-just-repeats-how-should-i-fix-this",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-09-28T01:22:24.784Z",
+      "last_posted_at": "2026-09-29T21:10:06.374Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T21:10:06.374Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 65,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "ezoarks",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 54221,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 17439,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 44964,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Area2D not detecting CharacterBody2D",
+      "id": 144707,
+      "title": "Area2D not detecting CharacterBody2D",
+      "slug": "area2d-not-detecting-characterbody2d",
+      "posts_count": 6,
+      "reply_count": 3,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-09-27T13:26:46.030Z",
+      "last_posted_at": "2026-09-29T20:34:15.684Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T20:34:15.684Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 80,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "elali",
+      "category_id": 9,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 52676,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 4936,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 51295,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "UN-Centering nodes",
+      "id": 144794,
+      "title": "UN-Centering nodes",
+      "slug": "un-centering-nodes",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-09-29T19:36:34.645Z",
+      "last_posted_at": "2026-09-29T20:33:56.058Z",
+      "bumped": true,
+      "bumped_at": "2026-09-29T20:33:56.058Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 27,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "tibaverus",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 49556,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 4936,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -284,7 +839,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 65,
+      "views": 77,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -348,7 +903,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 68,
+      "views": 77,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "tomcat",
@@ -422,7 +977,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 29,
+      "views": 39,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "finitebanjo",
@@ -494,7 +1049,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 64,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "baba",
@@ -563,7 +1118,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 51,
+      "views": 57,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "kodyac",
@@ -632,7 +1187,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 31,
+      "views": 38,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "neropatti",
@@ -689,7 +1244,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 42,
+      "views": 47,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kraasch",
@@ -756,7 +1311,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 951,
+      "views": 952,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "neropatti",
@@ -844,7 +1399,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 20,
+      "views": 24,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "blibloblap",
@@ -899,7 +1454,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 15,
+      "views": 17,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "terry_yaki",
@@ -949,7 +1504,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 40,
+      "views": 47,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "hexgrid",
@@ -1028,7 +1583,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 57,
+      "views": 58,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "bluetortoise",
@@ -1161,7 +1716,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 64,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "walterpalladino",
@@ -1230,7 +1785,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 130,
+      "views": 135,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "greywine",
@@ -1373,7 +1928,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 45,
+      "views": 47,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -1435,7 +1990,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 68,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "timothy",
@@ -1569,7 +2124,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 52,
+      "views": 53,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "emm_aube",
@@ -1626,7 +2181,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 57,
+      "views": 58,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "bradimey",
@@ -1690,7 +2245,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 89,
+      "views": 92,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sancho2",
@@ -1759,7 +2314,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 641,
+      "views": 642,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sancho2",
@@ -1830,7 +2385,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 47,
+      "views": 48,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "isamatlas",
@@ -1852,75 +2407,6 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 2982,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "I can&rsquo;t figure out how to save my cookies it just repeats, how should I fix this?",
-      "id": 144731,
-      "title": "I can't figure out how to save my cookies it just repeats, how should I fix this?",
-      "slug": "i-cant-figure-out-how-to-save-my-cookies-it-just-repeats-how-should-i-fix-this",
-      "posts_count": 3,
-      "reply_count": 0,
-      "highest_post_number": 3,
-      "image_url": null,
-      "created_at": "2026-09-28T01:22:24.784Z",
-      "last_posted_at": "2026-09-28T17:37:54.155Z",
-      "bumped": true,
-      "bumped_at": "2026-09-28T17:37:54.155Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 53,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "neropatti",
-      "category_id": 6,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 54221,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 17439,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 44964,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1983,75 +2469,6 @@
           "extras": null,
           "description": "Frequent Poster, Accepted Answer",
           "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "How would I make something go to a random position whenever I click it?",
-      "id": 144728,
-      "title": "How would I make something go to a random position whenever I click it?",
-      "slug": "how-would-i-make-something-go-to-a-random-position-whenever-i-click-it",
-      "posts_count": 3,
-      "reply_count": 0,
-      "highest_post_number": 3,
-      "image_url": null,
-      "created_at": "2026-09-28T01:21:57.216Z",
-      "last_posted_at": "2026-09-28T11:47:55.565Z",
-      "bumped": true,
-      "bumped_at": "2026-09-28T11:47:55.565Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 73,
-      "like_count": 4,
-      "has_summary": false,
-      "last_poster_username": "kraasch",
-      "category_id": 6,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 54221,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 42440,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -2213,7 +2630,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 109,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Asparagus_Asparagus",
@@ -2289,7 +2706,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 47,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "ack",
@@ -2351,7 +2768,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 68,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -2418,7 +2835,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 59,
+      "views": 60,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "artemisia",
@@ -2475,7 +2892,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 165,
+      "views": 168,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "languorian",
@@ -2544,7 +2961,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 23,
+      "views": 24,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ejiqpep",
@@ -2594,7 +3011,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 26,
+      "views": 28,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ultrinik",
@@ -2644,7 +3061,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 295,
+      "views": 296,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "awkwood",
@@ -2730,7 +3147,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 174,
+      "views": 175,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "reddragoncats17",
@@ -2815,73 +3232,6 @@
       ]
     },
     {
-      "fancy_title": "Area2D not detecting CharacterBody2D",
-      "id": 144707,
-      "title": "Area2D not detecting CharacterBody2D",
-      "slug": "area2d-not-detecting-characterbody2d",
-      "posts_count": 5,
-      "reply_count": 3,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-09-27T13:26:46.030Z",
-      "last_posted_at": "2026-09-27T20:44:35.376Z",
-      "bumped": true,
-      "bumped_at": "2026-09-27T20:44:35.376Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 67,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "acendev",
-      "category_id": 9,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 52676,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 4936,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Declared PackedScene Returning as Null",
       "id": 144712,
       "title": "Declared PackedScene Returning as Null",
@@ -2926,7 +3276,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 38,
+      "views": 39,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "smellyrat324",
@@ -3076,94 +3426,6 @@
       ]
     },
     {
-      "fancy_title": "Need help understanding and implementing determinism for my fighting game",
-      "id": 144694,
-      "title": "Need help understanding and implementing determinism for my fighting game",
-      "slug": "need-help-understanding-and-implementing-determinism-for-my-fighting-game",
-      "posts_count": 8,
-      "reply_count": 3,
-      "highest_post_number": 8,
-      "image_url": null,
-      "created_at": "2026-09-26T20:18:31.546Z",
-      "last_posted_at": "2026-09-27T17:45:19.392Z",
-      "bumped": true,
-      "bumped_at": "2026-09-27T17:45:19.392Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        },
-        {
-          "id": 14,
-          "name": "csharp",
-          "slug": "csharp"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 90,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "Davyd_Shapovalov",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 8438,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 38557,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 48369,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 51139,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 42588,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Help with movement code bugs",
       "id": 144701,
       "title": "Help with movement code bugs",
@@ -3208,7 +3470,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 65,
+      "views": 68,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Davyd_Shapovalov",
@@ -3287,7 +3549,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 94,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "theodelipedaluz",
@@ -3344,7 +3606,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 440,
+      "views": 442,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "hardev1",
@@ -3408,7 +3670,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 198,
+      "views": 199,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "pierrechi",
@@ -3482,7 +3744,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 92,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "giuzep89",
@@ -3556,7 +3818,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 78,
+      "views": 80,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -3630,7 +3892,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 157,
+      "views": 158,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Guarapicci",
@@ -3701,7 +3963,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 33,
+      "views": 34,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "trash-max",
@@ -3761,7 +4023,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 44,
+      "views": 46,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "crytra",
@@ -3823,7 +4085,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 54,
+      "views": 55,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "koffinweezing",
@@ -3890,7 +4152,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 98,
+      "views": 99,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "neraxa",
@@ -3964,7 +4226,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 67,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -4093,7 +4355,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 35,
+      "views": 37,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "LittleLettuce",
@@ -4158,7 +4420,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 42,
+      "views": 43,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -4220,7 +4482,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 37,
+      "views": 39,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "pizza_delivery_man",
@@ -4277,7 +4539,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 245,
+      "views": 247,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "vati",
@@ -4363,7 +4625,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 87,
+      "views": 88,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Vachivenza",
@@ -4663,7 +4925,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 188,
+      "views": 189,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -4996,7 +5258,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 150,
+      "views": 151,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "lord_drageon",
@@ -5070,7 +5332,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 115,
+      "views": 117,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5263,7 +5525,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 210,
+      "views": 212,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Goodai9",
@@ -5320,7 +5582,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 124,
+      "views": 126,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Dad3353",
@@ -5448,7 +5710,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 89,
+      "views": 91,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "stephen4",
@@ -5512,7 +5774,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 100,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "stephen4",
@@ -5576,7 +5838,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "baba",
@@ -5707,7 +5969,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 148,
+      "views": 150,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5855,7 +6117,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 509,
+      "views": 510,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "T-7",
@@ -5938,7 +6200,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 10443,
+      "views": 10446,
       "like_count": 20,
       "has_summary": false,
       "last_poster_username": "Sebbog",
@@ -6263,7 +6525,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 79,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -6451,7 +6713,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 125,
+      "views": 127,
       "like_count": 14,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -6577,7 +6839,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 90,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "PsiPlan",
@@ -6639,7 +6901,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 87,
+      "views": 88,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Lolmaniaco",
@@ -6696,7 +6958,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 312,
+      "views": 314,
       "like_count": 15,
       "has_summary": false,
       "last_poster_username": "artemisia",
@@ -6765,7 +7027,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 133,
+      "views": 134,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "tomcat",
@@ -7331,7 +7593,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 87,
+      "views": 88,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Fusinelioficial_19",
@@ -7697,7 +7959,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 159,
+      "views": 160,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "MrBlueFrisk",
@@ -7894,255 +8156,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "2d tilemap navigation with agents, trying to avoid collisions with walls",
-      "id": 144225,
-      "title": "2d tilemap navigation with agents, trying to avoid collisions with walls",
-      "slug": "2d-tilemap-navigation-with-agents-trying-to-avoid-collisions-with-walls",
-      "posts_count": 3,
-      "reply_count": 0,
-      "highest_post_number": 3,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/4/d/4d1ff6020e4ddea897c8657f915f2bb4bcdaf027.png",
-      "created_at": "2026-09-14T22:45:19.517Z",
-      "last_posted_at": "2026-09-21T18:22:38.291Z",
-      "bumped": true,
-      "bumped_at": "2026-09-21T18:22:38.291Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 79,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "nukehaus",
-      "category_id": 26,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 53820,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 53855,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Help zooming animation track Y-axis view without ctrl-alt-mouse or trackpad",
-      "id": 144492,
-      "title": "Help zooming animation track Y-axis view without ctrl-alt-mouse or trackpad",
-      "slug": "help-zooming-animation-track-y-axis-view-without-ctrl-alt-mouse-or-trackpad",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": null,
-      "created_at": "2026-09-21T11:18:15.155Z",
-      "last_posted_at": "2026-09-21T16:56:15.109Z",
-      "bumped": true,
-      "bumped_at": "2026-09-21T16:56:15.109Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 61,
-          "name": "animation",
-          "slug": "animation"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 58,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "arakade",
-      "category_id": 11,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 36916,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Getting line is .Tres save resource in script for level save",
-      "id": 144324,
-      "title": "Getting line is .Tres save resource in script for level save",
-      "slug": "getting-line-is-tres-save-resource-in-script-for-level-save",
-      "posts_count": 9,
-      "reply_count": 5,
-      "highest_post_number": 9,
-      "image_url": null,
-      "created_at": "2026-09-16T17:00:30.894Z",
-      "last_posted_at": "2026-09-21T15:36:59.581Z",
-      "bumped": true,
-      "bumped_at": "2026-09-21T15:36:59.581Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        },
-        {
-          "id": 21,
-          "name": "game",
-          "slug": "game"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 142,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "untitledgamestudios",
-      "category_id": 6,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 44901,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user_id": 53712,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 53937,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Grab focus on buttons created during game",
-      "id": 144465,
-      "title": "Grab focus on buttons created during game",
-      "slug": "grab-focus-on-buttons-created-during-game",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/7/a7e9900b8fa4e9c26c69a9d96f4a50c7a5d2362e.png",
-      "created_at": "2026-09-20T13:16:10.630Z",
-      "last_posted_at": "2026-09-21T15:29:51.785Z",
-      "bumped": true,
-      "bumped_at": "2026-09-21T15:29:51.785Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 71,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "vati",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster, Accepted Answer",
-          "user_id": 17987,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-09-29T20:18:13.334Z"
+  "updated_at": "2026-09-30T00:49:29.145Z"
 }

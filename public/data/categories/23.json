@@ -52,14 +52,14 @@
       "id": 144795,
       "title": "Dev snapshot: Godot 4.8 dev 7",
       "slug": "dev-snapshot-godot-4-8-dev-7",
-      "posts_count": 1,
+      "posts_count": 3,
       "reply_count": 0,
-      "highest_post_number": 1,
+      "highest_post_number": 3,
       "image_url": null,
       "created_at": "2026-09-29T19:44:46.636Z",
-      "last_posted_at": "2026-09-29T19:44:46.733Z",
+      "last_posted_at": "2026-09-29T23:34:03.240Z",
       "bumped": true,
-      "bumped_at": "2026-09-29T19:44:46.733Z",
+      "bumped_at": "2026-09-29T23:34:03.240Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -87,21 +87,35 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 12,
-      "like_count": 1,
+      "views": 48,
+      "like_count": 5,
       "has_summary": false,
-      "last_poster_username": "Repiteo",
+      "last_poster_username": "tomcat",
       "category_id": 23,
-      "op_like_count": 1,
+      "op_like_count": 5,
       "pinned_globally": false,
       "featured_link": null,
       "has_accepted_answer": false,
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
+          "extras": null,
+          "description": "Original Poster",
           "user_id": 657,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 34957,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 410,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -131,7 +145,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 4438,
+      "views": 4445,
       "like_count": 146,
       "has_summary": true,
       "last_poster_username": "metalhippy",
@@ -219,7 +233,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 178,
+      "views": 180,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "swordstudios",
@@ -468,7 +482,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 117,
+      "views": 118,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "WorldyBear",
@@ -1154,7 +1168,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 695,
+      "views": 696,
       "like_count": 56,
       "has_summary": false,
       "last_poster_username": "jonPS",
@@ -1450,7 +1464,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 170,
+      "views": 171,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -2289,7 +2303,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 221,
+      "views": 223,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -2781,7 +2795,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1214,
+      "views": 1215,
       "like_count": 85,
       "has_summary": false,
       "last_poster_username": "Friedrich_Lehner",
@@ -3784,7 +3798,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 1294,
+      "views": 1295,
       "like_count": 77,
       "has_summary": false,
       "last_poster_username": "Lc5o1",
@@ -4351,7 +4365,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6080,
+      "views": 6081,
       "like_count": 32,
       "has_summary": false,
       "last_poster_username": "capitalexotic",
@@ -7037,7 +7051,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 220,
+      "views": 221,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "smorty",
@@ -7220,5 +7234,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-29T20:18:21.631Z"
+  "updated_at": "2026-09-30T00:49:37.447Z"
 }
