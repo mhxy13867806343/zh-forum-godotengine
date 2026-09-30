@@ -76,18 +76,78 @@
       ]
     },
     {
+      "fancy_title": "How can I create live voice chat for my multiplayer game?",
+      "id": 144810,
+      "title": "How can I create live voice chat for my multiplayer game?",
+      "slug": "how-can-i-create-live-voice-chat-for-my-multiplayer-game",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-09-30T07:16:30.578Z",
+      "last_posted_at": "2026-09-30T07:16:30.811Z",
+      "bumped": true,
+      "bumped_at": "2026-09-30T07:16:30.811Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 3,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "fobodev",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 40456,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Need help understanding and implementing determinism for my fighting game",
       "id": 144694,
       "title": "Need help understanding and implementing determinism for my fighting game",
       "slug": "need-help-understanding-and-implementing-determinism-for-my-fighting-game",
-      "posts_count": 26,
-      "reply_count": 20,
-      "highest_post_number": 26,
+      "posts_count": 27,
+      "reply_count": 21,
+      "highest_post_number": 27,
       "image_url": null,
       "created_at": "2026-09-26T20:18:31.546Z",
-      "last_posted_at": "2026-09-29T21:23:38.351Z",
+      "last_posted_at": "2026-09-30T03:21:52.208Z",
       "bumped": true,
-      "bumped_at": "2026-09-29T21:23:38.351Z",
+      "bumped_at": "2026-09-30T03:21:52.208Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -115,10 +175,10 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 139,
+      "views": 157,
       "like_count": 4,
       "has_summary": false,
-      "last_poster_username": "Mr_Quivy",
+      "last_poster_username": "user-name-user",
       "category_id": 7,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -127,8 +187,8 @@
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
+          "extras": null,
+          "description": "Original Poster",
           "user_id": 8438,
           "primary_group_id": null,
           "flair_group_id": null
@@ -155,9 +215,9 @@
           "flair_group_id": null
         },
         {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 4936,
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 48369,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -168,14 +228,14 @@
       "id": 144758,
       "title": "Find point at which two rays intersect",
       "slug": "find-point-at-which-two-rays-intersect",
-      "posts_count": 6,
-      "reply_count": 2,
-      "highest_post_number": 6,
+      "posts_count": 7,
+      "reply_count": 3,
+      "highest_post_number": 7,
       "image_url": null,
       "created_at": "2026-09-29T01:32:14.728Z",
-      "last_posted_at": "2026-09-29T19:26:21.304Z",
+      "last_posted_at": "2026-09-30T02:10:31.757Z",
       "bumped": true,
-      "bumped_at": "2026-09-29T19:26:21.304Z",
+      "bumped_at": "2026-09-30T02:10:31.757Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -193,21 +253,28 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
-      "like_count": 0,
+      "views": 91,
+      "like_count": 3,
       "has_summary": false,
-      "last_poster_username": "normalized",
+      "last_poster_username": "fizzyplanet",
       "category_id": 7,
       "op_like_count": 0,
       "pinned_globally": false,
       "featured_link": null,
-      "has_accepted_answer": false,
+      "has_accepted_answer": true,
       "can_vote": false,
       "posters": [
         {
-          "extras": null,
-          "description": "Original Poster",
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
           "user_id": 28256,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 39322,
           "primary_group_id": null,
           "flair_group_id": null
         },
@@ -215,13 +282,6 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 39252,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 39322,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -272,7 +332,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 64,
+      "views": 65,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "baba",
@@ -410,7 +470,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 17,
+      "views": 18,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "terry_yaki",
@@ -460,7 +520,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 47,
+      "views": 49,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "hexgrid",
@@ -534,7 +594,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 47,
+      "views": 49,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -596,7 +656,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 68,
+      "views": 70,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "timothy",
@@ -968,7 +1028,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 199,
+      "views": 200,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "pierrechi",
@@ -1116,7 +1176,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 52,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "crytra",
@@ -1183,7 +1243,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 102,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "neraxa",
@@ -1262,7 +1322,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 43,
+      "views": 45,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -1334,7 +1394,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 189,
+      "views": 192,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -1455,7 +1515,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 100,
+      "views": 102,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "stephen4",
@@ -1880,7 +1940,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 199,
+      "views": 200,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Starfly0518",
@@ -1961,7 +2021,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 76,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Dad3353",
@@ -2092,7 +2152,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 109,
+      "views": 110,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "horsedev",
@@ -2446,7 +2506,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 48,
+      "views": 49,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Puneko",
@@ -2735,7 +2795,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 172,
+      "views": 173,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "nojaf",
@@ -2866,7 +2926,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 85,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -3631,7 +3691,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 157,
+      "views": 158,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Sandpiper_Point",
@@ -3872,7 +3932,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 78,
+      "views": 79,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ShadowRealm",
@@ -4270,7 +4330,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 96,
+      "views": 98,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ActualHorse",
@@ -5274,7 +5334,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 112,
+      "views": 113,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "krieg",
@@ -5464,7 +5524,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 64,
+      "views": 65,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "pauldrewett",
@@ -5905,7 +5965,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 146,
+      "views": 147,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -6474,7 +6534,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -6580,9 +6640,9 @@
       "id": 143649,
       "title": "Smooth bezier_interpolate concatenation",
       "slug": "smooth-bezier-interpolate-concatenation",
-      "posts_count": 7,
+      "posts_count": 8,
       "reply_count": 5,
-      "highest_post_number": 7,
+      "highest_post_number": 8,
       "image_url": null,
       "created_at": "2026-08-31T02:10:12.045Z",
       "last_posted_at": "2026-08-31T03:19:35.568Z",
@@ -6593,7 +6653,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -6642,6 +6702,13 @@
           "extras": null,
           "description": "Frequent Poster, Accepted Answer",
           "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -6741,7 +6808,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 347,
+      "views": 348,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "FabianMartin",
@@ -7594,7 +7661,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 104,
+      "views": 106,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7742,7 +7809,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 140,
+      "views": 142,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7959,7 +8026,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1303,
+      "views": 1304,
       "like_count": 45,
       "has_summary": false,
       "last_poster_username": "Mike_Schulze",
@@ -8052,7 +8119,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 94,
+      "views": 95,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Baz",
@@ -8214,74 +8281,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "Code completion from script editor in custom CodeEdit?",
-      "id": 139151,
-      "title": "Code completion from script editor in custom CodeEdit?",
-      "slug": "code-completion-from-script-editor-in-custom-codeedit",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": null,
-      "created_at": "2026-05-24T22:30:40.135Z",
-      "last_posted_at": "2026-08-24T16:30:05.252Z",
-      "bumped": true,
-      "bumped_at": "2026-08-24T16:30:05.252Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        },
-        {
-          "id": 33,
-          "name": "plugin-development",
-          "slug": "plugin-development"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 111,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "Walker_Cornisean",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 40113,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 53172,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-09-30T00:49:27.519Z"
+  "updated_at": "2026-09-30T07:35:56.214Z"
 }
