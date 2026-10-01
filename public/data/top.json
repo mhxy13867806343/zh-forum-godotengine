@@ -491,6 +491,14 @@
       "trust_level": 1
     },
     {
+      "id": 3,
+      "username": "Calinou",
+      "name": "Hugo Locurcio",
+      "avatar_template": "/user_avatar/forum.godotengine.org/calinou/{size}/74532_2.png",
+      "moderator": true,
+      "trust_level": 3
+    },
+    {
       "id": 16603,
       "username": "ikar",
       "name": "",
@@ -903,7 +911,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 671,
+        "views": 686,
         "like_count": 44,
         "has_summary": false,
         "last_poster_username": "dklassic",
@@ -991,7 +999,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 714,
+        "views": 715,
         "like_count": 58,
         "has_summary": false,
         "last_poster_username": "Fheuef",
@@ -1246,7 +1254,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 851,
+        "views": 852,
         "like_count": 94,
         "has_summary": true,
         "last_poster_username": "artemisia",
@@ -1318,7 +1326,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 277,
+        "views": 278,
         "like_count": 14,
         "has_summary": false,
         "last_poster_username": "swordstudios",
@@ -1472,7 +1480,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 1137,
+        "views": 1140,
         "like_count": 72,
         "has_summary": true,
         "last_poster_username": "borisgamer_1362",
@@ -1544,7 +1552,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 886,
+        "views": 894,
         "like_count": 60,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -1616,7 +1624,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 353,
+        "views": 355,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "jen_s",
@@ -2209,7 +2217,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 500,
+        "views": 502,
         "like_count": 24,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2281,7 +2289,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 431,
+        "views": 439,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "kkbb",
@@ -2426,7 +2434,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 318,
+        "views": 319,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -2566,7 +2574,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 262,
+        "views": 264,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "vati",
@@ -2797,7 +2805,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 224,
+        "views": 225,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "kraasch",
@@ -3011,7 +3019,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 317,
+        "views": 318,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -3083,7 +3091,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 255,
+        "views": 261,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "finitebanjo",
@@ -3212,14 +3220,14 @@
         "id": 144092,
         "title": "Shadow blur causes shadow leak",
         "slug": "shadow-blur-causes-shadow-leak",
-        "posts_count": 10,
+        "posts_count": 11,
         "reply_count": 8,
-        "highest_post_number": 10,
+        "highest_post_number": 11,
         "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/4/9/495b2988f97ed885915c50b915049161115b2d8d_2_1024x639.jpeg",
         "created_at": "2026-09-12T16:16:33.224Z",
-        "last_posted_at": "2026-09-27T21:50:53.554Z",
+        "last_posted_at": "2026-10-01T00:27:00.997Z",
         "bumped": true,
-        "bumped_at": "2026-09-27T21:50:53.554Z",
+        "bumped_at": "2026-10-01T00:27:00.997Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -3237,10 +3245,10 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 194,
+        "views": 196,
         "like_count": 4,
         "has_summary": false,
-        "last_poster_username": "normalized",
+        "last_poster_username": "Calinou",
         "category_id": 10,
         "op_like_count": 1,
         "pinned_globally": false,
@@ -3256,9 +3264,16 @@
             "flair_group_id": null
           },
           {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 39322,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
             "extras": "latest",
             "description": "Most Recent Poster",
-            "user_id": 39322,
+            "user_id": 3,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -3639,7 +3654,7 @@
         "id": 144694,
         "title": "Need help understanding and implementing determinism for my fighting game",
         "slug": "need-help-understanding-and-implementing-determinism-for-my-fighting-game",
-        "posts_count": 27,
+        "posts_count": 26,
         "reply_count": 21,
         "highest_post_number": 27,
         "image_url": null,
@@ -3674,7 +3689,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 181,
+        "views": 183,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "user-name-user",
@@ -3843,7 +3858,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 194,
+        "views": 196,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "amenos42",
@@ -3999,7 +4014,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 193,
+        "views": 194,
         "like_count": 8,
         "has_summary": false,
         "last_poster_username": "vissca",
@@ -4681,7 +4696,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 143,
+        "views": 144,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "LimbicSister",
