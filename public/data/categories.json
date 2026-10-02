@@ -13,7 +13,7 @@
         "emoji": null,
         "slug": "announcements",
         "topic_count": 171,
-        "post_count": 697,
+        "post_count": 698,
         "position": 1,
         "description": "Official blog posts and other Godot announcements.",
         "description_text": "Official blog posts and other Godot announcements.",
@@ -161,7 +161,7 @@
         "emoji": null,
         "slug": "help",
         "topic_count": 19295,
-        "post_count": 99625,
+        "post_count": 99682,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
         "description_text": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -196,11 +196,11 @@
           "notify_on_staff_accept_solved": "false",
           "empty_box_on_unsolved": "false"
         },
-        "topics_day": 14,
-        "topics_week": 72,
-        "topics_month": 376,
-        "topics_year": 7149,
-        "topics_all_time": 31790,
+        "topics_day": 15,
+        "topics_week": 86,
+        "topics_month": 382,
+        "topics_year": 7139,
+        "topics_all_time": 31791,
         "subcategory_ids": [
           11,
           13,
@@ -249,18 +249,18 @@
             }
           },
           {
-            "fancy_title": "Needing some help with resource&rsquo;s for my shop",
-            "id": 144868,
-            "title": "Needing some help with resource's for my shop",
-            "slug": "needing-some-help-with-resources-for-my-shop",
-            "posts_count": 8,
-            "reply_count": 5,
-            "highest_post_number": 8,
+            "fancy_title": "Area2D not detecting CharacterBody2D",
+            "id": 144707,
+            "title": "Area2D not detecting CharacterBody2D",
+            "slug": "area2d-not-detecting-characterbody2d",
+            "posts_count": 9,
+            "reply_count": 3,
+            "highest_post_number": 9,
             "image_url": null,
-            "created_at": "2026-10-01T14:09:39.227Z",
-            "last_posted_at": "2026-10-02T00:17:20.991Z",
+            "created_at": "2026-09-27T13:26:46.030Z",
+            "last_posted_at": "2026-10-02T06:38:33.222Z",
             "bumped": true,
-            "bumped_at": "2026-10-02T00:17:20.991Z",
+            "bumped_at": "2026-10-02T06:38:33.222Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -272,25 +272,25 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 52860,
-              "username": "greenapplestudios",
-              "name": "Green Apple Studios",
-              "avatar_template": "/user_avatar/forum.godotengine.org/greenapplestudios/{size}/81913_2.png"
+              "id": 54408,
+              "username": "Matthew_Safari",
+              "name": "Matthew Safari",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/m/6a8cbe/{size}.png"
             }
           },
           {
-            "fancy_title": "How to make exportable variables apply visually in the editor?",
-            "id": 144889,
-            "title": "How to make exportable variables apply visually in the editor?",
-            "slug": "how-to-make-exportable-variables-apply-visually-in-the-editor",
+            "fancy_title": "Animation Player is called in _input, but not playing elsewhere",
+            "id": 144893,
+            "title": "Animation Player is called in _input, but not playing elsewhere",
+            "slug": "animation-player-is-called-in-input-but-not-playing-elsewhere",
             "posts_count": 1,
             "reply_count": 0,
             "highest_post_number": 1,
             "image_url": null,
-            "created_at": "2026-10-02T00:16:04.870Z",
-            "last_posted_at": "2026-10-02T00:16:05.033Z",
+            "created_at": "2026-10-02T06:38:25.633Z",
+            "last_posted_at": "2026-10-02T06:38:25.779Z",
             "bumped": true,
-            "bumped_at": "2026-10-02T00:16:05.033Z",
+            "bumped_at": "2026-10-02T06:38:25.779Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -302,10 +302,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 6096,
-              "username": "Estroponcio",
-              "name": "Francisco Ayrolo",
-              "avatar_template": "/user_avatar/forum.godotengine.org/estroponcio/{size}/11117_2.png"
+              "id": 54414,
+              "username": "beis",
+              "name": "",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/b/91b2a8/{size}.png"
             }
           }
         ]
@@ -355,10 +355,10 @@
           "empty_box_on_unsolved": null,
           "enable_topic_voting": null
         },
-        "topics_day": 3,
-        "topics_week": 22,
-        "topics_month": 82,
-        "topics_year": 599,
+        "topics_day": 5,
+        "topics_week": 24,
+        "topics_month": 85,
+        "topics_year": 602,
         "topics_all_time": 1239,
         "subcategory_ids": [
           15,
@@ -370,6 +370,36 @@
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "NodeWorthy - The visual Godot game creator",
+            "id": 144872,
+            "title": "NodeWorthy - The visual Godot game creator",
+            "slug": "nodeworthy-the-visual-godot-game-creator",
+            "posts_count": 11,
+            "reply_count": 4,
+            "highest_post_number": 11,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/e/1/e1d3f69cff0dfb57510de0ba2ad8dfdd6e373bd7_2_1024x682.jpeg",
+            "created_at": "2026-10-01T16:09:31.332Z",
+            "last_posted_at": "2026-10-02T06:39:37.426Z",
+            "bumped": true,
+            "bumped_at": "2026-10-02T06:39:37.426Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 53918,
+              "username": "StateCraft",
+              "name": "James ",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/s/9de0a6/{size}.png"
+            }
+          },
           {
             "fancy_title": "Cue2 - Playback and showcontrol for events",
             "id": 144047,
@@ -398,36 +428,6 @@
               "username": "smxham",
               "name": "smxham",
               "avatar_template": "/letter_avatar_proxy/v4/letter/s/c6cbf5/{size}.png"
-            }
-          },
-          {
-            "fancy_title": "NodeWorthy - The visual Godot game creator",
-            "id": 144872,
-            "title": "NodeWorthy - The visual Godot game creator",
-            "slug": "nodeworthy-the-visual-godot-game-creator",
-            "posts_count": 7,
-            "reply_count": 3,
-            "highest_post_number": 7,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/e/1/e1d3f69cff0dfb57510de0ba2ad8dfdd6e373bd7_2_1024x682.jpeg",
-            "created_at": "2026-10-01T16:09:31.332Z",
-            "last_posted_at": "2026-10-01T22:47:53.202Z",
-            "bumped": true,
-            "bumped_at": "2026-10-01T22:47:53.202Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 1357,
-              "username": "Dad3353",
-              "name": "Douglas ALLEN",
-              "avatar_template": "/user_avatar/forum.godotengine.org/dad3353/{size}/70645_2.png"
             }
           },
           {
@@ -507,10 +507,10 @@
           "empty_box_on_unsolved": null,
           "enable_topic_voting": null
         },
-        "topics_day": 3,
-        "topics_week": 8,
+        "topics_day": 2,
+        "topics_week": 10,
         "topics_month": 38,
-        "topics_year": 318,
+        "topics_year": 319,
         "topics_all_time": 714,
         "subcategory_ids": [
           20,
@@ -523,6 +523,36 @@
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "[Tool] LiteQuest System — Modular Quest Framework for Godot 4.7+ (.NET 8, C#)",
+            "id": 144612,
+            "title": "[Tool] LiteQuest System — Modular Quest Framework for Godot 4.7+ (.NET 8, C#)",
+            "slug": "tool-litequest-system-modular-quest-framework-for-godot-4-7-net-8-c",
+            "posts_count": 3,
+            "reply_count": 0,
+            "highest_post_number": 3,
+            "image_url": null,
+            "created_at": "2026-09-24T05:30:03.060Z",
+            "last_posted_at": "2026-10-02T06:58:05.754Z",
+            "bumped": true,
+            "bumped_at": "2026-10-02T06:58:05.754Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 54095,
+              "username": "gutian2000",
+              "name": "Gutian2000",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/g/e68b1a/{size}.png"
+            }
+          },
           {
             "fancy_title": "Analog Horror VHS for Godot 4 — 8 presets + runtime tape failures",
             "id": 144875,
@@ -582,36 +612,6 @@
               "name": "",
               "avatar_template": "/user_avatar/forum.godotengine.org/bugnet/{size}/84068_2.png"
             }
-          },
-          {
-            "fancy_title": "A quick browser-playtesting idea: an HTML5/WebGL game hub",
-            "id": 144845,
-            "title": "A quick browser-playtesting idea: an HTML5/WebGL game hub",
-            "slug": "a-quick-browser-playtesting-idea-an-html5-webgl-game-hub",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": null,
-            "created_at": "2026-09-30T22:14:25.486Z",
-            "last_posted_at": "2026-09-30T22:14:25.604Z",
-            "bumped": true,
-            "bumped_at": "2026-09-30T22:14:25.604Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 54282,
-              "username": "easyhubgames",
-              "name": "EasyHub Games",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/e/aca169/{size}.png"
-            }
           }
         ]
       },
@@ -625,7 +625,7 @@
         "emoji": null,
         "slug": "general",
         "topic_count": 1146,
-        "post_count": 12083,
+        "post_count": 12091,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
         "description_text": "Create topics here that don’t fit into any other existing category.",
@@ -660,10 +660,10 @@
           "enable_topic_voting": null,
           "has_chat_enabled": true
         },
-        "topics_day": 4,
+        "topics_day": 0,
         "topics_week": 8,
         "topics_month": 36,
-        "topics_year": 526,
+        "topics_year": 524,
         "topics_all_time": 1167,
         "subcategory_ids": [
           29,
@@ -711,14 +711,14 @@
             "id": 144824,
             "title": "How often do you abbandon your games?",
             "slug": "how-often-do-you-abbandon-your-games",
-            "posts_count": 4,
+            "posts_count": 5,
             "reply_count": 2,
-            "highest_post_number": 4,
+            "highest_post_number": 5,
             "image_url": null,
             "created_at": "2026-09-30T17:28:19.671Z",
-            "last_posted_at": "2026-10-02T00:26:36.308Z",
+            "last_posted_at": "2026-10-02T05:35:50.832Z",
             "bumped": true,
-            "bumped_at": "2026-10-02T00:26:36.308Z",
+            "bumped_at": "2026-10-02T05:35:50.832Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -730,10 +730,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 3098,
-              "username": "sancho2",
-              "name": "Sancho2",
-              "avatar_template": "/user_avatar/forum.godotengine.org/sancho2/{size}/56149_2.png"
+              "id": 52669,
+              "username": "FrozenFried",
+              "name": "FrozenFried",
+              "avatar_template": "/user_avatar/forum.godotengine.org/frozenfried/{size}/56454_2.png"
             }
           },
           {
@@ -741,14 +741,14 @@
             "id": 142730,
             "title": "Book recommendations",
             "slug": "book-recommendations",
-            "posts_count": 10,
+            "posts_count": 11,
             "reply_count": 6,
-            "highest_post_number": 10,
+            "highest_post_number": 11,
             "image_url": null,
             "created_at": "2026-08-07T22:57:54.656Z",
-            "last_posted_at": "2026-10-01T22:32:18.451Z",
+            "last_posted_at": "2026-10-02T01:26:36.119Z",
             "bumped": true,
-            "bumped_at": "2026-10-01T22:32:18.451Z",
+            "bumped_at": "2026-10-02T01:26:36.119Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -760,10 +760,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 11904,
-              "username": "gertkeno",
-              "name": "Garrett Hale",
-              "avatar_template": "/user_avatar/forum.godotengine.org/gertkeno/{size}/55277_2.png"
+              "id": 54373,
+              "username": "jd2895",
+              "name": "Josh Davis",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/j/ea5d25/{size}.png"
             }
           }
         ]
@@ -926,7 +926,7 @@
         "emoji": null,
         "slug": "archive",
         "topic_count": 24087,
-        "post_count": 49521,
+        "post_count": 49523,
         "position": 23,
         "description": "This category hosts all old posts imported from the previous Question2Answer platform.",
         "description_text": "This category hosts all old posts imported from the previous Question2Answer platform.",
