@@ -80,14 +80,14 @@
       "id": 144664,
       "title": "Variable jump height turned into double jump when I didnt want to",
       "slug": "variable-jump-height-turned-into-double-jump-when-i-didnt-want-to",
-      "posts_count": 6,
-      "reply_count": 3,
-      "highest_post_number": 6,
+      "posts_count": 7,
+      "reply_count": 4,
+      "highest_post_number": 7,
       "image_url": "https://forum.godotengine.org/uploads/default/original/3X/1/0/10c43d62d5fc3c6550b264181509130606a41d01.gif",
       "created_at": "2026-09-25T16:54:17.205Z",
-      "last_posted_at": "2026-10-01T20:01:23.159Z",
+      "last_posted_at": "2026-10-01T21:30:03.827Z",
       "bumped": true,
-      "bumped_at": "2026-10-01T20:01:23.159Z",
+      "bumped_at": "2026-10-01T21:30:03.827Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -120,8 +120,82 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
-      "like_count": 2,
+      "views": 89,
+      "like_count": 3,
+      "has_summary": false,
+      "last_poster_username": "BrimmOrca",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 54100,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 17842,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Aabb Collision Help",
+      "id": 144884,
+      "title": "Aabb Collision Help",
+      "slug": "aabb-collision-help",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-10-01T20:49:30.328Z",
+      "last_posted_at": "2026-10-01T21:23:52.122Z",
+      "bumped": true,
+      "bumped_at": "2026-10-01T21:23:52.122Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        },
+        {
+          "id": 14,
+          "name": "csharp",
+          "slug": "csharp"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 19,
+      "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gertkeno",
       "category_id": 7,
@@ -134,14 +208,7 @@
         {
           "extras": null,
           "description": "Original Poster",
-          "user_id": 54100,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 17842,
+          "user_id": 8438,
           "primary_group_id": null,
           "flair_group_id": null
         },
@@ -149,6 +216,75 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How do I make properties ignore the `set` function when they&rsquo;re initialized?",
+      "id": 144874,
+      "title": "How do I make properties ignore the `set` function when they're initialized?",
+      "slug": "how-do-i-make-properties-ignore-the-set-function-when-theyre-initialized",
+      "posts_count": 7,
+      "reply_count": 4,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2026-10-01T16:49:13.445Z",
+      "last_posted_at": "2026-10-01T21:02:01.501Z",
+      "bumped": true,
+      "bumped_at": "2026-10-01T21:02:01.501Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 56,
+      "like_count": 3,
+      "has_summary": false,
+      "last_poster_username": "normalized",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 39079,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 39322,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -184,7 +320,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 105,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "lemoncodesnow",
@@ -226,75 +362,6 @@
       ]
     },
     {
-      "fancy_title": "How do I make properties ignore the `set` function when they&rsquo;re initialized?",
-      "id": 144874,
-      "title": "How do I make properties ignore the `set` function when they're initialized?",
-      "slug": "how-do-i-make-properties-ignore-the-set-function-when-theyre-initialized",
-      "posts_count": 6,
-      "reply_count": 3,
-      "highest_post_number": 6,
-      "image_url": null,
-      "created_at": "2026-10-01T16:49:13.445Z",
-      "last_posted_at": "2026-10-01T18:42:36.444Z",
-      "bumped": true,
-      "bumped_at": "2026-10-01T18:42:36.444Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 32,
-      "like_count": 2,
-      "has_summary": false,
-      "last_poster_username": "snowystoat",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 39079,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "C# project can no longer be built: &ldquo;ERROR: An EditorPlugin build callback failed.&rdquo;",
       "id": 144820,
       "title": "C# project can no longer be built: \"ERROR: An EditorPlugin build callback failed.\"",
@@ -324,7 +391,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 74,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -398,7 +465,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 50,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "wavedsteam",
@@ -472,7 +539,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 90,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -553,7 +620,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 127,
+      "views": 130,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "neraxa",
@@ -622,7 +689,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 52,
+      "views": 54,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -679,7 +746,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 48,
+      "views": 49,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -746,7 +813,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 37,
+      "views": 38,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "fobodev",
@@ -806,7 +873,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 204,
+      "views": 209,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "user-name-user",
@@ -884,7 +951,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 103,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "fizzyplanet",
@@ -953,7 +1020,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 62,
+      "views": 65,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "kodyac",
@@ -1022,7 +1089,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 21,
+      "views": 22,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "terry_yaki",
@@ -1082,7 +1149,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 52,
+      "views": 53,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -1144,7 +1211,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 80,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "timothy",
@@ -1208,7 +1275,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 52,
+      "views": 53,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "isamatlas",
@@ -1270,7 +1337,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 96,
+      "views": 97,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Rauha",
@@ -1334,7 +1401,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39,
+      "views": 40,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ultrinik",
@@ -1399,7 +1466,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 44,
+      "views": 46,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "smellyrat324",
@@ -1466,7 +1533,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 68,
+      "views": 69,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "whiletrue111",
@@ -1590,7 +1657,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 64,
+      "views": 65,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "crytra",
@@ -1808,7 +1875,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 200,
+      "views": 201,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -1929,7 +1996,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 108,
+      "views": 109,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "stephen4",
@@ -2013,7 +2080,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 118,
+      "views": 119,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Vachivenza",
@@ -2087,7 +2154,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 86,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -2435,7 +2502,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 86,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Dad3353",
@@ -2566,7 +2633,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 117,
+      "views": 118,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "horsedev",
@@ -2975,7 +3042,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 160,
+      "views": 161,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mocharaid",
@@ -3061,7 +3128,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 247,
+      "views": 248,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "gercode",
@@ -3283,7 +3350,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 139,
+      "views": 140,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -3849,7 +3916,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 76,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "slimepudding",
@@ -5131,7 +5198,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 228,
+      "views": 231,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "kraasch",
@@ -6064,7 +6131,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 237,
+      "views": 238,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "ikar",
@@ -6467,7 +6534,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 111,
+      "views": 112,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Asterdel",
@@ -7229,7 +7296,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 355,
+      "views": 359,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "FabianMartin",
@@ -8194,83 +8261,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "What governs input listening? Only some instances of nodes respond to input",
-      "id": 143445,
-      "title": "What governs input listening? Only some instances of nodes respond to input",
-      "slug": "what-governs-input-listening-only-some-instances-of-nodes-respond-to-input",
-      "posts_count": 9,
-      "reply_count": 4,
-      "highest_post_number": 9,
-      "image_url": null,
-      "created_at": "2026-08-26T03:38:09.571Z",
-      "last_posted_at": "2026-09-25T21:32:29.404Z",
-      "bumped": true,
-      "bumped_at": "2026-08-26T21:32:12.159Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 144,
-      "like_count": 2,
-      "has_summary": false,
-      "last_poster_username": "system",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 41204,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 2982,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": -1,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-10-01T20:37:07.490Z"
+  "updated_at": "2026-10-02T01:09:09.790Z"
 }
