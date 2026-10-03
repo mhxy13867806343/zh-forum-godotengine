@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 2425,
+      "views": 2426,
       "like_count": 11,
       "has_summary": false,
       "last_poster_username": "Mark_Caliwa_Velasco",
@@ -80,14 +80,14 @@
       "id": 144918,
       "title": "Why is my 2D intersect_ray returning null?",
       "slug": "why-is-my-2d-intersect-ray-returning-null",
-      "posts_count": 5,
-      "reply_count": 3,
-      "highest_post_number": 5,
+      "posts_count": 20,
+      "reply_count": 18,
+      "highest_post_number": 20,
       "image_url": null,
       "created_at": "2026-10-03T06:11:59.566Z",
-      "last_posted_at": "2026-10-03T15:39:15.248Z",
+      "last_posted_at": "2026-10-03T19:34:58.854Z",
       "bumped": true,
-      "bumped_at": "2026-10-03T15:39:15.248Z",
+      "bumped_at": "2026-10-03T19:34:58.854Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -115,8 +115,8 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39,
-      "like_count": 1,
+      "views": 52,
+      "like_count": 8,
       "has_summary": false,
       "last_poster_username": "finitebanjo",
       "category_id": 7,
@@ -128,14 +128,14 @@
       "posters": [
         {
           "extras": "latest",
-          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "description": "Original Poster, Most Recent Poster",
           "user_id": 53553,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
           "extras": null,
-          "description": "Frequent Poster",
+          "description": "Frequent Poster, Accepted Answer",
           "user_id": 39322,
           "primary_group_id": null,
           "flair_group_id": null
@@ -143,18 +143,78 @@
       ]
     },
     {
-      "fancy_title": "Raycast3D&rsquo;s detecting a null object?",
-      "id": 144902,
-      "title": "Raycast3D's detecting a null object?",
-      "slug": "raycast3ds-detecting-a-null-object",
-      "posts_count": 5,
-      "reply_count": 1,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-10-02T16:27:41.995Z",
-      "last_posted_at": "2026-10-03T14:31:55.073Z",
+      "fancy_title": "Object Inspection Mechanic",
+      "id": 144938,
+      "title": "Object Inspection Mechanic",
+      "slug": "object-inspection-mechanic",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/6/c/6cd48ea70469d8ce7ddcb308be1946b46573ef74.png",
+      "created_at": "2026-10-03T19:21:17.593Z",
+      "last_posted_at": "2026-10-03T19:21:17.747Z",
       "bumped": true,
-      "bumped_at": "2026-10-03T14:31:55.073Z",
+      "bumped_at": "2026-10-03T19:21:17.747Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 10,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "Giuseppe_Lisi",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 54388,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to append to existing tweens?",
+      "id": 144935,
+      "title": "How to append to existing tweens?",
+      "slug": "how-to-append-to-existing-tweens",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": null,
+      "created_at": "2026-10-03T18:08:40.544Z",
+      "last_posted_at": "2026-10-03T18:30:54.103Z",
+      "bumped": true,
+      "bumped_at": "2026-10-03T18:30:54.103Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -172,10 +232,10 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 54,
-      "like_count": 2,
+      "views": 18,
+      "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "gododo",
+      "last_poster_username": "normalized",
       "category_id": 7,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -184,8 +244,65 @@
       "can_vote": false,
       "posters": [
         {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 5262,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
           "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
+          "description": "Most Recent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Raycast3D&rsquo;s detecting a null object?",
+      "id": 144902,
+      "title": "Raycast3D's detecting a null object?",
+      "slug": "raycast3ds-detecting-a-null-object",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-10-02T16:27:41.995Z",
+      "last_posted_at": "2026-10-03T17:58:54.908Z",
+      "bumped": true,
+      "bumped_at": "2026-10-03T17:58:54.908Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 62,
+      "like_count": 2,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
           "user_id": 1478,
           "primary_group_id": null,
           "flair_group_id": null
@@ -193,14 +310,14 @@
         {
           "extras": null,
           "description": "Frequent Poster",
-          "user_id": 11904,
+          "user_id": 1188,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 1188,
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 11904,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -246,7 +363,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 143,
+      "views": 145,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -330,7 +447,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 48,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -879,7 +996,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 89,
+      "views": 91,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -953,7 +1070,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 65,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "wavedsteam",
@@ -1027,7 +1144,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 103,
+      "views": 109,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1177,7 +1294,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 68,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -1234,7 +1351,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 59,
+      "views": 60,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -1301,7 +1418,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 49,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "fobodev",
@@ -1361,7 +1478,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 272,
+      "views": 275,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "user-name-user",
@@ -1439,7 +1556,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 114,
+      "views": 118,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "fizzyplanet",
@@ -1508,7 +1625,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 74,
+      "views": 76,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "kodyac",
@@ -1632,7 +1749,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 103,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "timothy",
@@ -1696,7 +1813,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 65,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "isamatlas",
@@ -1758,7 +1875,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 103,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Rauha",
@@ -1954,7 +2071,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 77,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "whiletrue111",
@@ -2145,7 +2262,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 124,
+      "views": 125,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "neraxa",
@@ -2296,7 +2413,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 213,
+      "views": 215,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -3133,7 +3250,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 59,
+      "views": 60,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3697,7 +3814,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 187,
+      "views": 188,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "nojaf",
@@ -3981,7 +4098,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 78,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "SamTheBlow",
@@ -4834,7 +4951,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 82,
+      "views": 83,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ShadowRealm",
@@ -5347,7 +5464,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 57,
+      "views": 58,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "herrdanilo",
@@ -5619,7 +5736,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 234,
+      "views": 235,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "kraasch",
@@ -6664,7 +6781,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 89,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6955,7 +7072,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 112,
+      "views": 113,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7400,7 +7517,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 100,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BrutalDevon",
@@ -7674,7 +7791,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2006,
+      "views": 2007,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "amit_akr",
@@ -8135,143 +8252,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "Any way to get the root EditorPlugin from a dock?",
-      "id": 143566,
-      "title": "Any way to get the root EditorPlugin from a dock?",
-      "slug": "any-way-to-get-the-root-editorplugin-from-a-dock",
-      "posts_count": 3,
-      "reply_count": 0,
-      "highest_post_number": 3,
-      "image_url": null,
-      "created_at": "2026-08-29T02:56:29.686Z",
-      "last_posted_at": "2026-08-29T03:37:46.373Z",
-      "bumped": true,
-      "bumped_at": "2026-08-29T03:37:46.373Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 49,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "normalized",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 5262,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster, Accepted Answer",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": -1,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Need help on making code for dash while mid air",
-      "id": 143538,
-      "title": "Need help on making code for dash while mid air",
-      "slug": "need-help-on-making-code-for-dash-while-mid-air",
-      "posts_count": 3,
-      "reply_count": 1,
-      "highest_post_number": 3,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/f/9/f94ab6d5019adbe4fb54fe645b24a1ce611618e7.png",
-      "created_at": "2026-08-28T11:11:34.676Z",
-      "last_posted_at": "2026-08-28T21:39:57.752Z",
-      "bumped": true,
-      "bumped_at": "2026-08-28T21:39:57.752Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        },
-        {
-          "id": 21,
-          "name": "game",
-          "slug": "game"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 83,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "Mark_Caliwa_Velasco",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 46781,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 42440,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-10-03T17:40:21.288Z"
+  "updated_at": "2026-10-03T20:19:12.958Z"
 }
