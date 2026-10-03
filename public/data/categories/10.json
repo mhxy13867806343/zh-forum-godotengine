@@ -55,71 +55,6 @@
       ]
     },
     {
-      "fancy_title": "Other Cull Mask being rendered through the Arms",
-      "id": 144879,
-      "title": "Other Cull Mask being rendered through the Arms",
-      "slug": "other-cull-mask-being-rendered-through-the-arms",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
-      "image_url": null,
-      "created_at": "2026-10-01T19:40:50.147Z",
-      "last_posted_at": "2026-10-01T19:40:50.325Z",
-      "bumped": true,
-      "bumped_at": "2026-10-01T19:40:50.325Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 21,
-          "name": "game",
-          "slug": "game"
-        },
-        {
-          "id": 14,
-          "name": "csharp",
-          "slug": "csharp"
-        },
-        {
-          "id": 34,
-          "name": "gd-shader",
-          "slug": "gd-shader"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 27,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "mrboaz64",
-      "category_id": 10,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 43431,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Shadow blur causes shadow leak",
       "id": 144092,
       "title": "Shadow blur causes shadow leak",
@@ -149,7 +84,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 225,
+      "views": 227,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Calinou",
@@ -218,7 +153,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 67,
+      "views": 68,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "emm_aube",
@@ -290,7 +225,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 122,
+      "views": 123,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Lillmyren",
@@ -481,7 +416,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 524,
+      "views": 527,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1493,7 +1428,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 97,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "NerdCat",
@@ -1853,7 +1788,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 185,
+      "views": 186,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -2278,7 +2213,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 400,
+      "views": 401,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5013,7 +4948,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 170,
+      "views": 171,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NerdCat",
@@ -5144,7 +5079,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1549,
+      "views": 1550,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "momo9760",
@@ -5295,7 +5230,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 165,
+      "views": 166,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5924,7 +5859,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 267,
+      "views": 268,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6283,7 +6218,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 524,
+      "views": 525,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "matchbox",
@@ -6509,7 +6444,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 152,
+      "views": 153,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "puffcrushin",
@@ -7089,7 +7024,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 121,
+      "views": 122,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -7984,7 +7919,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 465,
+      "views": 466,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8407,7 +8342,83 @@
           "flair_group_id": null
         }
       ]
+    },
+    {
+      "fancy_title": "What is the right way to branch a master shader by transparency modes?",
+      "id": 137396,
+      "title": "What is the right way to branch a master shader by transparency modes?",
+      "slug": "what-is-the-right-way-to-branch-a-master-shader-by-transparency-modes",
+      "posts_count": 20,
+      "reply_count": 15,
+      "highest_post_number": 20,
+      "image_url": null,
+      "created_at": "2026-04-20T18:21:19.345Z",
+      "last_posted_at": "2026-04-21T02:44:46.801Z",
+      "bumped": true,
+      "bumped_at": "2026-04-21T02:44:46.801Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 331,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "ben_at_work",
+      "category_id": 10,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 46668,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 38435,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 45139,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-02T20:13:02.688Z"
+  "updated_at": "2026-10-03T00:47:47.573Z"
 }
