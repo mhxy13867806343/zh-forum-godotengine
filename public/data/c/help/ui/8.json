@@ -48,6 +48,80 @@
       ]
     },
     {
+      "fancy_title": "button doesnt work when I set it to show it hides ",
+      "id": 144966,
+      "title": "button doesnt work when I set it to show it hides ",
+      "slug": "button-doesnt-work-when-i-set-it-to-show-it-hides",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-10-04T16:59:46.560Z",
+      "last_posted_at": "2026-10-04T17:45:22.339Z",
+      "bumped": true,
+      "bumped_at": "2026-10-04T17:45:22.339Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 7,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 54477,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 1357,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Excluding Labels from translation in Godot 4.7",
       "id": 144818,
       "title": "Excluding Labels from translation in Godot 4.7",
@@ -969,7 +1043,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 76,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "flunch",
@@ -1036,7 +1110,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1268,
+      "views": 1269,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "flunch",
@@ -1281,7 +1355,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "jasonmiller",
@@ -1849,7 +1923,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 121,
+      "views": 122,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "elali",
@@ -2818,7 +2892,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 207,
+      "views": 208,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4454,7 +4528,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 192,
+      "views": 193,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5500,7 +5574,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tibaverus",
@@ -7112,7 +7186,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 108,
+      "views": 109,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -7264,7 +7338,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 353,
+      "views": 355,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "veselanadja",
@@ -8158,69 +8232,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "TextureRectangle does appear in HUD",
-      "id": 137185,
-      "title": "TextureRectangle does appear in HUD",
-      "slug": "texturerectangle-does-appear-in-hud",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/3/4/34293c378f2c5a981a464a3e7ca478dd6e62e28c.png",
-      "created_at": "2026-04-15T19:35:04.831Z",
-      "last_posted_at": "2026-04-15T19:38:45.837Z",
-      "bumped": true,
-      "bumped_at": "2026-04-15T19:38:45.837Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 50,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "normalized",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 15066,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-10-04T13:31:18.424Z"
+  "updated_at": "2026-10-04T17:53:54.369Z"
 }
