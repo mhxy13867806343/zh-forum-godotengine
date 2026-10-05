@@ -55,6 +55,68 @@
       ]
     },
     {
+      "fancy_title": "Calculate fog from world position rather than camera",
+      "id": 145015,
+      "title": "Calculate fog from world position rather than camera",
+      "slug": "calculate-fog-from-world-position-rather-than-camera",
+      "posts_count": 4,
+      "reply_count": 2,
+      "highest_post_number": 4,
+      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/4/5/45e3b93047c7f67e1c89b3257860690ba67810a5_2_1024x728.jpeg",
+      "created_at": "2026-10-05T19:22:32.119Z",
+      "last_posted_at": "2026-10-05T20:42:47.257Z",
+      "bumped": true,
+      "bumped_at": "2026-10-05T20:42:47.257Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 30,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "normalized",
+      "category_id": 10,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 47677,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Is it possible to render a surface as the environment background?",
       "id": 144973,
       "title": "Is it possible to render a surface as the environment background?",
@@ -89,7 +151,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 53,
+      "views": 55,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "johntator",
@@ -156,7 +218,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 34,
+      "views": 35,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -213,7 +275,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 242,
+      "views": 245,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Calinou",
@@ -282,7 +344,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 70,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "emm_aube",
@@ -416,7 +478,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -545,7 +607,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 554,
+      "views": 559,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -607,7 +669,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 133,
+      "views": 134,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -691,12 +753,12 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 67,
-      "like_count": 0,
+      "views": 69,
+      "like_count": 1,
       "has_summary": false,
       "last_poster_username": "BadAndMad",
       "category_id": 10,
-      "op_like_count": 0,
+      "op_like_count": 1,
       "pinned_globally": false,
       "featured_link": null,
       "has_accepted_answer": false,
@@ -746,7 +808,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 90,
+      "views": 92,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "DecDDM",
@@ -823,7 +885,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 203,
+      "views": 204,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "vissca",
@@ -887,7 +949,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 49,
+      "views": 50,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "SomeRandomFinn",
@@ -1150,7 +1212,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 207,
+      "views": 208,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1224,7 +1286,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 134,
+      "views": 135,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1697,7 +1759,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -1776,7 +1838,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 69,
+      "views": 70,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -1924,7 +1986,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 187,
+      "views": 189,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -1993,7 +2055,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 208,
+      "views": 209,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2266,7 +2328,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1736,
+      "views": 1737,
       "like_count": 75,
       "has_summary": true,
       "last_poster_username": "wchc",
@@ -2349,7 +2411,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 407,
+      "views": 409,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2813,7 +2875,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 795,
+      "views": 797,
       "like_count": 6,
       "has_summary": true,
       "last_poster_username": "normalized",
@@ -3020,7 +3082,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 128,
+      "views": 132,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3170,7 +3232,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 140,
+      "views": 142,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "rainerdeyke",
@@ -3380,7 +3442,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1453,
+      "views": 1458,
       "like_count": 39,
       "has_summary": true,
       "last_poster_username": "system",
@@ -3647,7 +3709,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 100,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Sami",
@@ -3776,7 +3838,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 193,
+      "views": 195,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3914,7 +3976,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 124,
+      "views": 125,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Calinou",
@@ -4355,7 +4417,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 219,
+      "views": 220,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "pentaria",
@@ -4565,7 +4627,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 590,
+      "views": 591,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "pizza_delivery_man",
@@ -4636,7 +4698,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 90,
+      "views": 93,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "no1idle",
@@ -4948,7 +5010,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 79,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5084,7 +5146,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 178,
+      "views": 179,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NerdCat",
@@ -5366,7 +5428,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 168,
+      "views": 169,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5423,7 +5485,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 942,
+      "views": 944,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5497,7 +5559,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 283,
+      "views": 287,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5695,7 +5757,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 353,
+      "views": 354,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5771,7 +5833,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 128,
+      "views": 132,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "hkv",
@@ -6078,7 +6140,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 222,
+      "views": 223,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "masorc",
@@ -6354,7 +6416,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 530,
+      "views": 535,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "matchbox",
@@ -6506,7 +6568,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 207,
+      "views": 208,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "artemisia",
@@ -6723,7 +6785,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 298,
+      "views": 299,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6804,7 +6866,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 260,
+      "views": 261,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7634,7 +7696,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 116,
+      "views": 118,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Jasonz",
@@ -7779,7 +7841,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 112,
+      "views": 113,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -8055,7 +8117,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 470,
+      "views": 472,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8321,90 +8383,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "How to use an active camera render in the visual shader",
-      "id": 137443,
-      "title": "How to use an active camera render in the visual shader",
-      "slug": "how-to-use-an-active-camera-render-in-the-visual-shader",
-      "posts_count": 18,
-      "reply_count": 13,
-      "highest_post_number": 18,
-      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/8/6/86ec7a7e3ee28b024addca21db784ecc461c8f50_2_1024x965.png",
-      "created_at": "2026-04-21T19:15:58.892Z",
-      "last_posted_at": "2026-05-22T00:26:35.769Z",
-      "bumped": true,
-      "bumped_at": "2026-04-22T00:25:37.807Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 35,
-          "name": "visual-shader",
-          "slug": "visual-shader"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 401,
-      "like_count": 11,
-      "has_summary": false,
-      "last_poster_username": "system",
-      "category_id": 10,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 43721,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 17789,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 21101,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": -1,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-10-05T16:30:31.808Z"
+  "updated_at": "2026-10-05T23:24:59.245Z"
 }
