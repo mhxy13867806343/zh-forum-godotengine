@@ -52,14 +52,14 @@
       "id": 145045,
       "title": "Is there a way to execute commands before \"_drop_data()\"? If I were to wait some frames before \"_drop_data()\", would the variables \"at_position\" or \"data\" change?",
       "slug": "is-there-a-way-to-execute-commands-before-drop-data-if-i-were-to-wait-some-frames-before-drop-data-would-the-variables-at-position-or-data-change",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
+      "posts_count": 5,
+      "reply_count": 3,
+      "highest_post_number": 5,
       "image_url": null,
       "created_at": "2026-10-06T15:24:58.010Z",
-      "last_posted_at": "2026-10-06T15:24:58.191Z",
+      "last_posted_at": "2026-10-06T20:52:55.130Z",
       "bumped": true,
-      "bumped_at": "2026-10-06T15:24:58.191Z",
+      "bumped_at": "2026-10-06T20:52:55.130Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -87,7 +87,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 13,
+      "views": 30,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Barometz1o",
@@ -99,9 +99,90 @@
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest single",
+          "extras": "latest",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 49010,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 9881,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to auto-fit text in Godot without expanding the UI layout?",
+      "id": 145051,
+      "title": "How to auto-fit text in Godot without expanding the UI layout?",
+      "slug": "how-to-auto-fit-text-in-godot-without-expanding-the-ui-layout",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-10-06T18:01:13.618Z",
+      "last_posted_at": "2026-10-06T18:56:06.740Z",
+      "bumped": true,
+      "bumped_at": "2026-10-06T18:56:06.740Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 21,
+          "name": "game",
+          "slug": "game"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 17,
+      "like_count": 2,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 54535,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 43533,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -216,7 +297,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 78,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -285,7 +366,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 82,
+      "views": 84,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "finitebanjo",
@@ -357,7 +438,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 83,
+      "views": 85,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "bluetortoise",
@@ -414,7 +495,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 141,
+      "views": 142,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Asparagus_Asparagus",
@@ -948,7 +1029,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 138,
+      "views": 139,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sancho2",
@@ -1170,7 +1251,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1271,
+      "views": 1272,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "flunch",
@@ -1703,7 +1784,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "CA19",
@@ -2464,7 +2545,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 196,
+      "views": 197,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "realicecone",
@@ -3591,7 +3672,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6517,
+      "views": 6519,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -4507,7 +4588,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 190,
+      "views": 191,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "elali",
@@ -5872,7 +5953,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 132,
+      "views": 133,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6022,7 +6103,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 153,
+      "views": 154,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6907,7 +6988,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 132,
+      "views": 134,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7322,7 +7403,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 234,
+      "views": 235,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -7593,7 +7674,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 211,
+      "views": 212,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "acolyte",
@@ -7867,7 +7948,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 112,
+      "views": 113,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -8173,69 +8254,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "The GraphEdit node does not remove leftward connections",
-      "id": 126619,
-      "title": "The GraphEdit node does not remove leftward connections",
-      "slug": "the-graphedit-node-does-not-remove-leftward-connections",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/7/c/7c31698884e6c1bb41062de08b26fc1c8a7de8ab.png",
-      "created_at": "2025-11-01T04:55:14.592Z",
-      "last_posted_at": "2026-04-17T17:54:23.832Z",
-      "bumped": true,
-      "bumped_at": "2026-04-17T17:54:23.832Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 82,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "devmarcoo",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 27781,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 48012,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-10-06T17:29:43.415Z"
+  "updated_at": "2026-10-06T21:57:01.510Z"
 }
