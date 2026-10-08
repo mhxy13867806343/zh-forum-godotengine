@@ -48,18 +48,80 @@
       ]
     },
     {
+      "fancy_title": "Need help with making a scrollable list using Nine Patch Rect.",
+      "id": 145157,
+      "title": "Need help with making a scrollable list using Nine Patch Rect.",
+      "slug": "need-help-with-making-a-scrollable-list-using-nine-patch-rect",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/7/3/736e611c3d121b167be02eec65a7f5915c7552c8.png",
+      "created_at": "2026-10-08T16:30:55.867Z",
+      "last_posted_at": "2026-10-08T16:38:37.600Z",
+      "bumped": true,
+      "bumped_at": "2026-10-08T16:38:37.600Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 11,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "mrcdk",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 54613,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 2982,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Is there a way to execute commands before &ldquo;_drop_data()&rdquo;? If I were to wait some frames before &ldquo;_drop_data()&rdquo;, would the variables &ldquo;at_position&rdquo; or &ldquo;data&rdquo; change?",
       "id": 145045,
       "title": "Is there a way to execute commands before \"_drop_data()\"? If I were to wait some frames before \"_drop_data()\", would the variables \"at_position\" or \"data\" change?",
       "slug": "is-there-a-way-to-execute-commands-before-drop-data-if-i-were-to-wait-some-frames-before-drop-data-would-the-variables-at-position-or-data-change",
-      "posts_count": 7,
-      "reply_count": 5,
-      "highest_post_number": 7,
+      "posts_count": 8,
+      "reply_count": 6,
+      "highest_post_number": 8,
       "image_url": null,
       "created_at": "2026-10-06T15:24:58.010Z",
-      "last_posted_at": "2026-10-07T23:54:29.563Z",
+      "last_posted_at": "2026-10-08T15:47:39.882Z",
       "bumped": true,
-      "bumped_at": "2026-10-07T23:54:29.563Z",
+      "bumped_at": "2026-10-08T15:47:39.882Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -87,10 +149,72 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 84,
       "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "barrybaz",
+      "last_poster_username": "Barometz1o",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 49010,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 9881,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "_draw seems to be one step behind",
+      "id": 145147,
+      "title": "_draw seems to be one step behind",
+      "slug": "draw-seems-to-be-one-step-behind",
+      "posts_count": 6,
+      "reply_count": 3,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-10-08T10:24:13.068Z",
+      "last_posted_at": "2026-10-08T13:10:42.715Z",
+      "bumped": true,
+      "bumped_at": "2026-10-08T13:10:42.715Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 46,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "lastbender",
       "category_id": 8,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -101,14 +225,21 @@
         {
           "extras": null,
           "description": "Original Poster",
-          "user_id": 49010,
+          "user_id": 3424,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
           "extras": "latest",
           "description": "Most Recent Poster",
-          "user_id": 9881,
+          "user_id": 3578,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -154,7 +285,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 41,
+      "views": 42,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -228,7 +359,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 52,
+      "views": 53,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "BenjaminKV",
@@ -297,7 +428,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 85,
+      "views": 87,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -366,7 +497,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 89,
+      "views": 90,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "finitebanjo",
@@ -438,7 +569,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 90,
+      "views": 92,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "bluetortoise",
@@ -893,7 +1024,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 141,
+      "views": 144,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -1251,7 +1382,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1274,
+      "views": 1275,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "flunch",
@@ -1637,7 +1768,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 108,
+      "views": 109,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "nerdcodestudios",
@@ -2614,7 +2745,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 245,
+      "views": 246,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Hexadotz",
@@ -3033,7 +3164,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 217,
+      "views": 220,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3482,7 +3613,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 67,
+      "views": 68,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3672,7 +3803,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6528,
+      "views": 6530,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -3836,7 +3967,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 47,
+      "views": 48,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "rez",
@@ -4148,7 +4279,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 127,
+      "views": 128,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "APileOfSaltRocks",
@@ -4588,7 +4719,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 191,
+      "views": 192,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "elali",
@@ -5491,7 +5622,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 347,
+      "views": 348,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6729,7 +6860,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 130,
+      "views": 131,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "leofleeo",
@@ -6796,7 +6927,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 73,
+      "views": 74,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -6860,7 +6991,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 81,
+      "views": 82,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "why37281",
@@ -7479,7 +7610,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 359,
+      "views": 360,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "veselanadja",
@@ -7948,7 +8079,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 116,
+      "views": 117,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -8114,147 +8245,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "Rich text label shifts around text when changing the color dynamically via BBCode",
-      "id": 131671,
-      "title": "Rich text label shifts around text when changing the color dynamically via BBCode",
-      "slug": "rich-text-label-shifts-around-text-when-changing-the-color-dynamically-via-bbcode",
-      "posts_count": 5,
-      "reply_count": 1,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-01-26T10:56:52.564Z",
-      "last_posted_at": "2026-04-19T21:31:59.450Z",
-      "bumped": true,
-      "bumped_at": "2026-04-19T21:31:59.450Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 135,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "noisytardigrade",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 43828,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster, Accepted Answer",
-          "user_id": 48105,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 4936,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": -1,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Reactive set_custom_mouse_cursor only updates when mouse leaves window!",
-      "id": 137238,
-      "title": "Reactive set_custom_mouse_cursor only updates when mouse leaves window!",
-      "slug": "reactive-set-custom-mouse-cursor-only-updates-when-mouse-leaves-window",
-      "posts_count": 5,
-      "reply_count": 2,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-04-17T10:35:42.145Z",
-      "last_posted_at": "2026-04-18T23:48:03.417Z",
-      "bumped": true,
-      "bumped_at": "2026-04-18T23:48:03.417Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 102,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "miambo",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster, Accepted Answer",
-          "user_id": 48001,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 35705,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": -1,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-10-08T08:05:43.936Z"
+  "updated_at": "2026-10-08T17:02:14.952Z"
 }
