@@ -52,14 +52,14 @@
       "id": 145045,
       "title": "Is there a way to execute commands before \"_drop_data()\"? If I were to wait some frames before \"_drop_data()\", would the variables \"at_position\" or \"data\" change?",
       "slug": "is-there-a-way-to-execute-commands-before-drop-data-if-i-were-to-wait-some-frames-before-drop-data-would-the-variables-at-position-or-data-change",
-      "posts_count": 6,
-      "reply_count": 4,
-      "highest_post_number": 6,
+      "posts_count": 7,
+      "reply_count": 5,
+      "highest_post_number": 7,
       "image_url": null,
       "created_at": "2026-10-06T15:24:58.010Z",
-      "last_posted_at": "2026-10-07T15:25:59.515Z",
+      "last_posted_at": "2026-10-07T23:54:29.563Z",
       "bumped": true,
-      "bumped_at": "2026-10-07T15:25:59.515Z",
+      "bumped_at": "2026-10-07T23:54:29.563Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -87,10 +87,10 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 73,
       "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "Barometz1o",
+      "last_poster_username": "barrybaz",
       "category_id": 8,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -99,15 +99,15 @@
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
+          "extras": null,
+          "description": "Original Poster",
           "user_id": 49010,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
-          "extras": null,
-          "description": "Frequent Poster",
+          "extras": "latest",
+          "description": "Most Recent Poster",
           "user_id": 9881,
           "primary_group_id": null,
           "flair_group_id": null
@@ -228,7 +228,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 47,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "BenjaminKV",
@@ -297,7 +297,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 82,
+      "views": 84,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -566,7 +566,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 320,
+      "views": 321,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "vati",
@@ -893,7 +893,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 140,
+      "views": 141,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -1110,7 +1110,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 151,
+      "views": 152,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -1184,7 +1184,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 78,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "flunch",
@@ -1917,7 +1917,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 89,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "mrbehemo",
@@ -2326,7 +2326,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 163,
+      "views": 165,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2693,7 +2693,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 172,
+      "views": 173,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "japonbaligi",
@@ -2769,7 +2769,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 120,
+      "views": 122,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -3672,7 +3672,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6525,
+      "views": 6526,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -3760,7 +3760,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 125,
+      "views": 126,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Barometz1o",
@@ -5370,7 +5370,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 73,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ponponyaya",
@@ -7403,7 +7403,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 236,
+      "views": 237,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -7948,7 +7948,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 115,
+      "views": 116,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -8256,5 +8256,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-07T20:52:02.848Z"
+  "updated_at": "2026-10-08T01:24:02.735Z"
 }
