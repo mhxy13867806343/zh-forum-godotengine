@@ -48,6 +48,80 @@
       ]
     },
     {
+      "fancy_title": "CharacterBody2D getting stuck going over corners on slopes",
+      "id": 143924,
+      "title": "CharacterBody2D getting stuck going over corners on slopes",
+      "slug": "characterbody2d-getting-stuck-going-over-corners-on-slopes",
+      "posts_count": 7,
+      "reply_count": 0,
+      "highest_post_number": 7,
+      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/2/a233e20fdb4355d48986eab2bc776d77b1905d65.png",
+      "created_at": "2026-09-07T19:03:14.288Z",
+      "last_posted_at": "2026-10-09T04:47:53.477Z",
+      "bumped": true,
+      "bumped_at": "2026-10-09T04:47:53.477Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 128,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "bermuda_ix",
+      "category_id": 9,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 46204,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 25567,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "How to check for 2D TileMapLayer WALL collision on RigidBody2D",
       "id": 144925,
       "title": "How to check for 2D TileMapLayer WALL collision on RigidBody2D",
@@ -92,7 +166,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 78,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "sancho2",
@@ -240,7 +314,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 212,
+      "views": 213,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Matthew_Safari",
@@ -318,7 +392,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 87,
+      "views": 89,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "DJaycer",
@@ -694,80 +768,6 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 53899,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "CharacterBody2D getting stuck going over corners on slopes",
-      "id": 143924,
-      "title": "CharacterBody2D getting stuck going over corners on slopes",
-      "slug": "characterbody2d-getting-stuck-going-over-corners-on-slopes",
-      "posts_count": 6,
-      "reply_count": 0,
-      "highest_post_number": 6,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/2/a233e20fdb4355d48986eab2bc776d77b1905d65.png",
-      "created_at": "2026-09-07T19:03:14.288Z",
-      "last_posted_at": "2026-09-17T03:12:57.492Z",
-      "bumped": true,
-      "bumped_at": "2026-09-17T03:12:57.492Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 117,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "bermuda_ix",
-      "category_id": 9,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 46204,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 25567,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1284,7 +1284,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 91,
+      "views": 92,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Scratchly",
@@ -1498,7 +1498,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 218,
+      "views": 219,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "boundsout",
@@ -1576,7 +1576,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 78,
+      "views": 79,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2147,7 +2147,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 81,
+      "views": 82,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "SirMaoh",
@@ -2352,7 +2352,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 106,
+      "views": 107,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Sweatix",
@@ -2808,7 +2808,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 118,
+      "views": 119,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -3025,7 +3025,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 165,
+      "views": 166,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "elali",
@@ -3545,7 +3545,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 478,
+      "views": 480,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6436,7 +6436,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 355,
+      "views": 356,
       "like_count": 16,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -6641,7 +6641,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 197,
+      "views": 198,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -6770,7 +6770,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 141,
+      "views": 142,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "rmadseng",
@@ -8078,7 +8078,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 284,
+      "views": 285,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "Silver-Wolves-Games",
@@ -8510,5 +8510,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-09T03:19:16.945Z"
+  "updated_at": "2026-10-09T10:58:14.923Z"
 }
