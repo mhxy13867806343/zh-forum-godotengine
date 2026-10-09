@@ -48,6 +48,75 @@
       ]
     },
     {
+      "fancy_title": "_draw seems to be one step behind",
+      "id": 145147,
+      "title": "_draw seems to be one step behind",
+      "slug": "draw-seems-to-be-one-step-behind",
+      "posts_count": 10,
+      "reply_count": 7,
+      "highest_post_number": 10,
+      "image_url": null,
+      "created_at": "2026-10-08T10:24:13.068Z",
+      "last_posted_at": "2026-10-09T00:53:53.868Z",
+      "bumped": true,
+      "bumped_at": "2026-10-09T00:53:53.868Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 71,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "darknova",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 3424,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 3578,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Is there a way to execute commands before &ldquo;_drop_data()&rdquo;? If I were to wait some frames before &ldquo;_drop_data()&rdquo;, would the variables &ldquo;at_position&rdquo; or &ldquo;data&rdquo; change?",
       "id": 145045,
       "title": "Is there a way to execute commands before \"_drop_data()\"? If I were to wait some frames before \"_drop_data()\", would the variables \"at_position\" or \"data\" change?",
@@ -87,7 +156,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 94,
+      "views": 100,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Barometz1o",
@@ -149,7 +218,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 33,
+      "views": 35,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Iris",
@@ -178,75 +247,6 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 2982,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "_draw seems to be one step behind",
-      "id": 145147,
-      "title": "_draw seems to be one step behind",
-      "slug": "draw-seems-to-be-one-step-behind",
-      "posts_count": 6,
-      "reply_count": 3,
-      "highest_post_number": 6,
-      "image_url": null,
-      "created_at": "2026-10-08T10:24:13.068Z",
-      "last_posted_at": "2026-10-08T13:10:42.715Z",
-      "bumped": true,
-      "bumped_at": "2026-10-08T13:10:42.715Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 52,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "lastbender",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 3424,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 3578,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -366,7 +366,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 54,
+      "views": 56,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "BenjaminKV",
@@ -504,7 +504,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 92,
+      "views": 93,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "finitebanjo",
@@ -633,7 +633,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 145,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Asparagus_Asparagus",
@@ -1031,7 +1031,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 145,
+      "views": 146,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -2055,7 +2055,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 89,
+      "views": 90,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "mrbehemo",
@@ -2402,7 +2402,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 76,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -2831,7 +2831,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 174,
+      "views": 175,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "japonbaligi",
@@ -3810,7 +3810,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6531,
+      "views": 6534,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -4726,7 +4726,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 192,
+      "views": 193,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "elali",
@@ -5629,7 +5629,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 348,
+      "views": 349,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7617,7 +7617,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 360,
+      "views": 361,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "veselanadja",
@@ -8254,5 +8254,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-08T22:33:23.330Z"
+  "updated_at": "2026-10-09T03:19:11.150Z"
 }
