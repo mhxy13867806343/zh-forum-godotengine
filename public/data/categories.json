@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19362,
+        "topic_count": 19367,
         "post_count": 99934,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 90,
         "topics_month": 380,
         "topics_year": 7054,
-        "topics_all_time": 31891,
+        "topics_all_time": 31896,
         "subcategory_ids": [
           11,
           13,
@@ -249,18 +249,18 @@
             }
           },
           {
-            "fancy_title": "Unpausing with the jump button makes the player jump at the same time the game is unpaused",
-            "id": 145195,
-            "title": "Unpausing with the jump button makes the player jump at the same time the game is unpaused",
-            "slug": "unpausing-with-the-jump-button-makes-the-player-jump-at-the-same-time-the-game-is-unpaused",
-            "posts_count": 8,
-            "reply_count": 6,
-            "highest_post_number": 8,
+            "fancy_title": "Why are player controller state machines usually built with Node instead of Resource?",
+            "id": 145199,
+            "title": "Why are player controller state machines usually built with Node instead of Resource?",
+            "slug": "why-are-player-controller-state-machines-usually-built-with-node-instead-of-resource",
+            "posts_count": 6,
+            "reply_count": 2,
+            "highest_post_number": 6,
             "image_url": null,
-            "created_at": "2026-10-09T16:15:55.528Z",
-            "last_posted_at": "2026-10-09T17:32:27.635Z",
+            "created_at": "2026-10-09T19:29:07.729Z",
+            "last_posted_at": "2026-10-09T21:21:09.504Z",
             "bumped": true,
-            "bumped_at": "2026-10-09T17:32:27.635Z",
+            "bumped_at": "2026-10-09T21:21:09.504Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -272,25 +272,25 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 39079,
-              "username": "snowystoat",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/snowystoat/{size}/57924_2.png"
+              "id": 6096,
+              "username": "Estroponcio",
+              "name": "Francisco Ayrolo",
+              "avatar_template": "/user_avatar/forum.godotengine.org/estroponcio/{size}/11117_2.png"
             }
           },
           {
-            "fancy_title": "My tweens are breaking my game. Help.",
-            "id": 145196,
-            "title": "My tweens are breaking my game. Help.",
-            "slug": "my-tweens-are-breaking-my-game-help",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": null,
-            "created_at": "2026-10-09T16:56:18.145Z",
-            "last_posted_at": "2026-10-09T17:05:13.063Z",
+            "fancy_title": "How to animate cells in GridMap?",
+            "id": 145205,
+            "title": "How to animate cells in GridMap?",
+            "slug": "how-to-animate-cells-in-gridmap",
+            "posts_count": 7,
+            "reply_count": 5,
+            "highest_post_number": 7,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/2/f/2f8b0bcd700e53bc376d4a4c0dbf09098f0490b1_2_1024x397.png",
+            "created_at": "2026-10-09T20:23:58.584Z",
+            "last_posted_at": "2026-10-09T21:16:55.048Z",
             "bumped": true,
-            "bumped_at": "2026-10-09T17:05:13.063Z",
+            "bumped_at": "2026-10-09T21:16:55.048Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -302,10 +302,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 11904,
-              "username": "gertkeno",
-              "name": "Garrett Hale",
-              "avatar_template": "/user_avatar/forum.godotengine.org/gertkeno/{size}/55277_2.png"
+              "id": 49186,
+              "username": "artemisia",
+              "name": "Artemisia Dracunculus",
+              "avatar_template": "/user_avatar/forum.godotengine.org/artemisia/{size}/77224_2.png"
             }
           }
         ]
@@ -707,6 +707,36 @@
             }
           },
           {
+            "fancy_title": "Electric vehicle apps/software",
+            "id": 144982,
+            "title": "Electric vehicle apps/software",
+            "slug": "electric-vehicle-apps-software",
+            "posts_count": 3,
+            "reply_count": 1,
+            "highest_post_number": 3,
+            "image_url": null,
+            "created_at": "2026-10-05T01:36:23.791Z",
+            "last_posted_at": "2026-10-09T20:54:33.151Z",
+            "bumped": true,
+            "bumped_at": "2026-10-09T20:54:33.151Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 11904,
+              "username": "gertkeno",
+              "name": "Garrett Hale",
+              "avatar_template": "/user_avatar/forum.godotengine.org/gertkeno/{size}/55277_2.png"
+            }
+          },
+          {
             "fancy_title": "[Need Advice!] Quest system implementation advice needed",
             "id": 51881,
             "title": "[Need Advice!] Quest system implementation advice needed",
@@ -734,36 +764,6 @@
               "username": "gutian2000",
               "name": "Gutian2000",
               "avatar_template": "/letter_avatar_proxy/v4/letter/g/e68b1a/{size}.png"
-            }
-          },
-          {
-            "fancy_title": "New here — best way to turn a photo into a printable 3D model?",
-            "id": 145153,
-            "title": "New here — best way to turn a photo into a printable 3D model?",
-            "slug": "new-here-best-way-to-turn-a-photo-into-a-printable-3d-model",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": null,
-            "created_at": "2026-10-08T13:47:44.286Z",
-            "last_posted_at": "2026-10-08T13:50:50.007Z",
-            "bumped": true,
-            "bumped_at": "2026-10-08T13:50:50.007Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 4936,
-              "username": "tibaverus",
-              "name": "Tib Averus",
-              "avatar_template": "/user_avatar/forum.godotengine.org/tibaverus/{size}/43649_2.png"
             }
           }
         ]
