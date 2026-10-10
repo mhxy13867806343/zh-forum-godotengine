@@ -48,6 +48,56 @@
       ]
     },
     {
+      "fancy_title": "Frame Previews are not getting scaled down in Animation tab, instead overlapping with each other.",
+      "id": 145209,
+      "title": "Frame Previews are not getting scaled down in Animation tab, instead overlapping with each other.",
+      "slug": "frame-previews-are-not-getting-scaled-down-in-animation-tab-instead-overlapping-with-each-other",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/b/2/b2dc43219eee87202111aa50967ee0f68cbbc1ca_2_1024x695.png",
+      "created_at": "2026-10-09T21:58:08.451Z",
+      "last_posted_at": "2026-10-10T09:55:29.929Z",
+      "bumped": true,
+      "bumped_at": "2026-10-10T09:55:29.929Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 22,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "bot-skb",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 54656,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "What could be causing popup menus in an edior plugin to be displaying even when they shoulnd&rsquo;t be visible?",
       "id": 145179,
       "title": "What could be causing popup menus in an edior plugin to be displaying even when they shoulnd't be visible?",
@@ -77,7 +127,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 27,
+      "views": 33,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -139,7 +189,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 124,
+      "views": 126,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "darknova",
@@ -168,56 +218,6 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Frame Previews are not getting scaled down in Animation tab, instead overlapping with each other.",
-      "id": 145209,
-      "title": "Frame Previews are not getting scaled down in Animation tab, instead overlapping with each other.",
-      "slug": "frame-previews-are-not-getting-scaled-down-in-animation-tab-instead-overlapping-with-each-other",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
-      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/b/2/b2dc43219eee87202111aa50967ee0f68cbbc1ca_2_1024x695.png",
-      "created_at": "2026-10-09T21:58:08.451Z",
-      "last_posted_at": "2026-10-09T21:58:08.583Z",
-      "bumped": true,
-      "bumped_at": "2026-10-09T21:58:08.583Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 16,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "bot-skb",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 54656,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -263,7 +263,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 116,
+      "views": 120,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Barometz1o",
@@ -399,7 +399,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 56,
+      "views": 57,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -473,7 +473,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 69,
+      "views": 70,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "BenjaminKV",
@@ -2162,7 +2162,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 90,
+      "views": 91,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "mrbehemo",
@@ -2371,7 +2371,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3738,
+      "views": 3739,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "glitchedlime",
@@ -2938,7 +2938,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 178,
+      "views": 179,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "japonbaligi",
@@ -6027,7 +6027,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 127,
+      "views": 128,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6348,7 +6348,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 159,
+      "views": 160,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7724,7 +7724,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 362,
+      "views": 366,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "veselanadja",
@@ -8000,7 +8000,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 113,
+      "views": 114,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -8126,7 +8126,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 78,
+      "views": 79,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "herrspaten",
@@ -8193,7 +8193,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 120,
+      "views": 121,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -8235,5 +8235,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-10T07:49:18.489Z"
+  "updated_at": "2026-10-10T14:01:51.693Z"
 }
