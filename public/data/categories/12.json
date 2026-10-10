@@ -66,14 +66,14 @@
       "id": 145207,
       "title": "SteamGodot not working as intended",
       "slug": "steamgodot-not-working-as-intended",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
       "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/6/1/6160ab0039a1dabc045a9f16ffe56aae9610233b_2_1024x59.png",
       "created_at": "2026-10-09T21:57:38.379Z",
-      "last_posted_at": "2026-10-09T21:57:38.497Z",
+      "last_posted_at": "2026-10-10T21:13:54.178Z",
       "bumped": true,
-      "bumped_at": "2026-10-09T21:57:38.497Z",
+      "bumped_at": "2026-10-10T21:13:54.178Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -96,7 +96,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 29,
+      "views": 43,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Taykin",
@@ -104,13 +104,20 @@
       "op_like_count": 0,
       "pinned_globally": false,
       "featured_link": null,
-      "has_accepted_answer": false,
+      "has_accepted_answer": true,
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
           "user_id": 52812,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 1188,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1392,7 +1399,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 76,
+      "views": 77,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "anon39987850",
@@ -1857,7 +1864,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1517,
+      "views": 1518,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "coderbyte520",
@@ -2474,7 +2481,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 85,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Blocky",
@@ -2627,7 +2634,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 398,
+      "views": 399,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "xytras",
@@ -3577,7 +3584,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -4361,7 +4368,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2024,
+      "views": 2025,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "chatmhsn",
@@ -4936,7 +4943,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 679,
+      "views": 680,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Blodyx",
@@ -8061,5 +8068,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-10T19:36:32.234Z"
+  "updated_at": "2026-10-10T23:01:01.693Z"
 }
