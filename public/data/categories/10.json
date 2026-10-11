@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 541,
+      "views": 542,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "xiuzhu",
@@ -49,6 +49,80 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 33181,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Help With Cloud Shader Distortion",
+      "id": 144934,
+      "title": "Help With Cloud Shader Distortion",
+      "slug": "help-with-cloud-shader-distortion",
+      "posts_count": 5,
+      "reply_count": 2,
+      "highest_post_number": 5,
+      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/0/8/081e82a824b2ce70861cd2f82965c432d12f6712.jpeg",
+      "created_at": "2026-10-03T15:16:45.630Z",
+      "last_posted_at": "2026-10-11T12:45:43.358Z",
+      "bumped": true,
+      "bumped_at": "2026-10-11T12:45:43.358Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        },
+        {
+          "id": 34,
+          "name": "gd-shader",
+          "slug": "gd-shader"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 88,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "inkharbor",
+      "category_id": 10,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 37159,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 54652,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -203,73 +277,6 @@
       ]
     },
     {
-      "fancy_title": "Help With Cloud Shader Distortion",
-      "id": 144934,
-      "title": "Help With Cloud Shader Distortion",
-      "slug": "help-with-cloud-shader-distortion",
-      "posts_count": 4,
-      "reply_count": 2,
-      "highest_post_number": 4,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/0/8/081e82a824b2ce70861cd2f82965c432d12f6712.jpeg",
-      "created_at": "2026-10-03T15:16:45.630Z",
-      "last_posted_at": "2026-10-09T00:21:05.921Z",
-      "bumped": true,
-      "bumped_at": "2026-10-09T00:21:05.921Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        },
-        {
-          "id": 34,
-          "name": "gd-shader",
-          "slug": "gd-shader"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 81,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "normalized",
-      "category_id": 10,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 37159,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Calculate fog from world position rather than camera",
       "id": 145015,
       "title": "Calculate fog from world position rather than camera",
@@ -304,7 +311,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 122,
+      "views": 123,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -511,7 +518,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 108,
+      "views": 109,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "johntator",
@@ -1178,7 +1185,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 217,
+      "views": 218,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "vissca",
@@ -1653,7 +1660,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 271,
+      "views": 272,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -2219,7 +2226,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 196,
+      "views": 197,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -2561,7 +2568,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1770,
+      "views": 1774,
       "like_count": 75,
       "has_summary": true,
       "last_poster_username": "wchc",
@@ -3108,7 +3115,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 811,
+      "views": 813,
       "like_count": 6,
       "has_summary": true,
       "last_poster_username": "normalized",
@@ -4071,7 +4078,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 209,
+      "views": 210,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4426,7 +4433,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 246,
+      "views": 247,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4507,7 +4514,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 94,
+      "views": 95,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "bonwottle",
@@ -5718,7 +5725,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 958,
+      "views": 959,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6649,7 +6656,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 574,
+      "views": 577,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "matchbox",
@@ -7099,7 +7106,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 263,
+      "views": 266,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7391,7 +7398,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 781,
+      "views": 782,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Kiwi",
@@ -7662,7 +7669,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 296,
+      "views": 297,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "pirs",
@@ -7793,7 +7800,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 189,
+      "views": 190,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gasper",
@@ -7860,7 +7867,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 313,
+      "views": 314,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8205,7 +8212,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 111,
+      "views": 112,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "larsievl",
@@ -8350,7 +8357,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 485,
+      "views": 487,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8399,5 +8406,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-11T10:22:59.383Z"
+  "updated_at": "2026-10-11T16:52:42.894Z"
 }
