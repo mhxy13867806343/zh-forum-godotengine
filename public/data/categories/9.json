@@ -87,7 +87,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 146,
+      "views": 147,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -166,7 +166,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 96,
+      "views": 97,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "sancho2",
@@ -1120,9 +1120,9 @@
       "id": 144068,
       "title": "Flying with Rigid Bodies",
       "slug": "flying-with-rigid-bodies",
-      "posts_count": 6,
+      "posts_count": 7,
       "reply_count": 3,
-      "highest_post_number": 6,
+      "highest_post_number": 7,
       "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/a/4/a488a35a158d47b2ed811f9514580c679b88e2b5_2_1024x576.png",
       "created_at": "2026-09-12T01:54:36.059Z",
       "last_posted_at": "2026-09-12T02:31:49.939Z",
@@ -1133,7 +1133,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -1184,6 +1184,13 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1498,7 +1505,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 223,
+      "views": 224,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "boundsout",
@@ -2007,7 +2014,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 85,
+      "views": 86,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2352,7 +2359,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 107,
+      "views": 108,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Sweatix",
@@ -3545,7 +3552,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 484,
+      "views": 485,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3759,7 +3766,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5109,
+      "views": 5110,
       "like_count": 11,
       "has_summary": false,
       "last_poster_username": "OriginalBadBoy",
@@ -4425,7 +4432,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 267,
+      "views": 268,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -5283,7 +5290,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 209,
+      "views": 212,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Rauha",
@@ -5493,7 +5500,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 107,
+      "views": 108,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "almusx",
@@ -6205,7 +6212,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1128,
+      "views": 1131,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "schnorg",
@@ -7852,7 +7859,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 237,
+      "views": 238,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7997,7 +8004,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 183,
+      "views": 184,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "walterpalladino",
@@ -8510,5 +8517,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-12T00:47:48.567Z"
+  "updated_at": "2026-10-12T08:10:45.145Z"
 }

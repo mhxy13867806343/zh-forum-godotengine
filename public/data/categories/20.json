@@ -62,6 +62,104 @@
       ]
     },
     {
+      "fancy_title": "Godot 4 shaders - a list of video tutorials",
+      "id": 36500,
+      "title": "Godot 4 shaders - a list of video tutorials",
+      "slug": "godot-4-shaders-a-list-of-video-tutorials",
+      "posts_count": 185,
+      "reply_count": 33,
+      "highest_post_number": 190,
+      "image_url": null,
+      "created_at": "2023-12-11T11:48:26.376Z",
+      "last_posted_at": "2026-10-12T05:01:52.548Z",
+      "bumped": true,
+      "bumped_at": "2026-10-12T05:01:52.548Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        },
+        {
+          "id": 34,
+          "name": "gd-shader",
+          "slug": "gd-shader"
+        },
+        {
+          "id": 35,
+          "name": "visual-shader",
+          "slug": "visual-shader"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 11332,
+      "like_count": 510,
+      "has_summary": true,
+      "last_poster_username": "FencerDevLog",
+      "category_id": 20,
+      "op_like_count": 115,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 1049,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 6550,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 2349,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 29439,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 31252,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Music loops in Godot 4 with no code (WAV loop points + one import setting to watch out for)",
       "id": 145246,
       "title": "Music loops in Godot 4 with no code (WAV loop points + one import setting to watch out for)",
@@ -85,7 +183,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 22,
+      "views": 23,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "composingkeys",
@@ -140,7 +238,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 23,
+      "views": 26,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -234,7 +332,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 37,
+      "views": 38,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dev007",
@@ -329,104 +427,6 @@
       ]
     },
     {
-      "fancy_title": "Godot 4 shaders - a list of video tutorials",
-      "id": 36500,
-      "title": "Godot 4 shaders - a list of video tutorials",
-      "slug": "godot-4-shaders-a-list-of-video-tutorials",
-      "posts_count": 184,
-      "reply_count": 33,
-      "highest_post_number": 189,
-      "image_url": null,
-      "created_at": "2023-12-11T11:48:26.376Z",
-      "last_posted_at": "2026-10-05T05:01:36.050Z",
-      "bumped": true,
-      "bumped_at": "2026-10-05T05:01:36.050Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        },
-        {
-          "id": 34,
-          "name": "gd-shader",
-          "slug": "gd-shader"
-        },
-        {
-          "id": 35,
-          "name": "visual-shader",
-          "slug": "visual-shader"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 11316,
-      "like_count": 509,
-      "has_summary": true,
-      "last_poster_username": "FencerDevLog",
-      "category_id": 20,
-      "op_like_count": 115,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 1049,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 6550,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 2349,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 29439,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 31252,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "How to make Custom Nodes in Godot with example",
       "id": 144943,
       "title": "How to make Custom Nodes in Godot with example",
@@ -450,7 +450,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kiri01",
@@ -515,7 +515,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 126,
+      "views": 130,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -668,7 +668,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 130,
+      "views": 131,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Antz",
@@ -1280,7 +1280,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5231,
+      "views": 5234,
       "like_count": 43,
       "has_summary": false,
       "last_poster_username": "pauldrewett",
@@ -1402,7 +1402,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "jovlem",
@@ -1682,7 +1682,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 15344,
+      "views": 15345,
       "like_count": 32,
       "has_summary": false,
       "last_poster_username": "FencerDevLog",
@@ -1886,7 +1886,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 13771,
+      "views": 13779,
       "like_count": 62,
       "has_summary": false,
       "last_poster_username": "catlikecoding",
@@ -2078,7 +2078,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 200,
+      "views": 204,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -2140,7 +2140,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6065,
+      "views": 6066,
       "like_count": 20,
       "has_summary": false,
       "last_poster_username": "luisef",
@@ -2376,7 +2376,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 894,
+      "views": 895,
       "like_count": 41,
       "has_summary": false,
       "last_poster_username": "TACH",
@@ -2576,7 +2576,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 854,
+      "views": 855,
       "like_count": 13,
       "has_summary": false,
       "last_poster_username": "ezcha",
@@ -2817,7 +2817,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5075,
+      "views": 5080,
       "like_count": 16,
       "has_summary": false,
       "last_poster_username": "Demetrius_Dixon",
@@ -2905,7 +2905,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 400,
+      "views": 401,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Demetrius_Dixon",
@@ -3029,7 +3029,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1304,
+      "views": 1305,
       "like_count": 11,
       "has_summary": false,
       "last_poster_username": "XenoShrimp",
@@ -3330,7 +3330,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 17403,
+      "views": 17408,
       "like_count": 57,
       "has_summary": false,
       "last_poster_username": "oskar",
@@ -3483,7 +3483,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 598,
+      "views": 599,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Goldenware",
@@ -3558,7 +3558,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 674,
+      "views": 675,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "Michaelz",
@@ -3752,7 +3752,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 889,
+      "views": 890,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "binbun3d",
@@ -4229,7 +4229,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 1046,
+      "views": 1047,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "TokyoFunkScene",
@@ -4544,7 +4544,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 711,
+      "views": 712,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "YouniWen",
@@ -4675,7 +4675,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 208,
+      "views": 209,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kiri01",
@@ -4735,7 +4735,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5432,
+      "views": 5437,
       "like_count": 51,
       "has_summary": false,
       "last_poster_username": "zigg3c",
@@ -5111,7 +5111,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1229,
+      "views": 1230,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "FencerDevLog",
@@ -5309,7 +5309,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39085,
+      "views": 39088,
       "like_count": 92,
       "has_summary": false,
       "last_poster_username": "greywine",
@@ -6009,7 +6009,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5199,
+      "views": 5200,
       "like_count": 14,
       "has_summary": false,
       "last_poster_username": "pizza_delivery_man",
@@ -6203,7 +6203,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1855,
+      "views": 1857,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "juhop",
@@ -6323,7 +6323,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 9921,
+      "views": 9923,
       "like_count": 49,
       "has_summary": false,
       "last_poster_username": "popcar2",
@@ -6478,7 +6478,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 8771,
+      "views": 8773,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -6562,7 +6562,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 495,
+      "views": 496,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "nubit",
@@ -6932,7 +6932,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 4050,
+      "views": 4051,
       "like_count": 14,
       "has_summary": false,
       "last_poster_username": "anon57739111",
@@ -7004,7 +7004,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 15339,
+      "views": 15343,
       "like_count": 57,
       "has_summary": false,
       "last_poster_username": "jerstopholes",
@@ -7335,7 +7335,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 441,
+      "views": 442,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "sante",
@@ -7400,7 +7400,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1055,
+      "views": 1056,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "michael.malaska",
@@ -7421,5 +7421,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-12T00:48:02.457Z"
+  "updated_at": "2026-10-12T08:10:58.410Z"
 }

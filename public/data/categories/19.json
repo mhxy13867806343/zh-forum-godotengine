@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 1504,
+      "views": 1505,
       "like_count": 15,
       "has_summary": false,
       "last_poster_username": "wasd_person",
@@ -63,6 +63,104 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 54401,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Godot 4 shaders - a list of video tutorials",
+      "id": 36500,
+      "title": "Godot 4 shaders - a list of video tutorials",
+      "slug": "godot-4-shaders-a-list-of-video-tutorials",
+      "posts_count": 185,
+      "reply_count": 33,
+      "highest_post_number": 190,
+      "image_url": null,
+      "created_at": "2023-12-11T11:48:26.376Z",
+      "last_posted_at": "2026-10-12T05:01:52.548Z",
+      "bumped": true,
+      "bumped_at": "2026-10-12T05:01:52.548Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        },
+        {
+          "id": 34,
+          "name": "gd-shader",
+          "slug": "gd-shader"
+        },
+        {
+          "id": 35,
+          "name": "visual-shader",
+          "slug": "visual-shader"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 11332,
+      "like_count": 510,
+      "has_summary": true,
+      "last_poster_username": "FencerDevLog",
+      "category_id": 20,
+      "op_like_count": 115,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 1049,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 6550,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 2349,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 29439,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 31252,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -147,7 +245,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 35,
+      "views": 36,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "unicodefawn",
@@ -191,7 +289,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 22,
+      "views": 23,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "composingkeys",
@@ -246,7 +344,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 23,
+      "views": 26,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -290,7 +388,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 24,
+      "views": 25,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dev007",
@@ -340,7 +438,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2261,
+      "views": 2262,
       "like_count": 28,
       "has_summary": false,
       "last_poster_username": "FencerDevLog",
@@ -442,7 +540,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 44,
+      "views": 47,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "highv3locity",
@@ -514,7 +612,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 48,
+      "views": 49,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -569,7 +667,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 212,
+      "views": 215,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "ProjectMakers",
@@ -714,7 +812,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 48,
+      "views": 49,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dev007",
@@ -764,7 +862,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 37,
+      "views": 38,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dev007",
@@ -814,7 +912,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 53,
+      "views": 55,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "ratlegion",
@@ -932,7 +1030,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 49,
+      "views": 50,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "turnovalab",
@@ -947,104 +1045,6 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 54521,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Godot 4 shaders - a list of video tutorials",
-      "id": 36500,
-      "title": "Godot 4 shaders - a list of video tutorials",
-      "slug": "godot-4-shaders-a-list-of-video-tutorials",
-      "posts_count": 184,
-      "reply_count": 33,
-      "highest_post_number": 189,
-      "image_url": null,
-      "created_at": "2023-12-11T11:48:26.376Z",
-      "last_posted_at": "2026-10-05T05:01:36.050Z",
-      "bumped": true,
-      "bumped_at": "2026-10-05T05:01:36.050Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        },
-        {
-          "id": 34,
-          "name": "gd-shader",
-          "slug": "gd-shader"
-        },
-        {
-          "id": 35,
-          "name": "visual-shader",
-          "slug": "visual-shader"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 11316,
-      "like_count": 509,
-      "has_summary": true,
-      "last_poster_username": "FencerDevLog",
-      "category_id": 20,
-      "op_like_count": 115,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 1049,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 6550,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 2349,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 29439,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 31252,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1074,7 +1074,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 39,
+      "views": 40,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "dens786.2",
@@ -1162,7 +1162,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kiri01",
@@ -1217,7 +1217,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 132,
+      "views": 133,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "TERRINHA",
@@ -1368,7 +1368,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 57,
+      "views": 58,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Bugnet",
@@ -1691,7 +1691,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 126,
+      "views": 130,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -1800,7 +1800,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 59,
+      "views": 60,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -1900,7 +1900,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 453,
+      "views": 456,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "Turankucukyildiz",
@@ -2052,7 +2052,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3340,
+      "views": 3341,
       "like_count": 94,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -2406,7 +2406,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39517,
+      "views": 39538,
       "like_count": 255,
       "has_summary": true,
       "last_poster_username": "CraftPix_SMM",
@@ -2478,7 +2478,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 130,
+      "views": 131,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Antz",
@@ -2548,7 +2548,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 47,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "RaykitID",
@@ -3524,7 +3524,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 74,
+      "views": 75,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "koi_coo_rats",
@@ -3732,7 +3732,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 132,
+      "views": 133,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "thygrrr",
@@ -3787,7 +3787,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 129,
+      "views": 130,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "lizzai",
@@ -4195,7 +4195,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1316,
+      "views": 1317,
       "like_count": 25,
       "has_summary": false,
       "last_poster_username": "tscu",
@@ -4776,7 +4776,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 5231,
+      "views": 5234,
       "like_count": 43,
       "has_summary": false,
       "last_poster_username": "pauldrewett",
@@ -4953,7 +4953,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 708,
+      "views": 710,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "NonGreasyRelief",
@@ -5093,7 +5093,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 830,
+      "views": 835,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "shanayyy",
@@ -5172,7 +5172,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 288,
+      "views": 289,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "dsoe1024",
@@ -5239,7 +5239,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2067,
+      "views": 2069,
       "like_count": 40,
       "has_summary": false,
       "last_poster_username": "binbun3d",
@@ -5615,7 +5615,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "jovlem",
@@ -6867,5 +6867,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-12T00:47:58.488Z"
+  "updated_at": "2026-10-12T08:10:54.729Z"
 }
