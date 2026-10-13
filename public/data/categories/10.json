@@ -55,80 +55,18 @@
       ]
     },
     {
-      "fancy_title": "How to add moons to the sky?",
-      "id": 145348,
-      "title": "How to add moons to the sky?",
-      "slug": "how-to-add-moons-to-the-sky",
-      "posts_count": 5,
-      "reply_count": 1,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-10-13T15:03:36.932Z",
-      "last_posted_at": "2026-10-13T15:17:56.820Z",
-      "bumped": true,
-      "bumped_at": "2026-10-13T15:17:56.820Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 23,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "Yora",
-      "category_id": 10,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 24283,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 52669,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Sampling a texture after its been transformed",
       "id": 145327,
       "title": "Sampling a texture after its been transformed",
       "slug": "sampling-a-texture-after-its-been-transformed",
-      "posts_count": 1,
+      "posts_count": 2,
       "reply_count": 0,
-      "highest_post_number": 1,
+      "highest_post_number": 2,
       "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/3/a3bff0ff7f85960335b8a0933a864429a740390c.png",
       "created_at": "2026-10-12T20:44:50.567Z",
-      "last_posted_at": "2026-10-12T20:44:50.712Z",
+      "last_posted_at": "2026-10-13T21:33:14.762Z",
       "bumped": true,
-      "bumped_at": "2026-10-12T20:44:50.712Z",
+      "bumped_at": "2026-10-13T21:33:14.762Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -151,7 +89,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 23,
+      "views": 28,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "TheLivingTree",
@@ -166,6 +104,75 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 48732,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to add moons to the sky?",
+      "id": 145348,
+      "title": "How to add moons to the sky?",
+      "slug": "how-to-add-moons-to-the-sky",
+      "posts_count": 16,
+      "reply_count": 9,
+      "highest_post_number": 16,
+      "image_url": null,
+      "created_at": "2026-10-13T15:03:36.932Z",
+      "last_posted_at": "2026-10-13T20:13:09.189Z",
+      "bumped": true,
+      "bumped_at": "2026-10-13T20:13:09.189Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 70,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "normalized",
+      "category_id": 10,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 24283,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 52669,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 39322,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -211,7 +218,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 77,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Phoenix_Schmitt",
@@ -285,7 +292,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 104,
+      "views": 106,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -428,7 +435,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 135,
+      "views": 137,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -485,7 +492,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 65,
+      "views": 66,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Yora",
@@ -552,7 +559,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1247,
+      "views": 1249,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Yora",
@@ -1170,7 +1177,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 77,
+      "views": 78,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "BadAndMad",
@@ -1302,7 +1309,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 224,
+      "views": 225,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "vissca",
@@ -2692,7 +2699,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1776,
+      "views": 1777,
       "like_count": 75,
       "has_summary": true,
       "last_poster_username": "wchc",
@@ -2851,7 +2858,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 114,
+      "views": 115,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3806,7 +3813,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1489,
+      "views": 1490,
       "like_count": 39,
       "has_summary": true,
       "last_poster_username": "system",
@@ -4702,7 +4709,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 210,
+      "views": 211,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "fuwan722",
@@ -4991,7 +4998,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 602,
+      "views": 603,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "pizza_delivery_man",
@@ -5510,7 +5517,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 186,
+      "views": 187,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NerdCat",
@@ -5641,7 +5648,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1566,
+      "views": 1567,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "momo9760",
@@ -6271,7 +6278,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 265,
+      "views": 268,
       "like_count": 13,
       "has_summary": false,
       "last_poster_username": "oberyn1144_0",
@@ -6421,7 +6428,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 280,
+      "views": 281,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6780,7 +6787,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 587,
+      "views": 591,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "matchbox",
@@ -7006,7 +7013,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 165,
+      "views": 166,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "puffcrushin",
@@ -7850,7 +7857,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 394,
+      "views": 395,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "dezboyle",
@@ -8060,7 +8067,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 121,
+      "views": 122,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Jasonz",
@@ -8378,5 +8385,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-13T17:12:10.845Z"
+  "updated_at": "2026-10-13T22:01:48.470Z"
 }
