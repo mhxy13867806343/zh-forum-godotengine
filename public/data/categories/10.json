@@ -59,14 +59,14 @@
       "id": 145504,
       "title": "Determining the draw order of element layers in a sky shader",
       "slug": "determining-the-draw-order-of-element-layers-in-a-sky-shader",
-      "posts_count": 1,
+      "posts_count": 2,
       "reply_count": 0,
-      "highest_post_number": 1,
+      "highest_post_number": 2,
       "image_url": null,
       "created_at": "2026-10-16T06:23:46.555Z",
-      "last_posted_at": "2026-10-16T06:23:46.684Z",
+      "last_posted_at": "2026-10-16T11:17:47.593Z",
       "bumped": true,
-      "bumped_at": "2026-10-16T06:23:46.684Z",
+      "bumped_at": "2026-10-16T11:17:47.593Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -89,10 +89,10 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2,
+      "views": 21,
       "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "Yora",
+      "last_poster_username": "normalized",
       "category_id": 10,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -101,9 +101,78 @@
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
+          "extras": null,
+          "description": "Original Poster",
           "user_id": 24283,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Sprite2D shader - second set of UVs?",
+      "id": 145482,
+      "title": "Sprite2D shader - second set of UVs?",
+      "slug": "sprite2d-shader-second-set-of-uvs",
+      "posts_count": 6,
+      "reply_count": 2,
+      "highest_post_number": 6,
+      "image_url": null,
+      "created_at": "2026-10-15T15:17:23.327Z",
+      "last_posted_at": "2026-10-16T10:01:47.772Z",
+      "bumped": true,
+      "bumped_at": "2026-10-16T10:01:47.772Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 48,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "OriginalBadBoy",
+      "category_id": 10,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster, Accepted Answer",
+          "user_id": 24077,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 4866,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -149,7 +218,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 35,
+      "views": 44,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -171,68 +240,6 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Sprite2D shader - second set of UVs?",
-      "id": 145482,
-      "title": "Sprite2D shader - second set of UVs?",
-      "slug": "sprite2d-shader-second-set-of-uvs",
-      "posts_count": 5,
-      "reply_count": 1,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-10-15T15:17:23.327Z",
-      "last_posted_at": "2026-10-15T17:35:02.721Z",
-      "bumped": true,
-      "bumped_at": "2026-10-15T17:35:02.721Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 43,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "alex_may",
-      "category_id": 10,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster, Accepted Answer",
-          "user_id": 24077,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 4866,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -268,7 +275,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 401,
+      "views": 402,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "averagestardust",
@@ -330,7 +337,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 33,
+      "views": 34,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "clammer",
@@ -385,7 +392,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 4447,
+      "views": 4448,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "nathan.nhu",
@@ -461,7 +468,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 209,
+      "views": 216,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Yora",
@@ -530,7 +537,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 48,
+      "views": 49,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "TheLivingTree",
@@ -590,7 +597,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Phoenix_Schmitt",
@@ -664,7 +671,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 115,
+      "views": 116,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -931,7 +938,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1254,
+      "views": 1255,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Yora",
@@ -1403,7 +1410,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 614,
+      "views": 615,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1435,9 +1442,9 @@
       "id": 144272,
       "title": "How to detect when a Material resource changes?",
       "slug": "how-to-detect-when-a-material-resource-changes",
-      "posts_count": 4,
+      "posts_count": 5,
       "reply_count": 1,
-      "highest_post_number": 4,
+      "highest_post_number": 5,
       "image_url": null,
       "created_at": "2026-09-15T08:54:32.969Z",
       "last_posted_at": "2026-09-16T10:21:00.521Z",
@@ -1448,7 +1455,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -1494,6 +1501,13 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 38557,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1688,7 +1702,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 236,
+      "views": 238,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "vissca",
@@ -1948,7 +1962,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 190,
+      "views": 192,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "darxkl05",
@@ -2029,7 +2043,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 223,
+      "views": 225,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -2509,7 +2523,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 106,
+      "views": 107,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2805,7 +2819,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 236,
+      "views": 237,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2946,7 +2960,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 41,
+      "views": 42,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "unfa",
@@ -3306,7 +3320,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 361,
+      "views": 362,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "strobe_deserving369",
@@ -3399,7 +3413,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 228,
+      "views": 234,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "MaeveKaori",
@@ -3625,7 +3639,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 825,
+      "views": 836,
       "like_count": 6,
       "has_summary": true,
       "last_poster_username": "normalized",
@@ -3701,7 +3715,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 123,
+      "views": 124,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3832,7 +3846,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 136,
+      "views": 137,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3982,7 +3996,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 151,
+      "views": 153,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "rainerdeyke",
@@ -4192,7 +4206,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1522,
+      "views": 1524,
       "like_count": 39,
       "has_summary": true,
       "last_poster_username": "system",
@@ -4588,7 +4602,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 215,
+      "views": 216,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5088,7 +5102,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 213,
+      "views": 214,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "fuwan722",
@@ -5498,7 +5512,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 64,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "puffcrushin",
@@ -6178,7 +6192,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 173,
+      "views": 174,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6235,7 +6249,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 981,
+      "views": 984,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6440,7 +6454,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 94,
+      "views": 95,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Guarapicci",
@@ -6507,7 +6521,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 364,
+      "views": 365,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6583,7 +6597,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 145,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "hkv",
@@ -6657,7 +6671,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 277,
+      "views": 281,
       "like_count": 13,
       "has_summary": false,
       "last_poster_username": "oberyn1144_0",
@@ -6738,7 +6752,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 188,
+      "views": 189,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -7090,7 +7104,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 292,
+      "views": 293,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "KatDawg57",
@@ -7166,7 +7180,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 599,
+      "views": 600,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "matchbox",
@@ -7392,7 +7406,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 168,
+      "views": 169,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "puffcrushin",
@@ -7616,7 +7630,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 273,
+      "views": 274,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7707,7 +7721,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 101,
+      "views": 102,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Moon_Rocket",
@@ -8053,7 +8067,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 258,
+      "views": 259,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Gallus17",
@@ -8338,5 +8352,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-16T06:30:31.433Z"
+  "updated_at": "2026-10-16T12:47:02.653Z"
 }
