@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19427,
+        "topic_count": 19430,
         "post_count": 100379,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 90,
         "topics_month": 368,
         "topics_year": 6971,
-        "topics_all_time": 31998,
+        "topics_all_time": 32003,
         "subcategory_ids": [
           11,
           13,
@@ -253,14 +253,14 @@
             "id": 145575,
             "title": "Nearby clickables in point-and-click game",
             "slug": "nearby-clickables-in-point-and-click-game",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
+            "posts_count": 5,
+            "reply_count": 3,
+            "highest_post_number": 5,
             "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/3/6/361d136ce9063b365e6a62049c2d054b1a311796_2_1024x568.jpeg",
             "created_at": "2026-10-17T22:39:47.886Z",
-            "last_posted_at": "2026-10-17T23:08:25.437Z",
+            "last_posted_at": "2026-10-18T01:44:35.101Z",
             "bumped": true,
-            "bumped_at": "2026-10-17T23:08:25.437Z",
+            "bumped_at": "2026-10-18T01:44:35.101Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -272,25 +272,25 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 39322,
-              "username": "normalized",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
+              "id": 54536,
+              "username": "livelock",
+              "name": "moriah ",
+              "avatar_template": "/user_avatar/forum.godotengine.org/livelock/{size}/84351_2.png"
             }
           },
           {
-            "fancy_title": "No collision on area2d",
-            "id": 145574,
-            "title": "No collision on area2d",
-            "slug": "no-collision-on-area2d",
-            "posts_count": 3,
+            "fancy_title": "Brainstorming a 3D character creator and UI",
+            "id": 145587,
+            "title": "Brainstorming a 3D character creator and UI",
+            "slug": "brainstorming-a-3d-character-creator-and-ui",
+            "posts_count": 2,
             "reply_count": 0,
-            "highest_post_number": 3,
+            "highest_post_number": 2,
             "image_url": null,
-            "created_at": "2026-10-17T19:35:04.080Z",
-            "last_posted_at": "2026-10-17T22:59:12.325Z",
+            "created_at": "2026-10-18T00:38:09.770Z",
+            "last_posted_at": "2026-10-18T01:02:40.250Z",
             "bumped": true,
-            "bumped_at": "2026-10-17T22:59:12.325Z",
+            "bumped_at": "2026-10-18T01:02:40.250Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -302,10 +302,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 11904,
-              "username": "gertkeno",
-              "name": "Garrett Hale",
-              "avatar_template": "/user_avatar/forum.godotengine.org/gertkeno/{size}/55277_2.png"
+              "id": 12591,
+              "username": "BrutalDevon",
+              "name": "BrutalDevon",
+              "avatar_template": "/user_avatar/forum.godotengine.org/brutaldevon/{size}/77914_2.png"
             }
           }
         ]
@@ -359,7 +359,7 @@
         "topics_week": 21,
         "topics_month": 96,
         "topics_year": 632,
-        "topics_all_time": 1282,
+        "topics_all_time": 1283,
         "subcategory_ids": [
           15,
           16,
@@ -370,6 +370,36 @@
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "unnamed couch pvp arena shooter ",
+            "id": 145580,
+            "title": "unnamed couch pvp arena shooter ",
+            "slug": "unnamed-couch-pvp-arena-shooter",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/0/3/0385cf3c475d2277f9f45c9715320a888f35a4a9_2_1023x575.png",
+            "created_at": "2026-10-18T00:37:23.145Z",
+            "last_posted_at": "2026-10-18T00:37:23.265Z",
+            "bumped": true,
+            "bumped_at": "2026-10-18T00:37:23.265Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 48721,
+              "username": "snuggyizme",
+              "name": "",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/s/8e8cbc/{size}.png"
+            }
+          },
           {
             "fancy_title": "Maskborne Teaser Trailer",
             "id": 145552,
@@ -429,36 +459,6 @@
               "name": "James ",
               "avatar_template": "/letter_avatar_proxy/v4/letter/s/9de0a6/{size}.png"
             }
-          },
-          {
-            "fancy_title": "City Builder, with Tutorial for making your own - Hawk Hill Manor",
-            "id": 145398,
-            "title": "City Builder, with Tutorial for making your own - Hawk Hill Manor",
-            "slug": "city-builder-with-tutorial-for-making-your-own-hawk-hill-manor",
-            "posts_count": 3,
-            "reply_count": 1,
-            "highest_post_number": 3,
-            "image_url": null,
-            "created_at": "2026-10-14T14:36:28.201Z",
-            "last_posted_at": "2026-10-17T14:09:18.941Z",
-            "bumped": true,
-            "bumped_at": "2026-10-17T14:09:18.941Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 35650,
-              "username": "armouredwizard",
-              "name": "Phil Webster",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/a/eb8c5e/{size}.png"
-            }
           }
         ]
       },
@@ -511,7 +511,7 @@
         "topics_week": 22,
         "topics_month": 52,
         "topics_year": 343,
-        "topics_all_time": 750,
+        "topics_all_time": 751,
         "subcategory_ids": [
           20,
           21,
@@ -523,6 +523,36 @@
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "Two lessons from building an idle-game framework in Godot 4: float drift and simulating balance (free MIT number class)",
+            "id": 145578,
+            "title": "Two lessons from building an idle-game framework in Godot 4: float drift and simulating balance (free MIT number class)",
+            "slug": "two-lessons-from-building-an-idle-game-framework-in-godot-4-float-drift-and-simulating-balance-free-mit-number-class",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
+            "image_url": null,
+            "created_at": "2026-10-18T00:37:19.048Z",
+            "last_posted_at": "2026-10-18T00:37:19.187Z",
+            "bumped": true,
+            "bumped_at": "2026-10-18T00:37:19.187Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 54995,
+              "username": "Terminator046",
+              "name": "Terminator",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/t/bcef8e/{size}.png"
+            }
+          },
           {
             "fancy_title": "Sprite Socket Bench: PNG socket coordinates for AnimatedSprite2D (free demo)",
             "id": 145323,
@@ -582,36 +612,6 @@
               "name": "inkharbor",
               "avatar_template": "/user_avatar/forum.godotengine.org/inkharbor/{size}/84794_2.png"
             }
-          },
-          {
-            "fancy_title": "Ice &amp; Frost VFX for Godot 4 - freeze, thaw or shatter any mesh, web demo, free Lite",
-            "id": 145572,
-            "title": "Ice & Frost VFX for Godot 4 - freeze, thaw or shatter any mesh, web demo, free Lite",
-            "slug": "ice-frost-vfx-for-godot-4-freeze-thaw-or-shatter-any-mesh-web-demo-free-lite",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/b/6/b613a183f4b407cff253272900d4be8f1a1d31f3.gif",
-            "created_at": "2026-10-17T18:44:22.460Z",
-            "last_posted_at": "2026-10-17T18:44:22.603Z",
-            "bumped": true,
-            "bumped_at": "2026-10-17T18:44:22.603Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 54898,
-              "username": "gennai",
-              "name": "",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/g/a6a055/{size}.png"
-            }
           }
         ]
       },
@@ -624,7 +624,7 @@
         "icon": null,
         "emoji": null,
         "slug": "general",
-        "topic_count": 1168,
+        "topic_count": 1169,
         "post_count": 12216,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
@@ -664,7 +664,7 @@
         "topics_week": 12,
         "topics_month": 37,
         "topics_year": 528,
-        "topics_all_time": 1190,
+        "topics_all_time": 1191,
         "subcategory_ids": [
           29,
           31
@@ -707,6 +707,36 @@
             }
           },
           {
+            "fancy_title": "Finding some game developers",
+            "id": 145585,
+            "title": "Finding some game developers",
+            "slug": "finding-some-game-developers",
+            "posts_count": 2,
+            "reply_count": 0,
+            "highest_post_number": 2,
+            "image_url": null,
+            "created_at": "2026-10-18T00:38:05.235Z",
+            "last_posted_at": "2026-10-18T00:57:11.126Z",
+            "bumped": true,
+            "bumped_at": "2026-10-18T00:57:11.126Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 4936,
+              "username": "tibaverus",
+              "name": "Tib Averus",
+              "avatar_template": "/user_avatar/forum.godotengine.org/tibaverus/{size}/43649_2.png"
+            }
+          },
+          {
             "fancy_title": "Game Ideas Need help",
             "id": 145558,
             "title": "Game Ideas Need help",
@@ -734,36 +764,6 @@
               "username": "normalized",
               "name": "",
               "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
-            }
-          },
-          {
-            "fancy_title": "Help a newbie understand",
-            "id": 145517,
-            "title": "Help a newbie understand",
-            "slug": "help-a-newbie-understand",
-            "posts_count": 5,
-            "reply_count": 2,
-            "highest_post_number": 5,
-            "image_url": null,
-            "created_at": "2026-10-16T14:03:39.142Z",
-            "last_posted_at": "2026-10-17T09:22:38.839Z",
-            "bumped": true,
-            "bumped_at": "2026-10-17T09:22:38.839Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 54585,
-              "username": "Casmir_Samuel",
-              "name": "Casmir Samuel",
-              "avatar_template": "/user_avatar/forum.godotengine.org/casmir_samuel/{size}/84921_2.png"
             }
           }
         ]
