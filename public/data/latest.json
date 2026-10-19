@@ -40,6 +40,55 @@
       "trust_level": 1
     },
     {
+      "id": 27660,
+      "username": "Welchaj",
+      "name": "Alex Welch",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/w/9de053/{size}.png",
+      "trust_level": 1
+    },
+    {
+      "id": 54967,
+      "username": "Novastart",
+      "name": "Novastart ",
+      "avatar_template": "/user_avatar/forum.godotengine.org/novastart/{size}/84923_2.png",
+      "trust_level": 0
+    },
+    {
+      "id": 55035,
+      "username": "CurlyFryMan",
+      "name": "BrodyZ",
+      "avatar_template": "/user_avatar/forum.godotengine.org/curlyfryman/{size}/85055_2.png",
+      "trust_level": 0
+    },
+    {
+      "id": 54977,
+      "username": "sewagewater",
+      "name": "Rusty Shackleford",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/s/41988e/{size}.png",
+      "trust_level": 0
+    },
+    {
+      "id": 12591,
+      "username": "BrutalDevon",
+      "name": "BrutalDevon",
+      "avatar_template": "/user_avatar/forum.godotengine.org/brutaldevon/{size}/77914_2.png",
+      "trust_level": 1
+    },
+    {
+      "id": 48627,
+      "username": "NOTIdealDev",
+      "name": "NOTIdealDev",
+      "avatar_template": "/user_avatar/forum.godotengine.org/notidealdev/{size}/76501_2.png",
+      "trust_level": 1
+    },
+    {
+      "id": 51996,
+      "username": "obssidian-art",
+      "name": "Amaury ",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/o/ee7513/{size}.png",
+      "trust_level": 1
+    },
+    {
       "id": 55010,
       "username": "uxerror",
       "name": "KeN",
@@ -51,13 +100,6 @@
       "username": "marceleonidas",
       "name": "",
       "avatar_template": "/user_avatar/forum.godotengine.org/marceleonidas/{size}/62385_2.png",
-      "trust_level": 1
-    },
-    {
-      "id": 48627,
-      "username": "NOTIdealDev",
-      "name": "NOTIdealDev",
-      "avatar_template": "/user_avatar/forum.godotengine.org/notidealdev/{size}/76501_2.png",
       "trust_level": 1
     },
     {
@@ -73,13 +115,6 @@
       "name": "",
       "avatar_template": "/letter_avatar_proxy/v4/letter/j/278dde/{size}.png",
       "trust_level": 1
-    },
-    {
-      "id": 54967,
-      "username": "Novastart",
-      "name": "Novastart ",
-      "avatar_template": "/user_avatar/forum.godotengine.org/novastart/{size}/84923_2.png",
-      "trust_level": 0
     },
     {
       "id": 731,
@@ -150,13 +185,6 @@
       "name": "",
       "avatar_template": "/letter_avatar_proxy/v4/letter/s/ce73a5/{size}.png",
       "trust_level": 1
-    },
-    {
-      "id": 55035,
-      "username": "CurlyFryMan",
-      "name": "BrodyZ",
-      "avatar_template": "/user_avatar/forum.godotengine.org/curlyfryman/{size}/85055_2.png",
-      "trust_level": 0
     },
     {
       "id": 51632,
@@ -320,20 +348,6 @@
       "trust_level": 1
     },
     {
-      "id": 54977,
-      "username": "sewagewater",
-      "name": "Rusty Shackleford",
-      "avatar_template": "/letter_avatar_proxy/v4/letter/s/41988e/{size}.png",
-      "trust_level": 0
-    },
-    {
-      "id": 12591,
-      "username": "BrutalDevon",
-      "name": "BrutalDevon",
-      "avatar_template": "/user_avatar/forum.godotengine.org/brutaldevon/{size}/77914_2.png",
-      "trust_level": 1
-    },
-    {
       "id": 54652,
       "username": "inkharbor",
       "name": "inkharbor",
@@ -395,20 +409,6 @@
       "name": "Douglas ALLEN",
       "avatar_template": "/user_avatar/forum.godotengine.org/dad3353/{size}/70645_2.png",
       "trust_level": 1
-    },
-    {
-      "id": 50515,
-      "username": "vpcoder",
-      "name": "Ilya Isaev",
-      "avatar_template": "/user_avatar/forum.godotengine.org/vpcoder/{size}/77971_2.png",
-      "trust_level": 1
-    },
-    {
-      "id": 55014,
-      "username": "Liones",
-      "name": "",
-      "avatar_template": "/user_avatar/forum.godotengine.org/liones/{size}/85010_2.png",
-      "trust_level": 0
     }
   ],
   "primary_groups": [],
@@ -601,7 +601,7 @@
         "unicode_title": "Welcome to the Godot Forum! 👋",
         "tags": [],
         "tags_descriptions": {},
-        "views": 28790,
+        "views": 28795,
         "like_count": 1370,
         "has_summary": true,
         "last_poster_username": "ratlegion",
@@ -650,6 +650,204 @@
         ]
       },
       {
+        "fancy_title": "Isometric Tilemap Incorrect Tiling",
+        "id": 145631,
+        "title": "Isometric Tilemap Incorrect Tiling",
+        "slug": "isometric-tilemap-incorrect-tiling",
+        "posts_count": 4,
+        "reply_count": 1,
+        "highest_post_number": 4,
+        "image_url": "https://forum.godotengine.org/uploads/default/original/3X/9/7/9740bf012e882183f40b3ae294b3bf98a3ad3b6c.png",
+        "created_at": "2026-10-19T00:11:31.067Z",
+        "last_posted_at": "2026-10-19T01:32:44.603Z",
+        "bumped": true,
+        "bumped_at": "2026-10-19T01:32:44.603Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          {
+            "id": 8,
+            "name": "godot-4",
+            "slug": "godot-4"
+          },
+          {
+            "id": 38,
+            "name": "tilemap",
+            "slug": "tilemap"
+          }
+        ],
+        "tags_descriptions": {},
+        "views": 11,
+        "like_count": 2,
+        "has_summary": false,
+        "last_poster_username": "Welchaj",
+        "category_id": 6,
+        "op_like_count": 1,
+        "pinned_globally": false,
+        "featured_link": null,
+        "has_accepted_answer": true,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 27660,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster, Accepted Answer",
+            "user_id": 54967,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 55035,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "fancy_title": "Brainstorming a 3D character creator and UI",
+        "id": 145587,
+        "title": "Brainstorming a 3D character creator and UI",
+        "slug": "brainstorming-a-3d-character-creator-and-ui",
+        "posts_count": 7,
+        "reply_count": 3,
+        "highest_post_number": 7,
+        "image_url": null,
+        "created_at": "2026-10-18T00:38:09.770Z",
+        "last_posted_at": "2026-10-19T01:19:58.615Z",
+        "bumped": true,
+        "bumped_at": "2026-10-19T01:19:58.615Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          {
+            "id": 8,
+            "name": "godot-4",
+            "slug": "godot-4"
+          },
+          {
+            "id": 20,
+            "name": "3d",
+            "slug": "3d"
+          },
+          {
+            "id": 14,
+            "name": "csharp",
+            "slug": "csharp"
+          }
+        ],
+        "tags_descriptions": {},
+        "views": 66,
+        "like_count": 4,
+        "has_summary": false,
+        "last_poster_username": "sewagewater",
+        "category_id": 6,
+        "op_like_count": 0,
+        "pinned_globally": false,
+        "featured_link": null,
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 54977,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 12591,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 48627,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
+        "fancy_title": "Gothic RPG UI Bundle for Godot 4 – Menus, Inventory &amp; Progression Systems",
+        "id": 145632,
+        "title": "Gothic RPG UI Bundle for Godot 4 – Menus, Inventory & Progression Systems",
+        "slug": "gothic-rpg-ui-bundle-for-godot-4-menus-inventory-progression-systems",
+        "posts_count": 1,
+        "reply_count": 0,
+        "highest_post_number": 1,
+        "image_url": "https://forum.godotengine.org/uploads/default/original/3X/b/1/b166d1d1fc216a20b2a2cfb78514fed6ad838e97.jpeg",
+        "created_at": "2026-10-19T00:22:01.308Z",
+        "last_posted_at": "2026-10-19T00:22:01.452Z",
+        "bumped": true,
+        "bumped_at": "2026-10-19T00:22:01.452Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+          {
+            "id": 8,
+            "name": "godot-4",
+            "slug": "godot-4"
+          },
+          {
+            "id": 19,
+            "name": "2d",
+            "slug": "2d"
+          }
+        ],
+        "tags_descriptions": {},
+        "views": 8,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "obssidian-art",
+        "category_id": 25,
+        "op_like_count": 0,
+        "pinned_globally": false,
+        "featured_link": null,
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+          {
+            "extras": "latest single",
+            "description": "Original Poster, Most Recent Poster",
+            "user_id": 51996,
+            "primary_group_id": null,
+            "flair_group_id": null
+          }
+        ]
+      },
+      {
         "fancy_title": "NConsole — A Custom 8-Bit Console Built Inside Godot",
         "id": 145597,
         "title": "NConsole — A Custom 8-Bit Console Built Inside Godot",
@@ -684,7 +882,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 62,
+        "views": 67,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "uxerror",
@@ -760,7 +958,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 22,
+        "views": 23,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Novastart",
@@ -827,7 +1025,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 4613,
+        "views": 4618,
         "like_count": 161,
         "has_summary": true,
         "last_poster_username": "defomort",
@@ -915,8 +1113,8 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 64,
-        "like_count": 1,
+        "views": 71,
+        "like_count": 2,
         "has_summary": false,
         "last_poster_username": "normalized",
         "category_id": 9,
@@ -984,7 +1182,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 24,
+        "views": 31,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "gertkeno",
@@ -1046,7 +1244,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 17,
+        "views": 20,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "DarkJune",
@@ -1096,7 +1294,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 46,
+        "views": 54,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "CurlyFryMan",
@@ -1165,7 +1363,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 20,
+        "views": 21,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Novastart",
@@ -1227,7 +1425,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 33,
+        "views": 35,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -1284,7 +1482,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 60,
+        "views": 61,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "Souzouka",
@@ -1420,7 +1618,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 71,
+        "views": 74,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Yora",
@@ -1485,7 +1683,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 51,
+        "views": 52,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -1566,7 +1764,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 26,
+        "views": 28,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Daniel_Cremers",
@@ -1610,7 +1808,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 140,
+        "views": 142,
         "like_count": 18,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -1682,7 +1880,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 26,
+        "views": 31,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Roman_Vasilyev",
@@ -1726,7 +1924,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 152,
+        "views": 157,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
@@ -1798,7 +1996,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 110,
+        "views": 112,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -1877,7 +2075,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 33,
+        "views": 35,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -1928,7 +2126,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 20,
+        "views": 21,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "FLIBIXILTM",
@@ -1972,7 +2170,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 4026,
+        "views": 4029,
         "like_count": 103,
         "has_summary": true,
         "last_poster_username": "gododo",
@@ -2021,80 +2219,6 @@
         ]
       },
       {
-        "fancy_title": "Brainstorming a 3D character creator and UI",
-        "id": 145587,
-        "title": "Brainstorming a 3D character creator and UI",
-        "slug": "brainstorming-a-3d-character-creator-and-ui",
-        "posts_count": 6,
-        "reply_count": 2,
-        "highest_post_number": 6,
-        "image_url": null,
-        "created_at": "2026-10-18T00:38:09.770Z",
-        "last_posted_at": "2026-10-18T14:18:45.771Z",
-        "bumped": true,
-        "bumped_at": "2026-10-18T14:18:45.771Z",
-        "archetype": "regular",
-        "unseen": false,
-        "pinned": false,
-        "unpinned": null,
-        "visible": true,
-        "closed": false,
-        "archived": false,
-        "bookmarked": null,
-        "liked": null,
-        "tags": [
-          {
-            "id": 8,
-            "name": "godot-4",
-            "slug": "godot-4"
-          },
-          {
-            "id": 20,
-            "name": "3d",
-            "slug": "3d"
-          },
-          {
-            "id": 14,
-            "name": "csharp",
-            "slug": "csharp"
-          }
-        ],
-        "tags_descriptions": {},
-        "views": 64,
-        "like_count": 3,
-        "has_summary": false,
-        "last_poster_username": "NOTIdealDev",
-        "category_id": 6,
-        "op_like_count": 0,
-        "pinned_globally": false,
-        "featured_link": null,
-        "has_accepted_answer": false,
-        "can_vote": false,
-        "posters": [
-          {
-            "extras": null,
-            "description": "Original Poster",
-            "user_id": 54977,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
-            "extras": null,
-            "description": "Frequent Poster",
-            "user_id": 12591,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
-            "extras": "latest",
-            "description": "Most Recent Poster",
-            "user_id": 48627,
-            "primary_group_id": null,
-            "flair_group_id": null
-          }
-        ]
-      },
-      {
         "fancy_title": "Fire, magic and explosion flipbooks (PNG sprite sheets, free Lite) for Godot 4 and other 2D engines",
         "id": 145612,
         "title": "Fire, magic and explosion flipbooks (PNG sprite sheets, free Lite) for Godot 4 and other 2D engines",
@@ -2118,7 +2242,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 20,
+        "views": 21,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "inkharbor",
@@ -2173,7 +2297,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 10640,
+        "views": 10652,
         "like_count": 800,
         "has_summary": true,
         "last_poster_username": "SpaghettiCoder",
@@ -2271,7 +2395,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 458,
+        "views": 462,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "Casmir_Samuel",
@@ -2336,7 +2460,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 2236,
+        "views": 2238,
         "like_count": 65,
         "has_summary": false,
         "last_poster_username": "fosshub",
@@ -2558,7 +2682,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 428,
+        "views": 432,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "vpcoder",
@@ -2616,7 +2740,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 40,
+        "views": 41,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Roman_Vasilyev",
@@ -2671,7 +2795,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 21,
+        "views": 22,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "yxwm",
@@ -2715,7 +2839,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 32,
+        "views": 35,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "hhhh124hhhh",
@@ -2775,7 +2899,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 2941,
+        "views": 2942,
         "like_count": 100,
         "has_summary": true,
         "last_poster_username": "cheeseness",
@@ -2858,7 +2982,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 34,
+        "views": 35,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "blackears",
@@ -2920,8 +3044,8 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 84,
-        "like_count": 7,
+        "views": 85,
+        "like_count": 8,
         "has_summary": false,
         "last_poster_username": "mjthehunter",
         "category_id": 24,
@@ -2971,7 +3095,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 109,
+        "views": 112,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "FrozenFried",
@@ -3022,7 +3146,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 85,
+        "views": 86,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "fosshub",
@@ -3073,7 +3197,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 49,
+        "views": 50,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "fosshub",
@@ -3782,7 +3906,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 27,
+        "views": 28,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "inkharbor",
@@ -4029,7 +4153,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 775,
+        "views": 778,
         "like_count": 25,
         "has_summary": false,
         "last_poster_username": "StateCraft",
@@ -4311,7 +4435,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 3443,
+        "views": 3444,
         "like_count": 98,
         "has_summary": false,
         "last_poster_username": "Gass",
@@ -4539,7 +4663,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 52,
+        "views": 53,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Sweatix",
@@ -4675,7 +4799,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 128,
+        "views": 131,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
@@ -4740,8 +4864,8 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 2073,
-        "like_count": 217,
+        "views": 2075,
+        "like_count": 218,
         "has_summary": true,
         "last_poster_username": "tibaverus",
         "category_id": 2,
@@ -4955,7 +5079,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 103,
+        "views": 105,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "Destroyanad",
@@ -5198,7 +5322,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 82,
+        "views": 84,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "cnfsp7",
@@ -5487,7 +5611,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 2124,
+        "views": 2125,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "gergomiklos",
@@ -5563,7 +5687,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 146,
+        "views": 147,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Novastart",
@@ -5711,7 +5835,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 88,
+        "views": 89,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "corporal15",
@@ -5990,7 +6114,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 2132,
+        "views": 2134,
         "like_count": 101,
         "has_summary": true,
         "last_poster_username": "Fife",
@@ -6155,7 +6279,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 677,
+        "views": 678,
         "like_count": 75,
         "has_summary": false,
         "last_poster_username": "bgmatt",
@@ -6238,7 +6362,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 10800,
+        "views": 10802,
         "like_count": 115,
         "has_summary": false,
         "last_poster_username": "tomcat",
@@ -6440,7 +6564,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 34,
+        "views": 36,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Omri_Amdursky",
@@ -6618,7 +6742,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 37,
+        "views": 38,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "little-autumn",
@@ -6662,7 +6786,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 34,
+        "views": 35,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "pixeldreamerstudio",
@@ -6727,7 +6851,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 39,
+        "views": 40,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "gennai",
@@ -6792,7 +6916,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 37,
+        "views": 39,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "gertkeno",
@@ -7057,7 +7181,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 355,
+        "views": 358,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "hogo",
@@ -7140,7 +7264,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 175,
+        "views": 177,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "obssidian-art",
@@ -7267,7 +7391,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 109,
+        "views": 116,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -7406,7 +7530,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 257,
+        "views": 259,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -7478,7 +7602,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 222,
+        "views": 226,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "primarysystem",
@@ -7664,7 +7788,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 87,
+        "views": 88,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "vonpanda",
@@ -7721,7 +7845,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 156,
+        "views": 158,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Destroyanad",
@@ -7788,7 +7912,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 51,
+        "views": 56,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -7860,7 +7984,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 39,
+        "views": 40,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -7922,7 +8046,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 38,
+        "views": 39,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -8017,7 +8141,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 28,
+        "views": 31,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "twtisy",
@@ -8141,7 +8265,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 92,
+        "views": 94,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "Repiteo",
@@ -8243,7 +8367,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 64,
+        "views": 66,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "gentlemanhal",
@@ -8315,7 +8439,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 328,
+        "views": 329,
         "like_count": 8,
         "has_summary": false,
         "last_poster_username": "mbotty",
@@ -8387,7 +8511,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 145,
+        "views": 146,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "mbotty",
@@ -8602,7 +8726,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 47,
+        "views": 49,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "enri465",
@@ -8719,7 +8843,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 111,
+        "views": 113,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "gertkeno",
@@ -8791,7 +8915,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 727,
+        "views": 728,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "Dad3353",
@@ -8877,7 +9001,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 117,
+        "views": 118,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "SpaghettiCoder",
@@ -8995,7 +9119,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 199,
+        "views": 200,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "xieyoujune",
@@ -9069,7 +9193,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 300,
+        "views": 301,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "OriginalBadBoy",
@@ -9334,7 +9458,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 120,
+        "views": 121,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "wangdiandao",
@@ -9428,7 +9552,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 408,
+        "views": 409,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "averagestardust",
@@ -9485,7 +9609,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 58,
+        "views": 59,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "gertkeno",
@@ -9547,7 +9671,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 136,
+        "views": 137,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "hail_to_the_fun",
@@ -9841,7 +9965,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 117,
+        "views": 119,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "Casmir_Samuel",
@@ -9986,7 +10110,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 261,
+        "views": 263,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "lobster804217034",
@@ -10136,7 +10260,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 4465,
+        "views": 4466,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "nathan.nhu",
@@ -10394,7 +10518,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 293,
+        "views": 294,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "Yora",
@@ -10468,7 +10592,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 93,
+        "views": 94,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "fireye04",
@@ -10587,7 +10711,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 2460,
+        "views": 2463,
         "like_count": 52,
         "has_summary": false,
         "last_poster_username": "renevanderark",
@@ -10659,7 +10783,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 114,
+        "views": 116,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -10944,7 +11068,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 207,
+        "views": 210,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -11094,7 +11218,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 59,
+        "views": 60,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "tibaverus",
@@ -11222,7 +11346,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 44,
+        "views": 45,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "retroquest",
@@ -11354,7 +11478,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 36,
+        "views": 37,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "omilium",
@@ -11533,7 +11657,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 72,
+        "views": 73,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "mrcdk",
@@ -11600,7 +11724,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 337,
+        "views": 338,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "aybeedee",
@@ -11785,7 +11909,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 324,
+        "views": 325,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -11940,7 +12064,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 152,
+        "views": 153,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "tomyy",
@@ -12016,7 +12140,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 63,
+        "views": 64,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "TheLivingTree",
@@ -12071,7 +12195,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 295,
+        "views": 296,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
@@ -12143,7 +12267,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 43,
+        "views": 44,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "Omri_Amdursky",
@@ -12187,7 +12311,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 117,
+        "views": 118,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "highv3locity",
@@ -12360,105 +12484,6 @@
             "extras": null,
             "description": "Frequent Poster, Accepted Answer",
             "user_id": 4936,
-            "primary_group_id": null,
-            "flair_group_id": null
-          }
-        ]
-      },
-      {
-        "fancy_title": "NavAgent2D takes a very round about way to the target",
-        "id": 145349,
-        "title": "NavAgent2D takes a very round about way to the target",
-        "slug": "navagent2d-takes-a-very-round-about-way-to-the-target",
-        "posts_count": 2,
-        "reply_count": 0,
-        "highest_post_number": 2,
-        "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/f/8/f8dab83cab1632af197ba53e87f37fb7ca35551c_2_1024x512.png",
-        "created_at": "2026-10-13T15:59:58.171Z",
-        "last_posted_at": "2026-10-13T17:04:55.076Z",
-        "bumped": true,
-        "bumped_at": "2026-10-13T17:04:55.076Z",
-        "archetype": "regular",
-        "unseen": false,
-        "pinned": false,
-        "unpinned": null,
-        "visible": true,
-        "closed": false,
-        "archived": false,
-        "bookmarked": null,
-        "liked": null,
-        "tags": [
-          {
-            "id": 8,
-            "name": "godot-4",
-            "slug": "godot-4"
-          },
-          {
-            "id": 18,
-            "name": "navigation",
-            "slug": "navigation"
-          }
-        ],
-        "tags_descriptions": {},
-        "views": 44,
-        "like_count": 0,
-        "has_summary": false,
-        "last_poster_username": "HungryHedgehog",
-        "category_id": 26,
-        "op_like_count": 0,
-        "pinned_globally": false,
-        "featured_link": null,
-        "has_accepted_answer": true,
-        "can_vote": false,
-        "posters": [
-          {
-            "extras": "latest single",
-            "description": "Original Poster, Most Recent Poster, Accepted Answer",
-            "user_id": 54821,
-            "primary_group_id": null,
-            "flair_group_id": null
-          }
-        ]
-      },
-      {
-        "fancy_title": "Scrib’s Inkcident — Android survivor roguelite looking for playtest feedback",
-        "id": 145352,
-        "title": "Scrib’s Inkcident — Android survivor roguelite looking for playtest feedback",
-        "slug": "scrib-s-inkcident-android-survivor-roguelite-looking-for-playtest-feedback",
-        "posts_count": 1,
-        "reply_count": 0,
-        "highest_post_number": 1,
-        "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/3/7/370a1c49849ab83e2ba3716a09f05e333be68d16_2_576x1024.jpeg",
-        "created_at": "2026-10-13T16:03:50.230Z",
-        "last_posted_at": "2026-10-13T16:03:50.337Z",
-        "bumped": true,
-        "bumped_at": "2026-10-13T16:03:50.337Z",
-        "archetype": "regular",
-        "unseen": false,
-        "pinned": false,
-        "unpinned": null,
-        "visible": true,
-        "closed": false,
-        "archived": false,
-        "bookmarked": null,
-        "liked": null,
-        "tags": [],
-        "tags_descriptions": {},
-        "views": 37,
-        "like_count": 0,
-        "has_summary": false,
-        "last_poster_username": "FatratInkcident",
-        "category_id": 24,
-        "op_like_count": 0,
-        "pinned_globally": false,
-        "featured_link": null,
-        "has_accepted_answer": false,
-        "can_vote": false,
-        "posters": [
-          {
-            "extras": "latest single",
-            "description": "Original Poster, Most Recent Poster",
-            "user_id": 54809,
             "primary_group_id": null,
             "flair_group_id": null
           }
