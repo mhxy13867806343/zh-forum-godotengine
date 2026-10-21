@@ -62,61 +62,6 @@
       ]
     },
     {
-      "fancy_title": "Wht is RemoteTransform3D working in the editor, but not in my game?",
-      "id": 145692,
-      "title": "Wht is RemoteTransform3D working in the editor, but not in my game?",
-      "slug": "wht-is-remotetransform3d-working-in-the-editor-but-not-in-my-game",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
-      "image_url": null,
-      "created_at": "2026-10-20T18:55:40.560Z",
-      "last_posted_at": "2026-10-20T18:55:40.713Z",
-      "bumped": true,
-      "bumped_at": "2026-10-20T18:55:40.713Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 35,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "blackears",
-      "category_id": 11,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 5262,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Mixamo animations throwing lots of errors on import",
       "id": 141607,
       "title": "Mixamo animations throwing lots of errors on import",
@@ -161,7 +106,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 178,
+      "views": 179,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Kestrelworks",
@@ -374,7 +319,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 44,
+      "views": 45,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -3935,7 +3880,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 221,
+      "views": 222,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4808,7 +4753,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 186,
+      "views": 188,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "lZebl",
@@ -4879,7 +4824,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 85,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "valgaming",
@@ -5309,7 +5254,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1152,
+      "views": 1153,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -5464,7 +5409,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 317,
+      "views": 319,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Icant_9313",
@@ -5721,7 +5666,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 131,
+      "views": 132,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5999,7 +5944,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1420,
+      "views": 1421,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Sasino",
@@ -6584,7 +6529,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 429,
+      "views": 430,
       "like_count": 13,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -7077,7 +7022,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 214,
+      "views": 215,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "peat",
@@ -7555,7 +7500,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 97,
+      "views": 98,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8210,7 +8155,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 268,
+      "views": 269,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "baba",
@@ -8298,7 +8243,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 450,
+      "views": 451,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "eyeballtank",
@@ -8372,7 +8317,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 113,
+      "views": 114,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Pending_Studios",
@@ -8479,7 +8424,71 @@
           "flair_group_id": null
         }
       ]
+    },
+    {
+      "fancy_title": "How to copy/paste or load a stateMachine node in the AnimationTree ?",
+      "id": 138235,
+      "title": "How to copy/paste or load a stateMachine node in the AnimationTree ?",
+      "slug": "how-to-copy-paste-or-load-a-statemachine-node-in-the-animationtree",
+      "posts_count": 4,
+      "reply_count": 0,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-05-04T22:33:12.337Z",
+      "last_posted_at": "2026-05-05T15:48:15.078Z",
+      "bumped": true,
+      "bumped_at": "2026-05-05T15:48:15.078Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": true,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 238,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "ft0rrr",
+      "category_id": 11,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 48708,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 2982,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
     }
   ],
-  "updated_at": "2026-10-21T19:43:55.514Z"
+  "updated_at": "2026-10-21T22:51:31.882Z"
 }
