@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 743,
+      "views": 744,
       "like_count": 28,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -114,6 +114,214 @@
       ]
     },
     {
+      "fancy_title": "Creating basic editor settings for my plugin",
+      "id": 145797,
+      "title": "Creating basic editor settings for my plugin",
+      "slug": "creating-basic-editor-settings-for-my-plugin",
+      "posts_count": 5,
+      "reply_count": 1,
+      "highest_post_number": 5,
+      "image_url": null,
+      "created_at": "2026-10-23T02:03:34.660Z",
+      "last_posted_at": "2026-10-24T16:45:40.993Z",
+      "bumped": true,
+      "bumped_at": "2026-10-24T16:45:40.993Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 33,
+          "name": "plugin-development",
+          "slug": "plugin-development"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 57,
+      "like_count": 3,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 2982,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How do I change the pathfinding algorithm of a Navigationagent (2d in my case but 3d as well)?",
+      "id": 144926,
+      "title": "How do I change the pathfinding algorithm of a Navigationagent (2d in my case but 3d as well)?",
+      "slug": "how-do-i-change-the-pathfinding-algorithm-of-a-navigationagent-2d-in-my-case-but-3d-as-well",
+      "posts_count": 8,
+      "reply_count": 4,
+      "highest_post_number": 8,
+      "image_url": null,
+      "created_at": "2026-10-03T10:01:00.422Z",
+      "last_posted_at": "2026-10-24T16:17:06.898Z",
+      "bumped": true,
+      "bumped_at": "2026-10-24T16:17:06.898Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 18,
+          "name": "navigation",
+          "slug": "navigation"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 175,
+      "like_count": 4,
+      "has_summary": false,
+      "last_poster_username": "Marabo",
+      "category_id": 6,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 54435,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster, Accepted Answer",
+          "user_id": 54316,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Is it possible to have lots of music files in godot web exports?",
+      "id": 145818,
+      "title": "Is it possible to have lots of music files in godot web exports?",
+      "slug": "is-it-possible-to-have-lots-of-music-files-in-godot-web-exports",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-10-23T23:59:30.419Z",
+      "last_posted_at": "2026-10-24T14:25:11.740Z",
+      "bumped": true,
+      "bumped_at": "2026-10-24T14:25:11.740Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 31,
+          "name": "web",
+          "slug": "web"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 46,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "hatmix",
+      "category_id": 6,
+      "op_like_count": 1,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 23716,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 4936,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 1188,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Any way to save and restore baked LigthmapGI data for generated meshes?",
       "id": 145828,
       "title": "Any way to save and restore baked LigthmapGI data for generated meshes?",
@@ -148,7 +356,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 18,
+      "views": 26,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -215,7 +423,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 103,
       "like_count": 11,
       "has_summary": false,
       "last_poster_username": "Gass",
@@ -303,7 +511,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 187,
+      "views": 193,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -360,7 +568,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 40,
+      "views": 41,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -429,7 +637,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 43,
+      "views": 46,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "shahriarlabib000",
@@ -450,145 +658,6 @@
         {
           "extras": null,
           "description": "Frequent Poster",
-          "user_id": 2982,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Is it possible to have lots of music files in godot web exports?",
-      "id": 145818,
-      "title": "Is it possible to have lots of music files in godot web exports?",
-      "slug": "is-it-possible-to-have-lots-of-music-files-in-godot-web-exports",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": null,
-      "created_at": "2026-10-23T23:59:30.419Z",
-      "last_posted_at": "2026-10-24T06:56:11.649Z",
-      "bumped": true,
-      "bumped_at": "2026-10-24T06:56:11.649Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        },
-        {
-          "id": 19,
-          "name": "2d",
-          "slug": "2d"
-        },
-        {
-          "id": 31,
-          "name": "web",
-          "slug": "web"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 31,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "tibaverus",
-      "category_id": 6,
-      "op_like_count": 1,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 23716,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 4936,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Creating basic editor settings for my plugin",
-      "id": 145797,
-      "title": "Creating basic editor settings for my plugin",
-      "slug": "creating-basic-editor-settings-for-my-plugin",
-      "posts_count": 4,
-      "reply_count": 1,
-      "highest_post_number": 4,
-      "image_url": null,
-      "created_at": "2026-10-23T02:03:34.660Z",
-      "last_posted_at": "2026-10-24T06:39:41.075Z",
-      "bumped": true,
-      "bumped_at": "2026-10-24T06:39:41.075Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        },
-        {
-          "id": 33,
-          "name": "plugin-development",
-          "slug": "plugin-development"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 52,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "mrcdk",
-      "category_id": 6,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
           "user_id": 2982,
           "primary_group_id": null,
           "flair_group_id": null
@@ -689,7 +758,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 164,
+      "views": 167,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "darknova",
@@ -758,7 +827,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 82,
+      "views": 84,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "rkhorserider",
@@ -841,7 +910,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 301,
+      "views": 302,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Joyless",
@@ -920,7 +989,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 25,
+      "views": 27,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "elecveclyn",
@@ -1054,7 +1123,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 44,
+      "views": 45,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "boe_taito",
@@ -1111,7 +1180,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 186,
+      "views": 187,
       "like_count": 22,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1271,7 +1340,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 30,
+      "views": 31,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Marabo",
@@ -1412,7 +1481,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 145,
+      "views": 147,
       "like_count": 14,
       "has_summary": false,
       "last_poster_username": "Gass",
@@ -1732,7 +1801,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 134,
+      "views": 136,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "vaun",
@@ -1808,7 +1877,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "liquerish",
@@ -2054,7 +2123,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "vaun",
@@ -2111,7 +2180,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 60,
+      "views": 64,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NOTIdealDev",
@@ -2247,7 +2316,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 69,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -2304,7 +2373,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 45,
+      "views": 46,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "artemisia",
@@ -2374,7 +2443,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 58,
+      "views": 59,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Silver-Wolves-Games",
@@ -2629,7 +2698,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 241,
+      "views": 242,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "gododo",
@@ -2905,7 +2974,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "trufflez",
@@ -3041,7 +3110,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 110,
+      "views": 112,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "NOTIdealDev",
@@ -3113,7 +3182,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 118,
+      "views": 120,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3194,7 +3263,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 256,
+      "views": 258,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "Poobslag",
@@ -3251,7 +3320,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 74,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "vaun",
@@ -3325,7 +3394,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 160,
+      "views": 161,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "space-g",
@@ -3397,7 +3466,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 56,
+      "views": 58,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "probatius",
@@ -3516,7 +3585,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 83,
+      "views": 84,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Dudedude123",
@@ -3585,7 +3654,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 377,
+      "views": 378,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -3713,7 +3782,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 213,
+      "views": 214,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Someone_on_earth",
@@ -3780,7 +3849,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 105,
+      "views": 106,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -3856,7 +3925,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 85,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "conz3d",
@@ -4009,7 +4078,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 97,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NOTIdealDev",
@@ -4142,7 +4211,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 66,
+      "views": 67,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NOTIdealDev",
@@ -4221,7 +4290,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 140,
+      "views": 141,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Rojer_Yamahaya",
@@ -4292,7 +4361,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 70,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NOTIdealDev",
@@ -4376,7 +4445,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "FlyingHamster",
@@ -4443,7 +4512,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 256,
+      "views": 257,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "ratlegion",
@@ -4514,7 +4583,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 47,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "AJ-Studios",
@@ -4579,7 +4648,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 147,
+      "views": 148,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -4646,7 +4715,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1047,
+      "views": 1048,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "quitarfondo",
@@ -4798,7 +4867,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 166,
+      "views": 168,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "dino460",
@@ -4946,7 +5015,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 145,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5008,7 +5077,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 72,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "CurlyFryMan",
@@ -5082,7 +5151,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 200,
+      "views": 202,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "cnfsp7",
@@ -5160,7 +5229,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 74,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "inumangames",
@@ -5315,7 +5384,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 104,
+      "views": 106,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Niku",
@@ -5377,7 +5446,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 123,
+      "views": 127,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "DarkJune",
@@ -5682,7 +5751,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 50,
+      "views": 51,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Tominator7",
@@ -5806,7 +5875,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 63,
+      "views": 66,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "creature985",
@@ -5885,7 +5954,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 100,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "user85",
@@ -5952,7 +6021,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 151,
+      "views": 153,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "sewagewater",
@@ -6021,7 +6090,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 104,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "awdm",
@@ -6337,7 +6406,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 112,
+      "views": 114,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "Souzouka",
@@ -6411,7 +6480,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 128,
+      "views": 130,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6548,7 +6617,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 714,
+      "views": 723,
       "like_count": 22,
       "has_summary": false,
       "last_poster_username": "Casmir_Samuel",
@@ -6872,7 +6941,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 58,
+      "views": 59,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Garrett_Rowland",
@@ -6994,7 +7063,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 62,
+      "views": 63,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -7066,7 +7135,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 79,
+      "views": 80,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -7145,7 +7214,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 122,
+      "views": 123,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "amenos42",
@@ -7374,7 +7443,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 120,
+      "views": 121,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "audits9o9",
@@ -7453,7 +7522,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "nvp_2",
@@ -7475,68 +7544,6 @@
           "extras": null,
           "description": "Frequent Poster, Accepted Answer",
           "user_id": 4936,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "How do I change the pathfinding algorithm of a Navigationagent (2d in my case but 3d as well)?",
-      "id": 144926,
-      "title": "How do I change the pathfinding algorithm of a Navigationagent (2d in my case but 3d as well)?",
-      "slug": "how-do-i-change-the-pathfinding-algorithm-of-a-navigationagent-2d-in-my-case-but-3d-as-well",
-      "posts_count": 7,
-      "reply_count": 3,
-      "highest_post_number": 7,
-      "image_url": null,
-      "created_at": "2026-10-03T10:01:00.422Z",
-      "last_posted_at": "2026-10-17T15:56:28.594Z",
-      "bumped": true,
-      "bumped_at": "2026-10-17T15:56:28.594Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 18,
-          "name": "navigation",
-          "slug": "navigation"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 169,
-      "like_count": 3,
-      "has_summary": false,
-      "last_poster_username": "starck",
-      "category_id": 6,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 54435,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user_id": 54316,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -7577,7 +7584,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 217,
+      "views": 218,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "Gass",
@@ -7868,7 +7875,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 208,
+      "views": 212,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Destroyanad",
@@ -8018,7 +8025,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 108,
+      "views": 109,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -8090,7 +8097,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2154,
+      "views": 2161,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gergomiklos",
@@ -8166,7 +8173,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 168,
+      "views": 169,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Novastart",
@@ -8349,5 +8356,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-24T13:41:27.678Z"
+  "updated_at": "2026-10-24T17:03:30.492Z"
 }
