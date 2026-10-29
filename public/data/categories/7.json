@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 2466,
+      "views": 2467,
       "like_count": 11,
       "has_summary": false,
       "last_poster_username": "Mark_Caliwa_Velasco",
@@ -70,6 +70,78 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 46781,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "I can&rsquo;t control the orientation using `Basis` or `Rotate`",
+      "id": 146023,
+      "title": "I can't control the orientation using `Basis` or `Rotate`",
+      "slug": "i-cant-control-the-orientation-using-basis-or-rotate",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/1/b/1b2c98b1026a4a7398581074dfb28cd165d8083d_2_1024x576.jpeg",
+      "created_at": "2026-10-28T05:25:59.131Z",
+      "last_posted_at": "2026-10-29T01:00:43.507Z",
+      "bumped": true,
+      "bumped_at": "2026-10-29T01:00:43.507Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 21,
+          "name": "game",
+          "slug": "game"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        },
+        {
+          "id": 14,
+          "name": "csharp",
+          "slug": "csharp"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 37,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "amagi",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster, Accepted Answer",
+          "user_id": 37442,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 6598,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -120,7 +192,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 12,
+      "views": 28,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sunnanabdullah",
@@ -177,7 +249,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 64,
+      "views": 65,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Someone_on_earth",
@@ -246,7 +318,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 80,
+      "views": 81,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "trung.caolenam",
@@ -310,7 +382,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 69,
+      "views": 70,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "blackears",
@@ -339,78 +411,6 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 2982,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "I can&rsquo;t control the orientation using `Basis` or `Rotate`",
-      "id": 146023,
-      "title": "I can't control the orientation using `Basis` or `Rotate`",
-      "slug": "i-cant-control-the-orientation-using-basis-or-rotate",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/1/b/1b2c98b1026a4a7398581074dfb28cd165d8083d_2_1024x576.jpeg",
-      "created_at": "2026-10-28T05:25:59.131Z",
-      "last_posted_at": "2026-10-28T07:50:09.407Z",
-      "bumped": true,
-      "bumped_at": "2026-10-28T07:50:09.407Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 21,
-          "name": "game",
-          "slug": "game"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        },
-        {
-          "id": 14,
-          "name": "csharp",
-          "slug": "csharp"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 33,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "ananasblau",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 37442,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 6598,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -518,7 +518,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 69,
+      "views": 70,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "ananasblau",
@@ -582,7 +582,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 56,
+      "views": 58,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "athousandships",
@@ -800,7 +800,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 113,
+      "views": 115,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "Petey",
@@ -874,7 +874,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 148,
+      "views": 150,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "Gass",
@@ -957,7 +957,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 265,
+      "views": 272,
       "like_count": 15,
       "has_summary": false,
       "last_poster_username": "Gass",
@@ -1045,7 +1045,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 226,
+      "views": 227,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "vaun",
@@ -1195,7 +1195,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 91,
+      "views": 92,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Kazzad",
@@ -1319,7 +1319,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 184,
+      "views": 185,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "space-g",
@@ -1381,7 +1381,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 125,
+      "views": 127,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Dudedude123",
@@ -1445,7 +1445,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 45,
+      "views": 46,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "marcusreed87",
@@ -1870,7 +1870,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "inumangames",
@@ -2082,7 +2082,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 88,
+      "views": 89,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "jcrane",
@@ -2297,7 +2297,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 581,
+      "views": 582,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "Stronghold_The_5th_s",
@@ -2492,7 +2492,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 432,
+      "views": 433,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "hogo",
@@ -2897,7 +2897,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 334,
+      "views": 335,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "lobster804217034",
@@ -2975,7 +2975,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 164,
+      "views": 165,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "moy",
@@ -3878,7 +3878,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 117,
+      "views": 118,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -3952,7 +3952,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 250,
+      "views": 251,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "purple_toast",
@@ -4486,7 +4486,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 287,
+      "views": 288,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "snowystoat",
@@ -4770,7 +4770,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "isamatlas",
@@ -4837,7 +4837,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 140,
+      "views": 141,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Wolf-64",
@@ -5885,7 +5885,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 139,
+      "views": 140,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -6159,7 +6159,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 104,
+      "views": 105,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "kodyac",
@@ -7194,7 +7194,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 131,
+      "views": 132,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Vachivenza",
@@ -8481,5 +8481,5 @@
       ]
     }
   ],
-  "updated_at": "2026-10-28T21:56:46.387Z"
+  "updated_at": "2026-10-29T01:24:58.565Z"
 }
