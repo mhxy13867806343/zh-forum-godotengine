@@ -281,20 +281,6 @@
       "trust_level": 1
     },
     {
-      "id": 10149,
-      "username": "pauldrewett",
-      "name": "Paul Drewett",
-      "avatar_template": "/user_avatar/forum.godotengine.org/pauldrewett/{size}/35839_2.png",
-      "trust_level": 1
-    },
-    {
-      "id": 127,
-      "username": "Silver-Wolves-Games",
-      "name": "Luqman",
-      "avatar_template": "/user_avatar/forum.godotengine.org/silver-wolves-games/{size}/45085_2.png",
-      "trust_level": 1
-    },
-    {
       "id": 33693,
       "username": "ComicallyUnfunny",
       "name": "ComicallyUnfunny",
@@ -327,6 +313,13 @@
       "username": "Sweatix",
       "name": "Nicklas Behrndtz",
       "avatar_template": "/user_avatar/forum.godotengine.org/sweatix/{size}/17652_2.png",
+      "trust_level": 1
+    },
+    {
+      "id": 127,
+      "username": "Silver-Wolves-Games",
+      "name": "Luqman",
+      "avatar_template": "/user_avatar/forum.godotengine.org/silver-wolves-games/{size}/45085_2.png",
       "trust_level": 1
     },
     {
@@ -544,6 +537,13 @@
       "username": "lastbender",
       "name": "Lastbender",
       "avatar_template": "/user_avatar/forum.godotengine.org/lastbender/{size}/55743_2.png",
+      "trust_level": 1
+    },
+    {
+      "id": 10149,
+      "username": "pauldrewett",
+      "name": "Paul Drewett",
+      "avatar_template": "/user_avatar/forum.godotengine.org/pauldrewett/{size}/35839_2.png",
       "trust_level": 1
     },
     {
@@ -835,8 +835,8 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 496,
-        "like_count": 74,
+        "views": 510,
+        "like_count": 81,
         "has_summary": false,
         "last_poster_username": "athousandships",
         "category_id": 2,
@@ -933,7 +933,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 416,
+        "views": 417,
         "like_count": 17,
         "has_summary": false,
         "last_poster_username": "OriginalBadBoy",
@@ -998,7 +998,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 540,
+        "views": 542,
         "like_count": 62,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -1076,7 +1076,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 392,
+        "views": 395,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "armouredwizard",
@@ -1215,7 +1215,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 204,
+        "views": 219,
         "like_count": 10,
         "has_summary": false,
         "last_poster_username": "Aeligal",
@@ -1287,7 +1287,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 272,
+        "views": 275,
         "like_count": 27,
         "has_summary": false,
         "last_poster_username": "OleNic",
@@ -1370,7 +1370,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 372,
+        "views": 379,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "obssidian-art",
@@ -1645,14 +1645,14 @@
         "id": 146189,
         "title": "Are there tricks to make your games AI-proof?",
         "slug": "are-there-tricks-to-make-your-games-ai-proof",
-        "posts_count": 47,
-        "reply_count": 32,
-        "highest_post_number": 47,
+        "posts_count": 52,
+        "reply_count": 36,
+        "highest_post_number": 52,
         "image_url": null,
         "created_at": "2026-10-31T14:28:12.255Z",
-        "last_posted_at": "2026-11-05T10:20:52.212Z",
+        "last_posted_at": "2026-11-06T11:24:50.984Z",
         "bumped": true,
-        "bumped_at": "2026-11-05T10:20:52.212Z",
+        "bumped_at": "2026-11-06T11:24:50.984Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -1664,12 +1664,12 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 564,
-        "like_count": 41,
-        "has_summary": false,
-        "last_poster_username": "Silver-Wolves-Games",
+        "views": 605,
+        "like_count": 46,
+        "has_summary": true,
+        "last_poster_username": "FrozenFried",
         "category_id": 4,
-        "op_like_count": 1,
+        "op_like_count": 2,
         "pinned_globally": false,
         "featured_link": null,
         "has_accepted_answer": false,
@@ -1692,21 +1692,21 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 10149,
+            "user_id": 24283,
             "primary_group_id": null,
             "flair_group_id": null
           },
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 24283,
+            "user_id": 6635,
             "primary_group_id": null,
             "flair_group_id": null
           },
           {
             "extras": "latest",
             "description": "Most Recent Poster",
-            "user_id": 127,
+            "user_id": 52669,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -1827,7 +1827,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 144,
+        "views": 152,
         "like_count": 24,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -1899,7 +1899,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 219,
+        "views": 228,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "Silver-Wolves-Games",
@@ -2054,7 +2054,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 461,
+        "views": 462,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "Yora",
@@ -2130,7 +2130,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 482,
+        "views": 483,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
@@ -2213,7 +2213,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 480,
+        "views": 481,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "Yora",
@@ -2365,7 +2365,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 504,
+        "views": 505,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2518,7 +2518,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 187,
+        "views": 194,
         "like_count": 12,
         "has_summary": false,
         "last_poster_username": "primarysystem",
@@ -2725,7 +2725,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 325,
+        "views": 328,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2877,7 +2877,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 158,
+        "views": 163,
         "like_count": 14,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -3293,7 +3293,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 237,
+        "views": 240,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "amenos42",
@@ -3355,7 +3355,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 364,
+        "views": 370,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "gododo",
@@ -3837,7 +3837,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 203,
+        "views": 208,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -4078,7 +4078,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 275,
+        "views": 278,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Yoshii",
@@ -4454,7 +4454,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 200,
+        "views": 203,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "vladimirchersitr",
