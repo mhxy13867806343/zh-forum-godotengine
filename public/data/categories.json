@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19543,
+        "topic_count": 19547,
         "post_count": 101032,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 63,
         "topics_month": 349,
         "topics_year": 6698,
-        "topics_all_time": 32159,
+        "topics_all_time": 32165,
         "subcategory_ids": [
           11,
           13,
@@ -249,18 +249,18 @@
             }
           },
           {
-            "fancy_title": "Model Animation Error",
-            "id": 146697,
-            "title": "Model Animation Error",
-            "slug": "model-animation-error",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/b/6/b67a18c724438e6f108e8024be837d3c49e811da_2_1024x582.jpeg",
-            "created_at": "2026-11-06T17:30:54.997Z",
-            "last_posted_at": "2026-11-06T17:37:20.649Z",
+            "fancy_title": "CharacterBody3D delayed collision with another CharacterBody3D",
+            "id": 146664,
+            "title": "CharacterBody3D delayed collision with another CharacterBody3D",
+            "slug": "characterbody3d-delayed-collision-with-another-characterbody3d",
+            "posts_count": 6,
+            "reply_count": 4,
+            "highest_post_number": 6,
+            "image_url": null,
+            "created_at": "2026-11-06T11:55:37.814Z",
+            "last_posted_at": "2026-11-06T23:31:55.554Z",
             "bumped": true,
-            "bumped_at": "2026-11-06T17:37:20.649Z",
+            "bumped_at": "2026-11-06T23:31:55.554Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -272,25 +272,25 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 4936,
-              "username": "tibaverus",
-              "name": "Tib Averus",
-              "avatar_template": "/user_avatar/forum.godotengine.org/tibaverus/{size}/43649_2.png"
+              "id": 39322,
+              "username": "normalized",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
             }
           },
           {
-            "fancy_title": "Error: Cannot call method &lsquo;start&rsquo; on a null value",
-            "id": 146536,
-            "title": "Error: Cannot call method 'start' on a null value",
-            "slug": "error-cannot-call-method-start-on-a-null-value",
-            "posts_count": 11,
+            "fancy_title": "Signal changing variable value not reflected",
+            "id": 146806,
+            "title": "Signal changing variable value not reflected",
+            "slug": "signal-changing-variable-value-not-reflected",
+            "posts_count": 8,
             "reply_count": 6,
-            "highest_post_number": 11,
-            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/4/7/4758e389c72ddd3a993d803f69270cecd10bb085.png",
-            "created_at": "2026-11-05T05:38:42.562Z",
-            "last_posted_at": "2026-11-06T17:36:51.635Z",
+            "highest_post_number": 8,
+            "image_url": null,
+            "created_at": "2026-11-06T22:47:11.536Z",
+            "last_posted_at": "2026-11-06T23:19:45.248Z",
             "bumped": true,
-            "bumped_at": "2026-11-06T17:36:51.635Z",
+            "bumped_at": "2026-11-06T23:19:45.248Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -302,10 +302,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 28756,
-              "username": "Gass",
-              "name": "Gabriel S. Sz.",
-              "avatar_template": "/user_avatar/forum.godotengine.org/gass/{size}/84978_2.png"
+              "id": 39322,
+              "username": "normalized",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
             }
           }
         ]
@@ -371,6 +371,36 @@
         "uploaded_background_dark": null,
         "topics": [
           {
+            "fancy_title": "Scalable Vector Shapes 2D - Evolving Roadmap",
+            "id": 144629,
+            "title": "Scalable Vector Shapes 2D - Evolving Roadmap",
+            "slug": "scalable-vector-shapes-2d-evolving-roadmap",
+            "posts_count": 37,
+            "reply_count": 32,
+            "highest_post_number": 37,
+            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/6/f/6ff1d34c6fe5cf02840ed64cec18b81bbaa3cda8.jpeg",
+            "created_at": "2026-09-24T20:07:02.898Z",
+            "last_posted_at": "2026-11-06T23:01:08.681Z",
+            "bumped": true,
+            "bumped_at": "2026-11-06T23:01:08.681Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 7097,
+              "username": "conz3d",
+              "name": "Conz3D",
+              "avatar_template": "/user_avatar/forum.godotengine.org/conz3d/{size}/12420_2.png"
+            }
+          },
+          {
             "fancy_title": "Where the Lights Dies — our first game, a dark fantasy prototype in Godot",
             "id": 146695,
             "title": "Where the Lights Dies — our first game, a dark fantasy prototype in Godot",
@@ -428,36 +458,6 @@
               "username": "Capacitor",
               "name": "Yakup Bilgin",
               "avatar_template": "/user_avatar/forum.godotengine.org/capacitor/{size}/86128_2.png"
-            }
-          },
-          {
-            "fancy_title": "Diablo 3D: the 1996 classic rebuilt in first person in Godot 4 (free demo)",
-            "id": 146688,
-            "title": "Diablo 3D: the 1996 classic rebuilt in first person in Godot 4 (free demo)",
-            "slug": "diablo-3d-the-1996-classic-rebuilt-in-first-person-in-godot-4-free-demo",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": null,
-            "created_at": "2026-11-06T16:49:31.519Z",
-            "last_posted_at": "2026-11-06T16:49:31.577Z",
-            "bumped": true,
-            "bumped_at": "2026-11-06T16:49:31.577Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 55724,
-              "username": "diablo3d_danny",
-              "name": "Danny Diablo3D",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/d/c0e974/{size}.png"
             }
           }
         ]
@@ -707,6 +707,36 @@
             }
           },
           {
+            "fancy_title": "What is ahead of us?",
+            "id": 146486,
+            "title": "What is ahead of us?",
+            "slug": "what-is-ahead-of-us",
+            "posts_count": 7,
+            "reply_count": 3,
+            "highest_post_number": 7,
+            "image_url": null,
+            "created_at": "2026-11-04T18:10:26.447Z",
+            "last_posted_at": "2026-11-06T22:47:26.181Z",
+            "bumped": true,
+            "bumped_at": "2026-11-06T22:47:26.181Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 41960,
+              "username": "marceleonidas",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/marceleonidas/{size}/62385_2.png"
+            }
+          },
+          {
             "fancy_title": "Poll: Do you consider yourself an Artist, UI Dev, Programmer, Character Designer, Animator, Level Designer, Sound Designer, All, None, or Other?",
             "id": 146244,
             "title": "Poll: Do you consider yourself an Artist, UI Dev, Programmer, Character Designer, Animator, Level Designer, Sound Designer, All, None, or Other?",
@@ -734,36 +764,6 @@
               "username": "NOTIdealDev",
               "name": "NOTIdealDev",
               "avatar_template": "/user_avatar/forum.godotengine.org/notidealdev/{size}/76501_2.png"
-            }
-          },
-          {
-            "fancy_title": "Are there tricks to make your games AI-proof?",
-            "id": 146189,
-            "title": "Are there tricks to make your games AI-proof?",
-            "slug": "are-there-tricks-to-make-your-games-ai-proof",
-            "posts_count": 68,
-            "reply_count": 51,
-            "highest_post_number": 68,
-            "image_url": null,
-            "created_at": "2026-10-31T14:28:12.255Z",
-            "last_posted_at": "2026-11-06T17:27:18.798Z",
-            "bumped": true,
-            "bumped_at": "2026-11-06T17:27:18.798Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 6635,
-              "username": "athousandships",
-              "name": "AThousandShips",
-              "avatar_template": "/user_avatar/forum.godotengine.org/athousandships/{size}/12554_2.png"
             }
           }
         ]
