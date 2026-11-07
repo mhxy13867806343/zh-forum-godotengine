@@ -301,7 +301,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 62,
+      "views": 64,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "foppyx",
@@ -491,7 +491,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 199,
+      "views": 201,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "darknova",
@@ -758,7 +758,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 84,
+      "views": 85,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -966,12 +966,12 @@
       "id": 145157,
       "title": "Need help with making a scrollable list using Nine Patch Rect.",
       "slug": "need-help-with-making-a-scrollable-list-using-nine-patch-rect",
-      "posts_count": 5,
+      "posts_count": 6,
       "reply_count": 3,
-      "highest_post_number": 5,
+      "highest_post_number": 6,
       "image_url": "https://forum.godotengine.org/uploads/default/original/3X/7/3/736e611c3d121b167be02eec65a7f5915c7552c8.png",
       "created_at": "2026-10-08T16:30:55.867Z",
-      "last_posted_at": "2026-10-08T17:17:47.676Z",
+      "last_posted_at": "2026-11-07T17:18:03.244Z",
       "bumped": true,
       "bumped_at": "2026-10-08T17:17:47.676Z",
       "archetype": "regular",
@@ -979,7 +979,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -999,7 +999,7 @@
       "views": 114,
       "like_count": 3,
       "has_summary": false,
-      "last_poster_username": "Iris",
+      "last_poster_username": "system",
       "category_id": 8,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -1008,8 +1008,8 @@
       "can_vote": false,
       "posters": [
         {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
+          "extras": null,
+          "description": "Original Poster",
           "user_id": 54613,
           "primary_group_id": null,
           "flair_group_id": null
@@ -1025,6 +1025,13 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 2982,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1070,7 +1077,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 145,
+      "views": 146,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -2022,7 +2029,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 163,
+      "views": 164,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sancho2",
@@ -2103,7 +2110,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 203,
+      "views": 205,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -2496,7 +2503,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 106,
+      "views": 107,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "jasonmiller",
@@ -3126,7 +3133,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3809,
+      "views": 3811,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "glitchedlime",
@@ -3769,7 +3776,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 199,
+      "views": 201,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -3843,7 +3850,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 226,
+      "views": 227,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "justinthehouse",
@@ -5372,7 +5379,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 171,
+      "views": 172,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -6097,7 +6104,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 121,
+      "views": 122,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "zidritz",
@@ -6584,7 +6591,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 103,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "pocketpixel",
@@ -8293,5 +8300,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-07T17:04:00.668Z"
+  "updated_at": "2026-11-07T21:09:23.631Z"
 }
