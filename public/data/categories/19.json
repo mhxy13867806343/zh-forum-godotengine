@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 1571,
+      "views": 1572,
       "like_count": 15,
       "has_summary": false,
       "last_poster_username": "wasd_person",
@@ -63,6 +63,61 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 54401,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "GDC - Godot Dialogue Compositor",
+      "id": 146813,
+      "title": "GDC - Godot Dialogue Compositor",
+      "slug": "gdc-godot-dialogue-compositor",
+      "posts_count": 2,
+      "reply_count": 0,
+      "highest_post_number": 2,
+      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/8/8/882fb1a034a80037041513005c7032ab09e8f955.png",
+      "created_at": "2026-11-07T02:22:53.428Z",
+      "last_posted_at": "2026-11-08T00:26:02.090Z",
+      "bumped": true,
+      "bumped_at": "2026-11-08T00:26:02.090Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 46,
+      "like_count": 3,
+      "has_summary": false,
+      "last_poster_username": "99Studios",
+      "category_id": 21,
+      "op_like_count": 2,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 55435,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -108,7 +163,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 139,
+      "views": 144,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "gennai",
@@ -166,7 +221,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 68,
+      "views": 76,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "pikachufan25",
@@ -188,61 +243,6 @@
           "extras": null,
           "description": "Frequent Poster",
           "user_id": 4936,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "GDC - Godot Dialogue Compositor",
-      "id": 146813,
-      "title": "GDC - Godot Dialogue Compositor",
-      "slug": "gdc-godot-dialogue-compositor",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/8/8/882fb1a034a80037041513005c7032ab09e8f955.png",
-      "created_at": "2026-11-07T02:22:53.428Z",
-      "last_posted_at": "2026-11-07T02:22:53.543Z",
-      "bumped": true,
-      "bumped_at": "2026-11-07T02:22:53.543Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 29,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "99Studios",
-      "category_id": 21,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 55435,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -288,7 +288,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 33,
+      "views": 36,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "anrans",
@@ -332,7 +332,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 26,
+      "views": 28,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Pathfinder_Prototypi",
@@ -388,7 +388,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 41655,
+      "views": 41686,
       "like_count": 265,
       "has_summary": true,
       "last_poster_username": "CraftPix_SMM",
@@ -466,7 +466,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 27,
+      "views": 33,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "pixeldreamerstudio",
@@ -510,7 +510,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 218,
+      "views": 224,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "pixeldreamerstudio",
@@ -561,7 +561,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 42,
+      "views": 44,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -660,7 +660,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 30,
+      "views": 31,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -704,7 +704,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 206,
+      "views": 207,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "primarysystem",
@@ -787,7 +787,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 37,
+      "views": 38,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -831,7 +831,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 35,
+      "views": 36,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "assetsmith",
@@ -875,7 +875,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 97,
+      "views": 100,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "kurtisklay",
@@ -935,7 +935,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 30,
+      "views": 31,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -995,7 +995,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 35,
+      "views": 36,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "obssidian-art",
@@ -1051,7 +1051,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 38,
+      "views": 39,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -1111,7 +1111,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 76,
+      "views": 78,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -1228,7 +1228,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 33,
+      "views": 35,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -1283,7 +1283,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 40,
+      "views": 46,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -1378,7 +1378,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 145,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "fosshub",
@@ -1436,7 +1436,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 118,
+      "views": 120,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "ieishi",
@@ -1664,7 +1664,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 142,
+      "views": 145,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Vilx",
@@ -1748,7 +1748,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 12204,
+      "views": 12209,
       "like_count": 542,
       "has_summary": true,
       "last_poster_username": "FencerDevLog",
@@ -1877,7 +1877,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 43,
+      "views": 44,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "tavryxlabs-lab",
@@ -1965,7 +1965,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 2417,
+      "views": 2418,
       "like_count": 65,
       "has_summary": false,
       "last_poster_username": "fosshub",
@@ -2053,7 +2053,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 60,
+      "views": 62,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "obssidian-art",
@@ -2441,7 +2441,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 126,
+      "views": 128,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Jakub_Hubner",
@@ -2503,7 +2503,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 72,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "sparepartsstudio",
@@ -2608,7 +2608,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 789,
+      "views": 790,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "nikitinycstores",
@@ -2884,7 +2884,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 590,
+      "views": 591,
       "like_count": 15,
       "has_summary": false,
       "last_poster_username": "pixelspritefx",
@@ -2955,7 +2955,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39,
+      "views": 40,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "ninefold_forge",
@@ -3174,7 +3174,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 51,
+      "views": 52,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Roman_Vasilyev",
@@ -3593,7 +3593,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 11078,
+      "views": 11079,
       "like_count": 115,
       "has_summary": false,
       "last_poster_username": "tomcat",
@@ -3665,7 +3665,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 184,
+      "views": 185,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "lxy437101392",
@@ -3716,7 +3716,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 75,
+      "views": 76,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Kestrelworks",
@@ -3815,7 +3815,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 125,
+      "views": 127,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "obssidian-art",
@@ -3929,7 +3929,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 67,
+      "views": 69,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "FLIBIXILTM",
@@ -3973,7 +3973,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 91,
+      "views": 92,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -4116,7 +4116,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 107,
+      "views": 109,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "hhhh124hhhh",
@@ -4366,7 +4366,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 3635,
+      "views": 3638,
       "like_count": 98,
       "has_summary": false,
       "last_poster_username": "Gass",
@@ -4558,7 +4558,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 148,
+      "views": 149,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gennai",
@@ -4613,7 +4613,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 387,
+      "views": 390,
       "like_count": 13,
       "has_summary": false,
       "last_poster_username": "obssidian-art",
@@ -4690,7 +4690,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 73,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "thygrrr",
@@ -4838,7 +4838,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 108,
+      "views": 113,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "FLIBIXILTM",
@@ -4992,7 +4992,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2955,
+      "views": 2957,
       "like_count": 52,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -5369,7 +5369,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 72,
+      "views": 73,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "bigshadex",
@@ -5413,7 +5413,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 93,
+      "views": 94,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "composingkeys",
@@ -5468,7 +5468,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 163,
+      "views": 164,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -5621,7 +5621,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 147,
+      "views": 149,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "inkharbor",
@@ -6518,5 +6518,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-07T21:09:38.851Z"
+  "updated_at": "2026-11-08T08:10:56.762Z"
 }
