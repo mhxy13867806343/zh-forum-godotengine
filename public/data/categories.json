@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19570,
+        "topic_count": 19573,
         "post_count": 101197,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 80,
         "topics_month": 355,
         "topics_year": 6691,
-        "topics_all_time": 32198,
+        "topics_all_time": 32205,
         "subcategory_ids": [
           11,
           13,
@@ -280,18 +280,18 @@
             }
           },
           {
-            "fancy_title": "Moving nodes from one parent to another",
-            "id": 147037,
-            "title": "Moving nodes from one parent to another",
-            "slug": "moving-nodes-from-one-parent-to-another",
-            "posts_count": 6,
-            "reply_count": 3,
-            "highest_post_number": 6,
+            "fancy_title": "AnimationPlayer blendtime not working when using timeout",
+            "id": 147052,
+            "title": "AnimationPlayer blendtime not working when using timeout",
+            "slug": "animationplayer-blendtime-not-working-when-using-timeout",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
             "image_url": null,
-            "created_at": "2026-11-09T19:39:55.304Z",
-            "last_posted_at": "2026-11-09T19:56:20.565Z",
+            "created_at": "2026-11-10T03:35:48.979Z",
+            "last_posted_at": "2026-11-10T03:35:49.056Z",
             "bumped": true,
-            "bumped_at": "2026-11-09T19:56:20.565Z",
+            "bumped_at": "2026-11-10T03:35:49.056Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -301,12 +301,12 @@
             "archived": false,
             "bookmarked": null,
             "liked": null,
-            "has_accepted_answer": true,
+            "has_accepted_answer": false,
             "last_poster": {
-              "id": 15116,
-              "username": "4everjang",
-              "name": "Jang Graat",
-              "avatar_template": "/user_avatar/forum.godotengine.org/4everjang/{size}/22629_2.png"
+              "id": 1478,
+              "username": "gododo",
+              "name": "",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/g/b3f665/{size}.png"
             }
           }
         ]
@@ -372,6 +372,66 @@
         "uploaded_background_dark": null,
         "topics": [
           {
+            "fancy_title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
+            "id": 146916,
+            "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
+            "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
+            "posts_count": 20,
+            "reply_count": 6,
+            "highest_post_number": 22,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
+            "created_at": "2026-11-08T00:23:09.403Z",
+            "last_posted_at": "2026-11-10T00:40:51.690Z",
+            "bumped": true,
+            "bumped_at": "2026-11-10T00:40:51.690Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 6126,
+              "username": "lasse",
+              "name": "Lasse Edsvik",
+              "avatar_template": "/user_avatar/forum.godotengine.org/lasse/{size}/48845_2.png"
+            }
+          },
+          {
+            "fancy_title": "Neon Swarm: my first game made with Godot, a mech survivor roguelike for Android",
+            "id": 146694,
+            "title": "Neon Swarm: my first game made with Godot, a mech survivor roguelike for Android",
+            "slug": "neon-swarm-my-first-game-made-with-godot-a-mech-survivor-roguelike-for-android",
+            "posts_count": 11,
+            "reply_count": 5,
+            "highest_post_number": 11,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/4/5/4506ebaab3bdbe8afbb946d6aba7866d0d93f99f_2_1024x1008.jpeg",
+            "created_at": "2026-11-06T16:53:51.064Z",
+            "last_posted_at": "2026-11-09T21:23:53.401Z",
+            "bumped": true,
+            "bumped_at": "2026-11-09T21:23:53.401Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 55681,
+              "username": "Capacitor",
+              "name": "Yakup Bilgin",
+              "avatar_template": "/user_avatar/forum.godotengine.org/capacitor/{size}/86128_2.png"
+            }
+          },
+          {
             "fancy_title": "Transfer Grease Pencil from Blender to Godot",
             "id": 146910,
             "title": "Transfer Grease Pencil from Blender to Godot",
@@ -399,66 +459,6 @@
               "username": "conz3d",
               "name": "Conz3D",
               "avatar_template": "/user_avatar/forum.godotengine.org/conz3d/{size}/12420_2.png"
-            }
-          },
-          {
-            "fancy_title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
-            "id": 146916,
-            "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
-            "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
-            "posts_count": 17,
-            "reply_count": 6,
-            "highest_post_number": 19,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
-            "created_at": "2026-11-08T00:23:09.403Z",
-            "last_posted_at": "2026-11-09T20:12:16.280Z",
-            "bumped": true,
-            "bumped_at": "2026-11-09T20:12:16.280Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 6126,
-              "username": "lasse",
-              "name": "Lasse Edsvik",
-              "avatar_template": "/user_avatar/forum.godotengine.org/lasse/{size}/48845_2.png"
-            }
-          },
-          {
-            "fancy_title": "Neon Swarm: my first game made with Godot, a mech survivor roguelike for Android",
-            "id": 146694,
-            "title": "Neon Swarm: my first game made with Godot, a mech survivor roguelike for Android",
-            "slug": "neon-swarm-my-first-game-made-with-godot-a-mech-survivor-roguelike-for-android",
-            "posts_count": 9,
-            "reply_count": 4,
-            "highest_post_number": 9,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/4/5/4506ebaab3bdbe8afbb946d6aba7866d0d93f99f_2_1024x1008.jpeg",
-            "created_at": "2026-11-06T16:53:51.064Z",
-            "last_posted_at": "2026-11-09T14:52:19.472Z",
-            "bumped": true,
-            "bumped_at": "2026-11-09T14:52:19.472Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 55681,
-              "username": "Capacitor",
-              "name": "Yakup Bilgin",
-              "avatar_template": "/user_avatar/forum.godotengine.org/capacitor/{size}/86128_2.png"
             }
           }
         ]
@@ -512,7 +512,7 @@
         "topics_week": 23,
         "topics_month": 91,
         "topics_year": 396,
-        "topics_all_time": 814,
+        "topics_all_time": 815,
         "subcategory_ids": [
           20,
           21,
@@ -524,6 +524,36 @@
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "70h+ of free high-quality open-source tutorials on Youtube",
+            "id": 147054,
+            "title": "70h+ of free high-quality open-source tutorials on Youtube",
+            "slug": "70h-of-free-high-quality-open-source-tutorials-on-youtube",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
+            "image_url": null,
+            "created_at": "2026-11-10T03:42:41.286Z",
+            "last_posted_at": "2026-11-10T03:42:41.392Z",
+            "bumped": true,
+            "bumped_at": "2026-11-10T03:42:41.392Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 30253,
+              "username": "Gad",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/gad/{size}/44116_2.png"
+            }
+          },
           {
             "fancy_title": "Godot 4 shaders - a list of video tutorials",
             "id": 36500,
@@ -582,36 +612,6 @@
               "username": "Mishamol",
               "name": "",
               "avatar_template": "/user_avatar/forum.godotengine.org/mishamol/{size}/85627_2.png"
-            }
-          },
-          {
-            "fancy_title": "[Free] Modular low-poly road kit for Godot 4: 14 pieces + demo scene",
-            "id": 146971,
-            "title": "[Free] Modular low-poly road kit for Godot 4: 14 pieces + demo scene",
-            "slug": "free-modular-low-poly-road-kit-for-godot-4-14-pieces-demo-scene",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": null,
-            "created_at": "2026-11-09T01:27:16.871Z",
-            "last_posted_at": "2026-11-09T01:27:16.940Z",
-            "bumped": true,
-            "bumped_at": "2026-11-09T01:27:16.940Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 56135,
-              "username": "aiz.en9548_0",
-              "name": "anass",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/a/958977/{size}.png"
             }
           }
         ]
@@ -708,18 +708,18 @@
             }
           },
           {
-            "fancy_title": "Ternary operator",
-            "id": 107192,
-            "title": "Ternary operator",
-            "slug": "ternary-operator",
-            "posts_count": 16,
-            "reply_count": 6,
-            "highest_post_number": 16,
+            "fancy_title": "Thoughts on Lore by Epic Games?",
+            "id": 141590,
+            "title": "Thoughts on Lore by Epic Games?",
+            "slug": "thoughts-on-lore-by-epic-games",
+            "posts_count": 25,
+            "reply_count": 13,
+            "highest_post_number": 25,
             "image_url": null,
-            "created_at": "2025-04-02T13:03:50.063Z",
-            "last_posted_at": "2026-11-09T15:11:32.140Z",
+            "created_at": "2026-07-13T22:14:14.676Z",
+            "last_posted_at": "2026-11-10T01:08:10.904Z",
             "bumped": true,
-            "bumped_at": "2026-11-09T15:11:32.140Z",
+            "bumped_at": "2026-11-10T01:08:10.904Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -731,10 +731,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 56105,
-              "username": "iarnaut2",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/iarnaut2/{size}/86528_2.png"
+              "id": 55576,
+              "username": "ansihex",
+              "name": "why is the name in settings \"optional\" when on registration its mandatory? ",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/a/2bfe46/{size}.png"
             }
           },
           {
@@ -742,14 +742,14 @@
             "id": 147016,
             "title": "Whats about Future!",
             "slug": "whats-about-future",
-            "posts_count": 2,
+            "posts_count": 3,
             "reply_count": 0,
-            "highest_post_number": 2,
+            "highest_post_number": 3,
             "image_url": null,
             "created_at": "2026-11-09T12:59:57.370Z",
-            "last_posted_at": "2026-11-09T14:33:44.681Z",
+            "last_posted_at": "2026-11-10T00:42:03.842Z",
             "bumped": true,
-            "bumped_at": "2026-11-09T14:33:44.681Z",
+            "bumped_at": "2026-11-10T00:42:03.842Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -761,10 +761,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 52669,
-              "username": "FrozenFried",
-              "name": "FrozenFried",
-              "avatar_template": "/user_avatar/forum.godotengine.org/frozenfried/{size}/56454_2.png"
+              "id": 55895,
+              "username": "blenser4",
+              "name": "Brock Lenser",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/b/bbce88/{size}.png"
             }
           }
         ]
