@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19574,
+        "topic_count": 19577,
         "post_count": 101269,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 83,
         "topics_month": 345,
         "topics_year": 6670,
-        "topics_all_time": 32209,
+        "topics_all_time": 32212,
         "subcategory_ids": [
           11,
           13,
@@ -280,18 +280,18 @@
             }
           },
           {
-            "fancy_title": "confusing error message",
-            "id": 147074,
-            "title": "confusing error message",
-            "slug": "confusing-error-message",
-            "posts_count": 3,
+            "fancy_title": "Trying to only show enemies in light but they&rsquo;re visible through walls",
+            "id": 147083,
+            "title": "Trying to only show enemies in light but they're visible through walls",
+            "slug": "trying-to-only-show-enemies-in-light-but-theyre-visible-through-walls",
+            "posts_count": 1,
             "reply_count": 0,
-            "highest_post_number": 3,
+            "highest_post_number": 1,
             "image_url": null,
-            "created_at": "2026-11-10T17:44:06.566Z",
-            "last_posted_at": "2026-11-10T18:31:00.177Z",
+            "created_at": "2026-11-10T23:01:26.284Z",
+            "last_posted_at": "2026-11-10T23:01:26.377Z",
             "bumped": true,
-            "bumped_at": "2026-11-10T18:31:00.177Z",
+            "bumped_at": "2026-11-10T23:01:26.377Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -303,10 +303,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 954,
-              "username": "ratrogue",
-              "name": "Friedrich Hanisch",
-              "avatar_template": "/user_avatar/forum.godotengine.org/ratrogue/{size}/18765_2.png"
+              "id": 56195,
+              "username": "mythicabyss",
+              "name": "Mythicabyss#0",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/m/59ef9b/{size}.png"
             }
           }
         ]
@@ -360,7 +360,7 @@
         "topics_week": 18,
         "topics_month": 108,
         "topics_year": 689,
-        "topics_all_time": 1363,
+        "topics_all_time": 1365,
         "subcategory_ids": [
           15,
           16,
@@ -371,6 +371,66 @@
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "Fair Square, my first Godot game, is now on Google Play",
+            "id": 147082,
+            "title": "Fair Square, my first Godot game, is now on Google Play",
+            "slug": "fair-square-my-first-godot-game-is-now-on-google-play",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
+            "image_url": null,
+            "created_at": "2026-11-10T23:01:20.312Z",
+            "last_posted_at": "2026-11-10T23:01:20.381Z",
+            "bumped": true,
+            "bumped_at": "2026-11-10T23:01:20.381Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 56196,
+              "username": "lanternbit-labs",
+              "name": "Lanternbit Labs",
+              "avatar_template": "/user_avatar/forum.godotengine.org/lanternbit-labs/{size}/86606_2.png"
+            }
+          },
+          {
+            "fancy_title": "Scalable Vector Shapes 2D - Evolving Roadmap",
+            "id": 144629,
+            "title": "Scalable Vector Shapes 2D - Evolving Roadmap",
+            "slug": "scalable-vector-shapes-2d-evolving-roadmap",
+            "posts_count": 45,
+            "reply_count": 39,
+            "highest_post_number": 45,
+            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/6/f/6ff1d34c6fe5cf02840ed64cec18b81bbaa3cda8.jpeg",
+            "created_at": "2026-09-24T20:07:02.898Z",
+            "last_posted_at": "2026-11-10T20:58:00.844Z",
+            "bumped": true,
+            "bumped_at": "2026-11-10T20:58:00.844Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 21837,
+              "username": "renevanderark",
+              "name": "René van der Ark",
+              "avatar_template": "/user_avatar/forum.godotengine.org/renevanderark/{size}/74313_2.png"
+            }
+          },
           {
             "fancy_title": "SciTechPlayroom",
             "id": 123200,
@@ -399,66 +459,6 @@
               "username": "tomcat",
               "name": "B G",
               "avatar_template": "/user_avatar/forum.godotengine.org/tomcat/{size}/4705_2.png"
-            }
-          },
-          {
-            "fancy_title": "Shut (WIP) - demo available",
-            "id": 123960,
-            "title": "Shut (WIP) - demo available",
-            "slug": "shut-wip-demo-available",
-            "posts_count": 49,
-            "reply_count": 31,
-            "highest_post_number": 50,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/f/c/fc13542f40ce5ead7c4dc37075d23a21f896857f_2_1024x577.jpeg",
-            "created_at": "2025-10-02T15:55:29.158Z",
-            "last_posted_at": "2026-11-10T17:14:21.015Z",
-            "bumped": true,
-            "bumped_at": "2026-11-10T17:14:21.015Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 39322,
-              "username": "normalized",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
-            }
-          },
-          {
-            "fancy_title": "Untitled match 3 game with Voronoi graph",
-            "id": 143511,
-            "title": "Untitled match 3 game with Voronoi graph",
-            "slug": "untitled-match-3-game-with-voronoi-graph",
-            "posts_count": 4,
-            "reply_count": 2,
-            "highest_post_number": 4,
-            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/2/6/262c12a9161e03ff34751629f2e5bbfd959c7ecf.png",
-            "created_at": "2026-08-27T17:47:05.036Z",
-            "last_posted_at": "2026-11-10T16:58:58.934Z",
-            "bumped": true,
-            "bumped_at": "2026-11-10T16:58:58.934Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 39322,
-              "username": "normalized",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
             }
           }
         ]
@@ -625,7 +625,7 @@
         "icon": null,
         "emoji": null,
         "slug": "general",
-        "topic_count": 1183,
+        "topic_count": 1184,
         "post_count": 11791,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
@@ -665,7 +665,7 @@
         "topics_week": 8,
         "topics_month": 48,
         "topics_year": 520,
-        "topics_all_time": 1205,
+        "topics_all_time": 1206,
         "subcategory_ids": [
           29,
           31
@@ -708,6 +708,36 @@
             }
           },
           {
+            "fancy_title": "Why does randf() include 1.0?",
+            "id": 147078,
+            "title": "Why does randf() include 1.0?",
+            "slug": "why-does-randf-include-1-0",
+            "posts_count": 6,
+            "reply_count": 1,
+            "highest_post_number": 6,
+            "image_url": null,
+            "created_at": "2026-11-10T20:47:51.252Z",
+            "last_posted_at": "2026-11-11T00:05:45.409Z",
+            "bumped": true,
+            "bumped_at": "2026-11-11T00:05:45.409Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 55895,
+              "username": "blenser4",
+              "name": "Brock Lenser",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/b/bbce88/{size}.png"
+            }
+          },
+          {
             "fancy_title": "Is post on forum from AI agents?",
             "id": 147069,
             "title": "Is post on forum from AI agents?",
@@ -735,36 +765,6 @@
               "username": "Puzzling_Detective",
               "name": "",
               "avatar_template": "/user_avatar/forum.godotengine.org/puzzling_detective/{size}/85754_2.png"
-            }
-          },
-          {
-            "fancy_title": "Thoughts on Lore by Epic Games?",
-            "id": 141590,
-            "title": "Thoughts on Lore by Epic Games?",
-            "slug": "thoughts-on-lore-by-epic-games",
-            "posts_count": 35,
-            "reply_count": 21,
-            "highest_post_number": 35,
-            "image_url": null,
-            "created_at": "2026-07-13T22:14:14.676Z",
-            "last_posted_at": "2026-11-10T14:33:18.621Z",
-            "bumped": true,
-            "bumped_at": "2026-11-10T14:33:18.621Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 31363,
-              "username": "flamenco687",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/flamenco687/{size}/45799_2.png"
             }
           }
         ]
@@ -830,14 +830,14 @@
             "id": 146164,
             "title": "We need to address the surge in AI-generated #Resources topics",
             "slug": "we-need-to-address-the-surge-in-ai-generated-resources-topics",
-            "posts_count": 54,
-            "reply_count": 38,
-            "highest_post_number": 55,
+            "posts_count": 55,
+            "reply_count": 39,
+            "highest_post_number": 56,
             "image_url": null,
             "created_at": "2026-10-31T01:48:11.777Z",
-            "last_posted_at": "2026-11-10T15:38:31.867Z",
+            "last_posted_at": "2026-11-10T23:44:50.169Z",
             "bumped": true,
-            "bumped_at": "2026-11-10T15:38:31.867Z",
+            "bumped_at": "2026-11-10T23:44:50.169Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -849,10 +849,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 49929,
-              "username": "Puzzling_Detective",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/puzzling_detective/{size}/85754_2.png"
+              "id": 10149,
+              "username": "pauldrewett",
+              "name": "Paul Drewett",
+              "avatar_template": "/user_avatar/forum.godotengine.org/pauldrewett/{size}/35839_2.png"
             }
           },
           {
