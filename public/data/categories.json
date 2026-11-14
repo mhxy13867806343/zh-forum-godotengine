@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19600,
+        "topic_count": 19602,
         "post_count": 101380,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 80,
         "topics_month": 336,
         "topics_year": 6614,
-        "topics_all_time": 32251,
+        "topics_all_time": 32254,
         "subcategory_ids": [
           11,
           13,
@@ -280,18 +280,18 @@
             }
           },
           {
-            "fancy_title": "How to set increment to joint&rsquo;s Limitations.angle? (FABRIK3D)",
-            "id": 147218,
-            "title": "How to set increment to joint's Limitations.angle? (FABRIK3D)",
-            "slug": "how-to-set-increment-to-joints-limitations-angle-fabrik3d",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": null,
-            "created_at": "2026-11-14T14:19:27.069Z",
-            "last_posted_at": "2026-11-14T14:41:27.903Z",
+            "fancy_title": "Voxel Game - getting terrain based on Noise3D, how to increase speed",
+            "id": 147223,
+            "title": "Voxel Game - getting terrain based on Noise3D, how to increase speed",
+            "slug": "voxel-game-getting-terrain-based-on-noise3d-how-to-increase-speed",
+            "posts_count": 9,
+            "reply_count": 7,
+            "highest_post_number": 9,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/3/b/3b43f4b613daad12d05a2e49d6c23d7cae0c5779_2_478x1024.jpeg",
+            "created_at": "2026-11-14T19:35:44.496Z",
+            "last_posted_at": "2026-11-14T21:20:57.809Z",
             "bumped": true,
-            "bumped_at": "2026-11-14T14:41:27.903Z",
+            "bumped_at": "2026-11-14T21:20:57.809Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -303,10 +303,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 1478,
-              "username": "gododo",
-              "name": "",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/g/b3f665/{size}.png"
+              "id": 49186,
+              "username": "artemisia",
+              "name": "Artemisia Dracunculus",
+              "avatar_template": "/user_avatar/forum.godotengine.org/artemisia/{size}/77224_2.png"
             }
           }
         ]
@@ -376,14 +376,14 @@
             "id": 146916,
             "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
             "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
-            "posts_count": 25,
+            "posts_count": 26,
             "reply_count": 7,
-            "highest_post_number": 29,
+            "highest_post_number": 30,
             "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
             "created_at": "2026-11-08T00:23:09.403Z",
-            "last_posted_at": "2026-11-14T13:31:31.011Z",
+            "last_posted_at": "2026-11-14T16:32:07.050Z",
             "bumped": true,
-            "bumped_at": "2026-11-14T13:31:31.011Z",
+            "bumped_at": "2026-11-14T16:32:07.050Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -529,14 +529,14 @@
             "id": 147196,
             "title": "How do I develop a simple solitaire card game using Godot?",
             "slug": "how-do-i-develop-a-simple-solitaire-card-game-using-godot",
-            "posts_count": 2,
+            "posts_count": 3,
             "reply_count": 0,
-            "highest_post_number": 2,
+            "highest_post_number": 3,
             "image_url": null,
             "created_at": "2026-11-14T00:50:33.347Z",
-            "last_posted_at": "2026-11-14T04:41:10.390Z",
+            "last_posted_at": "2026-11-14T18:40:55.005Z",
             "bumped": true,
-            "bumped_at": "2026-11-14T04:41:10.390Z",
+            "bumped_at": "2026-11-14T18:40:55.005Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -548,10 +548,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 52669,
-              "username": "FrozenFried",
-              "name": "FrozenFried",
-              "avatar_template": "/user_avatar/forum.godotengine.org/frozenfried/{size}/56454_2.png"
+              "id": 16994,
+              "username": "gentlemanhal",
+              "name": "Christopher",
+              "avatar_template": "/user_avatar/forum.godotengine.org/gentlemanhal/{size}/25083_2.png"
             }
           },
           {
@@ -625,7 +625,7 @@
         "icon": null,
         "emoji": null,
         "slug": "general",
-        "topic_count": 1188,
+        "topic_count": 1189,
         "post_count": 11870,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
@@ -665,7 +665,7 @@
         "topics_week": 9,
         "topics_month": 48,
         "topics_year": 522,
-        "topics_all_time": 1210,
+        "topics_all_time": 1211,
         "subcategory_ids": [
           29,
           31
@@ -708,6 +708,36 @@
             }
           },
           {
+            "fancy_title": "Editor Suggestion: De-emphasize nodes without scripts or unique names",
+            "id": 147225,
+            "title": "Editor Suggestion: De-emphasize nodes without scripts or unique names",
+            "slug": "editor-suggestion-de-emphasize-nodes-without-scripts-or-unique-names",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
+            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/3/1/316b5c3ce7e7bf46faf0acaa433ec8720b8aa3bf.png",
+            "created_at": "2026-11-14T21:00:00.768Z",
+            "last_posted_at": "2026-11-14T21:00:00.862Z",
+            "bumped": true,
+            "bumped_at": "2026-11-14T21:00:00.862Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 33582,
+              "username": "tgrcdev",
+              "name": "TGRCDev",
+              "avatar_template": "/user_avatar/forum.godotengine.org/tgrcdev/{size}/62955_2.png"
+            }
+          },
+          {
             "fancy_title": "What do you think of local ai models on your pc helping with development?",
             "id": 147213,
             "title": "What do you think of local ai models on your pc helping with development?",
@@ -735,36 +765,6 @@
               "username": "artemisia",
               "name": "Artemisia Dracunculus",
               "avatar_template": "/user_avatar/forum.godotengine.org/artemisia/{size}/77224_2.png"
-            }
-          },
-          {
-            "fancy_title": "EU: Digital Fairness Act - Discussion",
-            "id": 147215,
-            "title": "EU: Digital Fairness Act - Discussion",
-            "slug": "eu-digital-fairness-act-discussion",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": null,
-            "created_at": "2026-11-14T11:50:12.238Z",
-            "last_posted_at": "2026-11-14T11:56:26.857Z",
-            "bumped": true,
-            "bumped_at": "2026-11-14T11:56:26.857Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 48627,
-              "username": "NOTIdealDev",
-              "name": "NOTIdealDev",
-              "avatar_template": "/user_avatar/forum.godotengine.org/notidealdev/{size}/76501_2.png"
             }
           }
         ]
@@ -830,14 +830,14 @@
             "id": 146164,
             "title": "We need to address the surge in AI-generated #Resources topics",
             "slug": "we-need-to-address-the-surge-in-ai-generated-resources-topics",
-            "posts_count": 57,
-            "reply_count": 39,
-            "highest_post_number": 58,
+            "posts_count": 59,
+            "reply_count": 41,
+            "highest_post_number": 60,
             "image_url": null,
             "created_at": "2026-10-31T01:48:11.777Z",
-            "last_posted_at": "2026-11-14T15:32:57.004Z",
+            "last_posted_at": "2026-11-14T16:38:26.612Z",
             "bumped": true,
-            "bumped_at": "2026-11-14T15:32:57.004Z",
+            "bumped_at": "2026-11-14T16:38:26.612Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -849,10 +849,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 34544,
-              "username": "ProgrammerOnCoffee",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/programmeroncoffee/{size}/75482_2.png"
+              "id": 48627,
+              "username": "NOTIdealDev",
+              "name": "NOTIdealDev",
+              "avatar_template": "/user_avatar/forum.godotengine.org/notidealdev/{size}/76501_2.png"
             }
           },
           {
