@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19591,
+        "topic_count": 19594,
         "post_count": 101355,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 86,
         "topics_month": 338,
         "topics_year": 6626,
-        "topics_all_time": 32238,
+        "topics_all_time": 32242,
         "subcategory_ids": [
           11,
           13,
@@ -280,18 +280,18 @@
             }
           },
           {
-            "fancy_title": "Animation player foreign problem",
-            "id": 147173,
-            "title": "Animation player foreign problem",
-            "slug": "animation-player-foreign-problem",
-            "posts_count": 3,
-            "reply_count": 0,
-            "highest_post_number": 3,
+            "fancy_title": "Zooming towards the mouse awkwardly jolting when zooming to either max zoom or min zoom",
+            "id": 147186,
+            "title": "Zooming towards the mouse awkwardly jolting when zooming to either max zoom or min zoom",
+            "slug": "zooming-towards-the-mouse-awkwardly-jolting-when-zooming-to-either-max-zoom-or-min-zoom",
+            "posts_count": 8,
+            "reply_count": 6,
+            "highest_post_number": 8,
             "image_url": null,
-            "created_at": "2026-11-13T10:24:43.409Z",
-            "last_posted_at": "2026-11-13T17:13:26.877Z",
+            "created_at": "2026-11-13T17:09:26.910Z",
+            "last_posted_at": "2026-11-14T00:26:05.328Z",
             "bumped": true,
-            "bumped_at": "2026-11-13T17:13:26.877Z",
+            "bumped_at": "2026-11-14T00:26:05.328Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -303,10 +303,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 11904,
-              "username": "gertkeno",
-              "name": "Garrett Hale",
-              "avatar_template": "/user_avatar/forum.godotengine.org/gertkeno/{size}/55277_2.png"
+              "id": 39322,
+              "username": "normalized",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
             }
           }
         ]
@@ -372,6 +372,36 @@
         "uploaded_background_dark": null,
         "topics": [
           {
+            "fancy_title": "PiN the Guardian Spirit - Action 2D Platformer [Wishlist/Try the demo on Steam!]",
+            "id": 115478,
+            "title": "PiN the Guardian Spirit - Action 2D Platformer [Wishlist/Try the demo on Steam!]",
+            "slug": "pin-the-guardian-spirit-action-2d-platformer-wishlist-try-the-demo-on-steam",
+            "posts_count": 417,
+            "reply_count": 352,
+            "highest_post_number": 422,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/9/f/9f869d23410813ac13816865a00285555b3595c6_2_767x1024.jpeg",
+            "created_at": "2025-07-07T17:49:58.630Z",
+            "last_posted_at": "2026-11-14T00:16:24.747Z",
+            "bumped": true,
+            "bumped_at": "2026-11-14T00:16:24.747Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 35758,
+              "username": "lZebl",
+              "name": "Zeb",
+              "avatar_template": "/user_avatar/forum.godotengine.org/lzebl/{size}/76731_2.png"
+            }
+          },
+          {
             "fancy_title": "Myth Incarnate - Old School Isometric RPG / Multiplayer",
             "id": 138648,
             "title": "Myth Incarnate - Old School Isometric RPG / Multiplayer",
@@ -430,36 +460,6 @@
               "name": "Aaron Lamar",
               "avatar_template": "/user_avatar/forum.godotengine.org/yesninjagames/{size}/86756_2.png"
             }
-          },
-          {
-            "fancy_title": "Fumlo: Troll Platformer – my Godot 4 3D platformer is out on Google Play (LAN multiplayer, free first world)",
-            "id": 147184,
-            "title": "Fumlo: Troll Platformer – my Godot 4 3D platformer is out on Google Play (LAN multiplayer, free first world)",
-            "slug": "fumlo-troll-platformer-my-godot-4-3d-platformer-is-out-on-google-play-lan-multiplayer-free-first-world",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/1/1/118b21e80a0a8add27bb995987dd11a88aff8557.gif",
-            "created_at": "2026-11-13T17:03:56.920Z",
-            "last_posted_at": "2026-11-13T17:03:57.015Z",
-            "bumped": true,
-            "bumped_at": "2026-11-13T17:03:57.015Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 56340,
-              "username": "ASeebode",
-              "name": "André Seebode",
-              "avatar_template": "/user_avatar/forum.godotengine.org/aseebode/{size}/86751_2.png"
-            }
           }
         ]
       },
@@ -512,7 +512,7 @@
         "topics_week": 13,
         "topics_month": 85,
         "topics_year": 400,
-        "topics_all_time": 820,
+        "topics_all_time": 821,
         "subcategory_ids": [
           20,
           21,
@@ -625,7 +625,7 @@
         "icon": null,
         "emoji": null,
         "slug": "general",
-        "topic_count": 1185,
+        "topic_count": 1186,
         "post_count": 11855,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
@@ -665,7 +665,7 @@
         "topics_week": 7,
         "topics_month": 47,
         "topics_year": 521,
-        "topics_all_time": 1207,
+        "topics_all_time": 1208,
         "subcategory_ids": [
           29,
           31
@@ -708,18 +708,18 @@
             }
           },
           {
-            "fancy_title": "Thoughts on Lore by Epic Games?",
-            "id": 141590,
-            "title": "Thoughts on Lore by Epic Games?",
-            "slug": "thoughts-on-lore-by-epic-games",
-            "posts_count": 36,
-            "reply_count": 22,
-            "highest_post_number": 36,
+            "fancy_title": "Why does randf() include 1.0?",
+            "id": 147078,
+            "title": "Why does randf() include 1.0?",
+            "slug": "why-does-randf-include-1-0",
+            "posts_count": 25,
+            "reply_count": 12,
+            "highest_post_number": 25,
             "image_url": null,
-            "created_at": "2026-07-13T22:14:14.676Z",
-            "last_posted_at": "2026-11-13T18:07:07.753Z",
+            "created_at": "2026-11-10T20:47:51.252Z",
+            "last_posted_at": "2026-11-14T00:04:17.226Z",
             "bumped": true,
-            "bumped_at": "2026-11-13T18:07:07.753Z",
+            "bumped_at": "2026-11-14T00:04:17.226Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -731,25 +731,25 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 55576,
-              "username": "ansihex",
-              "name": "why is the name in settings \"optional\" when on registration its mandatory? ",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/a/2bfe46/{size}.png"
+              "id": 39322,
+              "username": "normalized",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
             }
           },
           {
-            "fancy_title": "Please add Resize Font to Fit function to LineEdit and TextEdit in Godot_v4.8-beta3_mono_win64",
-            "id": 147178,
-            "title": "Please add Resize Font to Fit function to LineEdit and TextEdit in Godot_v4.8-beta3_mono_win64",
-            "slug": "please-add-resize-font-to-fit-function-to-lineedit-and-textedit-in-godot-v4-8-beta3-mono-win64",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/6/0/602d6da55e80fd0cfc5ebac9e9fd46e86b2e9ea1.png",
-            "created_at": "2026-11-13T14:31:06.313Z",
-            "last_posted_at": "2026-11-13T14:32:43.069Z",
+            "fancy_title": "Humble bundle vibe update takes out MFA and potentially exposes account info",
+            "id": 147191,
+            "title": "Humble bundle vibe update takes out MFA and potentially exposes account info",
+            "slug": "humble-bundle-vibe-update-takes-out-mfa-and-potentially-exposes-account-info",
+            "posts_count": 3,
+            "reply_count": 1,
+            "highest_post_number": 3,
+            "image_url": null,
+            "created_at": "2026-11-13T23:12:58.711Z",
+            "last_posted_at": "2026-11-13T23:57:46.638Z",
             "bumped": true,
-            "bumped_at": "2026-11-13T14:32:43.069Z",
+            "bumped_at": "2026-11-13T23:57:46.638Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -761,10 +761,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 6635,
-              "username": "athousandships",
-              "name": "AThousandShips",
-              "avatar_template": "/user_avatar/forum.godotengine.org/athousandships/{size}/12554_2.png"
+              "id": 21837,
+              "username": "renevanderark",
+              "name": "René van der Ark",
+              "avatar_template": "/user_avatar/forum.godotengine.org/renevanderark/{size}/74313_2.png"
             }
           }
         ]

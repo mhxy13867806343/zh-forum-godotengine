@@ -55,18 +55,18 @@
       ]
     },
     {
-      "fancy_title": "Zooming towards the mouse ackwardly jolting when zooming to either max zoom or min zoom",
+      "fancy_title": "Zooming towards the mouse awkwardly jolting when zooming to either max zoom or min zoom",
       "id": 147186,
-      "title": "Zooming towards the mouse ackwardly jolting when zooming to either max zoom or min zoom",
-      "slug": "zooming-towards-the-mouse-ackwardly-jolting-when-zooming-to-either-max-zoom-or-min-zoom",
-      "posts_count": 1,
-      "reply_count": 0,
-      "highest_post_number": 1,
+      "title": "Zooming towards the mouse awkwardly jolting when zooming to either max zoom or min zoom",
+      "slug": "zooming-towards-the-mouse-awkwardly-jolting-when-zooming-to-either-max-zoom-or-min-zoom",
+      "posts_count": 8,
+      "reply_count": 6,
+      "highest_post_number": 8,
       "image_url": null,
       "created_at": "2026-11-13T17:09:26.910Z",
-      "last_posted_at": "2026-11-13T17:09:26.979Z",
+      "last_posted_at": "2026-11-14T00:26:05.328Z",
       "bumped": true,
-      "bumped_at": "2026-11-13T17:09:26.979Z",
+      "bumped_at": "2026-11-14T00:26:05.328Z",
       "archetype": "regular",
       "unseen": false,
       "pinned": false,
@@ -84,60 +84,10 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 14,
+      "views": 42,
       "like_count": 0,
       "has_summary": false,
-      "last_poster_username": "aivory",
-      "category_id": 8,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest single",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 56317,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "Making it so buttons don&rsquo;t lose focus when clicking on blank part of screen",
-      "id": 147162,
-      "title": "Making it so buttons don't lose focus when clicking on blank part of screen",
-      "slug": "making-it-so-buttons-dont-lose-focus-when-clicking-on-blank-part-of-screen",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": null,
-      "created_at": "2026-11-13T05:32:06.574Z",
-      "last_posted_at": "2026-11-13T05:51:11.962Z",
-      "bumped": true,
-      "bumped_at": "2026-11-13T05:51:11.962Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 41,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "renevanderark",
+      "last_poster_username": "normalized",
       "category_id": 8,
       "op_like_count": 0,
       "pinned_globally": false,
@@ -148,14 +98,85 @@
         {
           "extras": null,
           "description": "Original Poster",
-          "user_id": 35162,
+          "user_id": 56317,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 6598,
           "primary_group_id": null,
           "flair_group_id": null
         },
         {
           "extras": "latest",
           "description": "Most Recent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Making it so buttons don&rsquo;t lose focus when clicking on blank part of screen",
+      "id": 147162,
+      "title": "Making it so buttons don't lose focus when clicking on blank part of screen",
+      "slug": "making-it-so-buttons-dont-lose-focus-when-clicking-on-blank-part-of-screen",
+      "posts_count": 9,
+      "reply_count": 4,
+      "highest_post_number": 9,
+      "image_url": null,
+      "created_at": "2026-11-13T05:32:06.574Z",
+      "last_posted_at": "2026-11-13T22:45:29.289Z",
+      "bumped": true,
+      "bumped_at": "2026-11-13T22:45:29.289Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 76,
+      "like_count": 3,
+      "has_summary": false,
+      "last_poster_username": "gertkeno",
+      "category_id": 8,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster, Accepted Answer",
+          "user_id": 35162,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
           "user_id": 21837,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 11904,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -191,7 +212,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 423,
+      "views": 424,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Sasino",
@@ -255,7 +276,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 133,
+      "views": 135,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -405,7 +426,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 233,
+      "views": 234,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Barometz1o",
@@ -928,7 +949,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 129,
+      "views": 131,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Yswc123",
@@ -1183,7 +1204,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 95,
+      "views": 96,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -2218,7 +2239,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 279,
+      "views": 281,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -2442,7 +2463,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 217,
+      "views": 219,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "silenuznowan",
@@ -2976,7 +2997,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 176,
+      "views": 179,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "nerdcodestudios",
@@ -3320,7 +3341,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 272,
+      "views": 273,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "back2lobby",
@@ -3665,7 +3686,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 216,
+      "views": 218,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3729,7 +3750,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 125,
+      "views": 126,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "jiminycricket",
@@ -4032,7 +4053,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 244,
+      "views": 245,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "japonbaligi",
@@ -4108,7 +4129,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 211,
+      "views": 212,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -4372,7 +4393,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 281,
+      "views": 282,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4743,7 +4764,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 191,
+      "views": 196,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "stone",
@@ -4947,7 +4968,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 78,
+      "views": 79,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5011,7 +5032,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6750,
+      "views": 6751,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "ximossi",
@@ -5301,7 +5322,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 130,
+      "views": 131,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5561,7 +5582,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 350,
+      "views": 351,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5711,7 +5732,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 180,
+      "views": 181,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "wchc",
@@ -6008,7 +6029,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 261,
+      "views": 262,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6300,7 +6321,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 151,
+      "views": 153,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6507,7 +6528,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 174,
+      "views": 175,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "jiminycricket",
@@ -6571,7 +6592,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 176,
+      "views": 177,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -7363,7 +7384,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 308,
+      "views": 309,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "ApolloMonasa",
@@ -7851,7 +7872,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 178,
+      "views": 180,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -8068,7 +8089,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 165,
+      "views": 166,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "leofleeo",
@@ -8135,7 +8156,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 104,
+      "views": 105,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -8298,5 +8319,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-13T18:51:23.664Z"
+  "updated_at": "2026-11-14T00:31:23.933Z"
 }
