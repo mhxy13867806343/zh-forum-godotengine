@@ -8,13 +8,6 @@
       "trust_level": 1
     },
     {
-      "id": 41039,
-      "username": "hail_to_the_fun",
-      "name": "Alexandre Ancel",
-      "avatar_template": "/user_avatar/forum.godotengine.org/hail_to_the_fun/{size}/60910_2.png",
-      "trust_level": 1
-    },
-    {
       "id": 410,
       "username": "tomcat",
       "name": "B G",
@@ -33,6 +26,13 @@
       "username": "davidpruitt",
       "name": "David Pruitt",
       "avatar_template": "/letter_avatar_proxy/v4/letter/d/b9e5f3/{size}.png",
+      "trust_level": 1
+    },
+    {
+      "id": 55553,
+      "username": "booneisland",
+      "name": "Ronnie Boone",
+      "avatar_template": "/user_avatar/forum.godotengine.org/booneisland/{size}/85870_2.png",
       "trust_level": 1
     },
     {
@@ -435,10 +435,10 @@
       "trust_level": 1
     },
     {
-      "id": 16397,
-      "username": "hasjime",
-      "name": "Gerhard Gubler",
-      "avatar_template": "/user_avatar/forum.godotengine.org/hasjime/{size}/68543_2.png",
+      "id": 43331,
+      "username": "fosshub",
+      "name": "An onym",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/f/59ef9b/{size}.png",
       "trust_level": 1
     },
     {
@@ -892,14 +892,14 @@
         "id": 146916,
         "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
         "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
-        "posts_count": 28,
-        "reply_count": 7,
-        "highest_post_number": 32,
+        "posts_count": 30,
+        "reply_count": 8,
+        "highest_post_number": 34,
         "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
         "created_at": "2026-11-08T00:23:09.403Z",
-        "last_posted_at": "2026-11-16T07:48:24.414Z",
+        "last_posted_at": "2026-11-16T19:49:55.281Z",
         "bumped": true,
-        "bumped_at": "2026-11-16T07:48:24.414Z",
+        "bumped_at": "2026-11-16T19:49:55.281Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -911,8 +911,8 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 765,
-        "like_count": 65,
+        "views": 819,
+        "like_count": 67,
         "has_summary": false,
         "last_poster_username": "lasse",
         "category_id": 24,
@@ -926,13 +926,6 @@
             "extras": "latest",
             "description": "Original Poster, Most Recent Poster",
             "user_id": 6126,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
-            "extras": null,
-            "description": "Frequent Poster",
-            "user_id": 41039,
             "primary_group_id": null,
             "flair_group_id": null
           },
@@ -954,6 +947,13 @@
             "extras": null,
             "description": "Frequent Poster",
             "user_id": 22031,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 55553,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -983,7 +983,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1172,
+        "views": 1191,
         "like_count": 134,
         "has_summary": true,
         "last_poster_username": "NOTIdealDev",
@@ -1081,7 +1081,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 492,
+        "views": 500,
         "like_count": 17,
         "has_summary": false,
         "last_poster_username": "OriginalBadBoy",
@@ -1146,7 +1146,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1104,
+        "views": 1115,
         "like_count": 74,
         "has_summary": true,
         "last_poster_username": "hungrycatgames",
@@ -1218,7 +1218,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 587,
+        "views": 593,
         "like_count": 63,
         "has_summary": false,
         "last_poster_username": "NOTIdealDev",
@@ -1306,7 +1306,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 459,
+        "views": 461,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "Aeligal",
@@ -1389,7 +1389,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 334,
+        "views": 348,
         "like_count": 46,
         "has_summary": false,
         "last_poster_username": "renevanderark",
@@ -1533,7 +1533,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 511,
+        "views": 518,
         "like_count": 18,
         "has_summary": false,
         "last_poster_username": "Erich_L",
@@ -1605,7 +1605,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 461,
+        "views": 470,
         "like_count": 45,
         "has_summary": false,
         "last_poster_username": "athousandships",
@@ -1677,7 +1677,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 343,
+        "views": 355,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "Ali_Haider1129",
@@ -1742,7 +1742,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 267,
+        "views": 270,
         "like_count": 14,
         "has_summary": false,
         "last_poster_username": "gentlemanhal",
@@ -1814,7 +1814,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 368,
+        "views": 371,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "finitebanjo",
@@ -1897,7 +1897,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 341,
+        "views": 348,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "Gass",
@@ -1985,7 +1985,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 322,
+        "views": 326,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "Daniel_Cremers",
@@ -2134,7 +2134,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 395,
+        "views": 411,
         "like_count": 25,
         "has_summary": false,
         "last_poster_username": "walterpalladino",
@@ -2206,7 +2206,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 629,
+        "views": 646,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
@@ -2294,7 +2294,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 154,
+        "views": 159,
         "like_count": 28,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2345,7 +2345,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 233,
+        "views": 239,
         "like_count": 12,
         "has_summary": false,
         "last_poster_username": "primarysystem",
@@ -2398,14 +2398,14 @@
         "id": 147213,
         "title": "What do you think of local ai models on your pc helping with development?",
         "slug": "what-do-you-think-of-local-ai-models-on-your-pc-helping-with-development",
-        "posts_count": 33,
-        "reply_count": 20,
-        "highest_post_number": 33,
+        "posts_count": 111,
+        "reply_count": 88,
+        "highest_post_number": 111,
         "image_url": null,
         "created_at": "2026-11-14T10:36:11.441Z",
-        "last_posted_at": "2026-11-16T11:00:27.328Z",
+        "last_posted_at": "2026-11-16T23:02:34.264Z",
         "bumped": true,
-        "bumped_at": "2026-11-16T11:00:27.328Z",
+        "bumped_at": "2026-11-16T23:02:34.264Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -2417,10 +2417,10 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 295,
-        "like_count": 28,
-        "has_summary": false,
-        "last_poster_username": "NOTIdealDev",
+        "views": 475,
+        "like_count": 136,
+        "has_summary": true,
+        "last_poster_username": "athousandships",
         "category_id": 4,
         "op_like_count": 1,
         "pinned_globally": false,
@@ -2429,16 +2429,9 @@
         "can_vote": false,
         "posters": [
           {
-            "extras": "latest",
-            "description": "Original Poster, Most Recent Poster",
-            "user_id": 48627,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
             "extras": null,
-            "description": "Frequent Poster",
-            "user_id": 6635,
+            "description": "Original Poster",
+            "user_id": 48627,
             "primary_group_id": null,
             "flair_group_id": null
           },
@@ -2452,14 +2445,21 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 410,
+            "user_id": 43331,
             "primary_group_id": null,
             "flair_group_id": null
           },
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 16397,
+            "user_id": 39322,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": "latest",
+            "description": "Most Recent Poster",
+            "user_id": 6635,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -2505,7 +2505,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 292,
+        "views": 294,
         "like_count": 8,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2576,7 +2576,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 366,
+        "views": 372,
         "like_count": 22,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -2662,7 +2662,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 300,
+        "views": 302,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "amenos42",
@@ -2734,7 +2734,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 236,
+        "views": 241,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "calcium_enjoyer",
@@ -2893,7 +2893,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 175,
+        "views": 176,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "romansi",
@@ -2964,7 +2964,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 252,
+        "views": 256,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -3050,7 +3050,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 222,
+        "views": 231,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "Gass",
@@ -3131,7 +3131,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 299,
+        "views": 302,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "vaun",
@@ -3207,7 +3207,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 257,
+        "views": 263,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -3386,7 +3386,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 317,
+        "views": 318,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Yoshii",
@@ -3599,7 +3599,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 181,
+        "views": 187,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "Gvn_Schaff",
@@ -3670,7 +3670,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 209,
+        "views": 210,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "tibaverus",
@@ -3818,7 +3818,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 242,
+        "views": 251,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "snowystoat",
@@ -3887,7 +3887,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 204,
+        "views": 215,
         "like_count": 10,
         "has_summary": false,
         "last_poster_username": "Ali_Haider1129",
@@ -3973,7 +3973,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 186,
+        "views": 190,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "amenos42",
@@ -4116,7 +4116,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 192,
+        "views": 197,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Yuco135",
@@ -4190,7 +4190,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 218,
+        "views": 219,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -4271,7 +4271,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 266,
+        "views": 270,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "sewagewater",
@@ -4310,14 +4310,14 @@
         "id": 147181,
         "title": "Unparenting a Node2D while retaining its position, scale, rotation, skew",
         "slug": "unparenting-a-node2d-while-retaining-its-position-scale-rotation-skew",
-        "posts_count": 23,
-        "reply_count": 18,
-        "highest_post_number": 24,
+        "posts_count": 27,
+        "reply_count": 22,
+        "highest_post_number": 28,
         "image_url": null,
         "created_at": "2026-11-13T14:52:50.738Z",
-        "last_posted_at": "2026-11-15T21:41:35.082Z",
+        "last_posted_at": "2026-11-16T16:58:58.801Z",
         "bumped": true,
-        "bumped_at": "2026-11-15T21:41:35.082Z",
+        "bumped_at": "2026-11-16T16:58:58.801Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -4345,10 +4345,10 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 190,
+        "views": 234,
         "like_count": 15,
         "has_summary": false,
-        "last_poster_username": "normalized",
+        "last_poster_username": "OriginalBadBoy",
         "category_id": 6,
         "op_like_count": 0,
         "pinned_globally": false,
@@ -4380,14 +4380,14 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 4866,
+            "user_id": 21101,
             "primary_group_id": null,
             "flair_group_id": null
           },
           {
             "extras": "latest",
             "description": "Most Recent Poster",
-            "user_id": 39322,
+            "user_id": 4866,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -4438,7 +4438,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 211,
+        "views": 212,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "2steps2late",
@@ -4502,7 +4502,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 215,
+        "views": 218,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "jonPS",
@@ -4576,7 +4576,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 227,
+        "views": 235,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "gennai",
@@ -4640,7 +4640,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 191,
+        "views": 194,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "PolarisSpaceStudent",
