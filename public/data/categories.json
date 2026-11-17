@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19613,
+        "topic_count": 19617,
         "post_count": 101484,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 76,
         "topics_month": 337,
         "topics_year": 6604,
-        "topics_all_time": 32272,
+        "topics_all_time": 32276,
         "subcategory_ids": [
           11,
           13,
@@ -280,18 +280,18 @@
             }
           },
           {
-            "fancy_title": "There is no support for async functions profiling",
-            "id": 147389,
-            "title": "There is no support for async functions profiling",
-            "slug": "there-is-no-support-for-async-functions-profiling",
-            "posts_count": 3,
-            "reply_count": 0,
-            "highest_post_number": 3,
-            "image_url": null,
-            "created_at": "2026-11-16T20:33:08.086Z",
-            "last_posted_at": "2026-11-16T21:01:04.007Z",
+            "fancy_title": "Struggling to identify scene relative to root node",
+            "id": 147393,
+            "title": "Struggling to identify scene relative to root node",
+            "slug": "struggling-to-identify-scene-relative-to-root-node",
+            "posts_count": 6,
+            "reply_count": 2,
+            "highest_post_number": 6,
+            "image_url": "https://forum.godotengine.org/uploads/default/original/3X/a/f/afbc6b6d7aad02f34e958684cb80f36ebfdbac8c.png",
+            "created_at": "2026-11-17T01:50:42.005Z",
+            "last_posted_at": "2026-11-17T04:06:29.140Z",
             "bumped": true,
-            "bumped_at": "2026-11-16T21:01:04.007Z",
+            "bumped_at": "2026-11-17T04:06:29.140Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -301,12 +301,12 @@
             "archived": false,
             "bookmarked": null,
             "liked": null,
-            "has_accepted_answer": false,
+            "has_accepted_answer": true,
             "last_poster": {
-              "id": 39322,
-              "username": "normalized",
-              "name": "",
-              "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png"
+              "id": 55886,
+              "username": "numberee",
+              "name": "Numberee",
+              "avatar_template": "/user_avatar/forum.godotengine.org/numberee/{size}/86232_2.png"
             }
           }
         ]
@@ -372,6 +372,36 @@
         "uploaded_background_dark": null,
         "topics": [
           {
+            "fancy_title": "Shipped a Two-Player Mahjong Game in Godot – v0.2.0: A Journey Through Chinese Mythology",
+            "id": 144006,
+            "title": "Shipped a Two-Player Mahjong Game in Godot – v0.2.0: A Journey Through Chinese Mythology",
+            "slug": "shipped-a-two-player-mahjong-game-in-godot-v0-2-0-a-journey-through-chinese-mythology",
+            "posts_count": 55,
+            "reply_count": 36,
+            "highest_post_number": 56,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/0/5/05a2fbaa7bbf7524921d25f7c03a75ec93abf739_2_1024x537.jpeg",
+            "created_at": "2026-09-10T06:48:01.326Z",
+            "last_posted_at": "2026-11-17T01:01:40.385Z",
+            "bumped": true,
+            "bumped_at": "2026-11-17T01:01:40.385Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 53679,
+              "username": "OldYoung",
+              "name": "OldYoung",
+              "avatar_template": "/user_avatar/forum.godotengine.org/oldyoung/{size}/83402_2.png"
+            }
+          },
+          {
             "fancy_title": "Skippy&rsquo;s Grand Escape - Tactical Maze Runner",
             "id": 143356,
             "title": "Skippy's Grand Escape - Tactical Maze Runner",
@@ -429,36 +459,6 @@
               "username": "lasse",
               "name": "Lasse Edsvik",
               "avatar_template": "/user_avatar/forum.godotengine.org/lasse/{size}/48845_2.png"
-            }
-          },
-          {
-            "fancy_title": "SciTechPlayroom",
-            "id": 123200,
-            "title": "SciTechPlayroom",
-            "slug": "scitechplayroom",
-            "posts_count": 41,
-            "reply_count": 24,
-            "highest_post_number": 42,
-            "image_url": null,
-            "created_at": "2025-09-24T02:56:35.189Z",
-            "last_posted_at": "2026-11-16T18:30:12.858Z",
-            "bumped": true,
-            "bumped_at": "2026-11-16T18:30:12.858Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 38638,
-              "username": "ACF3D",
-              "name": "Allan Farquharson",
-              "avatar_template": "/user_avatar/forum.godotengine.org/acf3d/{size}/57297_2.png"
             }
           }
         ]
@@ -625,7 +625,7 @@
         "icon": null,
         "emoji": null,
         "slug": "general",
-        "topic_count": 1192,
+        "topic_count": 1193,
         "post_count": 11922,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
@@ -665,7 +665,7 @@
         "topics_week": 12,
         "topics_month": 49,
         "topics_year": 524,
-        "topics_all_time": 1214,
+        "topics_all_time": 1215,
         "subcategory_ids": [
           29,
           31
@@ -708,48 +708,18 @@
             }
           },
           {
-            "fancy_title": "What do you think of local ai models on your pc helping with development?",
-            "id": 147213,
-            "title": "What do you think of local ai models on your pc helping with development?",
-            "slug": "what-do-you-think-of-local-ai-models-on-your-pc-helping-with-development",
-            "posts_count": 111,
-            "reply_count": 88,
-            "highest_post_number": 111,
-            "image_url": null,
-            "created_at": "2026-11-14T10:36:11.441Z",
-            "last_posted_at": "2026-11-16T23:02:34.264Z",
-            "bumped": true,
-            "bumped_at": "2026-11-16T23:02:34.264Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 6635,
-              "username": "athousandships",
-              "name": "AThousandShips",
-              "avatar_template": "/user_avatar/forum.godotengine.org/athousandships/{size}/12554_2.png"
-            }
-          },
-          {
-            "fancy_title": "Light topic - game like Minecraft",
-            "id": 147321,
-            "title": "Light topic - game like Minecraft",
-            "slug": "light-topic-game-like-minecraft",
+            "fancy_title": "-Stargazer- | Music Track | Needing Opinions",
+            "id": 147394,
+            "title": "-Stargazer- | Music Track | Needing Opinions",
+            "slug": "stargazer-music-track-needing-opinions",
             "posts_count": 1,
             "reply_count": 0,
             "highest_post_number": 1,
             "image_url": null,
-            "created_at": "2026-11-16T16:16:22.934Z",
-            "last_posted_at": "2026-11-16T16:16:23.017Z",
+            "created_at": "2026-11-17T02:19:52.397Z",
+            "last_posted_at": "2026-11-17T02:19:52.463Z",
             "bumped": true,
-            "bumped_at": "2026-11-16T16:16:23.017Z",
+            "bumped_at": "2026-11-17T02:19:52.463Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -761,10 +731,40 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 49186,
-              "username": "artemisia",
-              "name": "Artemisia Dracunculus",
-              "avatar_template": "/user_avatar/forum.godotengine.org/artemisia/{size}/77224_2.png"
+              "id": 52860,
+              "username": "greenapplestudios",
+              "name": "Green Apple Studios",
+              "avatar_template": "/user_avatar/forum.godotengine.org/greenapplestudios/{size}/81913_2.png"
+            }
+          },
+          {
+            "fancy_title": "What do you think of local ai models on your pc helping with development?",
+            "id": 147213,
+            "title": "What do you think of local ai models on your pc helping with development?",
+            "slug": "what-do-you-think-of-local-ai-models-on-your-pc-helping-with-development",
+            "posts_count": 133,
+            "reply_count": 110,
+            "highest_post_number": 133,
+            "image_url": null,
+            "created_at": "2026-11-14T10:36:11.441Z",
+            "last_posted_at": "2026-11-17T01:52:54.619Z",
+            "bumped": true,
+            "bumped_at": "2026-11-17T01:52:54.619Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 56271,
+              "username": "Cheese_Grinder",
+              "name": "",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/c/fbc32d/{size}.png"
             }
           }
         ]
@@ -830,14 +830,14 @@
             "id": 147297,
             "title": "Remove annoying auto smileys, auto italics etc",
             "slug": "remove-annoying-auto-smileys-auto-italics-etc",
-            "posts_count": 14,
+            "posts_count": 15,
             "reply_count": 10,
-            "highest_post_number": 14,
+            "highest_post_number": 15,
             "image_url": null,
             "created_at": "2026-11-16T01:11:01.246Z",
-            "last_posted_at": "2026-11-16T20:50:13.013Z",
+            "last_posted_at": "2026-11-16T23:38:47.028Z",
             "bumped": true,
-            "bumped_at": "2026-11-16T20:50:13.013Z",
+            "bumped_at": "2026-11-16T23:38:47.028Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -849,10 +849,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 17842,
-              "username": "baba",
-              "name": "m k",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/b/a5b964/{size}.png"
+              "id": 52467,
+              "username": "lexi",
+              "name": "",
+              "avatar_template": "/letter_avatar_proxy/v4/letter/l/4491bb/{size}.png"
             }
           },
           {
