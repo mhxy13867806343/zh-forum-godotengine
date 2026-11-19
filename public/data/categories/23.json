@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 1045,
+      "views": 1046,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "winston-yallow",
@@ -42,6 +42,68 @@
           "extras": "latest single",
           "description": "Original Poster, Most Recent Poster",
           "user_id": 1,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Godot 2026 showreel",
+      "id": 147522,
+      "title": "Godot 2026 showreel",
+      "slug": "godot-2026-showreel",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-11-19T15:37:10.528Z",
+      "last_posted_at": "2026-11-19T17:17:22.014Z",
+      "bumped": true,
+      "bumped_at": "2026-11-19T17:17:22.014Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 64,
+          "name": "showreel",
+          "slug": "showreel"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 49,
+      "like_count": 13,
+      "has_summary": false,
+      "last_poster_username": "Puzzling_Detective",
+      "category_id": 23,
+      "op_like_count": 11,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 657,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 49929,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -87,7 +149,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 65,
+      "views": 68,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "Repiteo",
@@ -147,7 +209,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 175,
+      "views": 176,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "Repiteo",
@@ -327,7 +389,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 491,
+      "views": 493,
       "like_count": 18,
       "has_summary": false,
       "last_poster_username": "Repiteo",
@@ -392,7 +454,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 4979,
+      "views": 4982,
       "like_count": 146,
       "has_summary": true,
       "last_poster_username": "zenith_neptune",
@@ -1251,7 +1313,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 727,
+      "views": 728,
       "like_count": 32,
       "has_summary": false,
       "last_poster_username": "BFranse",
@@ -2691,7 +2753,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 337,
+      "views": 338,
       "like_count": 13,
       "has_summary": false,
       "last_poster_username": "AlaskanDruid",
@@ -3693,7 +3755,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 578,
+      "views": 579,
       "like_count": 18,
       "has_summary": false,
       "last_poster_username": "dragonforge-dev",
@@ -3758,7 +3820,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 98,
+      "views": 99,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Repiteo",
@@ -4577,7 +4639,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 6242,
+      "views": 6246,
       "like_count": 32,
       "has_summary": false,
       "last_poster_username": "capitalexotic",
@@ -5224,7 +5286,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 119,
+      "views": 120,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "godot_team",
@@ -5746,7 +5808,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 439,
+      "views": 440,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "KingGD",
@@ -6375,7 +6437,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 237,
+      "views": 238,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "rovingdevdude",
@@ -6541,7 +6603,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 570,
+      "views": 571,
       "like_count": 36,
       "has_summary": false,
       "last_poster_username": "unearthlyinteractive",
@@ -7075,85 +7137,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "Dev snapshot: Godot 4.4 dev 4",
-      "id": 90916,
-      "title": "Dev snapshot: Godot 4.4 dev 4",
-      "slug": "dev-snapshot-godot-4-4-dev-4",
-      "posts_count": 6,
-      "reply_count": 2,
-      "highest_post_number": 6,
-      "image_url": null,
-      "created_at": "2024-11-08T19:05:47.856Z",
-      "last_posted_at": "2024-11-13T17:06:11.489Z",
-      "bumped": true,
-      "bumped_at": "2024-11-13T17:06:11.489Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 56,
-          "name": "news",
-          "slug": "news"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 472,
-      "like_count": 14,
-      "has_summary": false,
-      "last_poster_username": "fire",
-      "category_id": 23,
-      "op_like_count": 5,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 6015,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 23554,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 7538,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 23350,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 234,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-11-19T14:48:07.466Z"
+  "updated_at": "2026-11-19T22:48:33.866Z"
 }
