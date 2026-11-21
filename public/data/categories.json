@@ -200,7 +200,7 @@
         "topics_week": 75,
         "topics_month": 320,
         "topics_year": 6555,
-        "topics_all_time": 32318,
+        "topics_all_time": 32319,
         "subcategory_ids": [
           11,
           13,
@@ -284,14 +284,14 @@
             "id": 147499,
             "title": "Godot lags and stutters heavily on DELL laptop, Windows 11",
             "slug": "godot-lags-and-stutters-heavily-on-dell-laptop-windows-11",
-            "posts_count": 14,
-            "reply_count": 7,
-            "highest_post_number": 14,
+            "posts_count": 17,
+            "reply_count": 10,
+            "highest_post_number": 17,
             "image_url": null,
             "created_at": "2026-11-18T21:56:12.914Z",
-            "last_posted_at": "2026-11-20T22:03:12.983Z",
+            "last_posted_at": "2026-11-21T03:21:06.611Z",
             "bumped": true,
-            "bumped_at": "2026-11-20T22:03:12.983Z",
+            "bumped_at": "2026-11-21T03:21:06.611Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -303,10 +303,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 12073,
-              "username": "ale2x72",
-              "name": "Alessio Erioli",
-              "avatar_template": "/user_avatar/forum.godotengine.org/ale2x72/{size}/19144_2.png"
+              "id": 1696,
+              "username": "pennyloafers",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/pennyloafers/{size}/21921_2.png"
             }
           }
         ]
@@ -708,6 +708,36 @@
             }
           },
           {
+            "fancy_title": "VCS Plugin - include files or ignore",
+            "id": 146350,
+            "title": "VCS Plugin - include files or ignore",
+            "slug": "vcs-plugin-include-files-or-ignore",
+            "posts_count": 3,
+            "reply_count": 0,
+            "highest_post_number": 3,
+            "image_url": null,
+            "created_at": "2026-11-03T01:19:16.690Z",
+            "last_posted_at": "2026-11-20T23:58:32.531Z",
+            "bumped": true,
+            "bumped_at": "2026-11-20T23:58:32.531Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 37528,
+              "username": "Brahm_bir_Singh",
+              "name": "Brahm bir Singh",
+              "avatar_template": "/user_avatar/forum.godotengine.org/brahm_bir_singh/{size}/80973_2.png"
+            }
+          },
+          {
             "fancy_title": "What do you think about the recent sponsorship of ManusAI in Godot development fund?",
             "id": 147467,
             "title": "What do you think about the recent sponsorship of ManusAI in Godot development fund?",
@@ -735,36 +765,6 @@
               "username": "Silver-Wolves-Games",
               "name": "Luqman",
               "avatar_template": "/user_avatar/forum.godotengine.org/silver-wolves-games/{size}/45085_2.png"
-            }
-          },
-          {
-            "fancy_title": "VCS Plugin - include files or ignore",
-            "id": 146350,
-            "title": "VCS Plugin - include files or ignore",
-            "slug": "vcs-plugin-include-files-or-ignore",
-            "posts_count": 2,
-            "reply_count": 0,
-            "highest_post_number": 2,
-            "image_url": null,
-            "created_at": "2026-11-03T01:19:16.690Z",
-            "last_posted_at": "2026-11-20T17:04:07.617Z",
-            "bumped": true,
-            "bumped_at": "2026-11-20T17:04:07.617Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 40758,
-              "username": "brohd11",
-              "name": "",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/b/82dd89/{size}.png"
             }
           }
         ]
