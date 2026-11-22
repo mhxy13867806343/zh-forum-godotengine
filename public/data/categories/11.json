@@ -27,7 +27,7 @@
       "liked": null,
       "tags": [],
       "tags_descriptions": {},
-      "views": 1029,
+      "views": 1030,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "WorldyBear",
@@ -56,6 +56,66 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 7538,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "Animation pipeline from krita to godot",
+      "id": 147621,
+      "title": "Animation pipeline from krita to godot",
+      "slug": "animation-pipeline-from-krita-to-godot",
+      "posts_count": 1,
+      "reply_count": 0,
+      "highest_post_number": 1,
+      "image_url": null,
+      "created_at": "2026-11-22T07:44:05.947Z",
+      "last_posted_at": "2026-11-22T07:44:06.055Z",
+      "bumped": true,
+      "bumped_at": "2026-11-22T07:44:06.055Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 61,
+          "name": "animation",
+          "slug": "animation"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 12,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "shashwat",
+      "category_id": 11,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest single",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 38340,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1254,7 +1314,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 348,
+      "views": 349,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "Lolmaniaco",
@@ -3887,7 +3947,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 224,
+      "views": 226,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Ktoricc",
@@ -3961,7 +4021,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 74,
+      "views": 76,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Branislav_Bosnjak",
@@ -4652,7 +4712,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 11522,
+      "views": 11524,
       "like_count": 14,
       "has_summary": false,
       "last_poster_username": "pixel_pie",
@@ -4821,7 +4881,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 71,
+      "views": 73,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "kernelpanic22",
@@ -5104,7 +5164,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 517,
+      "views": 520,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "Doominator",
@@ -5659,7 +5719,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 225,
+      "views": 226,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6117,7 +6177,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 107,
+      "views": 108,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "TokyoFunkScene",
@@ -6576,7 +6636,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1487,
+      "views": 1488,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Sasino",
@@ -7442,7 +7502,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 192,
+      "views": 193,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "zombardzomb",
@@ -7726,7 +7786,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 115,
+      "views": 116,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "wendukoh",
@@ -8201,7 +8261,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 242,
+      "views": 243,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "walosiwa",
@@ -8448,64 +8508,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "AnimationStateMachine, all connected to all conditionally with a cross-fade",
-      "id": 138667,
-      "title": "AnimationStateMachine, all connected to all conditionally with a cross-fade",
-      "slug": "animationstatemachine-all-connected-to-all-conditionally-with-a-cross-fade",
-      "posts_count": 5,
-      "reply_count": 2,
-      "highest_post_number": 5,
-      "image_url": "https://forum.godotengine.org/uploads/default/original/3X/5/3/534e9de7c8d8ef5f3cb1bc7d36fe26d6d5bae022.png",
-      "created_at": "2026-05-14T16:53:31.398Z",
-      "last_posted_at": "2026-05-14T21:08:07.322Z",
-      "bumped": true,
-      "bumped_at": "2026-05-14T21:08:07.322Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 157,
-      "like_count": 3,
-      "has_summary": false,
-      "last_poster_username": "bebop",
-      "category_id": 11,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 49151,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 17789,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-11-22T01:43:42.123Z"
+  "updated_at": "2026-11-22T08:57:01.318Z"
 }
