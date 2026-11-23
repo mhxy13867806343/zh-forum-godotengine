@@ -55,6 +55,75 @@
       ]
     },
     {
+      "fancy_title": "How to use both Dynamic Shadows and Static LightmapGI?",
+      "id": 147603,
+      "title": "How to use both Dynamic Shadows and Static LightmapGI?",
+      "slug": "how-to-use-both-dynamic-shadows-and-static-lightmapgi",
+      "posts_count": 4,
+      "reply_count": 1,
+      "highest_post_number": 4,
+      "image_url": null,
+      "created_at": "2026-11-21T16:44:13.693Z",
+      "last_posted_at": "2026-11-23T08:49:32.345Z",
+      "bumped": true,
+      "bumped_at": "2026-11-23T08:49:32.345Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 20,
+          "name": "3d",
+          "slug": "3d"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 70,
+      "like_count": 0,
+      "has_summary": false,
+      "last_poster_username": "mrcdk",
+      "category_id": 10,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 4534,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 2114,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 2982,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "Applying a clipping mask to ViewportTexture",
       "id": 147674,
       "title": "Applying a clipping mask to ViewportTexture",
@@ -84,7 +153,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 18,
+      "views": 28,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -106,68 +175,6 @@
           "extras": "latest",
           "description": "Most Recent Poster",
           "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
-      "fancy_title": "How to use both Dynamic Shadows and Static LightmapGI?",
-      "id": 147603,
-      "title": "How to use both Dynamic Shadows and Static LightmapGI?",
-      "slug": "how-to-use-both-dynamic-shadows-and-static-lightmapgi",
-      "posts_count": 3,
-      "reply_count": 1,
-      "highest_post_number": 3,
-      "image_url": null,
-      "created_at": "2026-11-21T16:44:13.693Z",
-      "last_posted_at": "2026-11-22T22:00:30.994Z",
-      "bumped": true,
-      "bumped_at": "2026-11-22T22:00:30.994Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 20,
-          "name": "3d",
-          "slug": "3d"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 54,
-      "like_count": 0,
-      "has_summary": false,
-      "last_poster_username": "vissa",
-      "category_id": 10,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": "latest",
-          "description": "Original Poster, Most Recent Poster",
-          "user_id": 4534,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 2114,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -208,7 +215,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 117,
+      "views": 126,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -296,7 +303,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 68,
+      "views": 69,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "qbieshay",
@@ -358,7 +365,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 107,
+      "views": 109,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -480,7 +487,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 720,
+      "views": 721,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "theghostronaut",
@@ -824,7 +831,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 73,
+      "views": 74,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -992,9 +999,9 @@
       "id": 145828,
       "title": "Any way to save and restore baked LigthmapGI data for generated meshes?",
       "slug": "any-way-to-save-and-restore-baked-ligthmapgi-data-for-generated-meshes",
-      "posts_count": 2,
+      "posts_count": 3,
       "reply_count": 0,
-      "highest_post_number": 2,
+      "highest_post_number": 3,
       "image_url": null,
       "created_at": "2026-10-24T09:39:48.076Z",
       "last_posted_at": "2026-10-24T11:25:44.410Z",
@@ -1005,7 +1012,7 @@
       "pinned": false,
       "unpinned": null,
       "visible": true,
-      "closed": false,
+      "closed": true,
       "archived": false,
       "bookmarked": null,
       "liked": null,
@@ -1022,7 +1029,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 62,
+      "views": 63,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -1044,6 +1051,13 @@
           "extras": "latest",
           "description": "Most Recent Poster, Accepted Answer",
           "user_id": 2982,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": -1,
           "primary_group_id": null,
           "flair_group_id": null
         }
@@ -1799,7 +1813,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 4642,
+      "views": 4644,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "nathan.nhu",
@@ -2285,7 +2299,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1347,
+      "views": 1349,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "Yora",
@@ -2432,7 +2446,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 317,
+      "views": 319,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Calinou",
@@ -2764,7 +2778,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 781,
+      "views": 782,
       "like_count": 24,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3194,7 +3208,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 172,
+      "views": 173,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "system",
@@ -3545,7 +3559,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 389,
+      "views": 392,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -4030,7 +4044,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 157,
+      "views": 160,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -4111,7 +4125,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 253,
+      "views": 254,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "BalaDeSilver",
@@ -4180,7 +4194,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 323,
+      "views": 324,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4321,7 +4335,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 57,
+      "views": 58,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "unfa",
@@ -4376,7 +4390,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 202,
+      "views": 204,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -4453,7 +4467,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 2115,
+      "views": 2118,
       "like_count": 75,
       "has_summary": true,
       "last_poster_username": "wchc",
@@ -4536,7 +4550,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 562,
+      "views": 567,
       "like_count": 10,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4612,7 +4626,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 152,
+      "views": 153,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "system",
@@ -4681,7 +4695,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 494,
+      "views": 500,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "strobe_deserving369",
@@ -5000,7 +5014,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 936,
+      "views": 937,
       "like_count": 6,
       "has_summary": true,
       "last_poster_username": "normalized",
@@ -5138,7 +5152,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 160,
+      "views": 163,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -5207,7 +5221,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 163,
+      "views": 164,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -5567,7 +5581,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1942,
+      "views": 1943,
       "like_count": 39,
       "has_summary": true,
       "last_poster_username": "system",
@@ -6244,7 +6258,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 99,
+      "views": 101,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6318,7 +6332,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 355,
+      "views": 356,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6613,7 +6627,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 316,
+      "views": 317,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "qweeqkk",
@@ -6752,7 +6766,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 690,
+      "views": 691,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "anon11910899",
@@ -6997,7 +7011,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 168,
+      "views": 169,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "darnok1",
@@ -7059,7 +7073,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 123,
+      "views": 125,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -7271,7 +7285,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 282,
+      "views": 283,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "NerdCat",
@@ -7402,7 +7416,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1649,
+      "views": 1652,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "momo9760",
@@ -7476,7 +7490,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 199,
+      "views": 200,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Ethos",
@@ -7610,7 +7624,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 1178,
+      "views": 1183,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -7882,7 +7896,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 507,
+      "views": 508,
       "like_count": 9,
       "has_summary": false,
       "last_poster_username": "system",
@@ -7958,7 +7972,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 215,
+      "views": 216,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "hkv",
@@ -8113,7 +8127,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 288,
+      "views": 289,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -8293,5 +8307,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-23T04:20:06.681Z"
+  "updated_at": "2026-11-23T16:39:34.197Z"
 }
