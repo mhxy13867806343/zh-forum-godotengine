@@ -76,6 +76,218 @@
       ]
     },
     {
+      "fancy_title": "Why when I change data from the dictionary of data does it change data for everything?",
+      "id": 147777,
+      "title": "Why when I change data from the dictionary of data does it change data for everything?",
+      "slug": "why-when-i-change-data-from-the-dictionary-of-data-does-it-change-data-for-everything",
+      "posts_count": 3,
+      "reply_count": 1,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-11-24T22:31:00.735Z",
+      "last_posted_at": "2026-11-24T23:39:01.586Z",
+      "bumped": true,
+      "bumped_at": "2026-11-24T23:39:01.586Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        },
+        {
+          "id": 19,
+          "name": "2d",
+          "slug": "2d"
+        },
+        {
+          "id": 38,
+          "name": "tilemap",
+          "slug": "tilemap"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 27,
+      "like_count": 2,
+      "has_summary": false,
+      "last_poster_username": "er_Smith",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 49277,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "How to loop through a specific set of keys in a dictionary godot",
+      "id": 147715,
+      "title": "How to loop through a specific set of keys in a dictionary godot",
+      "slug": "how-to-loop-through-a-specific-set-of-keys-in-a-dictionary-godot",
+      "posts_count": 7,
+      "reply_count": 4,
+      "highest_post_number": 7,
+      "image_url": null,
+      "created_at": "2026-11-23T20:08:09.125Z",
+      "last_posted_at": "2026-11-24T19:36:05.016Z",
+      "bumped": true,
+      "bumped_at": "2026-11-24T19:36:05.016Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        },
+        {
+          "id": 13,
+          "name": "gdscript",
+          "slug": "gdscript"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 77,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "nvp_2",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": true,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": "latest",
+          "description": "Original Poster, Most Recent Poster",
+          "user_id": 50657,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster, Accepted Answer",
+          "user_id": 56124,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 11904,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
+      "fancy_title": "is it posible to make a dictionary with 2 values?",
+      "id": 147749,
+      "title": "is it posible to make a dictionary with 2 values?",
+      "slug": "is-it-posible-to-make-a-dictionary-with-2-values",
+      "posts_count": 3,
+      "reply_count": 0,
+      "highest_post_number": 3,
+      "image_url": null,
+      "created_at": "2026-11-24T11:08:32.554Z",
+      "last_posted_at": "2026-11-24T15:26:37.232Z",
+      "bumped": true,
+      "bumped_at": "2026-11-24T15:26:37.232Z",
+      "archetype": "regular",
+      "unseen": false,
+      "pinned": false,
+      "unpinned": null,
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "bookmarked": null,
+      "liked": null,
+      "tags": [
+        {
+          "id": 8,
+          "name": "godot-4",
+          "slug": "godot-4"
+        }
+      ],
+      "tags_descriptions": {},
+      "views": 55,
+      "like_count": 1,
+      "has_summary": false,
+      "last_poster_username": "sparepartsstudio",
+      "category_id": 7,
+      "op_like_count": 0,
+      "pinned_globally": false,
+      "featured_link": null,
+      "has_accepted_answer": false,
+      "can_vote": false,
+      "posters": [
+        {
+          "extras": null,
+          "description": "Original Poster",
+          "user_id": 56679,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": null,
+          "description": "Frequent Poster",
+          "user_id": 39322,
+          "primary_group_id": null,
+          "flair_group_id": null
+        },
+        {
+          "extras": "latest",
+          "description": "Most Recent Poster",
+          "user_id": 55349,
+          "primary_group_id": null,
+          "flair_group_id": null
+        }
+      ]
+    },
+    {
       "fancy_title": "how can i use a wait function in my script",
       "id": 147756,
       "title": "how can i use a wait function in my script",
@@ -110,7 +322,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39,
+      "views": 58,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "sqoggle",
@@ -152,63 +364,6 @@
       ]
     },
     {
-      "fancy_title": "is it posible to make a dictionary with 2 values?",
-      "id": 147749,
-      "title": "is it posible to make a dictionary with 2 values?",
-      "slug": "is-it-posible-to-make-a-dictionary-with-2-values",
-      "posts_count": 2,
-      "reply_count": 0,
-      "highest_post_number": 2,
-      "image_url": null,
-      "created_at": "2026-11-24T11:08:32.554Z",
-      "last_posted_at": "2026-11-24T11:32:57.055Z",
-      "bumped": true,
-      "bumped_at": "2026-11-24T11:32:57.055Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 24,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "normalized",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 56679,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Am I misunderstanding how @onready works?",
       "id": 139200,
       "title": "Am I misunderstanding how @onready works?",
@@ -243,7 +398,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 460,
+      "views": 470,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "jfoolsguard",
@@ -329,7 +484,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 60,
+      "views": 65,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "Yes_MP",
@@ -398,7 +553,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 279,
+      "views": 285,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "walueevees",
@@ -472,7 +627,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 39,
+      "views": 42,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "eddie",
@@ -551,7 +706,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 70,
+      "views": 72,
       "like_count": 2,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -627,7 +782,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 159,
+      "views": 161,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "flamenco687",
@@ -676,82 +831,6 @@
       ]
     },
     {
-      "fancy_title": "How to loop through a specific set of keys in a dictionary godot",
-      "id": 147715,
-      "title": "How to loop through a specific set of keys in a dictionary godot",
-      "slug": "how-to-loop-through-a-specific-set-of-keys-in-a-dictionary-godot",
-      "posts_count": 6,
-      "reply_count": 3,
-      "highest_post_number": 6,
-      "image_url": null,
-      "created_at": "2026-11-23T20:08:09.125Z",
-      "last_posted_at": "2026-11-23T21:18:52.685Z",
-      "bumped": true,
-      "bumped_at": "2026-11-23T21:18:52.685Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": false,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 59,
-      "like_count": 1,
-      "has_summary": false,
-      "last_poster_username": "Atrak_Karta",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": false,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 50657,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 39322,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 11904,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": 56124,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
-    },
-    {
       "fancy_title": "Broken script creation",
       "id": 147718,
       "title": "Broken script creation",
@@ -781,7 +860,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 42,
+      "views": 47,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gostop",
@@ -838,7 +917,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 195,
+      "views": 196,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "Atrak_Karta",
@@ -921,7 +1000,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 46,
+      "views": 47,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -985,7 +1064,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 45,
+      "views": 48,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "Ghostbrite",
@@ -1052,7 +1131,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 49,
+      "views": 51,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "lumilumire",
@@ -1119,7 +1198,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 104,
+      "views": 105,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -1181,7 +1260,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 149,
       "like_count": 8,
       "has_summary": false,
       "last_poster_username": "brohd11",
@@ -1264,7 +1343,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 120,
+      "views": 124,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "wasd_person",
@@ -1335,7 +1414,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 156,
+      "views": 157,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "marceleonidas",
@@ -1399,7 +1478,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 144,
+      "views": 146,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gertkeno",
@@ -1911,7 +1990,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 124,
+      "views": 125,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "nvp_2",
@@ -1968,7 +2047,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 105,
+      "views": 106,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "gododo",
@@ -3583,7 +3662,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 145,
+      "views": 146,
       "like_count": 4,
       "has_summary": false,
       "last_poster_username": "ironfort9",
@@ -3908,7 +3987,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 111,
+      "views": 112,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "renevanderark",
@@ -4528,7 +4607,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 211,
+      "views": 214,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "blackears",
@@ -4664,7 +4743,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 102,
+      "views": 104,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "ananasblau",
@@ -5046,7 +5125,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 360,
+      "views": 362,
       "like_count": 15,
       "has_summary": false,
       "last_poster_username": "system",
@@ -5429,7 +5508,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 218,
+      "views": 220,
       "like_count": 3,
       "has_summary": false,
       "last_poster_username": "space-g",
@@ -5622,7 +5701,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 192,
+      "views": 193,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "corporal15",
@@ -5923,7 +6002,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 363,
+      "views": 364,
       "like_count": 5,
       "has_summary": false,
       "last_poster_username": "system",
@@ -6001,7 +6080,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 116,
+      "views": 117,
       "like_count": 6,
       "has_summary": false,
       "last_poster_username": "inumangames",
@@ -6375,7 +6454,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 657,
+      "views": 659,
       "like_count": 12,
       "has_summary": false,
       "last_poster_username": "Stronghold_The_5th_s",
@@ -6672,7 +6751,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 272,
+      "views": 274,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -6829,7 +6908,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 275,
+      "views": 276,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "thomastc",
@@ -6989,7 +7068,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 420,
+      "views": 421,
       "like_count": 7,
       "has_summary": false,
       "last_poster_username": "lobster804217034",
@@ -7143,7 +7222,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 103,
+      "views": 105,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "mrcdk",
@@ -7624,7 +7703,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 195,
+      "views": 196,
       "like_count": 0,
       "has_summary": false,
       "last_poster_username": "kimimaru",
@@ -7998,7 +8077,7 @@
         }
       ],
       "tags_descriptions": {},
-      "views": 152,
+      "views": 154,
       "like_count": 1,
       "has_summary": false,
       "last_poster_username": "normalized",
@@ -8469,83 +8548,7 @@
           "flair_group_id": null
         }
       ]
-    },
-    {
-      "fancy_title": "Best Practices: Game State",
-      "id": 145022,
-      "title": "Best Practices: Game State",
-      "slug": "best-practices-game-state",
-      "posts_count": 5,
-      "reply_count": 1,
-      "highest_post_number": 5,
-      "image_url": null,
-      "created_at": "2026-10-06T03:08:02.762Z",
-      "last_posted_at": "2026-11-05T22:37:15.625Z",
-      "bumped": true,
-      "bumped_at": "2026-10-06T22:36:52.783Z",
-      "archetype": "regular",
-      "unseen": false,
-      "pinned": false,
-      "unpinned": null,
-      "visible": true,
-      "closed": true,
-      "archived": false,
-      "bookmarked": null,
-      "liked": null,
-      "tags": [
-        {
-          "id": 8,
-          "name": "godot-4",
-          "slug": "godot-4"
-        },
-        {
-          "id": 13,
-          "name": "gdscript",
-          "slug": "gdscript"
-        }
-      ],
-      "tags_descriptions": {},
-      "views": 295,
-      "like_count": 4,
-      "has_summary": false,
-      "last_poster_username": "system",
-      "category_id": 7,
-      "op_like_count": 0,
-      "pinned_globally": false,
-      "featured_link": null,
-      "has_accepted_answer": true,
-      "can_vote": false,
-      "posters": [
-        {
-          "extras": null,
-          "description": "Original Poster",
-          "user_id": 30277,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster, Accepted Answer",
-          "user_id": 3578,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": null,
-          "description": "Frequent Poster",
-          "user_id": 53749,
-          "primary_group_id": null,
-          "flair_group_id": null
-        },
-        {
-          "extras": "latest",
-          "description": "Most Recent Poster",
-          "user_id": -1,
-          "primary_group_id": null,
-          "flair_group_id": null
-        }
-      ]
     }
   ],
-  "updated_at": "2026-11-24T14:21:56.852Z"
+  "updated_at": "2026-11-25T00:11:38.904Z"
 }
