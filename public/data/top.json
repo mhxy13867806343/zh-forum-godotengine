@@ -92,13 +92,6 @@
       "trust_level": 1
     },
     {
-      "id": 39322,
-      "username": "normalized",
-      "name": "",
-      "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png",
-      "trust_level": 1
-    },
-    {
       "id": 4936,
       "username": "tibaverus",
       "name": "Tib Averus",
@@ -173,6 +166,13 @@
       "username": "ratrogue",
       "name": "Friedrich Hanisch",
       "avatar_template": "/user_avatar/forum.godotengine.org/ratrogue/{size}/18765_2.png",
+      "trust_level": 1
+    },
+    {
+      "id": 39322,
+      "username": "normalized",
+      "name": "",
+      "avatar_template": "/user_avatar/forum.godotengine.org/normalized/{size}/58558_2.png",
       "trust_level": 1
     },
     {
@@ -918,7 +918,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1269,
+        "views": 1282,
         "like_count": 76,
         "has_summary": false,
         "last_poster_username": "lasse",
@@ -990,7 +990,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1288,
+        "views": 1291,
         "like_count": 134,
         "has_summary": true,
         "last_poster_username": "NOTIdealDev",
@@ -1043,14 +1043,14 @@
         "id": 147467,
         "title": "What do you think about the recent sponsorship of ManusAI in Godot development fund?",
         "slug": "what-do-you-think-about-the-recent-sponsorship-of-manusai-in-godot-development-fund",
-        "posts_count": 181,
-        "reply_count": 149,
-        "highest_post_number": 184,
+        "posts_count": 208,
+        "reply_count": 176,
+        "highest_post_number": 211,
         "image_url": null,
         "created_at": "2026-11-18T08:40:59.296Z",
-        "last_posted_at": "2026-11-25T10:08:23.944Z",
+        "last_posted_at": "2026-11-25T18:07:56.935Z",
         "bumped": true,
-        "bumped_at": "2026-11-25T10:08:23.944Z",
+        "bumped_at": "2026-11-25T18:07:56.935Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -1068,20 +1068,20 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 1732,
-        "like_count": 326,
+        "views": 1835,
+        "like_count": 356,
         "has_summary": true,
-        "last_poster_username": "renevanderark",
+        "last_poster_username": "Silver-Wolves-Games",
         "category_id": 4,
-        "op_like_count": 6,
+        "op_like_count": 7,
         "pinned_globally": false,
         "featured_link": null,
         "has_accepted_answer": false,
         "can_vote": false,
         "posters": [
           {
-            "extras": null,
-            "description": "Original Poster",
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
             "user_id": 127,
             "primary_group_id": null,
             "flair_group_id": null
@@ -1103,14 +1103,14 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 39322,
+            "user_id": 21837,
             "primary_group_id": null,
             "flair_group_id": null
           },
           {
-            "extras": "latest",
-            "description": "Most Recent Poster",
-            "user_id": 21837,
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 6635,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -1140,7 +1140,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1211,
+        "views": 1214,
         "like_count": 74,
         "has_summary": true,
         "last_poster_username": "hungrycatgames",
@@ -1389,7 +1389,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 553,
+        "views": 555,
         "like_count": 27,
         "has_summary": false,
         "last_poster_username": "Manu3D",
@@ -1598,7 +1598,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 383,
+        "views": 385,
         "like_count": 31,
         "has_summary": true,
         "last_poster_username": "artemisia",
@@ -1748,7 +1748,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 297,
+        "views": 298,
         "like_count": 16,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -1829,7 +1829,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 235,
+        "views": 236,
         "like_count": 28,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -1891,7 +1891,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 520,
+        "views": 522,
         "like_count": 14,
         "has_summary": true,
         "last_poster_username": "baba",
@@ -2046,7 +2046,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 476,
+        "views": 483,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "stone",
@@ -2139,7 +2139,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 338,
+        "views": 341,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "calcium_enjoyer",
@@ -2220,7 +2220,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 350,
+        "views": 352,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "OriginalBadBoy",
@@ -2450,7 +2450,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 321,
+        "views": 324,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -3069,7 +3069,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 226,
+        "views": 227,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "tibaverus",
@@ -3150,7 +3150,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 313,
+        "views": 319,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "gennai",
@@ -3300,7 +3300,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 206,
+        "views": 210,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "aivory",
@@ -3374,7 +3374,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 211,
+        "views": 212,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "vladimirchersitr",
@@ -3406,14 +3406,14 @@
         "id": 147692,
         "title": "How I plan to build a massive game as a solo developer",
         "slug": "how-i-plan-to-build-a-massive-game-as-a-solo-developer",
-        "posts_count": 23,
-        "reply_count": 17,
-        "highest_post_number": 23,
+        "posts_count": 26,
+        "reply_count": 19,
+        "highest_post_number": 26,
         "image_url": null,
         "created_at": "2026-11-23T13:12:47.795Z",
-        "last_posted_at": "2026-11-24T22:15:57.247Z",
+        "last_posted_at": "2026-11-25T16:49:41.229Z",
         "bumped": true,
-        "bumped_at": "2026-11-24T22:15:57.247Z",
+        "bumped_at": "2026-11-25T16:49:41.229Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -3425,10 +3425,10 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 214,
+        "views": 293,
         "like_count": 8,
         "has_summary": false,
-        "last_poster_username": "normalized",
+        "last_poster_username": "marceleonidas",
         "category_id": 4,
         "op_like_count": 0,
         "pinned_globally": false,
@@ -3437,8 +3437,8 @@
         "can_vote": false,
         "posters": [
           {
-            "extras": null,
-            "description": "Original Poster",
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
             "user_id": 41960,
             "primary_group_id": null,
             "flair_group_id": null
@@ -3465,8 +3465,8 @@
             "flair_group_id": null
           },
           {
-            "extras": "latest",
-            "description": "Most Recent Poster",
+            "extras": null,
+            "description": "Frequent Poster",
             "user_id": 39322,
             "primary_group_id": null,
             "flair_group_id": null
@@ -3503,7 +3503,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 210,
+        "views": 211,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "FrozenFried",
@@ -3560,7 +3560,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 243,
+        "views": 244,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "jonPS",
@@ -3624,7 +3624,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 199,
+        "views": 200,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -3710,7 +3710,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 220,
+        "views": 221,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "2steps2late",
@@ -3789,7 +3789,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 185,
+        "views": 187,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "gertkeno",
@@ -3867,7 +3867,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 207,
+        "views": 208,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "PolarisSpaceStudent",
@@ -3989,7 +3989,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 145,
+        "views": 147,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Otis_Hodge",
@@ -4134,7 +4134,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 238,
+        "views": 239,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "limelazer",
@@ -4275,7 +4275,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 181,
+        "views": 189,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "normalized",
