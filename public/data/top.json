@@ -8,13 +8,6 @@
       "trust_level": 1
     },
     {
-      "id": 410,
-      "username": "tomcat",
-      "name": "B G",
-      "avatar_template": "/user_avatar/forum.godotengine.org/tomcat/{size}/4705_2.png",
-      "trust_level": 1
-    },
-    {
       "id": 41960,
       "username": "marceleonidas",
       "name": "",
@@ -26,6 +19,13 @@
       "username": "davidpruitt",
       "name": "David Pruitt",
       "avatar_template": "/letter_avatar_proxy/v4/letter/d/b9e5f3/{size}.png",
+      "trust_level": 1
+    },
+    {
+      "id": 55553,
+      "username": "booneisland",
+      "name": "Ronnie Boone",
+      "avatar_template": "/user_avatar/forum.godotengine.org/booneisland/{size}/85870_2.png",
       "trust_level": 1
     },
     {
@@ -92,10 +92,10 @@
       "trust_level": 1
     },
     {
-      "id": 33705,
-      "username": "EriTheSwitch",
-      "name": "Erista",
-      "avatar_template": "/user_avatar/forum.godotengine.org/eritheswitch/{size}/49803_2.png",
+      "id": 56271,
+      "username": "Cheese_Grinder",
+      "name": "",
+      "avatar_template": "/letter_avatar_proxy/v4/letter/c/fbc32d/{size}.png",
       "trust_level": 1
     },
     {
@@ -365,13 +365,6 @@
       "trust_level": 1
     },
     {
-      "id": 56271,
-      "username": "Cheese_Grinder",
-      "name": "",
-      "avatar_template": "/letter_avatar_proxy/v4/letter/c/fbc32d/{size}.png",
-      "trust_level": 1
-    },
-    {
       "id": 41092,
       "username": "calcium_enjoyer",
       "name": "",
@@ -593,13 +586,6 @@
       "username": "tassup",
       "name": "Tapio Pyrhönen",
       "avatar_template": "/user_avatar/forum.godotengine.org/tassup/{size}/47853_2.png",
-      "trust_level": 1
-    },
-    {
-      "id": 21057,
-      "username": "TokyoFunkScene",
-      "name": "",
-      "avatar_template": "/user_avatar/forum.godotengine.org/tokyofunkscene/{size}/31450_2.png",
       "trust_level": 1
     },
     {
@@ -871,14 +857,14 @@
         "id": 146916,
         "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
         "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
-        "posts_count": 40,
+        "posts_count": 41,
         "reply_count": 10,
-        "highest_post_number": 45,
+        "highest_post_number": 46,
         "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
         "created_at": "2026-11-08T00:23:09.403Z",
-        "last_posted_at": "2026-11-27T14:15:44.974Z",
+        "last_posted_at": "2026-11-27T17:06:54.413Z",
         "bumped": true,
-        "bumped_at": "2026-11-27T14:15:44.974Z",
+        "bumped_at": "2026-11-27T17:06:54.413Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -890,10 +876,10 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1363,
+        "views": 1385,
         "like_count": 81,
         "has_summary": false,
-        "last_poster_username": "ansihex",
+        "last_poster_username": "lasse",
         "category_id": 24,
         "op_like_count": 17,
         "pinned_globally": false,
@@ -902,16 +888,9 @@
         "can_vote": false,
         "posters": [
           {
-            "extras": null,
-            "description": "Original Poster",
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
             "user_id": 6126,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
-            "extras": null,
-            "description": "Frequent Poster",
-            "user_id": 410,
             "primary_group_id": null,
             "flair_group_id": null
           },
@@ -930,8 +909,15 @@
             "flair_group_id": null
           },
           {
-            "extras": "latest",
-            "description": "Most Recent Poster",
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 55553,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
             "user_id": 55576,
             "primary_group_id": null,
             "flair_group_id": null
@@ -962,7 +948,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 1298,
+        "views": 1300,
         "like_count": 134,
         "has_summary": true,
         "last_poster_username": "NOTIdealDev",
@@ -1040,7 +1026,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 2017,
+        "views": 2066,
         "like_count": 357,
         "has_summary": true,
         "last_poster_username": "Silver-Wolves-Games",
@@ -1093,14 +1079,14 @@
         "id": 147772,
         "title": "If LLM's democratize game development, why didn't cardboard democratize board game development?",
         "slug": "if-llms-democratize-game-development-why-didnt-cardboard-democratize-board-game-development",
-        "posts_count": 56,
-        "reply_count": 49,
-        "highest_post_number": 56,
+        "posts_count": 76,
+        "reply_count": 67,
+        "highest_post_number": 76,
         "image_url": null,
         "created_at": "2026-11-24T20:04:37.273Z",
-        "last_posted_at": "2026-11-27T15:33:08.061Z",
+        "last_posted_at": "2026-11-27T21:24:05.392Z",
         "bumped": true,
-        "bumped_at": "2026-11-27T15:33:08.061Z",
+        "bumped_at": "2026-11-27T21:24:05.392Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -1112,20 +1098,20 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 363,
-        "like_count": 72,
+        "views": 466,
+        "like_count": 89,
         "has_summary": true,
-        "last_poster_username": "NOTIdealDev",
+        "last_poster_username": "renevanderark",
         "category_id": 4,
-        "op_like_count": 5,
+        "op_like_count": 6,
         "pinned_globally": false,
         "featured_link": null,
         "has_accepted_answer": false,
         "can_vote": false,
         "posters": [
           {
-            "extras": null,
-            "description": "Original Poster",
+            "extras": "latest",
+            "description": "Original Poster, Most Recent Poster",
             "user_id": 21837,
             "primary_group_id": null,
             "flair_group_id": null
@@ -1133,7 +1119,7 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 33705,
+            "user_id": 48627,
             "primary_group_id": null,
             "flair_group_id": null
           },
@@ -1147,14 +1133,14 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 31363,
+            "user_id": 56271,
             "primary_group_id": null,
             "flair_group_id": null
           },
           {
-            "extras": "latest",
-            "description": "Most Recent Poster",
-            "user_id": 48627,
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 31363,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -1272,7 +1258,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 495,
+        "views": 496,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "Aeligal",
@@ -1355,8 +1341,8 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 450,
-        "like_count": 49,
+        "views": 459,
+        "like_count": 50,
         "has_summary": false,
         "last_poster_username": "tibaverus",
         "category_id": 4,
@@ -1433,7 +1419,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 571,
+        "views": 573,
         "like_count": 27,
         "has_summary": false,
         "last_poster_username": "Manu3D",
@@ -1505,7 +1491,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 486,
+        "views": 487,
         "like_count": 25,
         "has_summary": false,
         "last_poster_username": "Daking161",
@@ -1642,7 +1628,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 415,
+        "views": 424,
         "like_count": 31,
         "has_summary": true,
         "last_poster_username": "artemisia",
@@ -1714,7 +1700,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 384,
+        "views": 385,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "finitebanjo",
@@ -1792,7 +1778,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 299,
+        "views": 300,
         "like_count": 16,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -1935,7 +1921,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 544,
+        "views": 551,
         "like_count": 14,
         "has_summary": true,
         "last_poster_username": "baba",
@@ -2007,7 +1993,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 363,
+        "views": 376,
         "like_count": 9,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
@@ -2162,7 +2148,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 524,
+        "views": 536,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "ale2x72",
@@ -2255,7 +2241,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 349,
+        "views": 351,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "calcium_enjoyer",
@@ -2336,7 +2322,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 355,
+        "views": 357,
         "like_count": 15,
         "has_summary": false,
         "last_poster_username": "OriginalBadBoy",
@@ -2490,7 +2476,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 283,
+        "views": 284,
         "like_count": 13,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -2721,7 +2707,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 238,
+        "views": 239,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "Gass",
@@ -2792,7 +2778,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 221,
+        "views": 223,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "Gvn_Schaff",
@@ -2857,7 +2843,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 202,
+        "views": 204,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "lexi",
@@ -2940,7 +2926,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 262,
+        "views": 264,
         "like_count": 10,
         "has_summary": false,
         "last_poster_username": "Ali_Haider1129",
@@ -3011,7 +2997,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 286,
+        "views": 288,
         "like_count": 11,
         "has_summary": false,
         "last_poster_username": "mrcdk",
@@ -3082,7 +3068,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 227,
+        "views": 228,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "tibaverus",
@@ -3163,7 +3149,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 335,
+        "views": 337,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "gennai",
@@ -3227,7 +3213,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 220,
+        "views": 224,
         "like_count": 3,
         "has_summary": false,
         "last_poster_username": "aivory",
@@ -3306,7 +3292,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 209,
+        "views": 212,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "amenos42",
@@ -3444,7 +3430,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 215,
+        "views": 216,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "FrozenFried",
@@ -3501,7 +3487,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 191,
+        "views": 198,
         "like_count": 1,
         "has_summary": false,
         "last_poster_username": "Otis_Hodge",
@@ -3572,7 +3558,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 250,
+        "views": 251,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "jonPS",
@@ -3611,14 +3597,14 @@
         "id": 147796,
         "title": "What are your favorite video game soundtracks?",
         "slug": "what-are-your-favorite-video-game-soundtracks",
-        "posts_count": 19,
-        "reply_count": 4,
-        "highest_post_number": 19,
+        "posts_count": 25,
+        "reply_count": 6,
+        "highest_post_number": 25,
         "image_url": null,
         "created_at": "2026-11-25T22:02:13.436Z",
-        "last_posted_at": "2026-11-27T15:36:29.346Z",
+        "last_posted_at": "2026-11-27T22:41:30.103Z",
         "bumped": true,
-        "bumped_at": "2026-11-27T15:36:29.346Z",
+        "bumped_at": "2026-11-27T22:41:30.103Z",
         "archetype": "regular",
         "unseen": false,
         "pinned": false,
@@ -3630,8 +3616,8 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 150,
-        "like_count": 6,
+        "views": 180,
+        "like_count": 10,
         "has_summary": false,
         "last_poster_username": "marceleonidas",
         "category_id": 4,
@@ -3658,21 +3644,21 @@
           {
             "extras": null,
             "description": "Frequent Poster",
-            "user_id": 21057,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
-            "extras": null,
-            "description": "Frequent Poster",
-            "user_id": 52669,
-            "primary_group_id": null,
-            "flair_group_id": null
-          },
-          {
-            "extras": null,
-            "description": "Frequent Poster",
             "user_id": 21837,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 7097,
+            "primary_group_id": null,
+            "flair_group_id": null
+          },
+          {
+            "extras": null,
+            "description": "Frequent Poster",
+            "user_id": 31363,
             "primary_group_id": null,
             "flair_group_id": null
           }
@@ -3789,7 +3775,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 214,
+        "views": 219,
         "like_count": 6,
         "has_summary": false,
         "last_poster_username": "normalized",
@@ -3882,7 +3868,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 187,
+        "views": 188,
         "like_count": 4,
         "has_summary": false,
         "last_poster_username": "gertkeno",
@@ -3960,7 +3946,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 209,
+        "views": 210,
         "like_count": 5,
         "has_summary": false,
         "last_poster_username": "PolarisSpaceStudent",
@@ -4018,7 +4004,7 @@
         "liked": null,
         "tags": [],
         "tags_descriptions": {},
-        "views": 216,
+        "views": 217,
         "like_count": 7,
         "has_summary": false,
         "last_poster_username": "artemisia",
@@ -4149,7 +4135,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 214,
+        "views": 216,
         "like_count": 0,
         "has_summary": false,
         "last_poster_username": "B.David",
@@ -4366,7 +4352,7 @@
           }
         ],
         "tags_descriptions": {},
-        "views": 207,
+        "views": 208,
         "like_count": 2,
         "has_summary": false,
         "last_poster_username": "creature985",

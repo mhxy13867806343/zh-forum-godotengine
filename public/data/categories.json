@@ -12,7 +12,7 @@
         "icon": null,
         "emoji": null,
         "slug": "announcements",
-        "topic_count": 177,
+        "topic_count": 178,
         "post_count": 689,
         "position": 1,
         "description": "Official blog posts and other Godot announcements.",
@@ -52,13 +52,43 @@
         "topics_week": 1,
         "topics_month": 5,
         "topics_year": 53,
-        "topics_all_time": 177,
+        "topics_all_time": 178,
         "subcategory_ids": [],
         "uploaded_logo": null,
         "uploaded_logo_dark": null,
         "uploaded_background": null,
         "uploaded_background_dark": null,
         "topics": [
+          {
+            "fancy_title": "Release candidate: Godot 4.8 RC 1",
+            "id": 147841,
+            "title": "Release candidate: Godot 4.8 RC 1",
+            "slug": "release-candidate-godot-4-8-rc-1",
+            "posts_count": 1,
+            "reply_count": 0,
+            "highest_post_number": 1,
+            "image_url": null,
+            "created_at": "2026-11-27T18:57:23.278Z",
+            "last_posted_at": "2026-11-27T18:57:23.357Z",
+            "bumped": true,
+            "bumped_at": "2026-11-27T18:57:23.357Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 657,
+              "username": "Repiteo",
+              "name": "Thaddeus Crews",
+              "avatar_template": "/user_avatar/forum.godotengine.org/repiteo/{size}/4927_2.png"
+            }
+          },
           {
             "fancy_title": "Dev snapshot: Godot 4.8 beta 5",
             "id": 147769,
@@ -118,36 +148,6 @@
               "name": "",
               "avatar_template": "/user_avatar/forum.godotengine.org/puzzling_detective/{size}/85754_2.png"
             }
-          },
-          {
-            "fancy_title": "Dev snapshot: Godot 4.8 beta 4",
-            "id": 147495,
-            "title": "Dev snapshot: Godot 4.8 beta 4",
-            "slug": "dev-snapshot-godot-4-8-beta-4",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": null,
-            "created_at": "2026-11-18T20:20:10.568Z",
-            "last_posted_at": "2026-11-18T20:20:10.646Z",
-            "bumped": true,
-            "bumped_at": "2026-11-18T20:20:10.646Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 657,
-              "username": "Repiteo",
-              "name": "Thaddeus Crews",
-              "avatar_template": "/user_avatar/forum.godotengine.org/repiteo/{size}/4927_2.png"
-            }
           }
         ]
       },
@@ -160,7 +160,7 @@
         "icon": null,
         "emoji": null,
         "slug": "help",
-        "topic_count": 19676,
+        "topic_count": 19677,
         "post_count": 101896,
         "position": 2,
         "description": "Ask your questions here! If possible, use one of the more specific subcategories.",
@@ -200,7 +200,7 @@
         "topics_week": 62,
         "topics_month": 317,
         "topics_year": 6477,
-        "topics_all_time": 32375,
+        "topics_all_time": 32379,
         "subcategory_ids": [
           11,
           13,
@@ -280,18 +280,18 @@
             }
           },
           {
-            "fancy_title": "Light artifacts on MacOS",
-            "id": 147807,
-            "title": "Light artifacts on MacOS",
-            "slug": "light-artifacts-on-macos",
-            "posts_count": 8,
-            "reply_count": 3,
-            "highest_post_number": 8,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/6/3/6358520680a1adef015e0f8a348fd4e1696b8892_2_1024x688.png",
-            "created_at": "2026-11-26T13:53:34.373Z",
-            "last_posted_at": "2026-11-27T15:25:43.405Z",
+            "fancy_title": "Script editor undo not working properly.",
+            "id": 147839,
+            "title": "Script editor undo not working properly.",
+            "slug": "script-editor-undo-not-working-properly",
+            "posts_count": 5,
+            "reply_count": 2,
+            "highest_post_number": 5,
+            "image_url": null,
+            "created_at": "2026-11-27T18:52:41.291Z",
+            "last_posted_at": "2026-11-27T22:04:48.826Z",
             "bumped": true,
-            "bumped_at": "2026-11-27T15:25:43.405Z",
+            "bumped_at": "2026-11-27T22:04:48.826Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -303,10 +303,10 @@
             "liked": null,
             "has_accepted_answer": false,
             "last_poster": {
-              "id": 45011,
-              "username": "glkdrlgkrlzflnjkgh",
-              "name": "Callum ",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/g/c4cdca/{size}.png"
+              "id": 31363,
+              "username": "flamenco687",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/flamenco687/{size}/45799_2.png"
             }
           }
         ]
@@ -372,6 +372,36 @@
         "uploaded_background_dark": null,
         "topics": [
           {
+            "fancy_title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
+            "id": 146916,
+            "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
+            "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
+            "posts_count": 41,
+            "reply_count": 10,
+            "highest_post_number": 46,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
+            "created_at": "2026-11-08T00:23:09.403Z",
+            "last_posted_at": "2026-11-27T17:06:54.413Z",
+            "bumped": true,
+            "bumped_at": "2026-11-27T17:06:54.413Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 6126,
+              "username": "lasse",
+              "name": "Lasse Edsvik",
+              "avatar_template": "/user_avatar/forum.godotengine.org/lasse/{size}/48845_2.png"
+            }
+          },
+          {
             "fancy_title": "Visual shader maker",
             "id": 145713,
             "title": "Visual shader maker",
@@ -429,36 +459,6 @@
               "username": "emberoxgames",
               "name": "",
               "avatar_template": "/letter_avatar_proxy/v4/letter/e/6de8d8/{size}.png"
-            }
-          },
-          {
-            "fancy_title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
-            "id": 146916,
-            "title": "Swell – a free water system for Godot 4.7.2+ (Some 4.8 features)",
-            "slug": "swell-a-free-water-system-for-godot-4-7-2-some-4-8-features",
-            "posts_count": 40,
-            "reply_count": 10,
-            "highest_post_number": 45,
-            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/7/1/7154fb1f2bc945a564637464e02bc0decc5b67c2_2_1024x577.jpeg",
-            "created_at": "2026-11-08T00:23:09.403Z",
-            "last_posted_at": "2026-11-27T14:15:44.974Z",
-            "bumped": true,
-            "bumped_at": "2026-11-27T14:15:44.974Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 55576,
-              "username": "ansihex",
-              "name": "why is the name in settings \"optional\" when on registration its mandatory? ",
-              "avatar_template": "/letter_avatar_proxy/v4/letter/a/2bfe46/{size}.png"
             }
           }
         ]
@@ -525,6 +525,37 @@
         "uploaded_background_dark": null,
         "topics": [
           {
+            "fancy_title": "Free CC BY 4.0 lofi music for Godot games — Purrple Cat (starting with Up All Night)",
+            "id": 147133,
+            "title": "Free CC BY 4.0 lofi music for Godot games — Purrple Cat (starting with Up All Night)",
+            "slug": "free-cc-by-4-0-lofi-music-for-godot-games-purrple-cat-starting-with-up-all-night",
+            "posts_count": 5,
+            "reply_count": 1,
+            "highest_post_number": 6,
+            "image_url": "https://forum.godotengine.org/uploads/default/optimized/3X/2/6/26ae93657381e58488f00cbff35b608a7d86b7c9_2_1024x1024.jpeg",
+            "created_at": "2026-11-12T12:19:11.618Z",
+            "last_posted_at": "2026-11-27T22:02:12.292Z",
+            "bumped": true,
+            "bumped_at": "2026-11-27T22:02:12.292Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "visibility_reason_id": 1,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 31363,
+              "username": "flamenco687",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/flamenco687/{size}/45799_2.png"
+            }
+          },
+          {
             "fancy_title": "Obssidian Combat VFX – Signature Collection by obssidian-art",
             "id": 147830,
             "title": "Obssidian Combat VFX – Signature Collection by obssidian-art",
@@ -583,36 +614,6 @@
               "name": "Andrew ",
               "avatar_template": "/letter_avatar_proxy/v4/letter/a/85e7bf/{size}.png"
             }
-          },
-          {
-            "fancy_title": "40% off Godot 4 VFX, shader and game-feel packs until Dec 2 (free Lites to try first)",
-            "id": 147818,
-            "title": "40% off Godot 4 VFX, shader and game-feel packs until Dec 2 (free Lites to try first)",
-            "slug": "40-off-godot-4-vfx-shader-and-game-feel-packs-until-dec-2-free-lites-to-try-first",
-            "posts_count": 1,
-            "reply_count": 0,
-            "highest_post_number": 1,
-            "image_url": null,
-            "created_at": "2026-11-27T08:02:26.513Z",
-            "last_posted_at": "2026-11-27T08:02:26.600Z",
-            "bumped": true,
-            "bumped_at": "2026-11-27T08:02:26.600Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 54652,
-              "username": "inkharbor",
-              "name": "inkharbor",
-              "avatar_template": "/user_avatar/forum.godotengine.org/inkharbor/{size}/84794_2.png"
-            }
           }
         ]
       },
@@ -625,7 +626,7 @@
         "icon": null,
         "emoji": null,
         "slug": "general",
-        "topic_count": 1202,
+        "topic_count": 1203,
         "post_count": 12313,
         "position": 20,
         "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
@@ -665,7 +666,7 @@
         "topics_week": 8,
         "topics_month": 41,
         "topics_year": 524,
-        "topics_all_time": 1224,
+        "topics_all_time": 1225,
         "subcategory_ids": [
           29,
           31
@@ -708,48 +709,18 @@
             }
           },
           {
-            "fancy_title": "If LLM&rsquo;s democratize game development, why didn&rsquo;t cardboard democratize board game development?",
-            "id": 147772,
-            "title": "If LLM's democratize game development, why didn't cardboard democratize board game development?",
-            "slug": "if-llms-democratize-game-development-why-didnt-cardboard-democratize-board-game-development",
-            "posts_count": 56,
-            "reply_count": 49,
-            "highest_post_number": 56,
-            "image_url": null,
-            "created_at": "2026-11-24T20:04:37.273Z",
-            "last_posted_at": "2026-11-27T15:33:08.061Z",
-            "bumped": true,
-            "bumped_at": "2026-11-27T15:33:08.061Z",
-            "archetype": "regular",
-            "unseen": false,
-            "pinned": false,
-            "unpinned": null,
-            "visible": true,
-            "closed": false,
-            "archived": false,
-            "bookmarked": null,
-            "liked": null,
-            "has_accepted_answer": false,
-            "last_poster": {
-              "id": 48627,
-              "username": "NOTIdealDev",
-              "name": "NOTIdealDev",
-              "avatar_template": "/user_avatar/forum.godotengine.org/notidealdev/{size}/76501_2.png"
-            }
-          },
-          {
             "fancy_title": "What are your favorite video game soundtracks?",
             "id": 147796,
             "title": "What are your favorite video game soundtracks?",
             "slug": "what-are-your-favorite-video-game-soundtracks",
-            "posts_count": 19,
-            "reply_count": 4,
-            "highest_post_number": 19,
+            "posts_count": 25,
+            "reply_count": 6,
+            "highest_post_number": 25,
             "image_url": null,
             "created_at": "2026-11-25T22:02:13.436Z",
-            "last_posted_at": "2026-11-27T15:36:29.346Z",
+            "last_posted_at": "2026-11-27T22:41:30.103Z",
             "bumped": true,
-            "bumped_at": "2026-11-27T15:36:29.346Z",
+            "bumped_at": "2026-11-27T22:41:30.103Z",
             "archetype": "regular",
             "unseen": false,
             "pinned": false,
@@ -765,6 +736,36 @@
               "username": "marceleonidas",
               "name": "",
               "avatar_template": "/user_avatar/forum.godotengine.org/marceleonidas/{size}/62385_2.png"
+            }
+          },
+          {
+            "fancy_title": "NVIDIA PhysX open source!",
+            "id": 107492,
+            "title": "NVIDIA PhysX open source!",
+            "slug": "nvidia-physx-open-source",
+            "posts_count": 8,
+            "reply_count": 2,
+            "highest_post_number": 8,
+            "image_url": null,
+            "created_at": "2025-04-05T22:04:09.071Z",
+            "last_posted_at": "2026-11-27T22:00:17.630Z",
+            "bumped": true,
+            "bumped_at": "2026-11-27T22:00:17.630Z",
+            "archetype": "regular",
+            "unseen": false,
+            "pinned": false,
+            "unpinned": null,
+            "visible": true,
+            "closed": false,
+            "archived": false,
+            "bookmarked": null,
+            "liked": null,
+            "has_accepted_answer": false,
+            "last_poster": {
+              "id": 31363,
+              "username": "flamenco687",
+              "name": "",
+              "avatar_template": "/user_avatar/forum.godotengine.org/flamenco687/{size}/45799_2.png"
             }
           }
         ]
